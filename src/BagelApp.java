@@ -629,7 +629,7 @@ public class BagelApp extends JFrame{
 //	{
 //		BagelApp app = new BagelApp();
 //	}
-//	
+	
 	//Getters and Setters
 	public JTextArea getText() {
 		return text;
