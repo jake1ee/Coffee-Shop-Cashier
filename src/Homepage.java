@@ -370,6 +370,56 @@ public class Homepage extends javax.swing.JFrame {
         Sugarlevelgroup = new javax.swing.ButtonGroup();
         Icegroup = new javax.swing.ButtonGroup();
         Creamgroup = new javax.swing.ButtonGroup();
+        Smoothie = new javax.swing.JFrame();
+        TSugar_lvl1 = new javax.swing.JPanel();
+        Tsugar_lbl1 = new javax.swing.JLabel();
+        TZero_btn1 = new javax.swing.JRadioButton();
+        TLow_btn1 = new javax.swing.JRadioButton();
+        TMed_btn1 = new javax.swing.JRadioButton();
+        THIgh_btn1 = new javax.swing.JRadioButton();
+        TFull_btn1 = new javax.swing.JRadioButton();
+        TsugarR_lbl1 = new javax.swing.JLabel();
+        TSize_Panel1 = new javax.swing.JPanel();
+        TSize_lbl1 = new javax.swing.JLabel();
+        TSmall_size1 = new javax.swing.JRadioButton();
+        Tmed_size1 = new javax.swing.JRadioButton();
+        TBig_size1 = new javax.swing.JRadioButton();
+        TMedSize_price1 = new javax.swing.JLabel();
+        TBigSoze_price1 = new javax.swing.JLabel();
+        TSmallSize_but1 = new javax.swing.JLabel();
+        TSizeR_lbl1 = new javax.swing.JLabel();
+        Tea_title1 = new javax.swing.JLabel();
+        Ttype_Panel1 = new javax.swing.JPanel();
+        TType1 = new javax.swing.JLabel();
+        TTypeR_lbl1 = new javax.swing.JLabel();
+        apple_btn1 = new javax.swing.JRadioButton();
+        apple_price1 = new javax.swing.JLabel();
+        orange_but1 = new javax.swing.JRadioButton();
+        orange_price1 = new javax.swing.JLabel();
+        ctl_but1 = new javax.swing.JRadioButton();
+        ctl_price1 = new javax.swing.JLabel();
+        mp_but2 = new javax.swing.JRadioButton();
+        mp_but3 = new javax.swing.JRadioButton();
+        pl_but4 = new javax.swing.JRadioButton();
+        pl_but5 = new javax.swing.JRadioButton();
+        mp_price2 = new javax.swing.JLabel();
+        Ob_price3 = new javax.swing.JLabel();
+        pl_price4 = new javax.swing.JLabel();
+        bs_price5 = new javax.swing.JLabel();
+        Tmilk_lvl1 = new javax.swing.JPanel();
+        topping = new javax.swing.JLabel();
+        granola_btn1 = new javax.swing.JRadioButton();
+        gojiberries_btn1 = new javax.swing.JRadioButton();
+        optional_lbl1 = new javax.swing.JLabel();
+        granola_price1 = new javax.swing.JLabel();
+        almonds_price1 = new javax.swing.JLabel();
+        almonds_btn2 = new javax.swing.JRadioButton();
+        raspberries_btn3 = new javax.swing.JRadioButton();
+        kiwi_btn4 = new javax.swing.JRadioButton();
+        raspberries_price2 = new javax.swing.JLabel();
+        kiwi_price3 = new javax.swing.JLabel();
+        gojiberries_price2 = new javax.swing.JLabel();
+        Cadd_btn2 = new javax.swing.JButton();
         Home_Panel = new javax.swing.JPanel();
         Order_Panel = new javax.swing.JPanel();
         Cof_But = new javax.swing.JButton();
@@ -2843,6 +2893,583 @@ public class Homepage extends javax.swing.JFrame {
                     .addGap(153, 153, 153)))
         );
 
+        Smoothie.setResizable(false);
+        Smoothie.setSize(new java.awt.Dimension(1099, 450));
+
+        TSugar_lvl1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        Tsugar_lbl1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        Tsugar_lbl1.setText("Sugar Level");
+
+        Sugarlevelgroup.add(TZero_btn1);
+        TZero_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        TZero_btn1.setText("0%");
+        TZero_btn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                TZero_btn1ActionPerformed(evt);
+            }
+        });
+
+        Sugarlevelgroup.add(TLow_btn1);
+        TLow_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        TLow_btn1.setText("25%");
+        TLow_btn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                TLow_btn1ActionPerformed(evt);
+            }
+        });
+
+        Sugarlevelgroup.add(TMed_btn1);
+        TMed_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        TMed_btn1.setText("50%");
+        TMed_btn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                TMed_btn1ActionPerformed(evt);
+            }
+        });
+
+        Sugarlevelgroup.add(THIgh_btn1);
+        THIgh_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        THIgh_btn1.setText("75%");
+        THIgh_btn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                THIgh_btn1ActionPerformed(evt);
+            }
+        });
+
+        Sugarlevelgroup.add(TFull_btn1);
+        TFull_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        TFull_btn1.setText("100%");
+        TFull_btn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                TFull_btn1ActionPerformed(evt);
+            }
+        });
+
+        TsugarR_lbl1.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
+        TsugarR_lbl1.setForeground(new java.awt.Color(102, 102, 102));
+        TsugarR_lbl1.setText("(required)");
+
+        javax.swing.GroupLayout TSugar_lvl1Layout = new javax.swing.GroupLayout(TSugar_lvl1);
+        TSugar_lvl1.setLayout(TSugar_lvl1Layout);
+        TSugar_lvl1Layout.setHorizontalGroup(
+            TSugar_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(TSugar_lvl1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(TSugar_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(TSugar_lvl1Layout.createSequentialGroup()
+                        .addComponent(Tsugar_lbl1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(TsugarR_lbl1))
+                    .addGroup(TSugar_lvl1Layout.createSequentialGroup()
+                        .addGap(54, 54, 54)
+                        .addGroup(TSugar_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(TLow_btn1)
+                            .addComponent(TZero_btn1)
+                            .addComponent(TMed_btn1)
+                            .addComponent(THIgh_btn1)
+                            .addComponent(TFull_btn1))))
+                .addContainerGap(37, Short.MAX_VALUE))
+        );
+        TSugar_lvl1Layout.setVerticalGroup(
+            TSugar_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(TSugar_lvl1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(TSugar_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Tsugar_lbl1)
+                    .addComponent(TsugarR_lbl1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(TZero_btn1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(TLow_btn1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(TMed_btn1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(THIgh_btn1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(TFull_btn1)
+                .addContainerGap(43, Short.MAX_VALUE))
+        );
+
+        TSize_Panel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        TSize_Panel1.setPreferredSize(new java.awt.Dimension(272, 242));
+
+        TSize_lbl1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        TSize_lbl1.setText("Size");
+
+        Sizegroup.add(TSmall_size1);
+        TSmall_size1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        TSmall_size1.setText("Small");
+        TSmall_size1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                TSmall_size1ActionPerformed(evt);
+            }
+        });
+
+        Sizegroup.add(Tmed_size1);
+        Tmed_size1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Tmed_size1.setText("Medium");
+        Tmed_size1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Tmed_size1ActionPerformed(evt);
+            }
+        });
+
+        Sizegroup.add(TBig_size1);
+        TBig_size1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        TBig_size1.setText("Big");
+        TBig_size1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                TBig_size1ActionPerformed(evt);
+            }
+        });
+
+        TMedSize_price1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        TMedSize_price1.setForeground(new java.awt.Color(102, 102, 102));
+        TMedSize_price1.setText("+RM1.00");
+
+        TBigSoze_price1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        TBigSoze_price1.setForeground(new java.awt.Color(102, 102, 102));
+        TBigSoze_price1.setText("+RM2.00");
+
+        TSmallSize_but1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        TSmallSize_but1.setForeground(new java.awt.Color(102, 102, 102));
+        TSmallSize_but1.setText("+RM0.00");
+
+        TSizeR_lbl1.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
+        TSizeR_lbl1.setForeground(new java.awt.Color(102, 102, 102));
+        TSizeR_lbl1.setText("(required)");
+
+        javax.swing.GroupLayout TSize_Panel1Layout = new javax.swing.GroupLayout(TSize_Panel1);
+        TSize_Panel1.setLayout(TSize_Panel1Layout);
+        TSize_Panel1Layout.setHorizontalGroup(
+            TSize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(TSize_Panel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(TSize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(TSize_Panel1Layout.createSequentialGroup()
+                        .addComponent(TSize_lbl1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(TSizeR_lbl1)
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(TSize_Panel1Layout.createSequentialGroup()
+                        .addGap(54, 54, 54)
+                        .addGroup(TSize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(TSize_Panel1Layout.createSequentialGroup()
+                                .addComponent(Tmed_size1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
+                                .addComponent(TMedSize_price1))
+                            .addGroup(TSize_Panel1Layout.createSequentialGroup()
+                                .addComponent(TSmall_size1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(TSmallSize_but1))
+                            .addGroup(TSize_Panel1Layout.createSequentialGroup()
+                                .addComponent(TBig_size1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(TBigSoze_price1)))))
+                .addContainerGap())
+        );
+        TSize_Panel1Layout.setVerticalGroup(
+            TSize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(TSize_Panel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(TSize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(TSize_lbl1)
+                    .addComponent(TSizeR_lbl1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(TSize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(TSmall_size1)
+                    .addComponent(TSmallSize_but1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(TSize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Tmed_size1)
+                    .addComponent(TMedSize_price1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(TSize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(TBig_size1)
+                    .addComponent(TBigSoze_price1))
+                .addContainerGap(107, Short.MAX_VALUE))
+        );
+
+        Tea_title1.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
+        Tea_title1.setText("Smoothie");
+
+        Ttype_Panel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        TType1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        TType1.setText("Type");
+
+        TTypeR_lbl1.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
+        TTypeR_lbl1.setForeground(new java.awt.Color(102, 102, 102));
+        TTypeR_lbl1.setText("(required)");
+
+        Typegroup.add(apple_btn1);
+        apple_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        apple_btn1.setText("Apple");
+        apple_btn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                apple_btn1ActionPerformed(evt);
+            }
+        });
+
+        apple_price1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        apple_price1.setForeground(new java.awt.Color(102, 102, 102));
+        apple_price1.setText("RM9.00");
+
+        Typegroup.add(orange_but1);
+        orange_but1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        orange_but1.setText("Orange");
+        orange_but1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                orange_but1ActionPerformed(evt);
+            }
+        });
+
+        orange_price1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        orange_price1.setForeground(new java.awt.Color(102, 102, 102));
+        orange_price1.setText("RM9.00");
+
+        Typegroup.add(ctl_but1);
+        ctl_but1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        ctl_but1.setText("Cantaloupe");
+        ctl_but1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ctl_but1ActionPerformed(evt);
+            }
+        });
+
+        ctl_price1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        ctl_price1.setForeground(new java.awt.Color(102, 102, 102));
+        ctl_price1.setText("RM10.00");
+
+        Typegroup.add(mp_but2);
+        mp_but2.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        mp_but2.setText("Mango Passionfruit");
+        mp_but2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mp_but2ActionPerformed(evt);
+            }
+        });
+
+        Typegroup.add(mp_but3);
+        mp_but3.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        mp_but3.setText("Oaty banana");
+        mp_but3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mp_but3ActionPerformed(evt);
+            }
+        });
+
+        Typegroup.add(pl_but4);
+        pl_but4.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        pl_but4.setText("Pineapple lychee");
+        pl_but4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                pl_but4ActionPerformed(evt);
+            }
+        });
+
+        Typegroup.add(pl_but5);
+        pl_but5.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        pl_but5.setText("Blueberry Strawberry ");
+        pl_but5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                pl_but5ActionPerformed(evt);
+            }
+        });
+
+        mp_price2.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        mp_price2.setForeground(new java.awt.Color(102, 102, 102));
+        mp_price2.setText("RM11.00");
+
+        Ob_price3.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Ob_price3.setForeground(new java.awt.Color(102, 102, 102));
+        Ob_price3.setText("RM11.00");
+
+        pl_price4.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        pl_price4.setForeground(new java.awt.Color(102, 102, 102));
+        pl_price4.setText("RM11.00");
+
+        bs_price5.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        bs_price5.setForeground(new java.awt.Color(102, 102, 102));
+        bs_price5.setText("RM12.00");
+
+        javax.swing.GroupLayout Ttype_Panel1Layout = new javax.swing.GroupLayout(Ttype_Panel1);
+        Ttype_Panel1.setLayout(Ttype_Panel1Layout);
+        Ttype_Panel1Layout.setHorizontalGroup(
+            Ttype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Ttype_Panel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(Ttype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(Ttype_Panel1Layout.createSequentialGroup()
+                        .addComponent(TType1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(TTypeR_lbl1)
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(Ttype_Panel1Layout.createSequentialGroup()
+                        .addGap(54, 54, 54)
+                        .addGroup(Ttype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(Ttype_Panel1Layout.createSequentialGroup()
+                                .addComponent(orange_but1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(orange_price1))
+                            .addGroup(Ttype_Panel1Layout.createSequentialGroup()
+                                .addComponent(apple_btn1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(apple_price1))
+                            .addGroup(Ttype_Panel1Layout.createSequentialGroup()
+                                .addComponent(ctl_but1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(ctl_price1))
+                            .addGroup(Ttype_Panel1Layout.createSequentialGroup()
+                                .addComponent(pl_but5)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(bs_price5))
+                            .addGroup(Ttype_Panel1Layout.createSequentialGroup()
+                                .addComponent(mp_but2)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(mp_price2))
+                            .addGroup(Ttype_Panel1Layout.createSequentialGroup()
+                                .addComponent(mp_but3)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(Ob_price3))
+                            .addGroup(Ttype_Panel1Layout.createSequentialGroup()
+                                .addComponent(pl_but4)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(pl_price4)))))
+                .addContainerGap())
+        );
+        Ttype_Panel1Layout.setVerticalGroup(
+            Ttype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Ttype_Panel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(Ttype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(TType1)
+                    .addComponent(TTypeR_lbl1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Ttype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(apple_btn1)
+                    .addComponent(apple_price1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Ttype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(orange_but1)
+                    .addComponent(orange_price1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Ttype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(ctl_but1)
+                    .addComponent(ctl_price1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Ttype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(mp_but2)
+                    .addComponent(mp_price2))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Ttype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(mp_but3)
+                    .addComponent(Ob_price3))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Ttype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(pl_but4)
+                    .addComponent(pl_price4))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Ttype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(pl_but5)
+                    .addComponent(bs_price5))
+                .addContainerGap(29, Short.MAX_VALUE))
+        );
+
+        Tmilk_lvl1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Tmilk_lvl1.setPreferredSize(new java.awt.Dimension(272, 242));
+
+        topping.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        topping.setText("Toppings");
+
+        Creamgroup.add(granola_btn1);
+        granola_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        granola_btn1.setText("Granola");
+        granola_btn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                granola_btn1ActionPerformed(evt);
+            }
+        });
+
+        Creamgroup.add(gojiberries_btn1);
+        gojiberries_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        gojiberries_btn1.setText("Goji berries");
+        gojiberries_btn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                gojiberries_btn1ActionPerformed(evt);
+            }
+        });
+
+        optional_lbl1.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
+        optional_lbl1.setForeground(new java.awt.Color(102, 102, 102));
+        optional_lbl1.setText("(optional)");
+
+        granola_price1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        granola_price1.setForeground(new java.awt.Color(102, 102, 102));
+        granola_price1.setText("+RM1.00");
+
+        almonds_price1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        almonds_price1.setForeground(new java.awt.Color(102, 102, 102));
+        almonds_price1.setText("+RM2.00");
+
+        Creamgroup.add(almonds_btn2);
+        almonds_btn2.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        almonds_btn2.setText("Almonds");
+        almonds_btn2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                almonds_btn2ActionPerformed(evt);
+            }
+        });
+
+        Creamgroup.add(raspberries_btn3);
+        raspberries_btn3.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        raspberries_btn3.setText("Raspberries");
+        raspberries_btn3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                raspberries_btn3ActionPerformed(evt);
+            }
+        });
+
+        Creamgroup.add(kiwi_btn4);
+        kiwi_btn4.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        kiwi_btn4.setText("Kiwi");
+        kiwi_btn4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                kiwi_btn4ActionPerformed(evt);
+            }
+        });
+
+        raspberries_price2.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        raspberries_price2.setForeground(new java.awt.Color(102, 102, 102));
+        raspberries_price2.setText("+RM2.00");
+
+        kiwi_price3.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        kiwi_price3.setForeground(new java.awt.Color(102, 102, 102));
+        kiwi_price3.setText("+RM2.00");
+
+        gojiberries_price2.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        gojiberries_price2.setForeground(new java.awt.Color(102, 102, 102));
+        gojiberries_price2.setText("+RM1.00");
+
+        javax.swing.GroupLayout Tmilk_lvl1Layout = new javax.swing.GroupLayout(Tmilk_lvl1);
+        Tmilk_lvl1.setLayout(Tmilk_lvl1Layout);
+        Tmilk_lvl1Layout.setHorizontalGroup(
+            Tmilk_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Tmilk_lvl1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(Tmilk_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(Tmilk_lvl1Layout.createSequentialGroup()
+                        .addComponent(topping)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(optional_lbl1))
+                    .addGroup(Tmilk_lvl1Layout.createSequentialGroup()
+                        .addGap(54, 54, 54)
+                        .addGroup(Tmilk_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(Tmilk_lvl1Layout.createSequentialGroup()
+                                .addComponent(gojiberries_btn1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 23, Short.MAX_VALUE)
+                                .addComponent(gojiberries_price2))
+                            .addGroup(Tmilk_lvl1Layout.createSequentialGroup()
+                                .addComponent(granola_btn1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(granola_price1))
+                            .addGroup(Tmilk_lvl1Layout.createSequentialGroup()
+                                .addComponent(kiwi_btn4)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(kiwi_price3))
+                            .addGroup(Tmilk_lvl1Layout.createSequentialGroup()
+                                .addComponent(almonds_btn2)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(almonds_price1))
+                            .addGroup(Tmilk_lvl1Layout.createSequentialGroup()
+                                .addComponent(raspberries_btn3)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(raspberries_price2)))))
+                .addContainerGap())
+        );
+        Tmilk_lvl1Layout.setVerticalGroup(
+            Tmilk_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Tmilk_lvl1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(Tmilk_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(topping)
+                    .addComponent(optional_lbl1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Tmilk_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(granola_btn1)
+                    .addComponent(granola_price1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Tmilk_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(gojiberries_btn1)
+                    .addComponent(gojiberries_price2))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Tmilk_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(almonds_btn2)
+                    .addComponent(almonds_price1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Tmilk_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(raspberries_btn3)
+                    .addComponent(raspberries_price2))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Tmilk_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(kiwi_btn4)
+                    .addComponent(kiwi_price3))
+                .addContainerGap(43, Short.MAX_VALUE))
+        );
+
+        Cadd_btn2.setBackground(new java.awt.Color(255, 153, 51));
+        Cadd_btn2.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        Cadd_btn2.setText("Add");
+        Cadd_btn2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Cadd_btn2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Cadd_btn2ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout SmoothieLayout = new javax.swing.GroupLayout(Smoothie.getContentPane());
+        Smoothie.getContentPane().setLayout(SmoothieLayout);
+        SmoothieLayout.setHorizontalGroup(
+            SmoothieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(SmoothieLayout.createSequentialGroup()
+                .addGap(17, 17, 17)
+                .addGroup(SmoothieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(SmoothieLayout.createSequentialGroup()
+                        .addComponent(Tea_title1)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(SmoothieLayout.createSequentialGroup()
+                        .addGroup(SmoothieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(Ttype_Panel1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addGroup(SmoothieLayout.createSequentialGroup()
+                                .addGap(0, 0, Short.MAX_VALUE)
+                                .addComponent(Cadd_btn2, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(SmoothieLayout.createSequentialGroup()
+                                .addComponent(TSize_Panel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(TSugar_lvl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(Tmilk_lvl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(0, 403, Short.MAX_VALUE)))
+                        .addGap(17, 17, 17))))
+        );
+        SmoothieLayout.setVerticalGroup(
+            SmoothieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(SmoothieLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(Tea_title1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(Ttype_Panel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, Short.MAX_VALUE)
+                .addGroup(SmoothieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(TSize_Panel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(TSugar_lvl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Tmilk_lvl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addComponent(Cadd_btn2, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(17, 17, 17))
+        );
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Coffee Shop Cashier System");
         setFont(new java.awt.Font("Book Antiqua", 0, 10)); // NOI18N
@@ -3703,6 +4330,90 @@ public class Homepage extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_Cadd_btn1ActionPerformed
 
+    private void TZero_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TZero_btn1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_TZero_btn1ActionPerformed
+
+    private void TLow_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TLow_btn1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_TLow_btn1ActionPerformed
+
+    private void TMed_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TMed_btn1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_TMed_btn1ActionPerformed
+
+    private void THIgh_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_THIgh_btn1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_THIgh_btn1ActionPerformed
+
+    private void TFull_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TFull_btn1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_TFull_btn1ActionPerformed
+
+    private void TSmall_size1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TSmall_size1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_TSmall_size1ActionPerformed
+
+    private void Tmed_size1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tmed_size1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Tmed_size1ActionPerformed
+
+    private void TBig_size1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TBig_size1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_TBig_size1ActionPerformed
+
+    private void apple_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_apple_btn1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_apple_btn1ActionPerformed
+
+    private void orange_but1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_orange_but1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_orange_but1ActionPerformed
+
+    private void ctl_but1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ctl_but1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ctl_but1ActionPerformed
+
+    private void granola_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_granola_btn1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_granola_btn1ActionPerformed
+
+    private void gojiberries_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gojiberries_btn1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_gojiberries_btn1ActionPerformed
+
+    private void Cadd_btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Cadd_btn2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Cadd_btn2ActionPerformed
+
+    private void mp_but2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mp_but2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_mp_but2ActionPerformed
+
+    private void mp_but3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mp_but3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_mp_but3ActionPerformed
+
+    private void pl_but4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pl_but4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_pl_but4ActionPerformed
+
+    private void pl_but5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pl_but5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_pl_but5ActionPerformed
+
+    private void almonds_btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_almonds_btn2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_almonds_btn2ActionPerformed
+
+    private void raspberries_btn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_raspberries_btn3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_raspberries_btn3ActionPerformed
+
+    private void kiwi_btn4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_kiwi_btn4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_kiwi_btn4ActionPerformed
+
     
 //    public static void main(String args[]) {
 //        /* Set the Nimbus look and feel */
@@ -3816,6 +4527,7 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JRadioButton CWithout_cream_btn;
     private javax.swing.JButton Cadd_btn;
     private javax.swing.JButton Cadd_btn1;
+    private javax.swing.JButton Cadd_btn2;
     private javax.swing.JRadioButton Cappuccino_btn;
     private javax.swing.JLabel Cappuccino_price;
     private javax.swing.JLabel Cbig_price;
@@ -3869,6 +4581,7 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JTextField Member_txt;
     private javax.swing.JRadioButton Milk_btn;
     private javax.swing.JLabel Milklevel;
+    private javax.swing.JLabel Ob_price3;
     private javax.swing.JRadioButton Oolong_but;
     private javax.swing.JLabel Oolong_price;
     private javax.swing.JLabel Optional_label14;
@@ -3920,53 +4633,87 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JMenuItem Regis_item;
     private javax.swing.ButtonGroup Sizegroup;
     private javax.swing.JRadioButton Small_size_btn;
+    private javax.swing.JFrame Smoothie;
     private javax.swing.JButton Smoothie_But;
     private javax.swing.ButtonGroup Sugarlevelgroup;
     private javax.swing.JMenuItem Sys_item;
     private javax.swing.JMenu System_menu;
     private javax.swing.JLabel TBigSoze_price;
+    private javax.swing.JLabel TBigSoze_price1;
     private javax.swing.JRadioButton TBig_size;
+    private javax.swing.JRadioButton TBig_size1;
     private javax.swing.JRadioButton TCold_btn;
     private javax.swing.JRadioButton TFull_btn;
+    private javax.swing.JRadioButton TFull_btn1;
     private javax.swing.JRadioButton THIgh_btn;
+    private javax.swing.JRadioButton THIgh_btn1;
     private javax.swing.JRadioButton THot_btn;
     private javax.swing.JLabel TIce_lbl;
     private javax.swing.JRadioButton TLow_btn;
+    private javax.swing.JRadioButton TLow_btn1;
     private javax.swing.JLabel TMedSize_price;
+    private javax.swing.JLabel TMedSize_price1;
     private javax.swing.JRadioButton TMed_btn;
+    private javax.swing.JRadioButton TMed_btn1;
     private javax.swing.JLabel TMilkR_lbl;
     private javax.swing.JRadioButton TNo_ice_btn;
     private javax.swing.JLabel TSizeR_lbl;
+    private javax.swing.JLabel TSizeR_lbl1;
     private javax.swing.JPanel TSize_Panel;
+    private javax.swing.JPanel TSize_Panel1;
     private javax.swing.JLabel TSize_lbl;
+    private javax.swing.JLabel TSize_lbl1;
     private javax.swing.JLabel TSmallSize_but;
+    private javax.swing.JLabel TSmallSize_but1;
     private javax.swing.JRadioButton TSmall_size;
+    private javax.swing.JRadioButton TSmall_size1;
     private javax.swing.JPanel TSugar_lvl;
+    private javax.swing.JPanel TSugar_lvl1;
     private javax.swing.JLabel TType;
+    private javax.swing.JLabel TType1;
     private javax.swing.JLabel TTypeR_lbl;
+    private javax.swing.JLabel TTypeR_lbl1;
     private javax.swing.JLabel TWice_price;
     private javax.swing.JRadioButton TZero_btn;
+    private javax.swing.JRadioButton TZero_btn1;
     private javax.swing.JScrollPane Table_Pane;
     private javax.swing.JLabel Tax_value;
     private javax.swing.JFrame Tea;
     private javax.swing.JButton Tea_But;
     private javax.swing.JLabel Tea_title;
+    private javax.swing.JLabel Tea_title1;
     private javax.swing.JLabel TiceR_lbl;
     private javax.swing.JPanel Tice_lvl1;
     private javax.swing.JLabel Tice_price;
     private javax.swing.JRadioButton Tmed_size;
+    private javax.swing.JRadioButton Tmed_size1;
     private javax.swing.JPanel Tmilk_lvl;
+    private javax.swing.JPanel Tmilk_lvl1;
     private javax.swing.JLabel Tmilk_price;
     private javax.swing.JLabel Total_lbl;
     private javax.swing.JTextPane Total_txt;
     private javax.swing.JLabel TsugarR_lbl;
+    private javax.swing.JLabel TsugarR_lbl1;
     private javax.swing.JLabel Tsugar_lbl;
+    private javax.swing.JLabel Tsugar_lbl1;
     private javax.swing.JPanel Ttype_Panel;
+    private javax.swing.JPanel Ttype_Panel1;
     private javax.swing.JLabel Twithout_milk_price;
     private javax.swing.JLabel Type;
     private javax.swing.ButtonGroup Typegroup;
     private javax.swing.JRadioButton Without_milk_btn;
     private javax.swing.JRadioButton Zero_lvl_btn;
+    private javax.swing.JRadioButton almonds_btn2;
+    private javax.swing.JLabel almonds_price1;
+    private javax.swing.JRadioButton apple_btn1;
+    private javax.swing.JLabel apple_price1;
+    private javax.swing.JLabel bs_price5;
+    private javax.swing.JRadioButton ctl_but1;
+    private javax.swing.JLabel ctl_price1;
+    private javax.swing.JRadioButton gojiberries_btn1;
+    private javax.swing.JLabel gojiberries_price2;
+    private javax.swing.JRadioButton granola_btn1;
+    private javax.swing.JLabel granola_price1;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
@@ -3976,17 +4723,31 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JSeparator jSeparator2;
     private javax.swing.JFrame jyBagelSection;
     private javax.swing.JFrame jyPastrySection1;
+    private javax.swing.JRadioButton kiwi_btn4;
+    private javax.swing.JLabel kiwi_price3;
     private javax.swing.JLabel lbl_Drink;
     private javax.swing.JLabel lbl_Subtotal;
     private javax.swing.JLabel lbl_Subtotal1;
     private javax.swing.JLabel lbl_Tax;
     private javax.swing.JLabel lbl_food;
+    private javax.swing.JRadioButton mp_but2;
+    private javax.swing.JRadioButton mp_but3;
+    private javax.swing.JLabel mp_price2;
+    private javax.swing.JLabel optional_lbl1;
+    private javax.swing.JRadioButton orange_but1;
+    private javax.swing.JLabel orange_price1;
+    private javax.swing.JRadioButton pl_but4;
+    private javax.swing.JRadioButton pl_but5;
+    private javax.swing.JLabel pl_price4;
+    private javax.swing.JRadioButton raspberries_btn3;
+    private javax.swing.JLabel raspberries_price2;
     private javax.swing.JLabel required_label10;
     private javax.swing.JLabel required_label11;
     private javax.swing.JLabel required_label5;
     private javax.swing.JLabel required_label6;
     private javax.swing.JLabel required_label7;
     private javax.swing.JLabel subTotal_value;
+    private javax.swing.JLabel topping;
     // End of variables declaration//GEN-END:variables
     
     private boolean member;
