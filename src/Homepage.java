@@ -3070,7 +3070,7 @@ public class Homepage extends javax.swing.JFrame {
 
     private void List_itemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_List_itemActionPerformed
         // TODO add your handling code here:
-        new Display_Member().setVisible(true);
+//        new Display_Member().setVisible(true);
     }//GEN-LAST:event_List_itemActionPerformed
 
     
@@ -3102,7 +3102,11 @@ public class Homepage extends javax.swing.JFrame {
 //        java.awt.EventQueue.invokeLater(new Runnable() {
 //            @Override
 //            public void run() {
-//                new Homepage().setVisible(true);
+//                try {
+//                    new Homepage().setVisible(true);
+//                } catch (SQLException ex) {
+//                    Logger.getLogger(Homepage.class.getName()).log(Level.SEVERE, null, ex);
+//                }
 //            }
 //        });
 //    }
