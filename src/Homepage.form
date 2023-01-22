@@ -482,9 +482,9 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="Size1" min="-2" max="-2" attributes="0"/>
+                              <Component id="CSugar_lbl" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="required_label2" min="-2" max="-2" attributes="0"/>
+                              <Component id="CSugarR_lbl" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
@@ -492,8 +492,8 @@
                                   <Component id="Low_lvl_btn" alignment="0" min="-2" max="-2" attributes="0"/>
                                   <Component id="Zero_lvl_btn" alignment="0" min="-2" max="-2" attributes="0"/>
                                   <Component id="Med_lvl_btn" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="High_lvl_btn1" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="Full_lvl_btn2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="High_lvl_btn" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Full_lvl_btn" alignment="0" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -506,8 +506,8 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="Size1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="required_label2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="CSugar_lbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="CSugarR_lbl" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="Zero_lvl_btn" min="-2" max="-2" attributes="0"/>
@@ -516,16 +516,16 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="Med_lvl_btn" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="High_lvl_btn1" min="-2" max="-2" attributes="0"/>
+                      <Component id="High_lvl_btn" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="Full_lvl_btn2" min="-2" max="-2" attributes="0"/>
+                      <Component id="Full_lvl_btn" min="-2" max="-2" attributes="0"/>
                       <EmptySpace pref="43" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JLabel" name="Size1">
+            <Component class="javax.swing.JLabel" name="CSugar_lbl">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Times New Roman" size="24" style="1"/>
@@ -575,7 +575,7 @@
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Med_lvl_btnActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JRadioButton" name="High_lvl_btn1">
+            <Component class="javax.swing.JRadioButton" name="High_lvl_btn">
               <Properties>
                 <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                   <ComponentRef name="Sugarlevelgroup"/>
@@ -586,10 +586,10 @@
                 <Property name="text" type="java.lang.String" value="75%"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="High_lvl_btn1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="High_lvl_btnActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JRadioButton" name="Full_lvl_btn2">
+            <Component class="javax.swing.JRadioButton" name="Full_lvl_btn">
               <Properties>
                 <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                   <ComponentRef name="Sugarlevelgroup"/>
@@ -600,10 +600,10 @@
                 <Property name="text" type="java.lang.String" value="100%"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Full_lvl_btn2ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Full_lvl_btnActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JLabel" name="required_label2">
+            <Component class="javax.swing.JLabel" name="CSugarR_lbl">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Times New Roman" size="24" style="0"/>
@@ -635,9 +635,9 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="Size" min="-2" max="-2" attributes="0"/>
+                              <Component id="CSize" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="required_label" min="-2" max="-2" attributes="0"/>
+                              <Component id="CSizeR_lbl" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
@@ -670,8 +670,8 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="Size" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="required_label" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="CSize" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="CSizeR_lbl" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
@@ -694,12 +694,23 @@
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JLabel" name="Size">
+            <Component class="javax.swing.JLabel" name="CSize">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Times New Roman" size="24" style="1"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Size"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="CSizeR_lbl">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="24" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="66" green="66" red="66" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="(required)"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JRadioButton" name="Small_size_btn">
@@ -777,17 +788,6 @@
                 <Property name="text" type="java.lang.String" value="+RM0.00"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JLabel" name="required_label">
-              <Properties>
-                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Times New Roman" size="24" style="0"/>
-                </Property>
-                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="66" green="66" red="66" type="rgb"/>
-                </Property>
-                <Property name="text" type="java.lang.String" value="(required)"/>
-              </Properties>
-            </Component>
           </SubComponents>
         </Container>
         <Component class="javax.swing.JLabel" name="Coffee_title">
@@ -816,7 +816,7 @@
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="Type" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="required_label1" min="-2" max="-2" attributes="0"/>
+                              <Component id="CTypeR_lbl" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
@@ -850,7 +850,7 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="Type" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="required_label1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="CTypeR_lbl" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
@@ -956,7 +956,7 @@
                 <Property name="text" type="java.lang.String" value="RM8.00"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JLabel" name="required_label1">
+            <Component class="javax.swing.JLabel" name="CTypeR_lbl">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Times New Roman" size="24" style="0"/>
@@ -988,27 +988,27 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="Size2" min="-2" max="-2" attributes="0"/>
+                              <Component id="CIce_lbl" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="required_label3" min="-2" max="-2" attributes="0"/>
+                              <Component id="CIceR_lbl" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="Cold_btn" min="-2" max="-2" attributes="0"/>
+                                      <Component id="CCold_btn" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace max="32767" attributes="0"/>
-                                      <Component id="Cice_price1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Cice_price" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="Hot_btn" min="-2" max="-2" attributes="0"/>
+                                      <Component id="CHot_btn" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="No_ice_btn" min="-2" max="-2" attributes="0"/>
+                                      <Component id="CNo_ice_btn" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace max="32767" attributes="0"/>
-                                      <Component id="Cice_price2" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Ccold_price" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
@@ -1022,20 +1022,20 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="Size2" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="required_label3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="CIce_lbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="CIceR_lbl" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="Hot_btn" min="-2" max="-2" attributes="0"/>
+                      <Component id="CHot_btn" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="Cold_btn" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="Cice_price1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="CCold_btn" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Cice_price" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="No_ice_btn" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="Cice_price2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="CNo_ice_btn" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Ccold_price" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace pref="107" max="32767" attributes="0"/>
                   </Group>
@@ -1043,7 +1043,7 @@
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JLabel" name="Size2">
+            <Component class="javax.swing.JLabel" name="CIce_lbl">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Times New Roman" size="24" style="1"/>
@@ -1051,7 +1051,18 @@
                 <Property name="text" type="java.lang.String" value="Ice Level"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JRadioButton" name="Hot_btn">
+            <Component class="javax.swing.JLabel" name="CIceR_lbl">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="24" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="66" green="66" red="66" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="(required)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="CHot_btn">
               <Properties>
                 <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                   <ComponentRef name="Icegroup"/>
@@ -1062,10 +1073,10 @@
                 <Property name="text" type="java.lang.String" value="Hot"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Hot_btnActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CHot_btnActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JRadioButton" name="Cold_btn">
+            <Component class="javax.swing.JRadioButton" name="CCold_btn">
               <Properties>
                 <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                   <ComponentRef name="Icegroup"/>
@@ -1076,10 +1087,10 @@
                 <Property name="text" type="java.lang.String" value="Cold (with ice)"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Cold_btnActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CCold_btnActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JRadioButton" name="No_ice_btn">
+            <Component class="javax.swing.JRadioButton" name="CNo_ice_btn">
               <Properties>
                 <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                   <ComponentRef name="Icegroup"/>
@@ -1090,10 +1101,10 @@
                 <Property name="text" type="java.lang.String" value="Cold (without ice)"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="No_ice_btnActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CNo_ice_btnActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JLabel" name="Cice_price1">
+            <Component class="javax.swing.JLabel" name="Cice_price">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Times New Roman" size="18" style="0"/>
@@ -1104,7 +1115,7 @@
                 <Property name="text" type="java.lang.String" value="+RM1.00"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JLabel" name="Cice_price2">
+            <Component class="javax.swing.JLabel" name="Ccold_price">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Times New Roman" size="18" style="0"/>
@@ -1113,17 +1124,6 @@
                   <Color blue="66" green="66" red="66" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="+RM1.00"/>
-              </Properties>
-            </Component>
-            <Component class="javax.swing.JLabel" name="required_label3">
-              <Properties>
-                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Times New Roman" size="24" style="0"/>
-                </Property>
-                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="66" green="66" red="66" type="rgb"/>
-                </Property>
-                <Property name="text" type="java.lang.String" value="(required)"/>
               </Properties>
             </Component>
           </SubComponents>
@@ -1147,15 +1147,15 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="Size3" min="-2" max="-2" attributes="0"/>
+                              <Component id="CCream" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="required_label4" min="-2" max="-2" attributes="0"/>
+                              <Component id="CCreamR_lbl" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="Without_cream_btn" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="Cream_btn" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="CWithout_cream_btn" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="CCream_btn" alignment="0" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -1168,20 +1168,20 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="Size3" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="required_label4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="CCream" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="CCreamR_lbl" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="Cream_btn" min="-2" max="-2" attributes="0"/>
+                      <Component id="CCream_btn" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="Without_cream_btn" min="-2" max="-2" attributes="0"/>
+                      <Component id="CWithout_cream_btn" min="-2" max="-2" attributes="0"/>
                       <EmptySpace pref="139" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JLabel" name="Size3">
+            <Component class="javax.swing.JLabel" name="CCream">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Times New Roman" size="24" style="1"/>
@@ -1189,7 +1189,7 @@
                 <Property name="text" type="java.lang.String" value="Cream"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JRadioButton" name="Cream_btn">
+            <Component class="javax.swing.JRadioButton" name="CCream_btn">
               <Properties>
                 <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                   <ComponentRef name="Creamgroup"/>
@@ -1200,10 +1200,10 @@
                 <Property name="text" type="java.lang.String" value="With cream"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Cream_btnActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CCream_btnActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JRadioButton" name="Without_cream_btn">
+            <Component class="javax.swing.JRadioButton" name="CWithout_cream_btn">
               <Properties>
                 <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                   <ComponentRef name="Creamgroup"/>
@@ -1214,10 +1214,10 @@
                 <Property name="text" type="java.lang.String" value="Without cream"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Without_cream_btnActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CWithout_cream_btnActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JLabel" name="required_label4">
+            <Component class="javax.swing.JLabel" name="CCreamR_lbl">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Times New Roman" size="24" style="0"/>
