@@ -180,7 +180,7 @@ public class Homepage extends javax.swing.JFrame {
         jScrollPane2 = new javax.swing.JScrollPane();
         Total_txt = new javax.swing.JTextPane();
         KeyEnter_but = new javax.swing.JButton();
-        Coffee = new javax.swing.JFrame();
+        Smoothie = new javax.swing.JFrame();
         Csugar_lvl = new javax.swing.JPanel();
         Size1 = new javax.swing.JLabel();
         Zero_lvl_btn = new javax.swing.JRadioButton();
@@ -208,19 +208,27 @@ public class Homepage extends javax.swing.JFrame {
         Espresso_price = new javax.swing.JLabel();
         Cappuccino_price = new javax.swing.JLabel();
         required_label1 = new javax.swing.JLabel();
-        Cice_lvl = new javax.swing.JPanel();
-        Size2 = new javax.swing.JLabel();
-        Hot_btn = new javax.swing.JRadioButton();
-        Cold_btn = new javax.swing.JRadioButton();
-        No_ice_btn = new javax.swing.JRadioButton();
-        Cice_price1 = new javax.swing.JLabel();
-        Cice_price2 = new javax.swing.JLabel();
-        required_label3 = new javax.swing.JLabel();
+        Cappuccino_btn2 = new javax.swing.JRadioButton();
+        Cappuccino_btn3 = new javax.swing.JRadioButton();
+        Cappuccino_btn4 = new javax.swing.JRadioButton();
+        Cappuccino_btn5 = new javax.swing.JRadioButton();
+        Cappuccino_price2 = new javax.swing.JLabel();
+        Cappuccino_price4 = new javax.swing.JLabel();
+        Cappuccino_price5 = new javax.swing.JLabel();
+        Cappuccino_price6 = new javax.swing.JLabel();
         Ccream_lvl = new javax.swing.JPanel();
         Size3 = new javax.swing.JLabel();
         Cream_btn = new javax.swing.JRadioButton();
         Without_cream_btn = new javax.swing.JRadioButton();
         required_label4 = new javax.swing.JLabel();
+        Without_cream_btn2 = new javax.swing.JRadioButton();
+        Without_cream_btn3 = new javax.swing.JRadioButton();
+        Without_cream_btn4 = new javax.swing.JRadioButton();
+        Csmall_price2 = new javax.swing.JLabel();
+        Csmall_price3 = new javax.swing.JLabel();
+        Csmall_price4 = new javax.swing.JLabel();
+        Csmall_price5 = new javax.swing.JLabel();
+        Csmall_price6 = new javax.swing.JLabel();
         Cadd_btn = new javax.swing.JButton();
         Sizegroup = new javax.swing.ButtonGroup();
         Typegroup = new javax.swing.ButtonGroup();
@@ -326,6 +334,48 @@ public class Homepage extends javax.swing.JFrame {
         PastryTart_FruitTartPrice = new javax.swing.JLabel();
         PastryTart_ChocolateTartPrice = new javax.swing.JLabel();
         Optional_label17 = new javax.swing.JLabel();
+        Coffee = new javax.swing.JFrame();
+        Csugar_lvl1 = new javax.swing.JPanel();
+        Size4 = new javax.swing.JLabel();
+        Zero_lvl_btn1 = new javax.swing.JRadioButton();
+        Low_lvl_btn1 = new javax.swing.JRadioButton();
+        Med_lvl_btn1 = new javax.swing.JRadioButton();
+        High_lvl_btn2 = new javax.swing.JRadioButton();
+        Full_lvl_btn3 = new javax.swing.JRadioButton();
+        required_label8 = new javax.swing.JLabel();
+        Csize_Panel1 = new javax.swing.JPanel();
+        Size5 = new javax.swing.JLabel();
+        Small_size_btn1 = new javax.swing.JRadioButton();
+        Med_size_btn1 = new javax.swing.JRadioButton();
+        Big_size_btn1 = new javax.swing.JRadioButton();
+        Cmed_price1 = new javax.swing.JLabel();
+        Cbig_price1 = new javax.swing.JLabel();
+        Csmall_price1 = new javax.swing.JLabel();
+        required_label9 = new javax.swing.JLabel();
+        Coffee_title1 = new javax.swing.JLabel();
+        Ctype_Panel1 = new javax.swing.JPanel();
+        Type1 = new javax.swing.JLabel();
+        Latte_btn1 = new javax.swing.JRadioButton();
+        Espresso_btn1 = new javax.swing.JRadioButton();
+        Cappuccino_btn1 = new javax.swing.JRadioButton();
+        Latte_price1 = new javax.swing.JLabel();
+        Espresso_price1 = new javax.swing.JLabel();
+        Cappuccino_price1 = new javax.swing.JLabel();
+        required_label12 = new javax.swing.JLabel();
+        Cice_lvl1 = new javax.swing.JPanel();
+        Size6 = new javax.swing.JLabel();
+        Hot_btn1 = new javax.swing.JRadioButton();
+        Cold_btn1 = new javax.swing.JRadioButton();
+        No_ice_btn1 = new javax.swing.JRadioButton();
+        Cice_price3 = new javax.swing.JLabel();
+        Cice_price4 = new javax.swing.JLabel();
+        required_label13 = new javax.swing.JLabel();
+        Ccream_lvl1 = new javax.swing.JPanel();
+        Size7 = new javax.swing.JLabel();
+        Cream_btn1 = new javax.swing.JRadioButton();
+        Without_cream_btn1 = new javax.swing.JRadioButton();
+        required_label14 = new javax.swing.JLabel();
+        Cadd_btn1 = new javax.swing.JButton();
         Home_Panel = new javax.swing.JPanel();
         Order_Panel = new javax.swing.JPanel();
         Cof_But = new javax.swing.JButton();
@@ -618,8 +668,8 @@ public class Homepage extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        Coffee.setResizable(false);
-        Coffee.setSize(new java.awt.Dimension(1099, 450));
+        Smoothie.setResizable(false);
+        Smoothie.setSize(new java.awt.Dimension(1099, 450));
 
         Csugar_lvl.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
@@ -817,7 +867,7 @@ public class Homepage extends javax.swing.JFrame {
         );
 
         Coffee_title.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
-        Coffee_title.setText("Coffee");
+        Coffee_title.setText("Smoothie");
 
         Ctype_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
@@ -826,7 +876,7 @@ public class Homepage extends javax.swing.JFrame {
 
         Typegroup.add(Latte_btn);
         Latte_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        Latte_btn.setText("Latte");
+        Latte_btn.setText("Apple");
         Latte_btn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Latte_btnActionPerformed(evt);
@@ -835,7 +885,7 @@ public class Homepage extends javax.swing.JFrame {
 
         Typegroup.add(Espresso_btn);
         Espresso_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        Espresso_btn.setText("Espresso");
+        Espresso_btn.setText("Orange");
         Espresso_btn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Espresso_btnActionPerformed(evt);
@@ -844,7 +894,7 @@ public class Homepage extends javax.swing.JFrame {
 
         Typegroup.add(Cappuccino_btn);
         Cappuccino_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        Cappuccino_btn.setText("Cappucinno");
+        Cappuccino_btn.setText("Cantaloupe");
         Cappuccino_btn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Cappuccino_btnActionPerformed(evt);
@@ -853,7 +903,7 @@ public class Homepage extends javax.swing.JFrame {
 
         Latte_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         Latte_price.setForeground(new java.awt.Color(102, 102, 102));
-        Latte_price.setText("RM9.00");
+        Latte_price.setText("RM8.00");
 
         Espresso_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         Espresso_price.setForeground(new java.awt.Color(102, 102, 102));
@@ -861,11 +911,63 @@ public class Homepage extends javax.swing.JFrame {
 
         Cappuccino_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         Cappuccino_price.setForeground(new java.awt.Color(102, 102, 102));
-        Cappuccino_price.setText("RM8.00");
+        Cappuccino_price.setText("RM9.00");
 
         required_label1.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
         required_label1.setForeground(new java.awt.Color(102, 102, 102));
         required_label1.setText("(required)");
+
+        Typegroup.add(Cappuccino_btn2);
+        Cappuccino_btn2.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Cappuccino_btn2.setText("Mango Passionfruit");
+        Cappuccino_btn2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Cappuccino_btn2ActionPerformed(evt);
+            }
+        });
+
+        Typegroup.add(Cappuccino_btn3);
+        Cappuccino_btn3.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Cappuccino_btn3.setText("Oaty Banana");
+        Cappuccino_btn3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Cappuccino_btn3ActionPerformed(evt);
+            }
+        });
+
+        Typegroup.add(Cappuccino_btn4);
+        Cappuccino_btn4.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Cappuccino_btn4.setText("Pineapple lychee");
+        Cappuccino_btn4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Cappuccino_btn4ActionPerformed(evt);
+            }
+        });
+
+        Typegroup.add(Cappuccino_btn5);
+        Cappuccino_btn5.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Cappuccino_btn5.setText("Blueberry Strawberry");
+        Cappuccino_btn5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Cappuccino_btn5ActionPerformed(evt);
+            }
+        });
+
+        Cappuccino_price2.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Cappuccino_price2.setForeground(new java.awt.Color(102, 102, 102));
+        Cappuccino_price2.setText("RM10.00");
+
+        Cappuccino_price4.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Cappuccino_price4.setForeground(new java.awt.Color(102, 102, 102));
+        Cappuccino_price4.setText("RM11.00");
+
+        Cappuccino_price5.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Cappuccino_price5.setForeground(new java.awt.Color(102, 102, 102));
+        Cappuccino_price5.setText("RM10.00");
+
+        Cappuccino_price6.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Cappuccino_price6.setForeground(new java.awt.Color(102, 102, 102));
+        Cappuccino_price6.setText("RM11.00");
 
         javax.swing.GroupLayout Ctype_PanelLayout = new javax.swing.GroupLayout(Ctype_Panel);
         Ctype_Panel.setLayout(Ctype_PanelLayout);
@@ -893,7 +995,23 @@ public class Homepage extends javax.swing.JFrame {
                             .addGroup(Ctype_PanelLayout.createSequentialGroup()
                                 .addComponent(Cappuccino_btn)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(Cappuccino_price)))))
+                                .addComponent(Cappuccino_price))
+                            .addGroup(Ctype_PanelLayout.createSequentialGroup()
+                                .addComponent(Cappuccino_btn2)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(Cappuccino_price2))
+                            .addGroup(Ctype_PanelLayout.createSequentialGroup()
+                                .addComponent(Cappuccino_btn5)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(Cappuccino_price6))
+                            .addGroup(Ctype_PanelLayout.createSequentialGroup()
+                                .addComponent(Cappuccino_btn4)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(Cappuccino_price4))
+                            .addGroup(Ctype_PanelLayout.createSequentialGroup()
+                                .addComponent(Cappuccino_btn3)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(Cappuccino_price5)))))
                 .addContainerGap())
         );
         Ctype_PanelLayout.setVerticalGroup(
@@ -915,111 +1033,34 @@ public class Homepage extends javax.swing.JFrame {
                 .addGroup(Ctype_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(Cappuccino_btn)
                     .addComponent(Cappuccino_price))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Ctype_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Cappuccino_btn2)
+                    .addComponent(Cappuccino_price2))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Ctype_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Cappuccino_btn3)
+                    .addComponent(Cappuccino_price5))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Ctype_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Cappuccino_btn4)
+                    .addComponent(Cappuccino_price4))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Ctype_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Cappuccino_btn5)
+                    .addComponent(Cappuccino_price6))
                 .addContainerGap(29, Short.MAX_VALUE))
-        );
-
-        Cice_lvl.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        Cice_lvl.setPreferredSize(new java.awt.Dimension(272, 242));
-
-        Size2.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        Size2.setText("Ice Level");
-
-        Icegroup.add(Hot_btn);
-        Hot_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        Hot_btn.setText("Hot");
-        Hot_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Hot_btnActionPerformed(evt);
-            }
-        });
-
-        Icegroup.add(Cold_btn);
-        Cold_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        Cold_btn.setText("Cold (with ice)");
-        Cold_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Cold_btnActionPerformed(evt);
-            }
-        });
-
-        Icegroup.add(No_ice_btn);
-        No_ice_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        No_ice_btn.setText("Cold (without ice)");
-        No_ice_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                No_ice_btnActionPerformed(evt);
-            }
-        });
-
-        Cice_price1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        Cice_price1.setForeground(new java.awt.Color(102, 102, 102));
-        Cice_price1.setText("+RM1.00");
-
-        Cice_price2.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        Cice_price2.setForeground(new java.awt.Color(102, 102, 102));
-        Cice_price2.setText("+RM1.00");
-
-        required_label3.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
-        required_label3.setForeground(new java.awt.Color(102, 102, 102));
-        required_label3.setText("(required)");
-
-        javax.swing.GroupLayout Cice_lvlLayout = new javax.swing.GroupLayout(Cice_lvl);
-        Cice_lvl.setLayout(Cice_lvlLayout);
-        Cice_lvlLayout.setHorizontalGroup(
-            Cice_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Cice_lvlLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(Cice_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(Cice_lvlLayout.createSequentialGroup()
-                        .addComponent(Size2)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(required_label3)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(Cice_lvlLayout.createSequentialGroup()
-                        .addGap(54, 54, 54)
-                        .addGroup(Cice_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(Cice_lvlLayout.createSequentialGroup()
-                                .addComponent(Cold_btn)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(Cice_price1))
-                            .addGroup(Cice_lvlLayout.createSequentialGroup()
-                                .addComponent(Hot_btn)
-                                .addGap(0, 0, Short.MAX_VALUE))
-                            .addGroup(Cice_lvlLayout.createSequentialGroup()
-                                .addComponent(No_ice_btn)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(Cice_price2)))))
-                .addContainerGap())
-        );
-        Cice_lvlLayout.setVerticalGroup(
-            Cice_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Cice_lvlLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(Cice_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(Size2)
-                    .addComponent(required_label3))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(Hot_btn)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Cice_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(Cold_btn)
-                    .addComponent(Cice_price1))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Cice_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(No_ice_btn)
-                    .addComponent(Cice_price2))
-                .addContainerGap(107, Short.MAX_VALUE))
         );
 
         Ccream_lvl.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         Ccream_lvl.setPreferredSize(new java.awt.Dimension(272, 242));
 
         Size3.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        Size3.setText("Cream");
+        Size3.setText("Toppings");
 
         Creamgroup.add(Cream_btn);
         Cream_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        Cream_btn.setText("With cream");
+        Cream_btn.setText("Granola");
         Cream_btn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Cream_btnActionPerformed(evt);
@@ -1028,7 +1069,7 @@ public class Homepage extends javax.swing.JFrame {
 
         Creamgroup.add(Without_cream_btn);
         Without_cream_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        Without_cream_btn.setText("Without cream");
+        Without_cream_btn.setText("Goji Berries");
         Without_cream_btn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Without_cream_btnActionPerformed(evt);
@@ -1038,6 +1079,53 @@ public class Homepage extends javax.swing.JFrame {
         required_label4.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
         required_label4.setForeground(new java.awt.Color(102, 102, 102));
         required_label4.setText("(optional)");
+
+        Creamgroup.add(Without_cream_btn2);
+        Without_cream_btn2.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Without_cream_btn2.setText("Almonds");
+        Without_cream_btn2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Without_cream_btn2ActionPerformed(evt);
+            }
+        });
+
+        Creamgroup.add(Without_cream_btn3);
+        Without_cream_btn3.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Without_cream_btn3.setText("Raspberries");
+        Without_cream_btn3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Without_cream_btn3ActionPerformed(evt);
+            }
+        });
+
+        Creamgroup.add(Without_cream_btn4);
+        Without_cream_btn4.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Without_cream_btn4.setText("Kiwi");
+        Without_cream_btn4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Without_cream_btn4ActionPerformed(evt);
+            }
+        });
+
+        Csmall_price2.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Csmall_price2.setForeground(new java.awt.Color(102, 102, 102));
+        Csmall_price2.setText("+RM1.00");
+
+        Csmall_price3.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Csmall_price3.setForeground(new java.awt.Color(102, 102, 102));
+        Csmall_price3.setText("+RM1.00");
+
+        Csmall_price4.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Csmall_price4.setForeground(new java.awt.Color(102, 102, 102));
+        Csmall_price4.setText("+RM2.00");
+
+        Csmall_price5.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Csmall_price5.setForeground(new java.awt.Color(102, 102, 102));
+        Csmall_price5.setText("+RM3.00");
+
+        Csmall_price6.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Csmall_price6.setForeground(new java.awt.Color(102, 102, 102));
+        Csmall_price6.setText("+RM3.00");
 
         javax.swing.GroupLayout Ccream_lvlLayout = new javax.swing.GroupLayout(Ccream_lvl);
         Ccream_lvl.setLayout(Ccream_lvlLayout);
@@ -1053,9 +1141,29 @@ public class Homepage extends javax.swing.JFrame {
                     .addGroup(Ccream_lvlLayout.createSequentialGroup()
                         .addGap(54, 54, 54)
                         .addGroup(Ccream_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(Without_cream_btn)
-                            .addComponent(Cream_btn))))
-                .addContainerGap(75, Short.MAX_VALUE))
+                            .addGroup(Ccream_lvlLayout.createSequentialGroup()
+                                .addGroup(Ccream_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(Without_cream_btn3)
+                                    .addComponent(Without_cream_btn4))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addGroup(Ccream_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(Csmall_price6)
+                                    .addComponent(Csmall_price5)))
+                            .addGroup(Ccream_lvlLayout.createSequentialGroup()
+                                .addGroup(Ccream_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(Without_cream_btn)
+                                    .addComponent(Without_cream_btn2)
+                                    .addComponent(Cream_btn))
+                                .addGroup(Ccream_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(Ccream_lvlLayout.createSequentialGroup()
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addGroup(Ccream_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(Csmall_price3)
+                                            .addComponent(Csmall_price2)))
+                                    .addGroup(Ccream_lvlLayout.createSequentialGroup()
+                                        .addGap(10, 10, 10)
+                                        .addComponent(Csmall_price4)))))))
+                .addContainerGap(15, Short.MAX_VALUE))
         );
         Ccream_lvlLayout.setVerticalGroup(
             Ccream_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1065,10 +1173,26 @@ public class Homepage extends javax.swing.JFrame {
                     .addComponent(Size3)
                     .addComponent(required_label4))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(Cream_btn)
+                .addGroup(Ccream_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Cream_btn)
+                    .addComponent(Csmall_price3))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(Without_cream_btn)
-                .addContainerGap(139, Short.MAX_VALUE))
+                .addGroup(Ccream_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Without_cream_btn)
+                    .addComponent(Csmall_price2))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Ccream_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Without_cream_btn2)
+                    .addComponent(Csmall_price4))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Ccream_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Without_cream_btn3)
+                    .addComponent(Csmall_price5))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Ccream_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Without_cream_btn4)
+                    .addComponent(Csmall_price6))
+                .addContainerGap(43, Short.MAX_VALUE))
         );
 
         Cadd_btn.setBackground(new java.awt.Color(255, 153, 51));
@@ -1081,51 +1205,48 @@ public class Homepage extends javax.swing.JFrame {
             }
         });
 
-        javax.swing.GroupLayout CoffeeLayout = new javax.swing.GroupLayout(Coffee.getContentPane());
-        Coffee.getContentPane().setLayout(CoffeeLayout);
-        CoffeeLayout.setHorizontalGroup(
-            CoffeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(CoffeeLayout.createSequentialGroup()
+        javax.swing.GroupLayout SmoothieLayout = new javax.swing.GroupLayout(Smoothie.getContentPane());
+        Smoothie.getContentPane().setLayout(SmoothieLayout);
+        SmoothieLayout.setHorizontalGroup(
+            SmoothieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(SmoothieLayout.createSequentialGroup()
                 .addGap(17, 17, 17)
-                .addGroup(CoffeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(CoffeeLayout.createSequentialGroup()
+                .addGroup(SmoothieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(SmoothieLayout.createSequentialGroup()
                         .addComponent(Coffee_title)
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(CoffeeLayout.createSequentialGroup()
-                        .addGroup(CoffeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(SmoothieLayout.createSequentialGroup()
+                        .addGroup(SmoothieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(Ctype_Panel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addGroup(CoffeeLayout.createSequentialGroup()
+                            .addGroup(SmoothieLayout.createSequentialGroup()
                                 .addGap(0, 0, Short.MAX_VALUE)
                                 .addComponent(Cadd_btn, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(CoffeeLayout.createSequentialGroup()
+                            .addGroup(SmoothieLayout.createSequentialGroup()
                                 .addComponent(Csize_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
                                 .addComponent(Csugar_lvl, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
-                                .addComponent(Cice_lvl, javax.swing.GroupLayout.DEFAULT_SIZE, 304, Short.MAX_VALUE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Ccream_lvl, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addComponent(Ccream_lvl, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(0, 392, Short.MAX_VALUE)))
                         .addGap(17, 17, 17))))
         );
-        CoffeeLayout.setVerticalGroup(
-            CoffeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(CoffeeLayout.createSequentialGroup()
+        SmoothieLayout.setVerticalGroup(
+            SmoothieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(SmoothieLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(Coffee_title)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(Ctype_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, Short.MAX_VALUE)
-                .addGroup(CoffeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(SmoothieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(Csize_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(Csugar_lvl, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Cice_lvl, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(Ccream_lvl, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addComponent(Cadd_btn, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(17, 17, 17))
         );
 
-        jyBagelSection.setPreferredSize(new java.awt.Dimension(1099, 450));
         jyBagelSection.setResizable(false);
         jyBagelSection.setSize(new java.awt.Dimension(1099, 450));
 
@@ -1811,7 +1932,6 @@ public class Homepage extends javax.swing.JFrame {
                 .addGap(17, 17, 17))
         );
 
-        jyPastrySection1.setPreferredSize(new java.awt.Dimension(1099, 450));
         jyPastrySection1.setResizable(false);
         jyPastrySection1.setSize(new java.awt.Dimension(1099, 450));
 
@@ -2274,6 +2394,513 @@ public class Homepage extends javax.swing.JFrame {
                     .addContainerGap(265, Short.MAX_VALUE)
                     .addComponent(PastryTarts_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGap(153, 153, 153)))
+        );
+
+        Coffee.setResizable(false);
+        Coffee.setSize(new java.awt.Dimension(1099, 450));
+
+        Csugar_lvl1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        Size4.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        Size4.setText("Sugar Level");
+
+        Sugarlevelgroup.add(Zero_lvl_btn1);
+        Zero_lvl_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Zero_lvl_btn1.setText("0%");
+        Zero_lvl_btn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Zero_lvl_btn1ActionPerformed(evt);
+            }
+        });
+
+        Sugarlevelgroup.add(Low_lvl_btn1);
+        Low_lvl_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Low_lvl_btn1.setText("25%");
+        Low_lvl_btn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Low_lvl_btn1ActionPerformed(evt);
+            }
+        });
+
+        Sugarlevelgroup.add(Med_lvl_btn1);
+        Med_lvl_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Med_lvl_btn1.setText("50%");
+        Med_lvl_btn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Med_lvl_btn1ActionPerformed(evt);
+            }
+        });
+
+        Sugarlevelgroup.add(High_lvl_btn2);
+        High_lvl_btn2.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        High_lvl_btn2.setText("75%");
+        High_lvl_btn2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                High_lvl_btn2ActionPerformed(evt);
+            }
+        });
+
+        Sugarlevelgroup.add(Full_lvl_btn3);
+        Full_lvl_btn3.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Full_lvl_btn3.setText("100%");
+        Full_lvl_btn3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Full_lvl_btn3ActionPerformed(evt);
+            }
+        });
+
+        required_label8.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
+        required_label8.setForeground(new java.awt.Color(102, 102, 102));
+        required_label8.setText("(required)");
+
+        javax.swing.GroupLayout Csugar_lvl1Layout = new javax.swing.GroupLayout(Csugar_lvl1);
+        Csugar_lvl1.setLayout(Csugar_lvl1Layout);
+        Csugar_lvl1Layout.setHorizontalGroup(
+            Csugar_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Csugar_lvl1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(Csugar_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(Csugar_lvl1Layout.createSequentialGroup()
+                        .addComponent(Size4)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(required_label8))
+                    .addGroup(Csugar_lvl1Layout.createSequentialGroup()
+                        .addGap(54, 54, 54)
+                        .addGroup(Csugar_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(Low_lvl_btn1)
+                            .addComponent(Zero_lvl_btn1)
+                            .addComponent(Med_lvl_btn1)
+                            .addComponent(High_lvl_btn2)
+                            .addComponent(Full_lvl_btn3))))
+                .addContainerGap(37, Short.MAX_VALUE))
+        );
+        Csugar_lvl1Layout.setVerticalGroup(
+            Csugar_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Csugar_lvl1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(Csugar_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Size4)
+                    .addComponent(required_label8))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(Zero_lvl_btn1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(Low_lvl_btn1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(Med_lvl_btn1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(High_lvl_btn2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(Full_lvl_btn3)
+                .addContainerGap(43, Short.MAX_VALUE))
+        );
+
+        Csize_Panel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Csize_Panel1.setPreferredSize(new java.awt.Dimension(272, 242));
+
+        Size5.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        Size5.setText("Size");
+
+        Sizegroup.add(Small_size_btn1);
+        Small_size_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Small_size_btn1.setText("Small");
+        Small_size_btn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Small_size_btn1ActionPerformed(evt);
+            }
+        });
+
+        Sizegroup.add(Med_size_btn1);
+        Med_size_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Med_size_btn1.setText("Medium");
+        Med_size_btn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Med_size_btn1ActionPerformed(evt);
+            }
+        });
+
+        Sizegroup.add(Big_size_btn1);
+        Big_size_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Big_size_btn1.setText("Big");
+        Big_size_btn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Big_size_btn1ActionPerformed(evt);
+            }
+        });
+
+        Cmed_price1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Cmed_price1.setForeground(new java.awt.Color(102, 102, 102));
+        Cmed_price1.setText("+RM1.00");
+
+        Cbig_price1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Cbig_price1.setForeground(new java.awt.Color(102, 102, 102));
+        Cbig_price1.setText("+RM2.00");
+
+        Csmall_price1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Csmall_price1.setForeground(new java.awt.Color(102, 102, 102));
+        Csmall_price1.setText("+RM0.00");
+
+        required_label9.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
+        required_label9.setForeground(new java.awt.Color(102, 102, 102));
+        required_label9.setText("(required)");
+
+        javax.swing.GroupLayout Csize_Panel1Layout = new javax.swing.GroupLayout(Csize_Panel1);
+        Csize_Panel1.setLayout(Csize_Panel1Layout);
+        Csize_Panel1Layout.setHorizontalGroup(
+            Csize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Csize_Panel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(Csize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(Csize_Panel1Layout.createSequentialGroup()
+                        .addComponent(Size5)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(required_label9)
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(Csize_Panel1Layout.createSequentialGroup()
+                        .addGap(54, 54, 54)
+                        .addGroup(Csize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(Csize_Panel1Layout.createSequentialGroup()
+                                .addComponent(Med_size_btn1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
+                                .addComponent(Cmed_price1))
+                            .addGroup(Csize_Panel1Layout.createSequentialGroup()
+                                .addComponent(Small_size_btn1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(Csmall_price1))
+                            .addGroup(Csize_Panel1Layout.createSequentialGroup()
+                                .addComponent(Big_size_btn1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(Cbig_price1)))))
+                .addContainerGap())
+        );
+        Csize_Panel1Layout.setVerticalGroup(
+            Csize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Csize_Panel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(Csize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Size5)
+                    .addComponent(required_label9))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Csize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Small_size_btn1)
+                    .addComponent(Csmall_price1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Csize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Med_size_btn1)
+                    .addComponent(Cmed_price1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Csize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Big_size_btn1)
+                    .addComponent(Cbig_price1))
+                .addContainerGap(107, Short.MAX_VALUE))
+        );
+
+        Coffee_title1.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
+        Coffee_title1.setText("Coffee");
+
+        Ctype_Panel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        Type1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        Type1.setText("Type");
+
+        Typegroup.add(Latte_btn1);
+        Latte_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Latte_btn1.setText("Latte");
+        Latte_btn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Latte_btn1ActionPerformed(evt);
+            }
+        });
+
+        Typegroup.add(Espresso_btn1);
+        Espresso_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Espresso_btn1.setText("Espresso");
+        Espresso_btn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Espresso_btn1ActionPerformed(evt);
+            }
+        });
+
+        Typegroup.add(Cappuccino_btn1);
+        Cappuccino_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Cappuccino_btn1.setText("Cappucinno");
+        Cappuccino_btn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Cappuccino_btn1ActionPerformed(evt);
+            }
+        });
+
+        Latte_price1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Latte_price1.setForeground(new java.awt.Color(102, 102, 102));
+        Latte_price1.setText("RM9.00");
+
+        Espresso_price1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Espresso_price1.setForeground(new java.awt.Color(102, 102, 102));
+        Espresso_price1.setText("RM8.00");
+
+        Cappuccino_price1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Cappuccino_price1.setForeground(new java.awt.Color(102, 102, 102));
+        Cappuccino_price1.setText("RM8.00");
+
+        required_label12.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
+        required_label12.setForeground(new java.awt.Color(102, 102, 102));
+        required_label12.setText("(required)");
+
+        javax.swing.GroupLayout Ctype_Panel1Layout = new javax.swing.GroupLayout(Ctype_Panel1);
+        Ctype_Panel1.setLayout(Ctype_Panel1Layout);
+        Ctype_Panel1Layout.setHorizontalGroup(
+            Ctype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Ctype_Panel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(Ctype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(Ctype_Panel1Layout.createSequentialGroup()
+                        .addComponent(Type1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(required_label12)
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(Ctype_Panel1Layout.createSequentialGroup()
+                        .addGap(54, 54, 54)
+                        .addGroup(Ctype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(Ctype_Panel1Layout.createSequentialGroup()
+                                .addComponent(Espresso_btn1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(Espresso_price1))
+                            .addGroup(Ctype_Panel1Layout.createSequentialGroup()
+                                .addComponent(Latte_btn1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(Latte_price1))
+                            .addGroup(Ctype_Panel1Layout.createSequentialGroup()
+                                .addComponent(Cappuccino_btn1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(Cappuccino_price1)))))
+                .addContainerGap())
+        );
+        Ctype_Panel1Layout.setVerticalGroup(
+            Ctype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Ctype_Panel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(Ctype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Type1)
+                    .addComponent(required_label12))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Ctype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Latte_btn1)
+                    .addComponent(Latte_price1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Ctype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Espresso_btn1)
+                    .addComponent(Espresso_price1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Ctype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Cappuccino_btn1)
+                    .addComponent(Cappuccino_price1))
+                .addContainerGap(29, Short.MAX_VALUE))
+        );
+
+        Cice_lvl1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Cice_lvl1.setPreferredSize(new java.awt.Dimension(272, 242));
+
+        Size6.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        Size6.setText("Ice Level");
+
+        Icegroup.add(Hot_btn1);
+        Hot_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Hot_btn1.setText("Hot");
+        Hot_btn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Hot_btn1ActionPerformed(evt);
+            }
+        });
+
+        Icegroup.add(Cold_btn1);
+        Cold_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Cold_btn1.setText("Cold (with ice)");
+        Cold_btn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Cold_btn1ActionPerformed(evt);
+            }
+        });
+
+        Icegroup.add(No_ice_btn1);
+        No_ice_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        No_ice_btn1.setText("Cold (without ice)");
+        No_ice_btn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                No_ice_btn1ActionPerformed(evt);
+            }
+        });
+
+        Cice_price3.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Cice_price3.setForeground(new java.awt.Color(102, 102, 102));
+        Cice_price3.setText("+RM1.00");
+
+        Cice_price4.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Cice_price4.setForeground(new java.awt.Color(102, 102, 102));
+        Cice_price4.setText("+RM1.00");
+
+        required_label13.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
+        required_label13.setForeground(new java.awt.Color(102, 102, 102));
+        required_label13.setText("(required)");
+
+        javax.swing.GroupLayout Cice_lvl1Layout = new javax.swing.GroupLayout(Cice_lvl1);
+        Cice_lvl1.setLayout(Cice_lvl1Layout);
+        Cice_lvl1Layout.setHorizontalGroup(
+            Cice_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Cice_lvl1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(Cice_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(Cice_lvl1Layout.createSequentialGroup()
+                        .addComponent(Size6)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(required_label13)
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(Cice_lvl1Layout.createSequentialGroup()
+                        .addGap(54, 54, 54)
+                        .addGroup(Cice_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(Cice_lvl1Layout.createSequentialGroup()
+                                .addComponent(Cold_btn1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(Cice_price3))
+                            .addGroup(Cice_lvl1Layout.createSequentialGroup()
+                                .addComponent(Hot_btn1)
+                                .addGap(0, 0, Short.MAX_VALUE))
+                            .addGroup(Cice_lvl1Layout.createSequentialGroup()
+                                .addComponent(No_ice_btn1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(Cice_price4)))))
+                .addContainerGap())
+        );
+        Cice_lvl1Layout.setVerticalGroup(
+            Cice_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Cice_lvl1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(Cice_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Size6)
+                    .addComponent(required_label13))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(Hot_btn1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Cice_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Cold_btn1)
+                    .addComponent(Cice_price3))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Cice_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(No_ice_btn1)
+                    .addComponent(Cice_price4))
+                .addContainerGap(107, Short.MAX_VALUE))
+        );
+
+        Ccream_lvl1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Ccream_lvl1.setPreferredSize(new java.awt.Dimension(272, 242));
+
+        Size7.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        Size7.setText("Cream");
+
+        Creamgroup.add(Cream_btn1);
+        Cream_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Cream_btn1.setText("With cream");
+        Cream_btn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Cream_btn1ActionPerformed(evt);
+            }
+        });
+
+        Creamgroup.add(Without_cream_btn1);
+        Without_cream_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Without_cream_btn1.setText("Without cream");
+        Without_cream_btn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Without_cream_btn1ActionPerformed(evt);
+            }
+        });
+
+        required_label14.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
+        required_label14.setForeground(new java.awt.Color(102, 102, 102));
+        required_label14.setText("(optional)");
+
+        javax.swing.GroupLayout Ccream_lvl1Layout = new javax.swing.GroupLayout(Ccream_lvl1);
+        Ccream_lvl1.setLayout(Ccream_lvl1Layout);
+        Ccream_lvl1Layout.setHorizontalGroup(
+            Ccream_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Ccream_lvl1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(Ccream_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(Ccream_lvl1Layout.createSequentialGroup()
+                        .addComponent(Size7)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(required_label14))
+                    .addGroup(Ccream_lvl1Layout.createSequentialGroup()
+                        .addGap(54, 54, 54)
+                        .addGroup(Ccream_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(Without_cream_btn1)
+                            .addComponent(Cream_btn1))))
+                .addContainerGap(75, Short.MAX_VALUE))
+        );
+        Ccream_lvl1Layout.setVerticalGroup(
+            Ccream_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Ccream_lvl1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(Ccream_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Size7)
+                    .addComponent(required_label14))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(Cream_btn1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(Without_cream_btn1)
+                .addContainerGap(139, Short.MAX_VALUE))
+        );
+
+        Cadd_btn1.setBackground(new java.awt.Color(255, 153, 51));
+        Cadd_btn1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        Cadd_btn1.setText("Add");
+        Cadd_btn1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Cadd_btn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Cadd_btn1ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout CoffeeLayout = new javax.swing.GroupLayout(Coffee.getContentPane());
+        Coffee.getContentPane().setLayout(CoffeeLayout);
+        CoffeeLayout.setHorizontalGroup(
+            CoffeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CoffeeLayout.createSequentialGroup()
+                .addGap(17, 17, 17)
+                .addGroup(CoffeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(CoffeeLayout.createSequentialGroup()
+                        .addComponent(Coffee_title1)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(CoffeeLayout.createSequentialGroup()
+                        .addGroup(CoffeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(Ctype_Panel1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addGroup(CoffeeLayout.createSequentialGroup()
+                                .addGap(0, 0, Short.MAX_VALUE)
+                                .addComponent(Cadd_btn1, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(CoffeeLayout.createSequentialGroup()
+                                .addComponent(Csize_Panel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(Csugar_lvl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(Cice_lvl1, javax.swing.GroupLayout.DEFAULT_SIZE, 304, Short.MAX_VALUE)
+                                .addGap(18, 18, 18)
+                                .addComponent(Ccream_lvl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(17, 17, 17))))
+        );
+        CoffeeLayout.setVerticalGroup(
+            CoffeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CoffeeLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(Coffee_title1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(Ctype_Panel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, Short.MAX_VALUE)
+                .addGroup(CoffeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(Csize_Panel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Csugar_lvl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Cice_lvl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Ccream_lvl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addComponent(Cadd_btn1, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(17, 17, 17))
         );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -2811,18 +3438,6 @@ public class Homepage extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_Full_lvl_btn2ActionPerformed
 
-    private void Hot_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Hot_btnActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Hot_btnActionPerformed
-
-    private void Cold_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Cold_btnActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Cold_btnActionPerformed
-
-    private void No_ice_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_No_ice_btnActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_No_ice_btnActionPerformed
-
     private void Cream_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Cream_btnActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_Cream_btnActionPerformed
@@ -3066,6 +3681,102 @@ public class Homepage extends javax.swing.JFrame {
 //        new Display_Member().setVisible(true);
     }//GEN-LAST:event_List_itemActionPerformed
 
+    private void Zero_lvl_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Zero_lvl_btn1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Zero_lvl_btn1ActionPerformed
+
+    private void Low_lvl_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Low_lvl_btn1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Low_lvl_btn1ActionPerformed
+
+    private void Med_lvl_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Med_lvl_btn1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Med_lvl_btn1ActionPerformed
+
+    private void High_lvl_btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_High_lvl_btn2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_High_lvl_btn2ActionPerformed
+
+    private void Full_lvl_btn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Full_lvl_btn3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Full_lvl_btn3ActionPerformed
+
+    private void Small_size_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Small_size_btn1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Small_size_btn1ActionPerformed
+
+    private void Med_size_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Med_size_btn1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Med_size_btn1ActionPerformed
+
+    private void Big_size_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Big_size_btn1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Big_size_btn1ActionPerformed
+
+    private void Latte_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Latte_btn1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Latte_btn1ActionPerformed
+
+    private void Espresso_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Espresso_btn1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Espresso_btn1ActionPerformed
+
+    private void Cappuccino_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Cappuccino_btn1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Cappuccino_btn1ActionPerformed
+
+    private void Hot_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Hot_btn1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Hot_btn1ActionPerformed
+
+    private void Cold_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Cold_btn1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Cold_btn1ActionPerformed
+
+    private void No_ice_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_No_ice_btn1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_No_ice_btn1ActionPerformed
+
+    private void Cream_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Cream_btn1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Cream_btn1ActionPerformed
+
+    private void Without_cream_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Without_cream_btn1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Without_cream_btn1ActionPerformed
+
+    private void Cadd_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Cadd_btn1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Cadd_btn1ActionPerformed
+
+    private void Cappuccino_btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Cappuccino_btn2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Cappuccino_btn2ActionPerformed
+
+    private void Cappuccino_btn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Cappuccino_btn3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Cappuccino_btn3ActionPerformed
+
+    private void Cappuccino_btn4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Cappuccino_btn4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Cappuccino_btn4ActionPerformed
+
+    private void Cappuccino_btn5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Cappuccino_btn5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Cappuccino_btn5ActionPerformed
+
+    private void Without_cream_btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Without_cream_btn2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Without_cream_btn2ActionPerformed
+
+    private void Without_cream_btn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Without_cream_btn3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Without_cream_btn3ActionPerformed
+
+    private void Without_cream_btn4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Without_cream_btn4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Without_cream_btn4ActionPerformed
+
     
 //    public static void main(String args[]) {
 //        /* Set the Nimbus look and feel */
@@ -3163,34 +3874,64 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JButton Bagel_add_btn1;
     private javax.swing.JLabel Bagel_title1;
     private javax.swing.JRadioButton Big_size_btn;
+    private javax.swing.JRadioButton Big_size_btn1;
     private javax.swing.JButton Cadd_btn;
+    private javax.swing.JButton Cadd_btn1;
     private javax.swing.JRadioButton Cappuccino_btn;
+    private javax.swing.JRadioButton Cappuccino_btn1;
+    private javax.swing.JRadioButton Cappuccino_btn2;
+    private javax.swing.JRadioButton Cappuccino_btn3;
+    private javax.swing.JRadioButton Cappuccino_btn4;
+    private javax.swing.JRadioButton Cappuccino_btn5;
     private javax.swing.JLabel Cappuccino_price;
+    private javax.swing.JLabel Cappuccino_price1;
+    private javax.swing.JLabel Cappuccino_price2;
+    private javax.swing.JLabel Cappuccino_price4;
+    private javax.swing.JLabel Cappuccino_price5;
+    private javax.swing.JLabel Cappuccino_price6;
     private javax.swing.JLabel Cbig_price;
+    private javax.swing.JLabel Cbig_price1;
     private javax.swing.JPanel Ccream_lvl;
-    private javax.swing.JPanel Cice_lvl;
-    private javax.swing.JLabel Cice_price1;
-    private javax.swing.JLabel Cice_price2;
+    private javax.swing.JPanel Ccream_lvl1;
+    private javax.swing.JPanel Cice_lvl1;
+    private javax.swing.JLabel Cice_price3;
+    private javax.swing.JLabel Cice_price4;
     private javax.swing.JLabel Cmed_price;
+    private javax.swing.JLabel Cmed_price1;
     private javax.swing.JButton Cof_But;
     private javax.swing.JFrame Coffee;
     private javax.swing.JLabel Coffee_title;
-    private javax.swing.JRadioButton Cold_btn;
+    private javax.swing.JLabel Coffee_title1;
+    private javax.swing.JRadioButton Cold_btn1;
     private javax.swing.JRadioButton Cream_btn;
+    private javax.swing.JRadioButton Cream_btn1;
     private javax.swing.ButtonGroup Creamgroup;
     private javax.swing.JPanel Csize_Panel;
+    private javax.swing.JPanel Csize_Panel1;
     private javax.swing.JLabel Csmall_price;
+    private javax.swing.JLabel Csmall_price1;
+    private javax.swing.JLabel Csmall_price2;
+    private javax.swing.JLabel Csmall_price3;
+    private javax.swing.JLabel Csmall_price4;
+    private javax.swing.JLabel Csmall_price5;
+    private javax.swing.JLabel Csmall_price6;
     private javax.swing.JPanel Csugar_lvl;
+    private javax.swing.JPanel Csugar_lvl1;
     private javax.swing.JPanel Ctype_Panel;
+    private javax.swing.JPanel Ctype_Panel1;
     private javax.swing.JButton Delete_but;
     private javax.swing.JLabel Discount_lbl;
     private javax.swing.JRadioButton Espresso_btn;
+    private javax.swing.JRadioButton Espresso_btn1;
     private javax.swing.JLabel Espresso_price;
+    private javax.swing.JLabel Espresso_price1;
     private javax.swing.JRadioButton Full_lvl_btn2;
+    private javax.swing.JRadioButton Full_lvl_btn3;
     private javax.swing.JPanel Function_Panel;
     private javax.swing.JRadioButton High_lvl_btn1;
+    private javax.swing.JRadioButton High_lvl_btn2;
     private javax.swing.JPanel Home_Panel;
-    private javax.swing.JRadioButton Hot_btn;
+    private javax.swing.JRadioButton Hot_btn1;
     private javax.swing.ButtonGroup Icegroup;
     private javax.swing.JButton Key0_but;
     private javax.swing.JButton Key1_but;
@@ -3206,15 +3947,20 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JButton KeyDot_but;
     private javax.swing.JButton KeyEnter_but;
     private javax.swing.JRadioButton Latte_btn;
+    private javax.swing.JRadioButton Latte_btn1;
     private javax.swing.JLabel Latte_price;
+    private javax.swing.JLabel Latte_price1;
     private javax.swing.JMenuItem List_item;
     private javax.swing.JRadioButton Low_lvl_btn;
+    private javax.swing.JRadioButton Low_lvl_btn1;
     private javax.swing.JRadioButton Med_lvl_btn;
+    private javax.swing.JRadioButton Med_lvl_btn1;
     private javax.swing.JRadioButton Med_size_btn;
+    private javax.swing.JRadioButton Med_size_btn1;
     private javax.swing.JButton Member_but;
     private javax.swing.JLabel Member_lbl;
     private javax.swing.JTextField Member_txt;
-    private javax.swing.JRadioButton No_ice_btn;
+    private javax.swing.JRadioButton No_ice_btn1;
     private javax.swing.JLabel Optional_label14;
     private javax.swing.JLabel Optional_label15;
     private javax.swing.JLabel Optional_label16;
@@ -3264,10 +4010,15 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JMenuItem Regis_item;
     private javax.swing.JLabel Size;
     private javax.swing.JLabel Size1;
-    private javax.swing.JLabel Size2;
     private javax.swing.JLabel Size3;
+    private javax.swing.JLabel Size4;
+    private javax.swing.JLabel Size5;
+    private javax.swing.JLabel Size6;
+    private javax.swing.JLabel Size7;
     private javax.swing.ButtonGroup Sizegroup;
     private javax.swing.JRadioButton Small_size_btn;
+    private javax.swing.JRadioButton Small_size_btn1;
+    private javax.swing.JFrame Smoothie;
     private javax.swing.JButton Smoothie_But;
     private javax.swing.ButtonGroup Sugarlevelgroup;
     private javax.swing.JMenuItem Sys_item;
@@ -3278,9 +4029,15 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JLabel Total_lbl;
     private javax.swing.JTextPane Total_txt;
     private javax.swing.JLabel Type;
+    private javax.swing.JLabel Type1;
     private javax.swing.ButtonGroup Typegroup;
     private javax.swing.JRadioButton Without_cream_btn;
+    private javax.swing.JRadioButton Without_cream_btn1;
+    private javax.swing.JRadioButton Without_cream_btn2;
+    private javax.swing.JRadioButton Without_cream_btn3;
+    private javax.swing.JRadioButton Without_cream_btn4;
     private javax.swing.JRadioButton Zero_lvl_btn;
+    private javax.swing.JRadioButton Zero_lvl_btn1;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
@@ -3288,11 +4045,8 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
-
-    private javax.swing.JTextPane jTextPane1;
     private javax.swing.JFrame jyBagelSection;
     private javax.swing.JFrame jyPastrySection1;
-
     private javax.swing.JLabel lbl_Drink;
     private javax.swing.JLabel lbl_Subtotal;
     private javax.swing.JLabel lbl_Subtotal1;
@@ -3302,12 +4056,16 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JLabel required_label1;
     private javax.swing.JLabel required_label10;
     private javax.swing.JLabel required_label11;
+    private javax.swing.JLabel required_label12;
+    private javax.swing.JLabel required_label13;
+    private javax.swing.JLabel required_label14;
     private javax.swing.JLabel required_label2;
-    private javax.swing.JLabel required_label3;
     private javax.swing.JLabel required_label4;
     private javax.swing.JLabel required_label5;
     private javax.swing.JLabel required_label6;
     private javax.swing.JLabel required_label7;
+    private javax.swing.JLabel required_label8;
+    private javax.swing.JLabel required_label9;
     private javax.swing.JLabel subTotal_value;
     // End of variables declaration//GEN-END:variables
     
