@@ -420,6 +420,22 @@ public class Homepage extends javax.swing.JFrame {
         kiwi_price3 = new javax.swing.JLabel();
         gojiberries_price2 = new javax.swing.JLabel();
         Cadd_btn2 = new javax.swing.JButton();
+        Specialties = new javax.swing.JFrame();
+        Specialties_title1 = new javax.swing.JLabel();
+        Stype_Panel1 = new javax.swing.JPanel();
+        Type1 = new javax.swing.JLabel();
+        margarita_btn1 = new javax.swing.JRadioButton();
+        mojito_btn1 = new javax.swing.JRadioButton();
+        pinacolada_btn1 = new javax.swing.JRadioButton();
+        margarita_price1 = new javax.swing.JLabel();
+        mojito_price1 = new javax.swing.JLabel();
+        pinacolada_price1 = new javax.swing.JLabel();
+        STypeR_lbl1 = new javax.swing.JLabel();
+        vodkasoda_btn2 = new javax.swing.JRadioButton();
+        longisland_btn3 = new javax.swing.JRadioButton();
+        vodkasoda_price2 = new javax.swing.JLabel();
+        longisland_price3 = new javax.swing.JLabel();
+        Cadd_btn3 = new javax.swing.JButton();
         Home_Panel = new javax.swing.JPanel();
         Order_Panel = new javax.swing.JPanel();
         Cof_But = new javax.swing.JButton();
@@ -876,7 +892,7 @@ public class Homepage extends javax.swing.JFrame {
                         .addGroup(Csize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(Csize_PanelLayout.createSequentialGroup()
                                 .addComponent(Med_size_btn)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 49, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
                                 .addComponent(Cmed_price))
                             .addGroup(Csize_PanelLayout.createSequentialGroup()
                                 .addComponent(Small_size_btn)
@@ -1149,7 +1165,7 @@ public class Homepage extends javax.swing.JFrame {
                         .addGroup(Ccream_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(CWithout_cream_btn)
                             .addComponent(CCream_btn))))
-                .addContainerGap(78, Short.MAX_VALUE))
+                .addContainerGap(75, Short.MAX_VALUE))
         );
         Ccream_lvlLayout.setVerticalGroup(
             Ccream_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -3470,6 +3486,193 @@ public class Homepage extends javax.swing.JFrame {
                 .addGap(17, 17, 17))
         );
 
+        Specialties.setResizable(false);
+        Specialties.setSize(new java.awt.Dimension(1099, 450));
+
+        Specialties_title1.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
+        Specialties_title1.setText("Specialties");
+
+        Stype_Panel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        Type1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        Type1.setText("Type");
+
+        Typegroup.add(margarita_btn1);
+        margarita_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        margarita_btn1.setText("Margarita");
+        margarita_btn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                margarita_btn1ActionPerformed(evt);
+            }
+        });
+
+        Typegroup.add(mojito_btn1);
+        mojito_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        mojito_btn1.setText("Mojito");
+        mojito_btn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mojito_btn1ActionPerformed(evt);
+            }
+        });
+
+        Typegroup.add(pinacolada_btn1);
+        pinacolada_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        pinacolada_btn1.setText("Pina Colada");
+        pinacolada_btn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                pinacolada_btn1ActionPerformed(evt);
+            }
+        });
+
+        margarita_price1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        margarita_price1.setForeground(new java.awt.Color(102, 102, 102));
+        margarita_price1.setText("RM12.00");
+
+        mojito_price1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        mojito_price1.setForeground(new java.awt.Color(102, 102, 102));
+        mojito_price1.setText("RM12.00");
+
+        pinacolada_price1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        pinacolada_price1.setForeground(new java.awt.Color(102, 102, 102));
+        pinacolada_price1.setText("RM13.00");
+
+        STypeR_lbl1.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
+        STypeR_lbl1.setForeground(new java.awt.Color(102, 102, 102));
+        STypeR_lbl1.setText("(required)");
+
+        Typegroup.add(vodkasoda_btn2);
+        vodkasoda_btn2.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        vodkasoda_btn2.setText("Vodka Soda");
+        vodkasoda_btn2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                vodkasoda_btn2ActionPerformed(evt);
+            }
+        });
+
+        Typegroup.add(longisland_btn3);
+        longisland_btn3.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        longisland_btn3.setText("Long island");
+        longisland_btn3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                longisland_btn3ActionPerformed(evt);
+            }
+        });
+
+        vodkasoda_price2.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        vodkasoda_price2.setForeground(new java.awt.Color(102, 102, 102));
+        vodkasoda_price2.setText("RM15.00");
+
+        longisland_price3.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        longisland_price3.setForeground(new java.awt.Color(102, 102, 102));
+        longisland_price3.setText("RM13.00");
+
+        javax.swing.GroupLayout Stype_Panel1Layout = new javax.swing.GroupLayout(Stype_Panel1);
+        Stype_Panel1.setLayout(Stype_Panel1Layout);
+        Stype_Panel1Layout.setHorizontalGroup(
+            Stype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Stype_Panel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(Stype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(Stype_Panel1Layout.createSequentialGroup()
+                        .addComponent(Type1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(STypeR_lbl1)
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(Stype_Panel1Layout.createSequentialGroup()
+                        .addGap(54, 54, 54)
+                        .addGroup(Stype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(Stype_Panel1Layout.createSequentialGroup()
+                                .addComponent(mojito_btn1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(mojito_price1))
+                            .addGroup(Stype_Panel1Layout.createSequentialGroup()
+                                .addComponent(margarita_btn1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(margarita_price1))
+                            .addGroup(Stype_Panel1Layout.createSequentialGroup()
+                                .addComponent(pinacolada_btn1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 921, Short.MAX_VALUE)
+                                .addComponent(pinacolada_price1))
+                            .addGroup(Stype_Panel1Layout.createSequentialGroup()
+                                .addComponent(longisland_btn3)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(longisland_price3))
+                            .addGroup(Stype_Panel1Layout.createSequentialGroup()
+                                .addComponent(vodkasoda_btn2)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(vodkasoda_price2)))))
+                .addContainerGap())
+        );
+        Stype_Panel1Layout.setVerticalGroup(
+            Stype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Stype_Panel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(Stype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Type1)
+                    .addComponent(STypeR_lbl1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Stype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(margarita_btn1)
+                    .addComponent(margarita_price1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Stype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(mojito_btn1)
+                    .addComponent(mojito_price1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Stype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(pinacolada_btn1)
+                    .addComponent(pinacolada_price1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Stype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(vodkasoda_btn2)
+                    .addComponent(vodkasoda_price2))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Stype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(longisland_btn3)
+                    .addComponent(longisland_price3))
+                .addContainerGap(29, Short.MAX_VALUE))
+        );
+
+        Cadd_btn3.setBackground(new java.awt.Color(255, 153, 51));
+        Cadd_btn3.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        Cadd_btn3.setText("Add");
+        Cadd_btn3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Cadd_btn3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Cadd_btn3ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout SpecialtiesLayout = new javax.swing.GroupLayout(Specialties.getContentPane());
+        Specialties.getContentPane().setLayout(SpecialtiesLayout);
+        SpecialtiesLayout.setHorizontalGroup(
+            SpecialtiesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(SpecialtiesLayout.createSequentialGroup()
+                .addGap(17, 17, 17)
+                .addGroup(SpecialtiesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(SpecialtiesLayout.createSequentialGroup()
+                        .addComponent(Specialties_title1)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(SpecialtiesLayout.createSequentialGroup()
+                        .addGroup(SpecialtiesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(Stype_Panel1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addGroup(SpecialtiesLayout.createSequentialGroup()
+                                .addGap(0, 0, Short.MAX_VALUE)
+                                .addComponent(Cadd_btn3, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(17, 17, 17))))
+        );
+        SpecialtiesLayout.setVerticalGroup(
+            SpecialtiesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(SpecialtiesLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(Specialties_title1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(Stype_Panel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 214, Short.MAX_VALUE)
+                .addComponent(Cadd_btn3, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(17, 17, 17))
+        );
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Coffee Shop Cashier System");
         setFont(new java.awt.Font("Book Antiqua", 0, 10)); // NOI18N
@@ -4414,6 +4617,30 @@ public class Homepage extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_kiwi_btn4ActionPerformed
 
+    private void margarita_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_margarita_btn1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_margarita_btn1ActionPerformed
+
+    private void mojito_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mojito_btn1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_mojito_btn1ActionPerformed
+
+    private void pinacolada_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pinacolada_btn1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_pinacolada_btn1ActionPerformed
+
+    private void Cadd_btn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Cadd_btn3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Cadd_btn3ActionPerformed
+
+    private void vodkasoda_btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_vodkasoda_btn2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_vodkasoda_btn2ActionPerformed
+
+    private void longisland_btn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_longisland_btn3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_longisland_btn3ActionPerformed
+
     
 //    public static void main(String args[]) {
 //        /* Set the Nimbus look and feel */
@@ -4528,6 +4755,7 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JButton Cadd_btn;
     private javax.swing.JButton Cadd_btn1;
     private javax.swing.JButton Cadd_btn2;
+    private javax.swing.JButton Cadd_btn3;
     private javax.swing.JRadioButton Cappuccino_btn;
     private javax.swing.JLabel Cappuccino_price;
     private javax.swing.JLabel Cbig_price;
@@ -4631,10 +4859,14 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JScrollPane Receipt_Pane;
     private javax.swing.JTextPane Receipt_Text;
     private javax.swing.JMenuItem Regis_item;
+    private javax.swing.JLabel STypeR_lbl1;
     private javax.swing.ButtonGroup Sizegroup;
     private javax.swing.JRadioButton Small_size_btn;
     private javax.swing.JFrame Smoothie;
     private javax.swing.JButton Smoothie_But;
+    private javax.swing.JFrame Specialties;
+    private javax.swing.JLabel Specialties_title1;
+    private javax.swing.JPanel Stype_Panel1;
     private javax.swing.ButtonGroup Sugarlevelgroup;
     private javax.swing.JMenuItem Sys_item;
     private javax.swing.JMenu System_menu;
@@ -4700,6 +4932,7 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JPanel Ttype_Panel1;
     private javax.swing.JLabel Twithout_milk_price;
     private javax.swing.JLabel Type;
+    private javax.swing.JLabel Type1;
     private javax.swing.ButtonGroup Typegroup;
     private javax.swing.JRadioButton Without_milk_btn;
     private javax.swing.JRadioButton Zero_lvl_btn;
@@ -4730,12 +4963,20 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JLabel lbl_Subtotal1;
     private javax.swing.JLabel lbl_Tax;
     private javax.swing.JLabel lbl_food;
+    private javax.swing.JRadioButton longisland_btn3;
+    private javax.swing.JLabel longisland_price3;
+    private javax.swing.JRadioButton margarita_btn1;
+    private javax.swing.JLabel margarita_price1;
+    private javax.swing.JRadioButton mojito_btn1;
+    private javax.swing.JLabel mojito_price1;
     private javax.swing.JRadioButton mp_but2;
     private javax.swing.JRadioButton mp_but3;
     private javax.swing.JLabel mp_price2;
     private javax.swing.JLabel optional_lbl1;
     private javax.swing.JRadioButton orange_but1;
     private javax.swing.JLabel orange_price1;
+    private javax.swing.JRadioButton pinacolada_btn1;
+    private javax.swing.JLabel pinacolada_price1;
     private javax.swing.JRadioButton pl_but4;
     private javax.swing.JRadioButton pl_but5;
     private javax.swing.JLabel pl_price4;
@@ -4748,6 +4989,8 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JLabel required_label7;
     private javax.swing.JLabel subTotal_value;
     private javax.swing.JLabel topping;
+    private javax.swing.JRadioButton vodkasoda_btn2;
+    private javax.swing.JLabel vodkasoda_price2;
     // End of variables declaration//GEN-END:variables
     
     private boolean member;
