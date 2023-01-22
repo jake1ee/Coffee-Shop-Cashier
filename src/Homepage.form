@@ -2135,7 +2135,7 @@
         </Component>
       </SubComponents>
     </Container>
-    <Container class="javax.swing.JFrame" name="jyBagelSection">
+    <Container class="javax.swing.JFrame" name="Bagel">
       <Properties>
         <Property name="resizable" type="boolean" value="false"/>
         <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -3305,7 +3305,7 @@
         </Container>
       </SubComponents>
     </Container>
-    <Container class="javax.swing.JFrame" name="jyPastrySection1">
+    <Container class="javax.swing.JFrame" name="Pastry">
       <Properties>
         <Property name="resizable" type="boolean" value="false"/>
         <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -4094,16 +4094,6 @@
         </Container>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.ButtonGroup" name="Sizegroup">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="Typegroup">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="Sugarlevelgroup">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="Icegroup">
-    </Component>
-    <Component class="javax.swing.ButtonGroup" name="Creamgroup">
-    </Component>
     <Container class="javax.swing.JFrame" name="Smoothie">
       <Properties>
         <Property name="resizable" type="boolean" value="false"/>
@@ -5389,6 +5379,16 @@
         </Component>
       </SubComponents>
     </Container>
+    <Component class="javax.swing.ButtonGroup" name="Sizegroup">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="Typegroup">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="Sugarlevelgroup">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="Icegroup">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="Creamgroup">
+    </Component>
     <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
       <SubComponents>
         <Menu class="javax.swing.JMenu" name="System_menu">

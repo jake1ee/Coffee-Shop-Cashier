@@ -266,7 +266,7 @@ public class Homepage extends javax.swing.JFrame {
         Tmilk_price = new javax.swing.JLabel();
         Twithout_milk_price = new javax.swing.JLabel();
         Cadd_btn1 = new javax.swing.JButton();
-        jyBagelSection = new javax.swing.JFrame();
+        Bagel = new javax.swing.JFrame();
         BagelFlavour_Panel = new javax.swing.JPanel();
         BagelFlavourSection = new javax.swing.JLabel();
         BagelFlavour_Plain = new javax.swing.JRadioButton();
@@ -326,7 +326,7 @@ public class Homepage extends javax.swing.JFrame {
         BagelToppingIngredient_TomatoPrice = new javax.swing.JLabel();
         BagelToppingIngredient_Lettuce = new javax.swing.JRadioButton();
         BagelToppingIngredient_LettucePrice = new javax.swing.JLabel();
-        jyPastrySection1 = new javax.swing.JFrame();
+        Pastry = new javax.swing.JFrame();
         Pastry_title2 = new javax.swing.JLabel();
         Pastry_add_btn2 = new javax.swing.JButton();
         PastryMuffin_Panel = new javax.swing.JPanel();
@@ -365,11 +365,6 @@ public class Homepage extends javax.swing.JFrame {
         PastryTart_FruitTartPrice = new javax.swing.JLabel();
         PastryTart_ChocolateTartPrice = new javax.swing.JLabel();
         Optional_label17 = new javax.swing.JLabel();
-        Sizegroup = new javax.swing.ButtonGroup();
-        Typegroup = new javax.swing.ButtonGroup();
-        Sugarlevelgroup = new javax.swing.ButtonGroup();
-        Icegroup = new javax.swing.ButtonGroup();
-        Creamgroup = new javax.swing.ButtonGroup();
         Smoothie = new javax.swing.JFrame();
         TSugar_lvl1 = new javax.swing.JPanel();
         Tsugar_lbl1 = new javax.swing.JLabel();
@@ -436,6 +431,11 @@ public class Homepage extends javax.swing.JFrame {
         vodkasoda_price2 = new javax.swing.JLabel();
         longisland_price3 = new javax.swing.JLabel();
         Cadd_btn3 = new javax.swing.JButton();
+        Sizegroup = new javax.swing.ButtonGroup();
+        Typegroup = new javax.swing.ButtonGroup();
+        Sugarlevelgroup = new javax.swing.ButtonGroup();
+        Icegroup = new javax.swing.ButtonGroup();
+        Creamgroup = new javax.swing.ButtonGroup();
         Home_Panel = new javax.swing.JPanel();
         Order_Panel = new javax.swing.JPanel();
         Cof_But = new javax.swing.JButton();
@@ -1760,8 +1760,8 @@ public class Homepage extends javax.swing.JFrame {
                 .addGap(17, 17, 17))
         );
 
-        jyBagelSection.setResizable(false);
-        jyBagelSection.setSize(new java.awt.Dimension(1099, 450));
+        Bagel.setResizable(false);
+        Bagel.setSize(new java.awt.Dimension(1099, 450));
 
         BagelFlavour_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
@@ -2398,19 +2398,19 @@ public class Homepage extends javax.swing.JFrame {
                 .addContainerGap(43, Short.MAX_VALUE))
         );
 
-        javax.swing.GroupLayout jyBagelSectionLayout = new javax.swing.GroupLayout(jyBagelSection.getContentPane());
-        jyBagelSection.getContentPane().setLayout(jyBagelSectionLayout);
-        jyBagelSectionLayout.setHorizontalGroup(
-            jyBagelSectionLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jyBagelSectionLayout.createSequentialGroup()
+        javax.swing.GroupLayout BagelLayout = new javax.swing.GroupLayout(Bagel.getContentPane());
+        Bagel.getContentPane().setLayout(BagelLayout);
+        BagelLayout.setHorizontalGroup(
+            BagelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(BagelLayout.createSequentialGroup()
                 .addGap(17, 17, 17)
-                .addGroup(jyBagelSectionLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jyBagelSectionLayout.createSequentialGroup()
+                .addGroup(BagelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(BagelLayout.createSequentialGroup()
                         .addComponent(Bagel_title1)
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jyBagelSectionLayout.createSequentialGroup()
-                        .addGroup(jyBagelSectionLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(jyBagelSectionLayout.createSequentialGroup()
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, BagelLayout.createSequentialGroup()
+                        .addGroup(BagelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(BagelLayout.createSequentialGroup()
                                 .addGap(8, 8, 8)
                                 .addComponent(BagelSizePanel, javax.swing.GroupLayout.PREFERRED_SIZE, 256, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
@@ -2420,22 +2420,22 @@ public class Homepage extends javax.swing.JFrame {
                                 .addGap(18, 18, 18)
                                 .addComponent(BagelToppingIngredient_Panel, javax.swing.GroupLayout.DEFAULT_SIZE, 345, Short.MAX_VALUE))
                             .addComponent(BagelDough_Panel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addGroup(jyBagelSectionLayout.createSequentialGroup()
+                            .addGroup(BagelLayout.createSequentialGroup()
                                 .addGap(0, 0, Short.MAX_VALUE)
                                 .addComponent(Bagel_add_btn1, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(17, 17, 17))))
         );
-        jyBagelSectionLayout.setVerticalGroup(
-            jyBagelSectionLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jyBagelSectionLayout.createSequentialGroup()
+        BagelLayout.setVerticalGroup(
+            BagelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(BagelLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(Bagel_title1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(BagelDough_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, Short.MAX_VALUE)
-                .addGroup(jyBagelSectionLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jyBagelSectionLayout.createSequentialGroup()
-                        .addGroup(jyBagelSectionLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(BagelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(BagelLayout.createSequentialGroup()
+                        .addGroup(BagelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(BagelToppingSauce_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(BagelFlavour_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(BagelSizePanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -2445,8 +2445,8 @@ public class Homepage extends javax.swing.JFrame {
                 .addGap(17, 17, 17))
         );
 
-        jyPastrySection1.setResizable(false);
-        jyPastrySection1.setSize(new java.awt.Dimension(1099, 450));
+        Pastry.setResizable(false);
+        Pastry.setSize(new java.awt.Dimension(1099, 450));
 
         Pastry_title2.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
         Pastry_title2.setText("Pastry");
@@ -2857,53 +2857,53 @@ public class Homepage extends javax.swing.JFrame {
                 .addContainerGap(34, Short.MAX_VALUE))
         );
 
-        javax.swing.GroupLayout jyPastrySection1Layout = new javax.swing.GroupLayout(jyPastrySection1.getContentPane());
-        jyPastrySection1.getContentPane().setLayout(jyPastrySection1Layout);
-        jyPastrySection1Layout.setHorizontalGroup(
-            jyPastrySection1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jyPastrySection1Layout.createSequentialGroup()
+        javax.swing.GroupLayout PastryLayout = new javax.swing.GroupLayout(Pastry.getContentPane());
+        Pastry.getContentPane().setLayout(PastryLayout);
+        PastryLayout.setHorizontalGroup(
+            PastryLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PastryLayout.createSequentialGroup()
                 .addGap(17, 17, 17)
-                .addGroup(jyPastrySection1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jyPastrySection1Layout.createSequentialGroup()
+                .addGroup(PastryLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(PastryLayout.createSequentialGroup()
                         .addComponent(Pastry_title2)
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jyPastrySection1Layout.createSequentialGroup()
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PastryLayout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
                         .addComponent(Pastry_add_btn2, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(17, 17, 17))
-                    .addGroup(jyPastrySection1Layout.createSequentialGroup()
+                    .addGroup(PastryLayout.createSequentialGroup()
                         .addComponent(PastryDonuts_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(80, 80, 80)
-                        .addGroup(jyPastrySection1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(PastryLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(PastrySpecial_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(PastryMuffin_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(0, 145, Short.MAX_VALUE))))
-            .addGroup(jyPastrySection1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(jyPastrySection1Layout.createSequentialGroup()
+            .addGroup(PastryLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(PastryLayout.createSequentialGroup()
                     .addGap(27, 27, 27)
                     .addComponent(PastryTarts_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addContainerGap(629, Short.MAX_VALUE)))
         );
-        jyPastrySection1Layout.setVerticalGroup(
-            jyPastrySection1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jyPastrySection1Layout.createSequentialGroup()
+        PastryLayout.setVerticalGroup(
+            PastryLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PastryLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(Pastry_title2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jyPastrySection1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jyPastrySection1Layout.createSequentialGroup()
+                .addGroup(PastryLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(PastryLayout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
                         .addComponent(PastryDonuts_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(282, 282, 282)
                         .addComponent(Pastry_add_btn2, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(17, 17, 17))
-                    .addGroup(jyPastrySection1Layout.createSequentialGroup()
+                    .addGroup(PastryLayout.createSequentialGroup()
                         .addComponent(PastryMuffin_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(34, 34, 34)
                         .addComponent(PastrySpecial_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-            .addGroup(jyPastrySection1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jyPastrySection1Layout.createSequentialGroup()
+            .addGroup(PastryLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PastryLayout.createSequentialGroup()
                     .addContainerGap(265, Short.MAX_VALUE)
                     .addComponent(PastryTarts_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGap(153, 153, 153)))
@@ -3999,6 +3999,8 @@ public class Homepage extends javax.swing.JFrame {
         String Name ="Coffee";
         Double Price = 3.5;
         
+        Coffee.setVisible(true);
+        
         addTable(Name, Price);
     }//GEN-LAST:event_Cof_ButActionPerformed
 
@@ -4006,6 +4008,8 @@ public class Homepage extends javax.swing.JFrame {
          String Name ="Bagel";
          Double Price = 3.0;
           
+         Bagel.setVisible(true);
+         
          addTable(Name, Price);
     }//GEN-LAST:event_Bagel_ButActionPerformed
 
@@ -4013,12 +4017,16 @@ public class Homepage extends javax.swing.JFrame {
           String Name ="Tea";
           Double Price = 1.5;
          
+          Tea.setVisible(true);
+          
          addTable(Name, Price);
     }//GEN-LAST:event_Tea_ButActionPerformed
 
     private void Other_ButActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Other_ButActionPerformed
          String Name ="Others";
           Double Price = 4.0;
+          
+          Specialties.setVisible(true);
           
          addTable(Name, Price);
     }//GEN-LAST:event_Other_ButActionPerformed
@@ -4027,6 +4035,8 @@ public class Homepage extends javax.swing.JFrame {
          String Name ="Smoothie";
          Double Price = 5.5;
           
+         Smoothie.setVisible(true);
+         
          addTable(Name, Price);
     }//GEN-LAST:event_Smoothie_ButActionPerformed
 
@@ -4034,6 +4044,8 @@ public class Homepage extends javax.swing.JFrame {
         String Name ="Pastry";
          Double Price = 2.0;
           
+         Pastry.setVisible(true);
+         
          addTable(Name, Price);
     }//GEN-LAST:event_Pastry_ButActionPerformed
 
@@ -4682,6 +4694,7 @@ public class Homepage extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel Amount_lbl;
     private javax.swing.JTextPane Amount_txt;
+    private javax.swing.JFrame Bagel;
     private javax.swing.JLabel BagelDoughSection;
     private javax.swing.JRadioButton BagelDough_Mixed;
     private javax.swing.JLabel BagelDough_MixedPrice;
@@ -4819,6 +4832,7 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JPanel Order_Panel;
     private javax.swing.JTable Order_Table;
     private javax.swing.JButton Other_But;
+    private javax.swing.JFrame Pastry;
     private javax.swing.JLabel PastryDonutSection4;
     private javax.swing.JRadioButton PastryDonut_Glazed;
     private javax.swing.JLabel PastryDonut_GlazedPrice;
@@ -4954,8 +4968,6 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
-    private javax.swing.JFrame jyBagelSection;
-    private javax.swing.JFrame jyPastrySection1;
     private javax.swing.JRadioButton kiwi_btn4;
     private javax.swing.JLabel kiwi_price3;
     private javax.swing.JLabel lbl_Drink;
