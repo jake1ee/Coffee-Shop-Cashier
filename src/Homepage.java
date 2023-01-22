@@ -376,6 +376,23 @@ public class Homepage extends javax.swing.JFrame {
         Without_cream_btn1 = new javax.swing.JRadioButton();
         required_label14 = new javax.swing.JLabel();
         Cadd_btn1 = new javax.swing.JButton();
+        Specialties = new javax.swing.JFrame();
+        Coffee_title2 = new javax.swing.JLabel();
+        Ctype_Panel2 = new javax.swing.JPanel();
+        Type2 = new javax.swing.JLabel();
+        Latte_btn2 = new javax.swing.JRadioButton();
+        Espresso_btn2 = new javax.swing.JRadioButton();
+        Cappuccino_btn6 = new javax.swing.JRadioButton();
+        Latte_price2 = new javax.swing.JLabel();
+        Espresso_price2 = new javax.swing.JLabel();
+        Cappuccino_price3 = new javax.swing.JLabel();
+        required_label16 = new javax.swing.JLabel();
+        Cappuccino_btn7 = new javax.swing.JRadioButton();
+        Cappuccino_btn8 = new javax.swing.JRadioButton();
+        Cappuccino_price7 = new javax.swing.JLabel();
+        Cappuccino_price9 = new javax.swing.JLabel();
+        Cappuccino_price10 = new javax.swing.JLabel();
+        Cadd_btn2 = new javax.swing.JButton();
         Home_Panel = new javax.swing.JPanel();
         Order_Panel = new javax.swing.JPanel();
         Cof_But = new javax.swing.JButton();
@@ -2903,6 +2920,202 @@ public class Homepage extends javax.swing.JFrame {
                 .addGap(17, 17, 17))
         );
 
+        Specialties.setResizable(false);
+        Specialties.setSize(new java.awt.Dimension(1099, 450));
+
+        Coffee_title2.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
+        Coffee_title2.setText("Specialties");
+
+        Ctype_Panel2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        Type2.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        Type2.setText("Type");
+
+        Typegroup.add(Latte_btn2);
+        Latte_btn2.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Latte_btn2.setText("Margarita");
+        Latte_btn2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Latte_btn2ActionPerformed(evt);
+            }
+        });
+
+        Typegroup.add(Espresso_btn2);
+        Espresso_btn2.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Espresso_btn2.setText("Mojito");
+        Espresso_btn2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Espresso_btn2ActionPerformed(evt);
+            }
+        });
+
+        Typegroup.add(Cappuccino_btn6);
+        Cappuccino_btn6.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Cappuccino_btn6.setText("Pina colada");
+        Cappuccino_btn6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Cappuccino_btn6ActionPerformed(evt);
+            }
+        });
+
+        Latte_price2.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Latte_price2.setForeground(new java.awt.Color(102, 102, 102));
+        Latte_price2.setText("RM12.00");
+
+        Espresso_price2.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Espresso_price2.setForeground(new java.awt.Color(102, 102, 102));
+        Espresso_price2.setText("RM12.00");
+
+        Cappuccino_price3.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Cappuccino_price3.setForeground(new java.awt.Color(102, 102, 102));
+        Cappuccino_price3.setText("RM15.00");
+
+        required_label16.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
+        required_label16.setForeground(new java.awt.Color(102, 102, 102));
+        required_label16.setText("(required)");
+
+        Typegroup.add(Cappuccino_btn7);
+        Cappuccino_btn7.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Cappuccino_btn7.setText("Vodka Soda");
+        Cappuccino_btn7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Cappuccino_btn7ActionPerformed(evt);
+            }
+        });
+
+        Typegroup.add(Cappuccino_btn8);
+        Cappuccino_btn8.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Cappuccino_btn8.setText("Long island");
+        Cappuccino_btn8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Cappuccino_btn8ActionPerformed(evt);
+            }
+        });
+
+        Cappuccino_price7.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Cappuccino_price7.setForeground(new java.awt.Color(102, 102, 102));
+        Cappuccino_price7.setText("RM16.00");
+
+        Cappuccino_price9.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Cappuccino_price9.setForeground(new java.awt.Color(102, 102, 102));
+        Cappuccino_price9.setText("RM15.00");
+
+        Cappuccino_price10.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Cappuccino_price10.setForeground(new java.awt.Color(102, 102, 102));
+        Cappuccino_price10.setText("RM11.00");
+
+        javax.swing.GroupLayout Ctype_Panel2Layout = new javax.swing.GroupLayout(Ctype_Panel2);
+        Ctype_Panel2.setLayout(Ctype_Panel2Layout);
+        Ctype_Panel2Layout.setHorizontalGroup(
+            Ctype_Panel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Ctype_Panel2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(Ctype_Panel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(Ctype_Panel2Layout.createSequentialGroup()
+                        .addComponent(Type2)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(required_label16)
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(Ctype_Panel2Layout.createSequentialGroup()
+                        .addGap(54, 54, 54)
+                        .addGroup(Ctype_Panel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(Ctype_Panel2Layout.createSequentialGroup()
+                                .addComponent(Espresso_btn2)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(Espresso_price2))
+                            .addGroup(Ctype_Panel2Layout.createSequentialGroup()
+                                .addComponent(Latte_btn2)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(Latte_price2))
+                            .addGroup(Ctype_Panel2Layout.createSequentialGroup()
+                                .addComponent(Cappuccino_btn6)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(Cappuccino_price3))
+                            .addGroup(Ctype_Panel2Layout.createSequentialGroup()
+                                .addComponent(Cappuccino_btn7)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 987, Short.MAX_VALUE)
+                                .addComponent(Cappuccino_price7))
+                            .addGroup(Ctype_Panel2Layout.createSequentialGroup()
+                                .addComponent(Cappuccino_btn8)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(Cappuccino_price9))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Ctype_Panel2Layout.createSequentialGroup()
+                                .addGap(0, 0, Short.MAX_VALUE)
+                                .addComponent(Cappuccino_price10)))))
+                .addContainerGap())
+        );
+        Ctype_Panel2Layout.setVerticalGroup(
+            Ctype_Panel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Ctype_Panel2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(Ctype_Panel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Type2)
+                    .addComponent(required_label16))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Ctype_Panel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Latte_btn2)
+                    .addComponent(Latte_price2))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Ctype_Panel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Espresso_btn2)
+                    .addComponent(Espresso_price2))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Ctype_Panel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Cappuccino_btn6)
+                    .addComponent(Cappuccino_price3))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Ctype_Panel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Cappuccino_btn7)
+                    .addComponent(Cappuccino_price7))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Ctype_Panel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Cappuccino_btn8)
+                    .addComponent(Cappuccino_price9))
+                .addGap(33, 33, 33)
+                .addComponent(Cappuccino_price10)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        Cadd_btn2.setBackground(new java.awt.Color(255, 153, 51));
+        Cadd_btn2.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        Cadd_btn2.setText("Add");
+        Cadd_btn2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Cadd_btn2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Cadd_btn2ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout SpecialtiesLayout = new javax.swing.GroupLayout(Specialties.getContentPane());
+        Specialties.getContentPane().setLayout(SpecialtiesLayout);
+        SpecialtiesLayout.setHorizontalGroup(
+            SpecialtiesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(SpecialtiesLayout.createSequentialGroup()
+                .addGap(17, 17, 17)
+                .addGroup(SpecialtiesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(SpecialtiesLayout.createSequentialGroup()
+                        .addComponent(Coffee_title2)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(SpecialtiesLayout.createSequentialGroup()
+                        .addGroup(SpecialtiesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(Ctype_Panel2, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addGroup(SpecialtiesLayout.createSequentialGroup()
+                                .addGap(0, 0, Short.MAX_VALUE)
+                                .addComponent(Cadd_btn2, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(17, 17, 17))))
+        );
+        SpecialtiesLayout.setVerticalGroup(
+            SpecialtiesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(SpecialtiesLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(Coffee_title2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(Ctype_Panel2, javax.swing.GroupLayout.PREFERRED_SIZE, 223, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 347, Short.MAX_VALUE)
+                .addComponent(Cadd_btn2, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(17, 17, 17))
+        );
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Coffee Shop Cashier System");
         setFont(new java.awt.Font("Book Antiqua", 0, 10)); // NOI18N
@@ -3777,6 +3990,30 @@ public class Homepage extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_Without_cream_btn4ActionPerformed
 
+    private void Cadd_btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Cadd_btn2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Cadd_btn2ActionPerformed
+
+    private void Cappuccino_btn8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Cappuccino_btn8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Cappuccino_btn8ActionPerformed
+
+    private void Cappuccino_btn7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Cappuccino_btn7ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Cappuccino_btn7ActionPerformed
+
+    private void Cappuccino_btn6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Cappuccino_btn6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Cappuccino_btn6ActionPerformed
+
+    private void Espresso_btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Espresso_btn2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Espresso_btn2ActionPerformed
+
+    private void Latte_btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Latte_btn2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Latte_btn2ActionPerformed
+
     
 //    public static void main(String args[]) {
 //        /* Set the Nimbus look and feel */
@@ -3877,18 +4114,26 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JRadioButton Big_size_btn1;
     private javax.swing.JButton Cadd_btn;
     private javax.swing.JButton Cadd_btn1;
+    private javax.swing.JButton Cadd_btn2;
     private javax.swing.JRadioButton Cappuccino_btn;
     private javax.swing.JRadioButton Cappuccino_btn1;
     private javax.swing.JRadioButton Cappuccino_btn2;
     private javax.swing.JRadioButton Cappuccino_btn3;
     private javax.swing.JRadioButton Cappuccino_btn4;
     private javax.swing.JRadioButton Cappuccino_btn5;
+    private javax.swing.JRadioButton Cappuccino_btn6;
+    private javax.swing.JRadioButton Cappuccino_btn7;
+    private javax.swing.JRadioButton Cappuccino_btn8;
     private javax.swing.JLabel Cappuccino_price;
     private javax.swing.JLabel Cappuccino_price1;
+    private javax.swing.JLabel Cappuccino_price10;
     private javax.swing.JLabel Cappuccino_price2;
+    private javax.swing.JLabel Cappuccino_price3;
     private javax.swing.JLabel Cappuccino_price4;
     private javax.swing.JLabel Cappuccino_price5;
     private javax.swing.JLabel Cappuccino_price6;
+    private javax.swing.JLabel Cappuccino_price7;
+    private javax.swing.JLabel Cappuccino_price9;
     private javax.swing.JLabel Cbig_price;
     private javax.swing.JLabel Cbig_price1;
     private javax.swing.JPanel Ccream_lvl;
@@ -3902,6 +4147,7 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JFrame Coffee;
     private javax.swing.JLabel Coffee_title;
     private javax.swing.JLabel Coffee_title1;
+    private javax.swing.JLabel Coffee_title2;
     private javax.swing.JRadioButton Cold_btn1;
     private javax.swing.JRadioButton Cream_btn;
     private javax.swing.JRadioButton Cream_btn1;
@@ -3919,12 +4165,15 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JPanel Csugar_lvl1;
     private javax.swing.JPanel Ctype_Panel;
     private javax.swing.JPanel Ctype_Panel1;
+    private javax.swing.JPanel Ctype_Panel2;
     private javax.swing.JButton Delete_but;
     private javax.swing.JLabel Discount_lbl;
     private javax.swing.JRadioButton Espresso_btn;
     private javax.swing.JRadioButton Espresso_btn1;
+    private javax.swing.JRadioButton Espresso_btn2;
     private javax.swing.JLabel Espresso_price;
     private javax.swing.JLabel Espresso_price1;
+    private javax.swing.JLabel Espresso_price2;
     private javax.swing.JRadioButton Full_lvl_btn2;
     private javax.swing.JRadioButton Full_lvl_btn3;
     private javax.swing.JPanel Function_Panel;
@@ -3948,8 +4197,10 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JButton KeyEnter_but;
     private javax.swing.JRadioButton Latte_btn;
     private javax.swing.JRadioButton Latte_btn1;
+    private javax.swing.JRadioButton Latte_btn2;
     private javax.swing.JLabel Latte_price;
     private javax.swing.JLabel Latte_price1;
+    private javax.swing.JLabel Latte_price2;
     private javax.swing.JMenuItem List_item;
     private javax.swing.JRadioButton Low_lvl_btn;
     private javax.swing.JRadioButton Low_lvl_btn1;
@@ -4020,6 +4271,7 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JRadioButton Small_size_btn1;
     private javax.swing.JFrame Smoothie;
     private javax.swing.JButton Smoothie_But;
+    private javax.swing.JFrame Specialties;
     private javax.swing.ButtonGroup Sugarlevelgroup;
     private javax.swing.JMenuItem Sys_item;
     private javax.swing.JMenu System_menu;
@@ -4030,6 +4282,7 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JTextPane Total_txt;
     private javax.swing.JLabel Type;
     private javax.swing.JLabel Type1;
+    private javax.swing.JLabel Type2;
     private javax.swing.ButtonGroup Typegroup;
     private javax.swing.JRadioButton Without_cream_btn;
     private javax.swing.JRadioButton Without_cream_btn1;
@@ -4059,6 +4312,7 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JLabel required_label12;
     private javax.swing.JLabel required_label13;
     private javax.swing.JLabel required_label14;
+    private javax.swing.JLabel required_label16;
     private javax.swing.JLabel required_label2;
     private javax.swing.JLabel required_label4;
     private javax.swing.JLabel required_label5;
