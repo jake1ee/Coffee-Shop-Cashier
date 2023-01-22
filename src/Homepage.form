@@ -3220,7 +3220,7 @@
         </Container>
       </SubComponents>
     </Container>
-    <Container class="javax.swing.JFrame" name="Coffee1">
+    <Container class="javax.swing.JFrame" name="Tea">
       <Properties>
         <Property name="resizable" type="boolean" value="false"/>
         <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
@@ -3235,7 +3235,7 @@
                   <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
-                          <Component id="Coffee_title1" min="-2" max="-2" attributes="0"/>
+                          <Component id="Tea_title" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="32767" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
@@ -3265,7 +3265,7 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="Coffee_title1" min="-2" max="-2" attributes="0"/>
+                  <Component id="Tea_title" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="Ctype_Panel1" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="32767" attributes="0"/>
@@ -3299,7 +3299,7 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="Size4" min="-2" max="-2" attributes="0"/>
+                              <Component id="Sugarlevel" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="required_label8" min="-2" max="-2" attributes="0"/>
                           </Group>
@@ -3323,7 +3323,7 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="Size4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Sugarlevel" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="required_label8" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
@@ -3342,7 +3342,7 @@
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JLabel" name="Size4">
+            <Component class="javax.swing.JLabel" name="Sugarlevel">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Times New Roman" size="24" style="1"/>
@@ -3607,12 +3607,12 @@
             </Component>
           </SubComponents>
         </Container>
-        <Component class="javax.swing.JLabel" name="Coffee_title1">
+        <Component class="javax.swing.JLabel" name="Tea_title">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Times New Roman" size="36" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Coffee"/>
+            <Property name="text" type="java.lang.String" value="Tea"/>
           </Properties>
         </Component>
         <Container class="javax.swing.JPanel" name="Ctype_Panel1">
@@ -3642,17 +3642,17 @@
                                   <Group type="102" alignment="0" attributes="0">
                                       <Component id="Espresso_btn1" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace max="32767" attributes="0"/>
-                                      <Component id="Espresso_price1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Jasmine_price" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="Latte_btn1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Egtea_btn" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace max="32767" attributes="0"/>
-                                      <Component id="Latte_price1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Egtea_price" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
                                       <Component id="Cappuccino_btn1" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace max="32767" attributes="0"/>
-                                      <Component id="Cappuccino_price1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Oolong_price" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
@@ -3671,18 +3671,18 @@
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="Latte_btn1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="Latte_price1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Egtea_btn" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Egtea_price" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="Espresso_btn1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="Espresso_price1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Jasmine_price" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="Cappuccino_btn1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="Cappuccino_price1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Oolong_price" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace pref="29" max="32767" attributes="0"/>
                   </Group>
@@ -3698,7 +3698,7 @@
                 <Property name="text" type="java.lang.String" value="Type"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JRadioButton" name="Latte_btn1">
+            <Component class="javax.swing.JRadioButton" name="Egtea_btn">
               <Properties>
                 <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                   <ComponentRef name="Typegroup"/>
@@ -3706,10 +3706,10 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Times New Roman" size="18" style="0"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="Latte"/>
+                <Property name="text" type="java.lang.String" value="Earl grey"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Latte_btn1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Egtea_btnActionPerformed"/>
               </Events>
             </Component>
             <Component class="javax.swing.JRadioButton" name="Espresso_btn1">
@@ -3720,7 +3720,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Times New Roman" size="18" style="0"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="Espresso"/>
+                <Property name="text" type="java.lang.String" value="Jasmine"/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Espresso_btn1ActionPerformed"/>
@@ -3734,13 +3734,13 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Times New Roman" size="18" style="0"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="Cappucinno"/>
+                <Property name="text" type="java.lang.String" value="Oolong peach"/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Cappuccino_btn1ActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JLabel" name="Latte_price1">
+            <Component class="javax.swing.JLabel" name="Egtea_price">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Times New Roman" size="18" style="0"/>
@@ -3748,10 +3748,10 @@
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="66" green="66" red="66" type="rgb"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="RM9.00"/>
+                <Property name="text" type="java.lang.String" value="RM7.00"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JLabel" name="Espresso_price1">
+            <Component class="javax.swing.JLabel" name="Jasmine_price">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Times New Roman" size="18" style="0"/>
@@ -3759,10 +3759,10 @@
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="66" green="66" red="66" type="rgb"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="RM8.00"/>
+                <Property name="text" type="java.lang.String" value="RM7.00"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JLabel" name="Cappuccino_price1">
+            <Component class="javax.swing.JLabel" name="Oolong_price">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Times New Roman" size="18" style="0"/>
@@ -3805,7 +3805,7 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="Size6" min="-2" max="-2" attributes="0"/>
+                              <Component id="Icelevel" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="required_label13" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
@@ -3816,7 +3816,7 @@
                                   <Group type="102" alignment="0" attributes="0">
                                       <Component id="Cold_btn1" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace max="32767" attributes="0"/>
-                                      <Component id="Cice_price3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Tice_price" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
                                       <Component id="Hot_btn1" min="-2" max="-2" attributes="0"/>
@@ -3824,8 +3824,8 @@
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
                                       <Component id="No_ice_btn1" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace max="32767" attributes="0"/>
-                                      <Component id="Cice_price4" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace pref="11" max="32767" attributes="0"/>
+                                      <Component id="Tice_price1" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
@@ -3839,7 +3839,7 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="Size6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Icelevel" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="required_label13" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
@@ -3847,12 +3847,12 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="Cold_btn1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="Cice_price3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Tice_price" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="No_ice_btn1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="Cice_price4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Tice_price1" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace pref="107" max="32767" attributes="0"/>
                   </Group>
@@ -3860,7 +3860,7 @@
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JLabel" name="Size6">
+            <Component class="javax.swing.JLabel" name="Icelevel">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Times New Roman" size="24" style="1"/>
@@ -3910,7 +3910,7 @@
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="No_ice_btn1ActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JLabel" name="Cice_price3">
+            <Component class="javax.swing.JLabel" name="Tice_price">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Times New Roman" size="18" style="0"/>
@@ -3921,7 +3921,7 @@
                 <Property name="text" type="java.lang.String" value="+RM1.00"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JLabel" name="Cice_price4">
+            <Component class="javax.swing.JLabel" name="Tice_price1">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Times New Roman" size="18" style="0"/>
@@ -3964,19 +3964,27 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="Size7" min="-2" max="-2" attributes="0"/>
+                              <Component id="Milklevel" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="required_label14" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="Without_cream_btn1" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="Cream_btn1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="Without_milk_btn" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace pref="15" max="32767" attributes="0"/>
+                                      <Component id="Twithout_milk_price" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="Milk_btn" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="Tmilk_price" min="-2" max="-2" attributes="0"/>
+                                  </Group>
                               </Group>
                           </Group>
                       </Group>
-                      <EmptySpace pref="78" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -3985,28 +3993,34 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="Size7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Milklevel" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="required_label14" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="Cream_btn1" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Milk_btn" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Tmilk_price" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="Without_cream_btn1" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Without_milk_btn" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Twithout_milk_price" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
                       <EmptySpace pref="139" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JLabel" name="Size7">
+            <Component class="javax.swing.JLabel" name="Milklevel">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Times New Roman" size="24" style="1"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="Cream"/>
+                <Property name="text" type="java.lang.String" value="Milk"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JRadioButton" name="Cream_btn1">
+            <Component class="javax.swing.JRadioButton" name="Milk_btn">
               <Properties>
                 <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                   <ComponentRef name="Creamgroup"/>
@@ -4014,13 +4028,13 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Times New Roman" size="18" style="0"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="With cream"/>
+                <Property name="text" type="java.lang.String" value="With milk"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Cream_btn1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Milk_btnActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JRadioButton" name="Without_cream_btn1">
+            <Component class="javax.swing.JRadioButton" name="Without_milk_btn">
               <Properties>
                 <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                   <ComponentRef name="Creamgroup"/>
@@ -4028,10 +4042,10 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Times New Roman" size="18" style="0"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="Without cream"/>
+                <Property name="text" type="java.lang.String" value="Without milk"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Without_cream_btn1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Without_milk_btnActionPerformed"/>
               </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="required_label14">
@@ -4043,6 +4057,28 @@
                   <Color blue="66" green="66" red="66" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="(optional)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Tmilk_price">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="18" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="66" green="66" red="66" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="+RM1.00"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Twithout_milk_price">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="18" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="66" green="66" red="66" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="+RM0.00"/>
               </Properties>
             </Component>
           </SubComponents>
@@ -4243,7 +4279,7 @@
                       </Group>
                       <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
                       <Component id="Member_but" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="29" max="32767" attributes="0"/>
+                      <EmptySpace pref="19" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -4252,7 +4288,7 @@
             <Component class="javax.swing.JButton" name="Cof_But">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="STFangsong" size="18" style="0"/>
+                  <Font name="Trebuchet MS" size="18" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Coffee"/>
               </Properties>
@@ -4263,7 +4299,7 @@
             <Component class="javax.swing.JButton" name="Other_But">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="STFangsong" size="18" style="0"/>
+                  <Font name="Trebuchet MS" size="18" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Others"/>
               </Properties>
@@ -4274,7 +4310,7 @@
             <Component class="javax.swing.JButton" name="Smoothie_But">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="STFangsong" size="18" style="0"/>
+                  <Font name="Trebuchet MS" size="18" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Smoothie"/>
               </Properties>
@@ -4285,7 +4321,7 @@
             <Component class="javax.swing.JButton" name="Tea_But">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="STFangsong" size="18" style="0"/>
+                  <Font name="Trebuchet MS" size="18" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Tea"/>
               </Properties>
@@ -4296,7 +4332,7 @@
             <Component class="javax.swing.JLabel" name="lbl_Drink">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Segoe UI" size="18" style="1"/>
+                  <Font name="Times New Roman" size="24" style="1"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Drink"/>
               </Properties>
@@ -4304,7 +4340,7 @@
             <Component class="javax.swing.JLabel" name="lbl_food">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Segoe UI" size="18" style="1"/>
+                  <Font name="Times New Roman" size="24" style="1"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Food"/>
               </Properties>
@@ -4312,7 +4348,7 @@
             <Component class="javax.swing.JButton" name="Pastry_But">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="STFangsong" size="18" style="0"/>
+                  <Font name="Trebuchet MS" size="18" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Pastry"/>
               </Properties>
@@ -4323,7 +4359,7 @@
             <Component class="javax.swing.JButton" name="Bagel_But">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="STFangsong" size="18" style="0"/>
+                  <Font name="Trebuchet MS" size="18" style="0"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Bagel"/>
               </Properties>
@@ -4333,11 +4369,17 @@
             </Component>
             <Component class="javax.swing.JLabel" name="Member_lbl">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Trebuchet MS" size="14" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Member code: "/>
               </Properties>
             </Component>
             <Component class="javax.swing.JButton" name="Member_but">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Trebuchet MS" size="14" style="0"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Enter"/>
               </Properties>
               <Events>
@@ -4474,7 +4516,7 @@
                   <Color blue="33" green="99" red="ff" type="rgb"/>
                 </Property>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Tahoma" size="24" style="1"/>
+                  <Font name="Times New Roman" size="24" style="1"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="   PAY        RM 0.00"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -4560,7 +4602,7 @@
         <Component class="javax.swing.JButton" name="Delete_but">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="24" style="1"/>
+              <Font name="Times New Roman" size="24" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="REMOVE"/>
           </Properties>
@@ -4569,7 +4611,7 @@
           </Events>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="461" y="386" width="137" height="-1"/>
+              <AbsoluteConstraints x="461" y="386" width="140" height="-1"/>
             </Constraint>
           </Constraints>
         </Component>
