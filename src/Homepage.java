@@ -222,11 +222,6 @@ public class Homepage extends javax.swing.JFrame {
         Without_cream_btn = new javax.swing.JRadioButton();
         required_label4 = new javax.swing.JLabel();
         Cadd_btn = new javax.swing.JButton();
-        Sizegroup = new javax.swing.ButtonGroup();
-        Typegroup = new javax.swing.ButtonGroup();
-        Sugarlevelgroup = new javax.swing.ButtonGroup();
-        Icegroup = new javax.swing.ButtonGroup();
-        Creamgroup = new javax.swing.ButtonGroup();
         jyBagelSection = new javax.swing.JFrame();
         BagelFlavour_Panel = new javax.swing.JPanel();
         BagelFlavourSection = new javax.swing.JLabel();
@@ -370,6 +365,11 @@ public class Homepage extends javax.swing.JFrame {
         Tmilk_price = new javax.swing.JLabel();
         Twithout_milk_price = new javax.swing.JLabel();
         Cadd_btn1 = new javax.swing.JButton();
+        Sizegroup = new javax.swing.ButtonGroup();
+        Typegroup = new javax.swing.ButtonGroup();
+        Sugarlevelgroup = new javax.swing.ButtonGroup();
+        Icegroup = new javax.swing.ButtonGroup();
+        Creamgroup = new javax.swing.ButtonGroup();
         Home_Panel = new javax.swing.JPanel();
         Order_Panel = new javax.swing.JPanel();
         Cof_But = new javax.swing.JButton();
@@ -665,7 +665,7 @@ public class Homepage extends javax.swing.JFrame {
         Coffee.setResizable(false);
         Coffee.setSize(new java.awt.Dimension(1099, 450));
 
-        Csugar_lvl.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Csugar_lvl.setBorder(javax.swing.BorderFactory.createBevelBorder(null));
 
         Size1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         Size1.setText("Sugar Level");
@@ -760,7 +760,7 @@ public class Homepage extends javax.swing.JFrame {
                 .addContainerGap(43, Short.MAX_VALUE))
         );
 
-        Csize_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Csize_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(null));
         Csize_Panel.setPreferredSize(new java.awt.Dimension(272, 242));
 
         Size.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
@@ -863,7 +863,7 @@ public class Homepage extends javax.swing.JFrame {
         Coffee_title.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
         Coffee_title.setText("Coffee");
 
-        Ctype_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Ctype_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(null));
 
         Type.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         Type.setText("Type");
@@ -962,7 +962,7 @@ public class Homepage extends javax.swing.JFrame {
                 .addContainerGap(29, Short.MAX_VALUE))
         );
 
-        Cice_lvl.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Cice_lvl.setBorder(javax.swing.BorderFactory.createBevelBorder(null));
         Cice_lvl.setPreferredSize(new java.awt.Dimension(272, 242));
 
         Size2.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
@@ -1055,7 +1055,7 @@ public class Homepage extends javax.swing.JFrame {
                 .addContainerGap(107, Short.MAX_VALUE))
         );
 
-        Ccream_lvl.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Ccream_lvl.setBorder(javax.swing.BorderFactory.createBevelBorder(null));
         Ccream_lvl.setPreferredSize(new java.awt.Dimension(272, 242));
 
         Size3.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
@@ -1118,7 +1118,7 @@ public class Homepage extends javax.swing.JFrame {
         Cadd_btn.setBackground(new java.awt.Color(255, 153, 51));
         Cadd_btn.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         Cadd_btn.setText("Add");
-        Cadd_btn.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Cadd_btn.setBorder(javax.swing.BorderFactory.createBevelBorder(null));
         Cadd_btn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Cadd_btnActionPerformed(evt);
@@ -1172,7 +1172,7 @@ public class Homepage extends javax.swing.JFrame {
         jyBagelSection.setResizable(false);
         jyBagelSection.setSize(new java.awt.Dimension(1099, 450));
 
-        BagelFlavour_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        BagelFlavour_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(null));
 
         BagelFlavourSection.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         BagelFlavourSection.setText("Flavours");
@@ -1311,7 +1311,7 @@ public class Homepage extends javax.swing.JFrame {
                 .addContainerGap(43, Short.MAX_VALUE))
         );
 
-        BagelToppingSauce_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        BagelToppingSauce_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(null));
         BagelToppingSauce_Panel.setPreferredSize(new java.awt.Dimension(272, 242));
 
         BagelToppingSauceSection.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
@@ -1456,7 +1456,7 @@ public class Homepage extends javax.swing.JFrame {
         Bagel_title1.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
         Bagel_title1.setText("Bagel");
 
-        BagelDough_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        BagelDough_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(null));
 
         BagelDoughSection.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         BagelDoughSection.setText("Dough");
@@ -1558,14 +1558,14 @@ public class Homepage extends javax.swing.JFrame {
         Bagel_add_btn1.setBackground(new java.awt.Color(255, 153, 51));
         Bagel_add_btn1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         Bagel_add_btn1.setText("Add");
-        Bagel_add_btn1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Bagel_add_btn1.setBorder(javax.swing.BorderFactory.createBevelBorder(null));
         Bagel_add_btn1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Bagel_add_btn1ActionPerformed(evt);
             }
         });
 
-        BagelSizePanel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        BagelSizePanel.setBorder(javax.swing.BorderFactory.createBevelBorder(null));
         BagelSizePanel.setPreferredSize(new java.awt.Dimension(272, 242));
 
         BagelSizeSection.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
@@ -1665,7 +1665,7 @@ public class Homepage extends javax.swing.JFrame {
                 .addContainerGap(107, Short.MAX_VALUE))
         );
 
-        BagelToppingIngredient_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        BagelToppingIngredient_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(null));
         BagelToppingIngredient_Panel.setPreferredSize(new java.awt.Dimension(272, 242));
 
         BagelToppingIngredientSection.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
@@ -1863,14 +1863,14 @@ public class Homepage extends javax.swing.JFrame {
         Pastry_add_btn2.setBackground(new java.awt.Color(255, 153, 51));
         Pastry_add_btn2.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         Pastry_add_btn2.setText("Add");
-        Pastry_add_btn2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Pastry_add_btn2.setBorder(javax.swing.BorderFactory.createBevelBorder(null));
         Pastry_add_btn2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Pastry_add_btn2ActionPerformed(evt);
             }
         });
 
-        PastryMuffin_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        PastryMuffin_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(null));
 
         PastryMuffinSection3.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         PastryMuffinSection3.setText("Muffins");
@@ -1969,7 +1969,7 @@ public class Homepage extends javax.swing.JFrame {
                 .addContainerGap(39, Short.MAX_VALUE))
         );
 
-        PastryDonuts_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        PastryDonuts_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(null));
 
         PastryDonutSection4.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         PastryDonutSection4.setText("Donuts");
@@ -2068,7 +2068,7 @@ public class Homepage extends javax.swing.JFrame {
                 .addContainerGap(39, Short.MAX_VALUE))
         );
 
-        PastrySpecial_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        PastrySpecial_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(null));
 
         PastrySpecialSection5.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         PastrySpecialSection5.setText("Specials");
@@ -2167,7 +2167,7 @@ public class Homepage extends javax.swing.JFrame {
                 .addContainerGap(39, Short.MAX_VALUE))
         );
 
-        PastryTarts_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        PastryTarts_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(null));
 
         PastryTartSection6.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         PastryTartSection6.setText("Tarts");
@@ -2321,7 +2321,7 @@ public class Homepage extends javax.swing.JFrame {
         Tea.setResizable(false);
         Tea.setSize(new java.awt.Dimension(1099, 450));
 
-        Csugar_lvl1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Csugar_lvl1.setBorder(javax.swing.BorderFactory.createBevelBorder(null));
 
         Sugarlevel.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         Sugarlevel.setText("Sugar Level");
@@ -2416,7 +2416,7 @@ public class Homepage extends javax.swing.JFrame {
                 .addContainerGap(43, Short.MAX_VALUE))
         );
 
-        Csize_Panel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Csize_Panel1.setBorder(javax.swing.BorderFactory.createBevelBorder(null));
         Csize_Panel1.setPreferredSize(new java.awt.Dimension(272, 242));
 
         Size5.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
@@ -2519,7 +2519,7 @@ public class Homepage extends javax.swing.JFrame {
         Tea_title.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
         Tea_title.setText("Tea");
 
-        Ctype_Panel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Ctype_Panel1.setBorder(javax.swing.BorderFactory.createBevelBorder(null));
 
         Type1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         Type1.setText("Type");
@@ -2618,7 +2618,7 @@ public class Homepage extends javax.swing.JFrame {
                 .addContainerGap(29, Short.MAX_VALUE))
         );
 
-        Cice_lvl1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Cice_lvl1.setBorder(javax.swing.BorderFactory.createBevelBorder(null));
         Cice_lvl1.setPreferredSize(new java.awt.Dimension(272, 242));
 
         Icelevel.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
@@ -2711,7 +2711,7 @@ public class Homepage extends javax.swing.JFrame {
                 .addContainerGap(107, Short.MAX_VALUE))
         );
 
-        Ccream_lvl1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Ccream_lvl1.setBorder(javax.swing.BorderFactory.createBevelBorder(null));
         Ccream_lvl1.setPreferredSize(new java.awt.Dimension(272, 242));
 
         Milklevel.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
@@ -2792,7 +2792,7 @@ public class Homepage extends javax.swing.JFrame {
         Cadd_btn1.setBackground(new java.awt.Color(255, 153, 51));
         Cadd_btn1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         Cadd_btn1.setText("Add");
-        Cadd_btn1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Cadd_btn1.setBorder(javax.swing.BorderFactory.createBevelBorder(null));
         Cadd_btn1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Cadd_btn1ActionPerformed(evt);
@@ -2850,7 +2850,7 @@ public class Homepage extends javax.swing.JFrame {
 
         Home_Panel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        Order_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, new java.awt.Color(204, 255, 204), null, null));
+        Order_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(null, null, new java.awt.Color(204, 255, 204), null, null));
 
         Cof_But.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
         Cof_But.setText("Coffee");
@@ -3012,12 +3012,11 @@ public class Homepage extends javax.swing.JFrame {
         Home_Panel.add(Table_Pane, new org.netbeans.lib.awtextra.AbsoluteConstraints(359, 0, 351, 380));
 
         Function_Panel.setBackground(new java.awt.Color(255, 255, 255));
-        Function_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, new java.awt.Color(0, 0, 0), null, null));
+        Function_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(null, null, new java.awt.Color(0, 0, 0), null, null));
 
         Pay_But.setBackground(new java.awt.Color(255, 153, 51));
         Pay_But.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         Pay_But.setText("   PAY        RM 0.00");
-        Pay_But.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         Pay_But.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         Pay_But.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         Pay_But.addActionListener(new java.awt.event.ActionListener() {
