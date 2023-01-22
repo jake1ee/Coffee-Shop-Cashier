@@ -94,6 +94,7 @@ public class Registration extends javax.swing.JFrame {
         Reg_but.setText("Register");
         Reg_but.setToolTipText("Click to register");
         Reg_but.addActionListener(new java.awt.event.ActionListener() {
+            @Override
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Reg_butActionPerformed(evt);
             }
@@ -102,6 +103,7 @@ public class Registration extends javax.swing.JFrame {
         Cancel_but.setText("Cancel");
         Cancel_but.setToolTipText("Click to cancel registration");
         Cancel_but.addActionListener(new java.awt.event.ActionListener() {
+            @Override
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Cancel_butActionPerformed(evt);
             }
@@ -217,7 +219,12 @@ public class Registration extends javax.swing.JFrame {
             Logger.getLogger(Homepage.class.getName()).log(Level.SEVERE, null, ex);
         }
             
-    }                                       
+    }   
+    
+    private void Cancel_butActionPerformed(java.awt.event.ActionEvent evt)
+    {
+        
+    }
 
     /**
      * @param args the command line arguments

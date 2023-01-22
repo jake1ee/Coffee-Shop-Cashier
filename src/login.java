@@ -158,26 +158,24 @@ public class login extends javax.swing.JFrame {
  
             }
             
-            switch(log){
-                case SUCCESS -> {
+                   if(log == Login_status.SUCCESS) {
                     JOptionPane.showMessageDialog(this,"Login Success.\n Welcome " + emp_name );
                     new Homepage().setVisible(true);
                     setVisible(false);
                     }
-                case PASS_FAIL -> {
+                   else if (log ==Login_status.PASS_FAIL){
                     JOptionPane.showMessageDialog(null, "Wrong Password");
                     Pass_txt.setText("");
                     }
-                case FAIL -> { 
+                   else if(log == Login_status.FAIL ){ 
                     JOptionPane.showMessageDialog(null, "Username or Password mismatch ");
                     Username_txt.setText("");
                     Pass_txt.setText("");
-                    }
-            }
-            
-        } catch (SQLException ex) {
-            Logger.getLogger(Homepage.class.getName()).log(Level.SEVERE, null, ex);
-        }
+                   }
+            } catch (SQLException ex) {
+            Logger.getLogger(login.class.getName()).log(Level.SEVERE, null, ex);
+        }    
+        
           
            
     }//GEN-LAST:event_Login_butActionPerformed
@@ -219,39 +217,31 @@ public class login extends javax.swing.JFrame {
  
             }
             
-            switch(log){
-                case SUCCESS -> {
+                   if(log == Login_status.SUCCESS) {
                     JOptionPane.showMessageDialog(this,"Login Success.\n Welcome " + emp_name );
                     new Homepage().setVisible(true);
                     setVisible(false);
                     }
-                case PASS_FAIL -> {
+                   else if (log ==Login_status.PASS_FAIL){
                     JOptionPane.showMessageDialog(null, "Wrong Password");
                     Pass_txt.setText("");
                     }
-                case FAIL -> { 
+                   else if(log == Login_status.FAIL ){ 
                     JOptionPane.showMessageDialog(null, "Username or Password mismatch ");
                     Username_txt.setText("");
                     Pass_txt.setText("");
-                    }
-            }
-            
-        } catch (SQLException ex) {
-            Logger.getLogger(Homepage.class.getName()).log(Level.SEVERE, null, ex);
+                   }
+            } catch (SQLException ex) {
+            Logger.getLogger(login.class.getName()).log(Level.SEVERE, null, ex);
+        } 
         }
-        }   
+    
     }//GEN-LAST:event_Pass_txtKeyPressed
 
     /**
      * @param args the command line arguments
      */
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        
         
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
