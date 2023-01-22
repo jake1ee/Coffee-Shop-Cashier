@@ -625,10 +625,10 @@ public class BagelApp extends JFrame{
 		}
 	}
 
-	public static void main(String[] args)
-	{
-		BagelApp app = new BagelApp();
-	}
+//	public static void main(String[] args)
+//	{
+//		BagelApp app = new BagelApp();
+//	}
 	
 	//Getters and Setters
 	public JTextArea getText() {
