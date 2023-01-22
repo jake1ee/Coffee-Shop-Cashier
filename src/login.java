@@ -265,11 +265,14 @@ public class login extends javax.swing.JFrame {
         }
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(() -> {
-            try {
-                new login().setVisible(true);
-            } catch (SQLException ex) {
-                Logger.getLogger(login.class.getName()).log(Level.SEVERE, null, ex);
+                java.awt.EventQueue.invokeLater(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    new login().setVisible(true);
+                } catch (SQLException ex) {
+                    Logger.getLogger(login.class.getName()).log(Level.SEVERE, null, ex);
+                }
             }
         });
     }
