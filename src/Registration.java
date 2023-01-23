@@ -81,7 +81,7 @@ public class Registration extends javax.swing.JFrame {
         Fname_txt.setToolTipText("Enter First Name");
         Fname_txt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Fname_txtActionPerformed(evt);
+               
             }
         });
 

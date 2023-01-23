@@ -20,7 +20,6 @@ public class Homepage extends javax.swing.JFrame {
     }
 
     public void addTable(String n, Double p ){
-        String Qty = JOptionPane.showInputDialog(null, "Please Ente Your Qty","1");
         
         Double Total_qty = Double.valueOf(Qty);
         Double Total_prc = p * Total_qty;
@@ -181,23 +180,7 @@ public class Homepage extends javax.swing.JFrame {
         Total_txt = new javax.swing.JTextPane();
         KeyEnter_but = new javax.swing.JButton();
         Coffee = new javax.swing.JFrame();
-        Csugar_lvl = new javax.swing.JPanel();
-        CSugar_lbl = new javax.swing.JLabel();
-        Zero_lvl_btn = new javax.swing.JRadioButton();
-        Low_lvl_btn = new javax.swing.JRadioButton();
-        Med_lvl_btn = new javax.swing.JRadioButton();
-        High_lvl_btn = new javax.swing.JRadioButton();
-        Full_lvl_btn = new javax.swing.JRadioButton();
-        CSugarR_lbl = new javax.swing.JLabel();
-        Csize_Panel = new javax.swing.JPanel();
-        CSize = new javax.swing.JLabel();
-        CSizeR_lbl = new javax.swing.JLabel();
-        Small_size_btn = new javax.swing.JRadioButton();
-        Med_size_btn = new javax.swing.JRadioButton();
-        Big_size_btn = new javax.swing.JRadioButton();
-        Cmed_price = new javax.swing.JLabel();
-        Cbig_price = new javax.swing.JLabel();
-        Csmall_price = new javax.swing.JLabel();
+        Coffee_panel = new javax.swing.JPanel();
         Coffee_title = new javax.swing.JLabel();
         Ctype_Panel = new javax.swing.JPanel();
         Type = new javax.swing.JLabel();
@@ -208,6 +191,23 @@ public class Homepage extends javax.swing.JFrame {
         Espresso_price = new javax.swing.JLabel();
         Cappuccino_price = new javax.swing.JLabel();
         CTypeR_lbl = new javax.swing.JLabel();
+        Csize_Panel = new javax.swing.JPanel();
+        CSize = new javax.swing.JLabel();
+        CSizeR_lbl = new javax.swing.JLabel();
+        Small_size_btn = new javax.swing.JRadioButton();
+        Med_size_btn = new javax.swing.JRadioButton();
+        Big_size_btn = new javax.swing.JRadioButton();
+        Cmed_price = new javax.swing.JLabel();
+        Cbig_price = new javax.swing.JLabel();
+        Csmall_price = new javax.swing.JLabel();
+        Csugar_lvl = new javax.swing.JPanel();
+        CSugar_lbl = new javax.swing.JLabel();
+        Zero_lvl_btn = new javax.swing.JRadioButton();
+        Low_lvl_btn = new javax.swing.JRadioButton();
+        Med_lvl_btn = new javax.swing.JRadioButton();
+        High_lvl_btn = new javax.swing.JRadioButton();
+        Full_lvl_btn = new javax.swing.JRadioButton();
+        CSugarR_lbl = new javax.swing.JLabel();
         Cice_lvl = new javax.swing.JPanel();
         CIce_lbl = new javax.swing.JLabel();
         CIceR_lbl = new javax.swing.JLabel();
@@ -223,23 +223,7 @@ public class Homepage extends javax.swing.JFrame {
         CCreamR_lbl = new javax.swing.JLabel();
         Cadd_btn = new javax.swing.JButton();
         Tea = new javax.swing.JFrame();
-        TSugar_lvl = new javax.swing.JPanel();
-        Tsugar_lbl = new javax.swing.JLabel();
-        TZero_btn = new javax.swing.JRadioButton();
-        TLow_btn = new javax.swing.JRadioButton();
-        TMed_btn = new javax.swing.JRadioButton();
-        THIgh_btn = new javax.swing.JRadioButton();
-        TFull_btn = new javax.swing.JRadioButton();
-        TsugarR_lbl = new javax.swing.JLabel();
-        TSize_Panel = new javax.swing.JPanel();
-        TSize_lbl = new javax.swing.JLabel();
-        TSmall_size = new javax.swing.JRadioButton();
-        Tmed_size = new javax.swing.JRadioButton();
-        TBig_size = new javax.swing.JRadioButton();
-        TMedSize_price = new javax.swing.JLabel();
-        TBigSoze_price = new javax.swing.JLabel();
-        TSmallSize_but = new javax.swing.JLabel();
-        TSizeR_lbl = new javax.swing.JLabel();
+        Tea_panel = new javax.swing.JPanel();
         Tea_title = new javax.swing.JLabel();
         Ttype_Panel = new javax.swing.JPanel();
         TType = new javax.swing.JLabel();
@@ -250,6 +234,23 @@ public class Homepage extends javax.swing.JFrame {
         Jasmine_price = new javax.swing.JLabel();
         Oolong_but = new javax.swing.JRadioButton();
         Oolong_price = new javax.swing.JLabel();
+        TSize_Panel = new javax.swing.JPanel();
+        TSize_lbl = new javax.swing.JLabel();
+        TSmall_size = new javax.swing.JRadioButton();
+        Tmed_size = new javax.swing.JRadioButton();
+        TBig_size = new javax.swing.JRadioButton();
+        TMedSize_price = new javax.swing.JLabel();
+        TBigSoze_price = new javax.swing.JLabel();
+        TSmallSize_but = new javax.swing.JLabel();
+        TSizeR_lbl = new javax.swing.JLabel();
+        TSugar_lvl = new javax.swing.JPanel();
+        Tsugar_lbl = new javax.swing.JLabel();
+        TZero_btn = new javax.swing.JRadioButton();
+        TLow_btn = new javax.swing.JRadioButton();
+        TMed_btn = new javax.swing.JRadioButton();
+        THIgh_btn = new javax.swing.JRadioButton();
+        TFull_btn = new javax.swing.JRadioButton();
+        TsugarR_lbl = new javax.swing.JLabel();
         Tice_lvl1 = new javax.swing.JPanel();
         TIce_lbl = new javax.swing.JLabel();
         THot_btn = new javax.swing.JRadioButton();
@@ -267,6 +268,26 @@ public class Homepage extends javax.swing.JFrame {
         Twithout_milk_price = new javax.swing.JLabel();
         Cadd_btn1 = new javax.swing.JButton();
         Bagel = new javax.swing.JFrame();
+        Bagel_panel = new javax.swing.JPanel();
+        Bagel_title1 = new javax.swing.JLabel();
+        BagelDough_Panel = new javax.swing.JPanel();
+        BagelDoughSection = new javax.swing.JLabel();
+        BagelDough_plain = new javax.swing.JRadioButton();
+        BagelDough_Mixed = new javax.swing.JRadioButton();
+        BagelDough_WholeWheat = new javax.swing.JRadioButton();
+        BagelDough_PlainPrice = new javax.swing.JLabel();
+        BagelDough_MixedPrice = new javax.swing.JLabel();
+        BagelDough_WholeWheatPrice = new javax.swing.JLabel();
+        required_label7 = new javax.swing.JLabel();
+        BagelSizePanel = new javax.swing.JPanel();
+        BagelSizeSection = new javax.swing.JLabel();
+        BagelSize_Small = new javax.swing.JRadioButton();
+        BagelSize_Medium = new javax.swing.JRadioButton();
+        BagelSize_Big = new javax.swing.JRadioButton();
+        BagelSize_Mediumprice = new javax.swing.JLabel();
+        BagelSize_BigPrice = new javax.swing.JLabel();
+        BagelSize_Smallprice = new javax.swing.JLabel();
+        required_label10 = new javax.swing.JLabel();
         BagelFlavour_Panel = new javax.swing.JPanel();
         BagelFlavourSection = new javax.swing.JLabel();
         BagelFlavour_Plain = new javax.swing.JRadioButton();
@@ -293,26 +314,6 @@ public class Homepage extends javax.swing.JFrame {
         BagelToppingSauce_JamPrice = new javax.swing.JLabel();
         BagelToppingSauce_Honey = new javax.swing.JRadioButton();
         BagelToppingSauce_HoneyPrice = new javax.swing.JLabel();
-        Bagel_title1 = new javax.swing.JLabel();
-        BagelDough_Panel = new javax.swing.JPanel();
-        BagelDoughSection = new javax.swing.JLabel();
-        BagelDough_plain = new javax.swing.JRadioButton();
-        BagelDough_Mixed = new javax.swing.JRadioButton();
-        BagelDough_WholeWheat = new javax.swing.JRadioButton();
-        BagelDough_PlainPrice = new javax.swing.JLabel();
-        BagelDough_MixedPrice = new javax.swing.JLabel();
-        BagelDough_WholeWheatPrice = new javax.swing.JLabel();
-        required_label7 = new javax.swing.JLabel();
-        Bagel_add_btn1 = new javax.swing.JButton();
-        BagelSizePanel = new javax.swing.JPanel();
-        BagelSizeSection = new javax.swing.JLabel();
-        BagelSize_Small = new javax.swing.JRadioButton();
-        BagelSize_Medium = new javax.swing.JRadioButton();
-        BagelSize_Big = new javax.swing.JRadioButton();
-        BagelSize_Mediumprice = new javax.swing.JLabel();
-        BagelSize_BigPrice = new javax.swing.JLabel();
-        BagelSize_Smallprice = new javax.swing.JLabel();
-        required_label10 = new javax.swing.JLabel();
         BagelToppingIngredient_Panel = new javax.swing.JPanel();
         BagelToppingIngredientSection = new javax.swing.JLabel();
         BagelToppingIngredient_Lox = new javax.swing.JRadioButton();
@@ -326,18 +327,10 @@ public class Homepage extends javax.swing.JFrame {
         BagelToppingIngredient_TomatoPrice = new javax.swing.JLabel();
         BagelToppingIngredient_Lettuce = new javax.swing.JRadioButton();
         BagelToppingIngredient_LettucePrice = new javax.swing.JLabel();
+        Bagel_add_btn1 = new javax.swing.JButton();
         Pastry = new javax.swing.JFrame();
+        Pastry_panel = new javax.swing.JPanel();
         Pastry_title2 = new javax.swing.JLabel();
-        Pastry_add_btn2 = new javax.swing.JButton();
-        PastryMuffin_Panel = new javax.swing.JPanel();
-        PastryMuffinSection3 = new javax.swing.JLabel();
-        PastryMuffin_Blueberry = new javax.swing.JRadioButton();
-        PastryMuffin_ChocolateChip = new javax.swing.JRadioButton();
-        PastryMuffin_BananaNut = new javax.swing.JRadioButton();
-        PastryMuffin_blueberryPrice = new javax.swing.JLabel();
-        PastryMuffin_ChocolateChipPrice = new javax.swing.JLabel();
-        PastryMuffin_BananaNutPrice = new javax.swing.JLabel();
-        Optional_label14 = new javax.swing.JLabel();
         PastryDonuts_Panel = new javax.swing.JPanel();
         PastryDonutSection4 = new javax.swing.JLabel();
         PastryDonut_PSugar = new javax.swing.JRadioButton();
@@ -347,15 +340,6 @@ public class Homepage extends javax.swing.JFrame {
         PastryDonut_GlazedPrice = new javax.swing.JLabel();
         PastryDonut_JellyFilledPrice = new javax.swing.JLabel();
         Optional_label15 = new javax.swing.JLabel();
-        PastrySpecial_Panel = new javax.swing.JPanel();
-        PastrySpecialSection5 = new javax.swing.JLabel();
-        PastrySpecial_macarons = new javax.swing.JRadioButton();
-        PastrySpecial_Cannoli = new javax.swing.JRadioButton();
-        PastrySpecial_Baklava = new javax.swing.JRadioButton();
-        PastrySpecial_macaronsPrice = new javax.swing.JLabel();
-        PastrySpecial_CannoliPrice = new javax.swing.JLabel();
-        PastrySpecial_BaklavaPrice = new javax.swing.JLabel();
-        Optional_label16 = new javax.swing.JLabel();
         PastryTarts_Panel = new javax.swing.JPanel();
         PastryTartSection6 = new javax.swing.JLabel();
         PastryTart_LemonTart = new javax.swing.JRadioButton();
@@ -365,24 +349,27 @@ public class Homepage extends javax.swing.JFrame {
         PastryTart_FruitTartPrice = new javax.swing.JLabel();
         PastryTart_ChocolateTartPrice = new javax.swing.JLabel();
         Optional_label17 = new javax.swing.JLabel();
+        PastryMuffin_Panel = new javax.swing.JPanel();
+        PastryMuffinSection3 = new javax.swing.JLabel();
+        PastryMuffin_Blueberry = new javax.swing.JRadioButton();
+        PastryMuffin_ChocolateChip = new javax.swing.JRadioButton();
+        PastryMuffin_BananaNut = new javax.swing.JRadioButton();
+        PastryMuffin_blueberryPrice = new javax.swing.JLabel();
+        PastryMuffin_ChocolateChipPrice = new javax.swing.JLabel();
+        PastryMuffin_BananaNutPrice = new javax.swing.JLabel();
+        Optional_label14 = new javax.swing.JLabel();
+        PastrySpecial_Panel = new javax.swing.JPanel();
+        PastrySpecialSection5 = new javax.swing.JLabel();
+        PastrySpecial_macarons = new javax.swing.JRadioButton();
+        PastrySpecial_Cannoli = new javax.swing.JRadioButton();
+        PastrySpecial_Baklava = new javax.swing.JRadioButton();
+        PastrySpecial_macaronsPrice = new javax.swing.JLabel();
+        PastrySpecial_CannoliPrice = new javax.swing.JLabel();
+        PastrySpecial_BaklavaPrice = new javax.swing.JLabel();
+        Optional_label16 = new javax.swing.JLabel();
+        Pastry_add_btn2 = new javax.swing.JButton();
         Smoothie = new javax.swing.JFrame();
-        TSugar_lvl1 = new javax.swing.JPanel();
-        Tsugar_lbl1 = new javax.swing.JLabel();
-        TZero_btn1 = new javax.swing.JRadioButton();
-        TLow_btn1 = new javax.swing.JRadioButton();
-        TMed_btn1 = new javax.swing.JRadioButton();
-        THIgh_btn1 = new javax.swing.JRadioButton();
-        TFull_btn1 = new javax.swing.JRadioButton();
-        TsugarR_lbl1 = new javax.swing.JLabel();
-        TSize_Panel1 = new javax.swing.JPanel();
-        TSize_lbl1 = new javax.swing.JLabel();
-        TSmall_size1 = new javax.swing.JRadioButton();
-        Tmed_size1 = new javax.swing.JRadioButton();
-        TBig_size1 = new javax.swing.JRadioButton();
-        TMedSize_price1 = new javax.swing.JLabel();
-        TBigSoze_price1 = new javax.swing.JLabel();
-        TSmallSize_but1 = new javax.swing.JLabel();
-        TSizeR_lbl1 = new javax.swing.JLabel();
+        Smoothie_panel = new javax.swing.JPanel();
         Tea_title1 = new javax.swing.JLabel();
         Ttype_Panel1 = new javax.swing.JPanel();
         TType1 = new javax.swing.JLabel();
@@ -401,6 +388,23 @@ public class Homepage extends javax.swing.JFrame {
         Ob_price3 = new javax.swing.JLabel();
         pl_price4 = new javax.swing.JLabel();
         bs_price5 = new javax.swing.JLabel();
+        TSize_Panel1 = new javax.swing.JPanel();
+        TSize_lbl1 = new javax.swing.JLabel();
+        TSmall_size1 = new javax.swing.JRadioButton();
+        Tmed_size1 = new javax.swing.JRadioButton();
+        TBig_size1 = new javax.swing.JRadioButton();
+        TMedSize_price1 = new javax.swing.JLabel();
+        TBigSoze_price1 = new javax.swing.JLabel();
+        TSmallSize_but1 = new javax.swing.JLabel();
+        TSizeR_lbl1 = new javax.swing.JLabel();
+        TSugar_lvl1 = new javax.swing.JPanel();
+        Tsugar_lbl1 = new javax.swing.JLabel();
+        TZero_btn1 = new javax.swing.JRadioButton();
+        TLow_btn1 = new javax.swing.JRadioButton();
+        TMed_btn1 = new javax.swing.JRadioButton();
+        THIgh_btn1 = new javax.swing.JRadioButton();
+        TFull_btn1 = new javax.swing.JRadioButton();
+        TsugarR_lbl1 = new javax.swing.JLabel();
         Tmilk_lvl1 = new javax.swing.JPanel();
         topping = new javax.swing.JLabel();
         granola_btn1 = new javax.swing.JRadioButton();
@@ -416,6 +420,7 @@ public class Homepage extends javax.swing.JFrame {
         gojiberries_price2 = new javax.swing.JLabel();
         Cadd_btn2 = new javax.swing.JButton();
         Specialties = new javax.swing.JFrame();
+        Specialties_panel = new javax.swing.JPanel();
         Specialties_title1 = new javax.swing.JLabel();
         Stype_Panel1 = new javax.swing.JPanel();
         Type1 = new javax.swing.JLabel();
@@ -729,202 +734,7 @@ public class Homepage extends javax.swing.JFrame {
         );
 
         Coffee.setResizable(false);
-        Coffee.setSize(new java.awt.Dimension(1099, 450));
-
-        Csugar_lvl.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-
-        CSugar_lbl.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        CSugar_lbl.setText("Sugar Level");
-
-        Sugarlevelgroup.add(Zero_lvl_btn);
-        Zero_lvl_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        Zero_lvl_btn.setText("0%");
-        Zero_lvl_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Zero_lvl_btnActionPerformed(evt);
-            }
-        });
-
-        Sugarlevelgroup.add(Low_lvl_btn);
-        Low_lvl_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        Low_lvl_btn.setText("25%");
-        Low_lvl_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Low_lvl_btnActionPerformed(evt);
-            }
-        });
-
-        Sugarlevelgroup.add(Med_lvl_btn);
-        Med_lvl_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        Med_lvl_btn.setText("50%");
-        Med_lvl_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Med_lvl_btnActionPerformed(evt);
-            }
-        });
-
-        Sugarlevelgroup.add(High_lvl_btn);
-        High_lvl_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        High_lvl_btn.setText("75%");
-        High_lvl_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                High_lvl_btnActionPerformed(evt);
-            }
-        });
-
-        Sugarlevelgroup.add(Full_lvl_btn);
-        Full_lvl_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        Full_lvl_btn.setText("100%");
-        Full_lvl_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Full_lvl_btnActionPerformed(evt);
-            }
-        });
-
-        CSugarR_lbl.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
-        CSugarR_lbl.setForeground(new java.awt.Color(102, 102, 102));
-        CSugarR_lbl.setText("(required)");
-
-        javax.swing.GroupLayout Csugar_lvlLayout = new javax.swing.GroupLayout(Csugar_lvl);
-        Csugar_lvl.setLayout(Csugar_lvlLayout);
-        Csugar_lvlLayout.setHorizontalGroup(
-            Csugar_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Csugar_lvlLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(Csugar_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(Csugar_lvlLayout.createSequentialGroup()
-                        .addComponent(CSugar_lbl)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(CSugarR_lbl))
-                    .addGroup(Csugar_lvlLayout.createSequentialGroup()
-                        .addGap(54, 54, 54)
-                        .addGroup(Csugar_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(Low_lvl_btn)
-                            .addComponent(Zero_lvl_btn)
-                            .addComponent(Med_lvl_btn)
-                            .addComponent(High_lvl_btn)
-                            .addComponent(Full_lvl_btn))))
-                .addContainerGap(37, Short.MAX_VALUE))
-        );
-        Csugar_lvlLayout.setVerticalGroup(
-            Csugar_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Csugar_lvlLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(Csugar_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(CSugar_lbl)
-                    .addComponent(CSugarR_lbl))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(Zero_lvl_btn)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(Low_lvl_btn)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(Med_lvl_btn)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(High_lvl_btn)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(Full_lvl_btn)
-                .addContainerGap(43, Short.MAX_VALUE))
-        );
-
-        Csize_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        Csize_Panel.setPreferredSize(new java.awt.Dimension(272, 242));
-
-        CSize.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        CSize.setText("Size");
-
-        CSizeR_lbl.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
-        CSizeR_lbl.setForeground(new java.awt.Color(102, 102, 102));
-        CSizeR_lbl.setText("(required)");
-
-        Sizegroup.add(Small_size_btn);
-        Small_size_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        Small_size_btn.setText("Small");
-        Small_size_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Small_size_btnActionPerformed(evt);
-            }
-        });
-
-        Sizegroup.add(Med_size_btn);
-        Med_size_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        Med_size_btn.setText("Medium");
-        Med_size_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Med_size_btnActionPerformed(evt);
-            }
-        });
-
-        Sizegroup.add(Big_size_btn);
-        Big_size_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        Big_size_btn.setText("Big");
-        Big_size_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Big_size_btnActionPerformed(evt);
-            }
-        });
-
-        Cmed_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        Cmed_price.setForeground(new java.awt.Color(102, 102, 102));
-        Cmed_price.setText("+RM1.00");
-
-        Cbig_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        Cbig_price.setForeground(new java.awt.Color(102, 102, 102));
-        Cbig_price.setText("+RM2.00");
-
-        Csmall_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        Csmall_price.setForeground(new java.awt.Color(102, 102, 102));
-        Csmall_price.setText("+RM0.00");
-
-        javax.swing.GroupLayout Csize_PanelLayout = new javax.swing.GroupLayout(Csize_Panel);
-        Csize_Panel.setLayout(Csize_PanelLayout);
-        Csize_PanelLayout.setHorizontalGroup(
-            Csize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Csize_PanelLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(Csize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(Csize_PanelLayout.createSequentialGroup()
-                        .addComponent(CSize)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(CSizeR_lbl)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(Csize_PanelLayout.createSequentialGroup()
-                        .addGap(54, 54, 54)
-                        .addGroup(Csize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(Csize_PanelLayout.createSequentialGroup()
-                                .addComponent(Med_size_btn)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
-                                .addComponent(Cmed_price))
-                            .addGroup(Csize_PanelLayout.createSequentialGroup()
-                                .addComponent(Small_size_btn)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(Csmall_price))
-                            .addGroup(Csize_PanelLayout.createSequentialGroup()
-                                .addComponent(Big_size_btn)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(Cbig_price)))))
-                .addContainerGap())
-        );
-        Csize_PanelLayout.setVerticalGroup(
-            Csize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Csize_PanelLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(Csize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(CSize)
-                    .addComponent(CSizeR_lbl))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Csize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(Small_size_btn)
-                    .addComponent(Csmall_price))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Csize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(Med_size_btn)
-                    .addComponent(Cmed_price))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Csize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(Big_size_btn)
-                    .addComponent(Cbig_price))
-                .addContainerGap(107, Short.MAX_VALUE))
-        );
+        Coffee.setSize(new java.awt.Dimension(879, 593));
 
         Coffee_title.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
         Coffee_title.setText("Coffee");
@@ -1028,6 +838,201 @@ public class Homepage extends javax.swing.JFrame {
                 .addContainerGap(29, Short.MAX_VALUE))
         );
 
+        Csize_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Csize_Panel.setPreferredSize(new java.awt.Dimension(272, 242));
+
+        CSize.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        CSize.setText("Size");
+
+        CSizeR_lbl.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
+        CSizeR_lbl.setForeground(new java.awt.Color(102, 102, 102));
+        CSizeR_lbl.setText("(required)");
+
+        Sizegroup.add(Small_size_btn);
+        Small_size_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Small_size_btn.setText("Small");
+        Small_size_btn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Small_size_btnActionPerformed(evt);
+            }
+        });
+
+        Sizegroup.add(Med_size_btn);
+        Med_size_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Med_size_btn.setText("Medium");
+        Med_size_btn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Med_size_btnActionPerformed(evt);
+            }
+        });
+
+        Sizegroup.add(Big_size_btn);
+        Big_size_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Big_size_btn.setText("Big");
+        Big_size_btn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Big_size_btnActionPerformed(evt);
+            }
+        });
+
+        Cmed_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Cmed_price.setForeground(new java.awt.Color(102, 102, 102));
+        Cmed_price.setText("+RM1.00");
+
+        Cbig_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Cbig_price.setForeground(new java.awt.Color(102, 102, 102));
+        Cbig_price.setText("+RM2.00");
+
+        Csmall_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Csmall_price.setForeground(new java.awt.Color(102, 102, 102));
+        Csmall_price.setText("+RM0.00");
+
+        javax.swing.GroupLayout Csize_PanelLayout = new javax.swing.GroupLayout(Csize_Panel);
+        Csize_Panel.setLayout(Csize_PanelLayout);
+        Csize_PanelLayout.setHorizontalGroup(
+            Csize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Csize_PanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(Csize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(Csize_PanelLayout.createSequentialGroup()
+                        .addComponent(CSize)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(CSizeR_lbl)
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(Csize_PanelLayout.createSequentialGroup()
+                        .addGap(54, 54, 54)
+                        .addGroup(Csize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(Csize_PanelLayout.createSequentialGroup()
+                                .addComponent(Med_size_btn)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
+                                .addComponent(Cmed_price))
+                            .addGroup(Csize_PanelLayout.createSequentialGroup()
+                                .addComponent(Small_size_btn)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(Csmall_price))
+                            .addGroup(Csize_PanelLayout.createSequentialGroup()
+                                .addComponent(Big_size_btn)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(Cbig_price)))))
+                .addContainerGap())
+        );
+        Csize_PanelLayout.setVerticalGroup(
+            Csize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Csize_PanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(Csize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(CSize)
+                    .addComponent(CSizeR_lbl))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Csize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Small_size_btn)
+                    .addComponent(Csmall_price))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Csize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Med_size_btn)
+                    .addComponent(Cmed_price))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Csize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Big_size_btn)
+                    .addComponent(Cbig_price))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        Csugar_lvl.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        CSugar_lbl.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        CSugar_lbl.setText("Sugar Level");
+
+        Sugarlevelgroup.add(Zero_lvl_btn);
+        Zero_lvl_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Zero_lvl_btn.setText("0%");
+        Zero_lvl_btn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Zero_lvl_btnActionPerformed(evt);
+            }
+        });
+
+        Sugarlevelgroup.add(Low_lvl_btn);
+        Low_lvl_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Low_lvl_btn.setText("25%");
+        Low_lvl_btn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Low_lvl_btnActionPerformed(evt);
+            }
+        });
+
+        Sugarlevelgroup.add(Med_lvl_btn);
+        Med_lvl_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Med_lvl_btn.setText("50%");
+        Med_lvl_btn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Med_lvl_btnActionPerformed(evt);
+            }
+        });
+
+        Sugarlevelgroup.add(High_lvl_btn);
+        High_lvl_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        High_lvl_btn.setText("75%");
+        High_lvl_btn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                High_lvl_btnActionPerformed(evt);
+            }
+        });
+
+        Sugarlevelgroup.add(Full_lvl_btn);
+        Full_lvl_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Full_lvl_btn.setText("100%");
+        Full_lvl_btn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Full_lvl_btnActionPerformed(evt);
+            }
+        });
+
+        CSugarR_lbl.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
+        CSugarR_lbl.setForeground(new java.awt.Color(102, 102, 102));
+        CSugarR_lbl.setText("(required)");
+
+        javax.swing.GroupLayout Csugar_lvlLayout = new javax.swing.GroupLayout(Csugar_lvl);
+        Csugar_lvl.setLayout(Csugar_lvlLayout);
+        Csugar_lvlLayout.setHorizontalGroup(
+            Csugar_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Csugar_lvlLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(Csugar_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(Csugar_lvlLayout.createSequentialGroup()
+                        .addComponent(CSugar_lbl)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(CSugarR_lbl))
+                    .addGroup(Csugar_lvlLayout.createSequentialGroup()
+                        .addGap(54, 54, 54)
+                        .addGroup(Csugar_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(Low_lvl_btn)
+                            .addComponent(Zero_lvl_btn)
+                            .addComponent(Med_lvl_btn)
+                            .addComponent(High_lvl_btn)
+                            .addComponent(Full_lvl_btn))))
+                .addContainerGap(37, Short.MAX_VALUE))
+        );
+        Csugar_lvlLayout.setVerticalGroup(
+            Csugar_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Csugar_lvlLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(Csugar_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(CSugar_lbl)
+                    .addComponent(CSugarR_lbl))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(Zero_lvl_btn)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(Low_lvl_btn)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(Med_lvl_btn)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(High_lvl_btn)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(Full_lvl_btn)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
         Cice_lvl.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         Cice_lvl.setPreferredSize(new java.awt.Dimension(272, 242));
 
@@ -1078,28 +1083,25 @@ public class Homepage extends javax.swing.JFrame {
         Cice_lvlLayout.setHorizontalGroup(
             Cice_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(Cice_lvlLayout.createSequentialGroup()
-                .addContainerGap()
                 .addGroup(Cice_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(Cice_lvlLayout.createSequentialGroup()
+                        .addGap(6, 6, 6)
                         .addComponent(CIce_lbl)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(CIceR_lbl)
-                        .addGap(0, 0, Short.MAX_VALUE))
+                        .addComponent(CIceR_lbl))
                     .addGroup(Cice_lvlLayout.createSequentialGroup()
-                        .addGap(54, 54, 54)
+                        .addGap(24, 24, 24)
                         .addGroup(Cice_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(CHot_btn)
                             .addGroup(Cice_lvlLayout.createSequentialGroup()
-                                .addComponent(CCold_btn)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(Cice_price))
-                            .addGroup(Cice_lvlLayout.createSequentialGroup()
-                                .addComponent(CHot_btn)
-                                .addGap(0, 0, Short.MAX_VALUE))
-                            .addGroup(Cice_lvlLayout.createSequentialGroup()
-                                .addComponent(CNo_ice_btn)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(Ccold_price)))))
-                .addContainerGap())
+                                .addGroup(Cice_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(CNo_ice_btn)
+                                    .addComponent(CCold_btn))
+                                .addGap(18, 18, 18)
+                                .addGroup(Cice_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(Cice_price)
+                                    .addComponent(Ccold_price))))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         Cice_lvlLayout.setVerticalGroup(
             Cice_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1110,15 +1112,15 @@ public class Homepage extends javax.swing.JFrame {
                     .addComponent(CIceR_lbl))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(CHot_btn)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(33, 33, 33)
                 .addGroup(Cice_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(CCold_btn)
                     .addComponent(Cice_price))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(39, 39, 39)
                 .addGroup(Cice_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(CNo_ice_btn)
                     .addComponent(Ccold_price))
-                .addContainerGap(107, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         Ccream_lvl.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -1170,15 +1172,14 @@ public class Homepage extends javax.swing.JFrame {
         Ccream_lvlLayout.setVerticalGroup(
             Ccream_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(Ccream_lvlLayout.createSequentialGroup()
-                .addContainerGap()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(Ccream_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(CCream)
                     .addComponent(CCreamR_lbl))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(CCream_btn)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(CWithout_cream_btn)
-                .addContainerGap(139, Short.MAX_VALUE))
+                .addComponent(CWithout_cream_btn))
         );
 
         Cadd_btn.setBackground(new java.awt.Color(255, 153, 51));
@@ -1191,52 +1192,269 @@ public class Homepage extends javax.swing.JFrame {
             }
         });
 
+        javax.swing.GroupLayout Coffee_panelLayout = new javax.swing.GroupLayout(Coffee_panel);
+        Coffee_panel.setLayout(Coffee_panelLayout);
+        Coffee_panelLayout.setHorizontalGroup(
+            Coffee_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Coffee_panelLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(Cadd_btn, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(58, 58, 58))
+            .addGroup(Coffee_panelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(Coffee_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(Coffee_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addComponent(Ctype_Panel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, Coffee_panelLayout.createSequentialGroup()
+                            .addGroup(Coffee_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addComponent(Csize_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(Ccream_lvl, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGap(18, 18, 18)
+                            .addComponent(Csugar_lvl, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGap(18, 18, 18)
+                            .addComponent(Cice_lvl, javax.swing.GroupLayout.PREFERRED_SIZE, 280, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(Coffee_title))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        Coffee_panelLayout.setVerticalGroup(
+            Coffee_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Coffee_panelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(Coffee_title)
+                .addGap(18, 18, 18)
+                .addComponent(Ctype_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addGroup(Coffee_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addGroup(Coffee_panelLayout.createSequentialGroup()
+                        .addComponent(Csize_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Ccream_lvl, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(Csugar_lvl, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(Cice_lvl, javax.swing.GroupLayout.DEFAULT_SIZE, 250, Short.MAX_VALUE))
+                .addGap(18, 18, 18)
+                .addComponent(Cadd_btn, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(11, Short.MAX_VALUE))
+        );
+
         javax.swing.GroupLayout CoffeeLayout = new javax.swing.GroupLayout(Coffee.getContentPane());
         Coffee.getContentPane().setLayout(CoffeeLayout);
         CoffeeLayout.setHorizontalGroup(
             CoffeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(CoffeeLayout.createSequentialGroup()
-                .addGap(17, 17, 17)
-                .addGroup(CoffeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(CoffeeLayout.createSequentialGroup()
-                        .addComponent(Coffee_title)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(CoffeeLayout.createSequentialGroup()
-                        .addGroup(CoffeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(Ctype_Panel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addGroup(CoffeeLayout.createSequentialGroup()
-                                .addGap(0, 0, Short.MAX_VALUE)
-                                .addComponent(Cadd_btn, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(CoffeeLayout.createSequentialGroup()
-                                .addComponent(Csize_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Csugar_lvl, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Cice_lvl, javax.swing.GroupLayout.DEFAULT_SIZE, 304, Short.MAX_VALUE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Ccream_lvl, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(17, 17, 17))))
+                .addContainerGap()
+                .addComponent(Coffee_panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         CoffeeLayout.setVerticalGroup(
             CoffeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(CoffeeLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(Coffee_title)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(Ctype_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, Short.MAX_VALUE)
-                .addGroup(CoffeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(Csize_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Csugar_lvl, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Cice_lvl, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Ccream_lvl, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addComponent(Cadd_btn, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(17, 17, 17))
+                .addComponent(Coffee_panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         Tea.setResizable(false);
-        Tea.setSize(new java.awt.Dimension(1099, 450));
+        Tea.setSize(new java.awt.Dimension(1213, 573));
+
+        Tea_title.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
+        Tea_title.setText("Tea");
+
+        Ttype_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        TType.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        TType.setText("Type");
+
+        TTypeR_lbl.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
+        TTypeR_lbl.setForeground(new java.awt.Color(102, 102, 102));
+        TTypeR_lbl.setText("(required)");
+
+        Typegroup.add(Egtea_btn);
+        Egtea_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Egtea_btn.setText("Earl grey");
+        Egtea_btn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Egtea_btnActionPerformed(evt);
+            }
+        });
+
+        Egtea_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Egtea_price.setForeground(new java.awt.Color(102, 102, 102));
+        Egtea_price.setText("RM7.00");
+
+        Typegroup.add(Jasmine_but);
+        Jasmine_but.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Jasmine_but.setText("Jasmine");
+        Jasmine_but.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Jasmine_butActionPerformed(evt);
+            }
+        });
+
+        Jasmine_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Jasmine_price.setForeground(new java.awt.Color(102, 102, 102));
+        Jasmine_price.setText("RM7.00");
+
+        Typegroup.add(Oolong_but);
+        Oolong_but.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Oolong_but.setText("Oolong peach");
+        Oolong_but.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Oolong_butActionPerformed(evt);
+            }
+        });
+
+        Oolong_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Oolong_price.setForeground(new java.awt.Color(102, 102, 102));
+        Oolong_price.setText("RM8.00");
+
+        javax.swing.GroupLayout Ttype_PanelLayout = new javax.swing.GroupLayout(Ttype_Panel);
+        Ttype_Panel.setLayout(Ttype_PanelLayout);
+        Ttype_PanelLayout.setHorizontalGroup(
+            Ttype_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Ttype_PanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(Ttype_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(Ttype_PanelLayout.createSequentialGroup()
+                        .addComponent(TType)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(TTypeR_lbl)
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(Ttype_PanelLayout.createSequentialGroup()
+                        .addGap(54, 54, 54)
+                        .addGroup(Ttype_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(Ttype_PanelLayout.createSequentialGroup()
+                                .addComponent(Jasmine_but)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(Jasmine_price))
+                            .addGroup(Ttype_PanelLayout.createSequentialGroup()
+                                .addComponent(Egtea_btn)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(Egtea_price))
+                            .addGroup(Ttype_PanelLayout.createSequentialGroup()
+                                .addComponent(Oolong_but)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 683, Short.MAX_VALUE)
+                                .addComponent(Oolong_price)))))
+                .addContainerGap())
+        );
+        Ttype_PanelLayout.setVerticalGroup(
+            Ttype_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Ttype_PanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(Ttype_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(TType)
+                    .addComponent(TTypeR_lbl))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Ttype_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Egtea_btn)
+                    .addComponent(Egtea_price))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Ttype_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Jasmine_but)
+                    .addComponent(Jasmine_price))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Ttype_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Oolong_but)
+                    .addComponent(Oolong_price))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        TSize_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        TSize_Panel.setPreferredSize(new java.awt.Dimension(272, 242));
+
+        TSize_lbl.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        TSize_lbl.setText("Size");
+
+        Sizegroup.add(TSmall_size);
+        TSmall_size.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        TSmall_size.setText("Small");
+        TSmall_size.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                TSmall_sizeActionPerformed(evt);
+            }
+        });
+
+        Sizegroup.add(Tmed_size);
+        Tmed_size.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Tmed_size.setText("Medium");
+        Tmed_size.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Tmed_sizeActionPerformed(evt);
+            }
+        });
+
+        Sizegroup.add(TBig_size);
+        TBig_size.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        TBig_size.setText("Big");
+        TBig_size.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                TBig_sizeActionPerformed(evt);
+            }
+        });
+
+        TMedSize_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        TMedSize_price.setForeground(new java.awt.Color(102, 102, 102));
+        TMedSize_price.setText("+RM1.00");
+
+        TBigSoze_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        TBigSoze_price.setForeground(new java.awt.Color(102, 102, 102));
+        TBigSoze_price.setText("+RM2.00");
+
+        TSmallSize_but.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        TSmallSize_but.setForeground(new java.awt.Color(102, 102, 102));
+        TSmallSize_but.setText("+RM0.00");
+
+        TSizeR_lbl.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
+        TSizeR_lbl.setForeground(new java.awt.Color(102, 102, 102));
+        TSizeR_lbl.setText("(required)");
+
+        javax.swing.GroupLayout TSize_PanelLayout = new javax.swing.GroupLayout(TSize_Panel);
+        TSize_Panel.setLayout(TSize_PanelLayout);
+        TSize_PanelLayout.setHorizontalGroup(
+            TSize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(TSize_PanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(TSize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(TSize_PanelLayout.createSequentialGroup()
+                        .addComponent(TSize_lbl)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(TSizeR_lbl)
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(TSize_PanelLayout.createSequentialGroup()
+                        .addGap(54, 54, 54)
+                        .addGroup(TSize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(TSize_PanelLayout.createSequentialGroup()
+                                .addComponent(Tmed_size)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
+                                .addComponent(TMedSize_price))
+                            .addGroup(TSize_PanelLayout.createSequentialGroup()
+                                .addComponent(TSmall_size)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(TSmallSize_but))
+                            .addGroup(TSize_PanelLayout.createSequentialGroup()
+                                .addComponent(TBig_size)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(TBigSoze_price)))))
+                .addContainerGap())
+        );
+        TSize_PanelLayout.setVerticalGroup(
+            TSize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(TSize_PanelLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(TSize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(TSize_lbl)
+                    .addComponent(TSizeR_lbl))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(TSize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(TSmall_size)
+                    .addComponent(TSmallSize_but))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(TSize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Tmed_size)
+                    .addComponent(TMedSize_price))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(TSize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(TBig_size)
+                    .addComponent(TBigSoze_price)))
+        );
 
         TSugar_lvl.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
@@ -1330,209 +1548,7 @@ public class Homepage extends javax.swing.JFrame {
                 .addComponent(THIgh_btn)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(TFull_btn)
-                .addContainerGap(43, Short.MAX_VALUE))
-        );
-
-        TSize_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        TSize_Panel.setPreferredSize(new java.awt.Dimension(272, 242));
-
-        TSize_lbl.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        TSize_lbl.setText("Size");
-
-        Sizegroup.add(TSmall_size);
-        TSmall_size.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        TSmall_size.setText("Small");
-        TSmall_size.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TSmall_sizeActionPerformed(evt);
-            }
-        });
-
-        Sizegroup.add(Tmed_size);
-        Tmed_size.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        Tmed_size.setText("Medium");
-        Tmed_size.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Tmed_sizeActionPerformed(evt);
-            }
-        });
-
-        Sizegroup.add(TBig_size);
-        TBig_size.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        TBig_size.setText("Big");
-        TBig_size.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TBig_sizeActionPerformed(evt);
-            }
-        });
-
-        TMedSize_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        TMedSize_price.setForeground(new java.awt.Color(102, 102, 102));
-        TMedSize_price.setText("+RM1.00");
-
-        TBigSoze_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        TBigSoze_price.setForeground(new java.awt.Color(102, 102, 102));
-        TBigSoze_price.setText("+RM2.00");
-
-        TSmallSize_but.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        TSmallSize_but.setForeground(new java.awt.Color(102, 102, 102));
-        TSmallSize_but.setText("+RM0.00");
-
-        TSizeR_lbl.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
-        TSizeR_lbl.setForeground(new java.awt.Color(102, 102, 102));
-        TSizeR_lbl.setText("(required)");
-
-        javax.swing.GroupLayout TSize_PanelLayout = new javax.swing.GroupLayout(TSize_Panel);
-        TSize_Panel.setLayout(TSize_PanelLayout);
-        TSize_PanelLayout.setHorizontalGroup(
-            TSize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(TSize_PanelLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(TSize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(TSize_PanelLayout.createSequentialGroup()
-                        .addComponent(TSize_lbl)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(TSizeR_lbl)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(TSize_PanelLayout.createSequentialGroup()
-                        .addGap(54, 54, 54)
-                        .addGroup(TSize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(TSize_PanelLayout.createSequentialGroup()
-                                .addComponent(Tmed_size)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
-                                .addComponent(TMedSize_price))
-                            .addGroup(TSize_PanelLayout.createSequentialGroup()
-                                .addComponent(TSmall_size)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(TSmallSize_but))
-                            .addGroup(TSize_PanelLayout.createSequentialGroup()
-                                .addComponent(TBig_size)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(TBigSoze_price)))))
-                .addContainerGap())
-        );
-        TSize_PanelLayout.setVerticalGroup(
-            TSize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(TSize_PanelLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(TSize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(TSize_lbl)
-                    .addComponent(TSizeR_lbl))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(TSize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(TSmall_size)
-                    .addComponent(TSmallSize_but))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(TSize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(Tmed_size)
-                    .addComponent(TMedSize_price))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(TSize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(TBig_size)
-                    .addComponent(TBigSoze_price))
-                .addContainerGap(107, Short.MAX_VALUE))
-        );
-
-        Tea_title.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
-        Tea_title.setText("Tea");
-
-        Ttype_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-
-        TType.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        TType.setText("Type");
-
-        TTypeR_lbl.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
-        TTypeR_lbl.setForeground(new java.awt.Color(102, 102, 102));
-        TTypeR_lbl.setText("(required)");
-
-        Typegroup.add(Egtea_btn);
-        Egtea_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        Egtea_btn.setText("Earl grey");
-        Egtea_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Egtea_btnActionPerformed(evt);
-            }
-        });
-
-        Egtea_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        Egtea_price.setForeground(new java.awt.Color(102, 102, 102));
-        Egtea_price.setText("RM7.00");
-
-        Typegroup.add(Jasmine_but);
-        Jasmine_but.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        Jasmine_but.setText("Jasmine");
-        Jasmine_but.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Jasmine_butActionPerformed(evt);
-            }
-        });
-
-        Jasmine_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        Jasmine_price.setForeground(new java.awt.Color(102, 102, 102));
-        Jasmine_price.setText("RM7.00");
-
-        Typegroup.add(Oolong_but);
-        Oolong_but.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        Oolong_but.setText("Oolong peach");
-        Oolong_but.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Oolong_butActionPerformed(evt);
-            }
-        });
-
-        Oolong_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        Oolong_price.setForeground(new java.awt.Color(102, 102, 102));
-        Oolong_price.setText("RM8.00");
-
-        javax.swing.GroupLayout Ttype_PanelLayout = new javax.swing.GroupLayout(Ttype_Panel);
-        Ttype_Panel.setLayout(Ttype_PanelLayout);
-        Ttype_PanelLayout.setHorizontalGroup(
-            Ttype_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Ttype_PanelLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(Ttype_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(Ttype_PanelLayout.createSequentialGroup()
-                        .addComponent(TType)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(TTypeR_lbl)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(Ttype_PanelLayout.createSequentialGroup()
-                        .addGap(54, 54, 54)
-                        .addGroup(Ttype_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(Ttype_PanelLayout.createSequentialGroup()
-                                .addComponent(Jasmine_but)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(Jasmine_price))
-                            .addGroup(Ttype_PanelLayout.createSequentialGroup()
-                                .addComponent(Egtea_btn)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(Egtea_price))
-                            .addGroup(Ttype_PanelLayout.createSequentialGroup()
-                                .addComponent(Oolong_but)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(Oolong_price)))))
-                .addContainerGap())
-        );
-        Ttype_PanelLayout.setVerticalGroup(
-            Ttype_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Ttype_PanelLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(Ttype_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(TType)
-                    .addComponent(TTypeR_lbl))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Ttype_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(Egtea_btn)
-                    .addComponent(Egtea_price))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Ttype_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(Jasmine_but)
-                    .addComponent(Jasmine_price))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Ttype_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(Oolong_but)
-                    .addComponent(Oolong_price))
-                .addContainerGap(29, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         Tice_lvl1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -1604,7 +1620,7 @@ public class Homepage extends javax.swing.JFrame {
                                 .addGap(0, 0, Short.MAX_VALUE))
                             .addGroup(Tice_lvl1Layout.createSequentialGroup()
                                 .addComponent(TNo_ice_btn)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 65, Short.MAX_VALUE)
                                 .addComponent(TWice_price)))))
                 .addContainerGap())
         );
@@ -1625,7 +1641,7 @@ public class Homepage extends javax.swing.JFrame {
                 .addGroup(Tice_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(TNo_ice_btn)
                     .addComponent(TWice_price))
-                .addContainerGap(107, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         Tmilk_lvl.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -1703,7 +1719,7 @@ public class Homepage extends javax.swing.JFrame {
                 .addGroup(Tmilk_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(Without_milk_btn)
                     .addComponent(Twithout_milk_price))
-                .addContainerGap(139, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         Cadd_btn1.setBackground(new java.awt.Color(255, 153, 51));
@@ -1716,52 +1732,270 @@ public class Homepage extends javax.swing.JFrame {
             }
         });
 
+        javax.swing.GroupLayout Tea_panelLayout = new javax.swing.GroupLayout(Tea_panel);
+        Tea_panel.setLayout(Tea_panelLayout);
+        Tea_panelLayout.setHorizontalGroup(
+            Tea_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Tea_panelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(Tea_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Tea_panelLayout.createSequentialGroup()
+                        .addGroup(Tea_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(TSize_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Tmilk_lvl, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addComponent(TSugar_lvl, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(Tice_lvl1, javax.swing.GroupLayout.PREFERRED_SIZE, 363, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(Tea_title)
+                    .addComponent(Ttype_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Tea_panelLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(Cadd_btn1, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(47, 47, 47))
+        );
+        Tea_panelLayout.setVerticalGroup(
+            Tea_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Tea_panelLayout.createSequentialGroup()
+                .addGap(29, 29, 29)
+                .addComponent(Tea_title)
+                .addGap(18, 18, 18)
+                .addComponent(Ttype_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addGroup(Tea_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addGroup(Tea_panelLayout.createSequentialGroup()
+                        .addComponent(TSize_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Tmilk_lvl, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(TSugar_lvl, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(Tice_lvl1, javax.swing.GroupLayout.DEFAULT_SIZE, 250, Short.MAX_VALUE))
+                .addGap(18, 18, 18)
+                .addComponent(Cadd_btn1, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
         javax.swing.GroupLayout TeaLayout = new javax.swing.GroupLayout(Tea.getContentPane());
         Tea.getContentPane().setLayout(TeaLayout);
         TeaLayout.setHorizontalGroup(
             TeaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(TeaLayout.createSequentialGroup()
-                .addGap(17, 17, 17)
-                .addGroup(TeaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(TeaLayout.createSequentialGroup()
-                        .addComponent(Tea_title)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(TeaLayout.createSequentialGroup()
-                        .addGroup(TeaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(Ttype_Panel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addGroup(TeaLayout.createSequentialGroup()
-                                .addGap(0, 0, Short.MAX_VALUE)
-                                .addComponent(Cadd_btn1, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(TeaLayout.createSequentialGroup()
-                                .addComponent(TSize_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(TSugar_lvl, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Tice_lvl1, javax.swing.GroupLayout.DEFAULT_SIZE, 304, Short.MAX_VALUE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Tmilk_lvl, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(17, 17, 17))))
+                .addContainerGap()
+                .addComponent(Tea_panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         TeaLayout.setVerticalGroup(
             TeaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(TeaLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(Tea_title)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(Ttype_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, Short.MAX_VALUE)
-                .addGroup(TeaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(TSize_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(TSugar_lvl, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Tice_lvl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Tmilk_lvl, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addComponent(Cadd_btn1, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(17, 17, 17))
+                .addComponent(Tea_panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         Bagel.setResizable(false);
-        Bagel.setSize(new java.awt.Dimension(1099, 450));
+        Bagel.setSize(new java.awt.Dimension(1315, 577));
+
+        Bagel_title1.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
+        Bagel_title1.setText("Bagel");
+
+        BagelDough_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        BagelDoughSection.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        BagelDoughSection.setText("Dough");
+
+        Typegroup.add(BagelDough_plain);
+        BagelDough_plain.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        BagelDough_plain.setText("Plain");
+        BagelDough_plain.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BagelDough_plainActionPerformed(evt);
+            }
+        });
+
+        Typegroup.add(BagelDough_Mixed);
+        BagelDough_Mixed.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        BagelDough_Mixed.setText("Mixed");
+        BagelDough_Mixed.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BagelDough_MixedActionPerformed(evt);
+            }
+        });
+
+        Typegroup.add(BagelDough_WholeWheat);
+        BagelDough_WholeWheat.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        BagelDough_WholeWheat.setText("Whole Wheat");
+        BagelDough_WholeWheat.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BagelDough_WholeWheatActionPerformed(evt);
+            }
+        });
+
+        BagelDough_PlainPrice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        BagelDough_PlainPrice.setForeground(new java.awt.Color(102, 102, 102));
+        BagelDough_PlainPrice.setText("RM9.00");
+
+        BagelDough_MixedPrice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        BagelDough_MixedPrice.setForeground(new java.awt.Color(102, 102, 102));
+        BagelDough_MixedPrice.setText("RM8.00");
+
+        BagelDough_WholeWheatPrice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        BagelDough_WholeWheatPrice.setForeground(new java.awt.Color(102, 102, 102));
+        BagelDough_WholeWheatPrice.setText("RM8.00");
+
+        required_label7.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
+        required_label7.setForeground(new java.awt.Color(102, 102, 102));
+        required_label7.setText("(required)");
+
+        javax.swing.GroupLayout BagelDough_PanelLayout = new javax.swing.GroupLayout(BagelDough_Panel);
+        BagelDough_Panel.setLayout(BagelDough_PanelLayout);
+        BagelDough_PanelLayout.setHorizontalGroup(
+            BagelDough_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(BagelDough_PanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(BagelDough_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(BagelDough_PanelLayout.createSequentialGroup()
+                        .addComponent(BagelDoughSection)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(required_label7)
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(BagelDough_PanelLayout.createSequentialGroup()
+                        .addGap(54, 54, 54)
+                        .addGroup(BagelDough_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(BagelDough_PanelLayout.createSequentialGroup()
+                                .addComponent(BagelDough_Mixed)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(BagelDough_MixedPrice))
+                            .addGroup(BagelDough_PanelLayout.createSequentialGroup()
+                                .addComponent(BagelDough_plain)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(BagelDough_PlainPrice))
+                            .addGroup(BagelDough_PanelLayout.createSequentialGroup()
+                                .addComponent(BagelDough_WholeWheat)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(BagelDough_WholeWheatPrice)))))
+                .addContainerGap())
+        );
+        BagelDough_PanelLayout.setVerticalGroup(
+            BagelDough_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(BagelDough_PanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(BagelDough_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(BagelDoughSection)
+                    .addComponent(required_label7))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(BagelDough_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(BagelDough_plain)
+                    .addComponent(BagelDough_PlainPrice))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(BagelDough_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(BagelDough_Mixed)
+                    .addComponent(BagelDough_MixedPrice))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(BagelDough_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(BagelDough_WholeWheat)
+                    .addComponent(BagelDough_WholeWheatPrice))
+                .addContainerGap(29, Short.MAX_VALUE))
+        );
+
+        BagelSizePanel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        BagelSizePanel.setPreferredSize(new java.awt.Dimension(272, 242));
+
+        BagelSizeSection.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        BagelSizeSection.setText("Size");
+
+        Sizegroup.add(BagelSize_Small);
+        BagelSize_Small.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        BagelSize_Small.setText("Small");
+        BagelSize_Small.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BagelSize_SmallActionPerformed(evt);
+            }
+        });
+
+        Sizegroup.add(BagelSize_Medium);
+        BagelSize_Medium.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        BagelSize_Medium.setText("Medium");
+        BagelSize_Medium.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BagelSize_MediumActionPerformed(evt);
+            }
+        });
+
+        Sizegroup.add(BagelSize_Big);
+        BagelSize_Big.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        BagelSize_Big.setText("Big");
+        BagelSize_Big.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BagelSize_BigActionPerformed(evt);
+            }
+        });
+
+        BagelSize_Mediumprice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        BagelSize_Mediumprice.setForeground(new java.awt.Color(102, 102, 102));
+        BagelSize_Mediumprice.setText("+RM1.00");
+
+        BagelSize_BigPrice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        BagelSize_BigPrice.setForeground(new java.awt.Color(102, 102, 102));
+        BagelSize_BigPrice.setText("+RM2.00");
+
+        BagelSize_Smallprice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        BagelSize_Smallprice.setForeground(new java.awt.Color(102, 102, 102));
+        BagelSize_Smallprice.setText("+RM0.00");
+
+        required_label10.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
+        required_label10.setForeground(new java.awt.Color(102, 102, 102));
+        required_label10.setText("(required)");
+
+        javax.swing.GroupLayout BagelSizePanelLayout = new javax.swing.GroupLayout(BagelSizePanel);
+        BagelSizePanel.setLayout(BagelSizePanelLayout);
+        BagelSizePanelLayout.setHorizontalGroup(
+            BagelSizePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(BagelSizePanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(BagelSizePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(BagelSizePanelLayout.createSequentialGroup()
+                        .addComponent(BagelSizeSection)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(required_label10)
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(BagelSizePanelLayout.createSequentialGroup()
+                        .addGap(54, 54, 54)
+                        .addGroup(BagelSizePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(BagelSizePanelLayout.createSequentialGroup()
+                                .addComponent(BagelSize_Medium)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 32, Short.MAX_VALUE)
+                                .addComponent(BagelSize_Mediumprice))
+                            .addGroup(BagelSizePanelLayout.createSequentialGroup()
+                                .addComponent(BagelSize_Small)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(BagelSize_Smallprice))
+                            .addGroup(BagelSizePanelLayout.createSequentialGroup()
+                                .addComponent(BagelSize_Big)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(BagelSize_BigPrice)))))
+                .addContainerGap())
+        );
+        BagelSizePanelLayout.setVerticalGroup(
+            BagelSizePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(BagelSizePanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(BagelSizePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(BagelSizeSection)
+                    .addComponent(required_label10))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(BagelSizePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(BagelSize_Small)
+                    .addComponent(BagelSize_Smallprice))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(BagelSizePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(BagelSize_Medium)
+                    .addComponent(BagelSize_Mediumprice))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(BagelSizePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(BagelSize_Big)
+                    .addComponent(BagelSize_BigPrice))
+                .addContainerGap(107, Short.MAX_VALUE))
+        );
 
         BagelFlavour_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
@@ -2044,218 +2278,6 @@ public class Homepage extends javax.swing.JFrame {
                 .addContainerGap(43, Short.MAX_VALUE))
         );
 
-        Bagel_title1.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
-        Bagel_title1.setText("Bagel");
-
-        BagelDough_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-
-        BagelDoughSection.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        BagelDoughSection.setText("Dough");
-
-        Typegroup.add(BagelDough_plain);
-        BagelDough_plain.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        BagelDough_plain.setText("Plain");
-        BagelDough_plain.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BagelDough_plainActionPerformed(evt);
-            }
-        });
-
-        Typegroup.add(BagelDough_Mixed);
-        BagelDough_Mixed.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        BagelDough_Mixed.setText("Mixed");
-        BagelDough_Mixed.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BagelDough_MixedActionPerformed(evt);
-            }
-        });
-
-        Typegroup.add(BagelDough_WholeWheat);
-        BagelDough_WholeWheat.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        BagelDough_WholeWheat.setText("Whole Wheat");
-        BagelDough_WholeWheat.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BagelDough_WholeWheatActionPerformed(evt);
-            }
-        });
-
-        BagelDough_PlainPrice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        BagelDough_PlainPrice.setForeground(new java.awt.Color(102, 102, 102));
-        BagelDough_PlainPrice.setText("RM9.00");
-
-        BagelDough_MixedPrice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        BagelDough_MixedPrice.setForeground(new java.awt.Color(102, 102, 102));
-        BagelDough_MixedPrice.setText("RM8.00");
-
-        BagelDough_WholeWheatPrice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        BagelDough_WholeWheatPrice.setForeground(new java.awt.Color(102, 102, 102));
-        BagelDough_WholeWheatPrice.setText("RM8.00");
-
-        required_label7.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
-        required_label7.setForeground(new java.awt.Color(102, 102, 102));
-        required_label7.setText("(required)");
-
-        javax.swing.GroupLayout BagelDough_PanelLayout = new javax.swing.GroupLayout(BagelDough_Panel);
-        BagelDough_Panel.setLayout(BagelDough_PanelLayout);
-        BagelDough_PanelLayout.setHorizontalGroup(
-            BagelDough_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(BagelDough_PanelLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(BagelDough_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(BagelDough_PanelLayout.createSequentialGroup()
-                        .addComponent(BagelDoughSection)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(required_label7)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(BagelDough_PanelLayout.createSequentialGroup()
-                        .addGap(54, 54, 54)
-                        .addGroup(BagelDough_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(BagelDough_PanelLayout.createSequentialGroup()
-                                .addComponent(BagelDough_Mixed)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(BagelDough_MixedPrice))
-                            .addGroup(BagelDough_PanelLayout.createSequentialGroup()
-                                .addComponent(BagelDough_plain)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(BagelDough_PlainPrice))
-                            .addGroup(BagelDough_PanelLayout.createSequentialGroup()
-                                .addComponent(BagelDough_WholeWheat)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(BagelDough_WholeWheatPrice)))))
-                .addContainerGap())
-        );
-        BagelDough_PanelLayout.setVerticalGroup(
-            BagelDough_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(BagelDough_PanelLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(BagelDough_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(BagelDoughSection)
-                    .addComponent(required_label7))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(BagelDough_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(BagelDough_plain)
-                    .addComponent(BagelDough_PlainPrice))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(BagelDough_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(BagelDough_Mixed)
-                    .addComponent(BagelDough_MixedPrice))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(BagelDough_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(BagelDough_WholeWheat)
-                    .addComponent(BagelDough_WholeWheatPrice))
-                .addContainerGap(29, Short.MAX_VALUE))
-        );
-
-        Bagel_add_btn1.setBackground(new java.awt.Color(255, 153, 51));
-        Bagel_add_btn1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        Bagel_add_btn1.setText("Add");
-        Bagel_add_btn1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        Bagel_add_btn1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Bagel_add_btn1ActionPerformed(evt);
-            }
-        });
-
-        BagelSizePanel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        BagelSizePanel.setPreferredSize(new java.awt.Dimension(272, 242));
-
-        BagelSizeSection.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        BagelSizeSection.setText("Size");
-
-        Sizegroup.add(BagelSize_Small);
-        BagelSize_Small.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        BagelSize_Small.setText("Small");
-        BagelSize_Small.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BagelSize_SmallActionPerformed(evt);
-            }
-        });
-
-        Sizegroup.add(BagelSize_Medium);
-        BagelSize_Medium.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        BagelSize_Medium.setText("Medium");
-        BagelSize_Medium.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BagelSize_MediumActionPerformed(evt);
-            }
-        });
-
-        Sizegroup.add(BagelSize_Big);
-        BagelSize_Big.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        BagelSize_Big.setText("Big");
-        BagelSize_Big.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BagelSize_BigActionPerformed(evt);
-            }
-        });
-
-        BagelSize_Mediumprice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        BagelSize_Mediumprice.setForeground(new java.awt.Color(102, 102, 102));
-        BagelSize_Mediumprice.setText("+RM1.00");
-
-        BagelSize_BigPrice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        BagelSize_BigPrice.setForeground(new java.awt.Color(102, 102, 102));
-        BagelSize_BigPrice.setText("+RM2.00");
-
-        BagelSize_Smallprice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        BagelSize_Smallprice.setForeground(new java.awt.Color(102, 102, 102));
-        BagelSize_Smallprice.setText("+RM0.00");
-
-        required_label10.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
-        required_label10.setForeground(new java.awt.Color(102, 102, 102));
-        required_label10.setText("(required)");
-
-        javax.swing.GroupLayout BagelSizePanelLayout = new javax.swing.GroupLayout(BagelSizePanel);
-        BagelSizePanel.setLayout(BagelSizePanelLayout);
-        BagelSizePanelLayout.setHorizontalGroup(
-            BagelSizePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(BagelSizePanelLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(BagelSizePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(BagelSizePanelLayout.createSequentialGroup()
-                        .addComponent(BagelSizeSection)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(required_label10)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(BagelSizePanelLayout.createSequentialGroup()
-                        .addGap(54, 54, 54)
-                        .addGroup(BagelSizePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(BagelSizePanelLayout.createSequentialGroup()
-                                .addComponent(BagelSize_Medium)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 32, Short.MAX_VALUE)
-                                .addComponent(BagelSize_Mediumprice))
-                            .addGroup(BagelSizePanelLayout.createSequentialGroup()
-                                .addComponent(BagelSize_Small)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(BagelSize_Smallprice))
-                            .addGroup(BagelSizePanelLayout.createSequentialGroup()
-                                .addComponent(BagelSize_Big)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(BagelSize_BigPrice)))))
-                .addContainerGap())
-        );
-        BagelSizePanelLayout.setVerticalGroup(
-            BagelSizePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(BagelSizePanelLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(BagelSizePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(BagelSizeSection)
-                    .addComponent(required_label10))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(BagelSizePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(BagelSize_Small)
-                    .addComponent(BagelSize_Smallprice))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(BagelSizePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(BagelSize_Medium)
-                    .addComponent(BagelSize_Mediumprice))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(BagelSizePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(BagelSize_Big)
-                    .addComponent(BagelSize_BigPrice))
-                .addContainerGap(107, Short.MAX_VALUE))
-        );
-
         BagelToppingIngredient_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         BagelToppingIngredient_Panel.setPreferredSize(new java.awt.Dimension(272, 242));
 
@@ -2398,167 +2420,79 @@ public class Homepage extends javax.swing.JFrame {
                 .addContainerGap(43, Short.MAX_VALUE))
         );
 
-        javax.swing.GroupLayout BagelLayout = new javax.swing.GroupLayout(Bagel.getContentPane());
-        Bagel.getContentPane().setLayout(BagelLayout);
-        BagelLayout.setHorizontalGroup(
-            BagelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(BagelLayout.createSequentialGroup()
-                .addGap(17, 17, 17)
-                .addGroup(BagelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(BagelLayout.createSequentialGroup()
+        Bagel_add_btn1.setBackground(new java.awt.Color(255, 153, 51));
+        Bagel_add_btn1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        Bagel_add_btn1.setText("Add");
+        Bagel_add_btn1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Bagel_add_btn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Bagel_add_btn1ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout Bagel_panelLayout = new javax.swing.GroupLayout(Bagel_panel);
+        Bagel_panel.setLayout(Bagel_panelLayout);
+        Bagel_panelLayout.setHorizontalGroup(
+            Bagel_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Bagel_panelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(Bagel_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(BagelDough_Panel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(Bagel_panelLayout.createSequentialGroup()
                         .addComponent(Bagel_title1)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, BagelLayout.createSequentialGroup()
-                        .addGroup(BagelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(BagelLayout.createSequentialGroup()
-                                .addGap(8, 8, 8)
-                                .addComponent(BagelSizePanel, javax.swing.GroupLayout.PREFERRED_SIZE, 256, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(BagelFlavour_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(BagelToppingSauce_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, 310, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(BagelToppingIngredient_Panel, javax.swing.GroupLayout.DEFAULT_SIZE, 345, Short.MAX_VALUE))
-                            .addComponent(BagelDough_Panel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addGroup(BagelLayout.createSequentialGroup()
-                                .addGap(0, 0, Short.MAX_VALUE)
-                                .addComponent(Bagel_add_btn1, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(17, 17, 17))))
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(Bagel_panelLayout.createSequentialGroup()
+                        .addComponent(BagelSizePanel, javax.swing.GroupLayout.PREFERRED_SIZE, 256, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(BagelFlavour_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(BagelToppingSauce_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, 310, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(BagelToppingIngredient_Panel, javax.swing.GroupLayout.DEFAULT_SIZE, 345, Short.MAX_VALUE))))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Bagel_panelLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(Bagel_add_btn1, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(94, 94, 94))
         );
-        BagelLayout.setVerticalGroup(
-            BagelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(BagelLayout.createSequentialGroup()
+        Bagel_panelLayout.setVerticalGroup(
+            Bagel_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Bagel_panelLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(Bagel_title1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(BagelDough_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, Short.MAX_VALUE)
-                .addGroup(BagelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(BagelLayout.createSequentialGroup()
-                        .addGroup(BagelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(BagelToppingSauce_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(BagelFlavour_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(BagelSizePanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(18, 18, 18)
-                        .addComponent(Bagel_add_btn1, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(BagelToppingIngredient_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(17, 17, 17))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 18, Short.MAX_VALUE)
+                .addGroup(Bagel_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(BagelFlavour_Panel, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(BagelSizePanel, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(BagelToppingSauce_Panel, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(BagelToppingIngredient_Panel, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(Bagel_add_btn1, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(18, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout BagelLayout = new javax.swing.GroupLayout(Bagel.getContentPane());
+        Bagel.getContentPane().setLayout(BagelLayout);
+        BagelLayout.setHorizontalGroup(
+            BagelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, BagelLayout.createSequentialGroup()
+                .addGap(17, 17, 17)
+                .addComponent(Bagel_panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        BagelLayout.setVerticalGroup(
+            BagelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(BagelLayout.createSequentialGroup()
+                .addComponent(Bagel_panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 15, Short.MAX_VALUE))
         );
 
         Pastry.setResizable(false);
-        Pastry.setSize(new java.awt.Dimension(1099, 450));
+        Pastry.setSize(new java.awt.Dimension(936, 526));
 
         Pastry_title2.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
         Pastry_title2.setText("Pastry");
-
-        Pastry_add_btn2.setBackground(new java.awt.Color(255, 153, 51));
-        Pastry_add_btn2.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        Pastry_add_btn2.setText("Add");
-        Pastry_add_btn2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        Pastry_add_btn2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Pastry_add_btn2ActionPerformed(evt);
-            }
-        });
-
-        PastryMuffin_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-
-        PastryMuffinSection3.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        PastryMuffinSection3.setText("Muffins");
-
-        Typegroup.add(PastryMuffin_Blueberry);
-        PastryMuffin_Blueberry.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        PastryMuffin_Blueberry.setText("BlueBerry");
-        PastryMuffin_Blueberry.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                PastryMuffin_BlueberryActionPerformed(evt);
-            }
-        });
-
-        Typegroup.add(PastryMuffin_ChocolateChip);
-        PastryMuffin_ChocolateChip.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        PastryMuffin_ChocolateChip.setText("Chocolate Chip");
-        PastryMuffin_ChocolateChip.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                PastryMuffin_ChocolateChipActionPerformed(evt);
-            }
-        });
-
-        Typegroup.add(PastryMuffin_BananaNut);
-        PastryMuffin_BananaNut.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        PastryMuffin_BananaNut.setText("Jelly Filled");
-        PastryMuffin_BananaNut.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                PastryMuffin_BananaNutActionPerformed(evt);
-            }
-        });
-
-        PastryMuffin_blueberryPrice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        PastryMuffin_blueberryPrice.setForeground(new java.awt.Color(102, 102, 102));
-        PastryMuffin_blueberryPrice.setText("RM3.00");
-
-        PastryMuffin_ChocolateChipPrice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        PastryMuffin_ChocolateChipPrice.setForeground(new java.awt.Color(102, 102, 102));
-        PastryMuffin_ChocolateChipPrice.setText("RM3.00");
-
-        PastryMuffin_BananaNutPrice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        PastryMuffin_BananaNutPrice.setForeground(new java.awt.Color(102, 102, 102));
-        PastryMuffin_BananaNutPrice.setText("RM4.00");
-
-        Optional_label14.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
-        Optional_label14.setForeground(new java.awt.Color(102, 102, 102));
-        Optional_label14.setText("(optional)");
-
-        javax.swing.GroupLayout PastryMuffin_PanelLayout = new javax.swing.GroupLayout(PastryMuffin_Panel);
-        PastryMuffin_Panel.setLayout(PastryMuffin_PanelLayout);
-        PastryMuffin_PanelLayout.setHorizontalGroup(
-            PastryMuffin_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PastryMuffin_PanelLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(PastryMuffin_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(PastryMuffin_PanelLayout.createSequentialGroup()
-                        .addComponent(PastryMuffinSection3)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Optional_label14)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(PastryMuffin_PanelLayout.createSequentialGroup()
-                        .addGap(54, 54, 54)
-                        .addGroup(PastryMuffin_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(PastryMuffin_PanelLayout.createSequentialGroup()
-                                .addComponent(PastryMuffin_ChocolateChip)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(PastryMuffin_ChocolateChipPrice))
-                            .addGroup(PastryMuffin_PanelLayout.createSequentialGroup()
-                                .addComponent(PastryMuffin_Blueberry)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 179, Short.MAX_VALUE)
-                                .addComponent(PastryMuffin_blueberryPrice))
-                            .addGroup(PastryMuffin_PanelLayout.createSequentialGroup()
-                                .addComponent(PastryMuffin_BananaNut)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(PastryMuffin_BananaNutPrice)))))
-                .addContainerGap())
-        );
-        PastryMuffin_PanelLayout.setVerticalGroup(
-            PastryMuffin_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PastryMuffin_PanelLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(PastryMuffin_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(PastryMuffinSection3)
-                    .addComponent(Optional_label14))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(PastryMuffin_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(PastryMuffin_Blueberry)
-                    .addComponent(PastryMuffin_blueberryPrice))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(PastryMuffin_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(PastryMuffin_ChocolateChip)
-                    .addComponent(PastryMuffin_ChocolateChipPrice))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(PastryMuffin_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(PastryMuffin_BananaNut)
-                    .addComponent(PastryMuffin_BananaNutPrice))
-                .addContainerGap(39, Short.MAX_VALUE))
-        );
 
         PastryDonuts_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
@@ -2659,105 +2593,6 @@ public class Homepage extends javax.swing.JFrame {
                 .addContainerGap(39, Short.MAX_VALUE))
         );
 
-        PastrySpecial_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-
-        PastrySpecialSection5.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        PastrySpecialSection5.setText("Specials");
-
-        Typegroup.add(PastrySpecial_macarons);
-        PastrySpecial_macarons.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        PastrySpecial_macarons.setText("Macarons");
-        PastrySpecial_macarons.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                PastrySpecial_macaronsActionPerformed(evt);
-            }
-        });
-
-        Typegroup.add(PastrySpecial_Cannoli);
-        PastrySpecial_Cannoli.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        PastrySpecial_Cannoli.setText("Cannoli");
-        PastrySpecial_Cannoli.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                PastrySpecial_CannoliActionPerformed(evt);
-            }
-        });
-
-        Typegroup.add(PastrySpecial_Baklava);
-        PastrySpecial_Baklava.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        PastrySpecial_Baklava.setText("Baklava");
-        PastrySpecial_Baklava.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                PastrySpecial_BaklavaActionPerformed(evt);
-            }
-        });
-
-        PastrySpecial_macaronsPrice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        PastrySpecial_macaronsPrice.setForeground(new java.awt.Color(102, 102, 102));
-        PastrySpecial_macaronsPrice.setText("RM6.00");
-
-        PastrySpecial_CannoliPrice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        PastrySpecial_CannoliPrice.setForeground(new java.awt.Color(102, 102, 102));
-        PastrySpecial_CannoliPrice.setText("RM6.00");
-
-        PastrySpecial_BaklavaPrice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        PastrySpecial_BaklavaPrice.setForeground(new java.awt.Color(102, 102, 102));
-        PastrySpecial_BaklavaPrice.setText("RM4.00");
-
-        Optional_label16.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
-        Optional_label16.setForeground(new java.awt.Color(102, 102, 102));
-        Optional_label16.setText("(optional)");
-
-        javax.swing.GroupLayout PastrySpecial_PanelLayout = new javax.swing.GroupLayout(PastrySpecial_Panel);
-        PastrySpecial_Panel.setLayout(PastrySpecial_PanelLayout);
-        PastrySpecial_PanelLayout.setHorizontalGroup(
-            PastrySpecial_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PastrySpecial_PanelLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(PastrySpecial_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(PastrySpecial_PanelLayout.createSequentialGroup()
-                        .addComponent(PastrySpecialSection5)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Optional_label16)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(PastrySpecial_PanelLayout.createSequentialGroup()
-                        .addGap(54, 54, 54)
-                        .addGroup(PastrySpecial_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(PastrySpecial_PanelLayout.createSequentialGroup()
-                                .addComponent(PastrySpecial_Cannoli)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(PastrySpecial_CannoliPrice))
-                            .addGroup(PastrySpecial_PanelLayout.createSequentialGroup()
-                                .addComponent(PastrySpecial_macarons)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 179, Short.MAX_VALUE)
-                                .addComponent(PastrySpecial_macaronsPrice))
-                            .addGroup(PastrySpecial_PanelLayout.createSequentialGroup()
-                                .addComponent(PastrySpecial_Baklava)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(PastrySpecial_BaklavaPrice)))))
-                .addContainerGap())
-        );
-        PastrySpecial_PanelLayout.setVerticalGroup(
-            PastrySpecial_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PastrySpecial_PanelLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(PastrySpecial_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(PastrySpecialSection5)
-                    .addComponent(Optional_label16))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(PastrySpecial_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(PastrySpecial_macarons)
-                    .addComponent(PastrySpecial_macaronsPrice))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(PastrySpecial_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(PastrySpecial_Cannoli)
-                    .addComponent(PastrySpecial_CannoliPrice))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(PastrySpecial_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(PastrySpecial_Baklava)
-                    .addComponent(PastrySpecial_BaklavaPrice))
-                .addContainerGap(39, Short.MAX_VALUE))
-        );
-
         PastryTarts_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         PastryTartSection6.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
@@ -2831,7 +2666,7 @@ public class Homepage extends javax.swing.JFrame {
                                 .addComponent(PastryTart_LemonTartPrice))
                             .addGroup(PastryTarts_PanelLayout.createSequentialGroup()
                                 .addComponent(PastryTart_ChocolateTart)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 182, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 192, Short.MAX_VALUE)
                                 .addComponent(PastryTart_ChocolateTartPrice)))))
                 .addContainerGap())
         );
@@ -2857,255 +2692,273 @@ public class Homepage extends javax.swing.JFrame {
                 .addContainerGap(34, Short.MAX_VALUE))
         );
 
+        PastryMuffin_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        PastryMuffinSection3.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        PastryMuffinSection3.setText("Muffins");
+
+        Typegroup.add(PastryMuffin_Blueberry);
+        PastryMuffin_Blueberry.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        PastryMuffin_Blueberry.setText("BlueBerry");
+        PastryMuffin_Blueberry.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                PastryMuffin_BlueberryActionPerformed(evt);
+            }
+        });
+
+        Typegroup.add(PastryMuffin_ChocolateChip);
+        PastryMuffin_ChocolateChip.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        PastryMuffin_ChocolateChip.setText("Chocolate Chip");
+        PastryMuffin_ChocolateChip.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                PastryMuffin_ChocolateChipActionPerformed(evt);
+            }
+        });
+
+        Typegroup.add(PastryMuffin_BananaNut);
+        PastryMuffin_BananaNut.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        PastryMuffin_BananaNut.setText("Jelly Filled");
+        PastryMuffin_BananaNut.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                PastryMuffin_BananaNutActionPerformed(evt);
+            }
+        });
+
+        PastryMuffin_blueberryPrice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        PastryMuffin_blueberryPrice.setForeground(new java.awt.Color(102, 102, 102));
+        PastryMuffin_blueberryPrice.setText("RM3.00");
+
+        PastryMuffin_ChocolateChipPrice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        PastryMuffin_ChocolateChipPrice.setForeground(new java.awt.Color(102, 102, 102));
+        PastryMuffin_ChocolateChipPrice.setText("RM3.00");
+
+        PastryMuffin_BananaNutPrice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        PastryMuffin_BananaNutPrice.setForeground(new java.awt.Color(102, 102, 102));
+        PastryMuffin_BananaNutPrice.setText("RM4.00");
+
+        Optional_label14.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
+        Optional_label14.setForeground(new java.awt.Color(102, 102, 102));
+        Optional_label14.setText("(optional)");
+
+        javax.swing.GroupLayout PastryMuffin_PanelLayout = new javax.swing.GroupLayout(PastryMuffin_Panel);
+        PastryMuffin_Panel.setLayout(PastryMuffin_PanelLayout);
+        PastryMuffin_PanelLayout.setHorizontalGroup(
+            PastryMuffin_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PastryMuffin_PanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(PastryMuffin_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(PastryMuffin_PanelLayout.createSequentialGroup()
+                        .addComponent(PastryMuffinSection3)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Optional_label14)
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(PastryMuffin_PanelLayout.createSequentialGroup()
+                        .addGap(54, 54, 54)
+                        .addGroup(PastryMuffin_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(PastryMuffin_PanelLayout.createSequentialGroup()
+                                .addComponent(PastryMuffin_ChocolateChip)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(PastryMuffin_ChocolateChipPrice))
+                            .addGroup(PastryMuffin_PanelLayout.createSequentialGroup()
+                                .addComponent(PastryMuffin_Blueberry)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 179, Short.MAX_VALUE)
+                                .addComponent(PastryMuffin_blueberryPrice))
+                            .addGroup(PastryMuffin_PanelLayout.createSequentialGroup()
+                                .addComponent(PastryMuffin_BananaNut)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(PastryMuffin_BananaNutPrice)))))
+                .addContainerGap())
+        );
+        PastryMuffin_PanelLayout.setVerticalGroup(
+            PastryMuffin_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PastryMuffin_PanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(PastryMuffin_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(PastryMuffinSection3)
+                    .addComponent(Optional_label14))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(PastryMuffin_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(PastryMuffin_Blueberry)
+                    .addComponent(PastryMuffin_blueberryPrice))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(PastryMuffin_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(PastryMuffin_ChocolateChip)
+                    .addComponent(PastryMuffin_ChocolateChipPrice))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(PastryMuffin_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(PastryMuffin_BananaNut)
+                    .addComponent(PastryMuffin_BananaNutPrice))
+                .addContainerGap(39, Short.MAX_VALUE))
+        );
+
+        PastrySpecial_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        PastrySpecialSection5.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        PastrySpecialSection5.setText("Specials");
+
+        Typegroup.add(PastrySpecial_macarons);
+        PastrySpecial_macarons.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        PastrySpecial_macarons.setText("Macarons");
+        PastrySpecial_macarons.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                PastrySpecial_macaronsActionPerformed(evt);
+            }
+        });
+
+        Typegroup.add(PastrySpecial_Cannoli);
+        PastrySpecial_Cannoli.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        PastrySpecial_Cannoli.setText("Cannoli");
+        PastrySpecial_Cannoli.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                PastrySpecial_CannoliActionPerformed(evt);
+            }
+        });
+
+        Typegroup.add(PastrySpecial_Baklava);
+        PastrySpecial_Baklava.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        PastrySpecial_Baklava.setText("Baklava");
+        PastrySpecial_Baklava.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                PastrySpecial_BaklavaActionPerformed(evt);
+            }
+        });
+
+        PastrySpecial_macaronsPrice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        PastrySpecial_macaronsPrice.setForeground(new java.awt.Color(102, 102, 102));
+        PastrySpecial_macaronsPrice.setText("RM6.00");
+
+        PastrySpecial_CannoliPrice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        PastrySpecial_CannoliPrice.setForeground(new java.awt.Color(102, 102, 102));
+        PastrySpecial_CannoliPrice.setText("RM6.00");
+
+        PastrySpecial_BaklavaPrice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        PastrySpecial_BaklavaPrice.setForeground(new java.awt.Color(102, 102, 102));
+        PastrySpecial_BaklavaPrice.setText("RM4.00");
+
+        Optional_label16.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
+        Optional_label16.setForeground(new java.awt.Color(102, 102, 102));
+        Optional_label16.setText("(optional)");
+
+        javax.swing.GroupLayout PastrySpecial_PanelLayout = new javax.swing.GroupLayout(PastrySpecial_Panel);
+        PastrySpecial_Panel.setLayout(PastrySpecial_PanelLayout);
+        PastrySpecial_PanelLayout.setHorizontalGroup(
+            PastrySpecial_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PastrySpecial_PanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(PastrySpecial_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(PastrySpecial_PanelLayout.createSequentialGroup()
+                        .addComponent(PastrySpecialSection5)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Optional_label16)
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(PastrySpecial_PanelLayout.createSequentialGroup()
+                        .addGap(54, 54, 54)
+                        .addGroup(PastrySpecial_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(PastrySpecial_PanelLayout.createSequentialGroup()
+                                .addComponent(PastrySpecial_Cannoli)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(PastrySpecial_CannoliPrice))
+                            .addGroup(PastrySpecial_PanelLayout.createSequentialGroup()
+                                .addComponent(PastrySpecial_macarons)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(PastrySpecial_macaronsPrice))
+                            .addGroup(PastrySpecial_PanelLayout.createSequentialGroup()
+                                .addComponent(PastrySpecial_Baklava)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(PastrySpecial_BaklavaPrice)))))
+                .addContainerGap())
+        );
+        PastrySpecial_PanelLayout.setVerticalGroup(
+            PastrySpecial_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PastrySpecial_PanelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(PastrySpecial_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(PastrySpecialSection5)
+                    .addComponent(Optional_label16))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(PastrySpecial_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(PastrySpecial_macarons)
+                    .addComponent(PastrySpecial_macaronsPrice))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(PastrySpecial_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(PastrySpecial_Cannoli)
+                    .addComponent(PastrySpecial_CannoliPrice))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(PastrySpecial_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(PastrySpecial_Baklava)
+                    .addComponent(PastrySpecial_BaklavaPrice))
+                .addContainerGap(39, Short.MAX_VALUE))
+        );
+
+        Pastry_add_btn2.setBackground(new java.awt.Color(255, 153, 51));
+        Pastry_add_btn2.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        Pastry_add_btn2.setText("Add");
+        Pastry_add_btn2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Pastry_add_btn2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Pastry_add_btn2ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout Pastry_panelLayout = new javax.swing.GroupLayout(Pastry_panel);
+        Pastry_panel.setLayout(Pastry_panelLayout);
+        Pastry_panelLayout.setHorizontalGroup(
+            Pastry_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Pastry_panelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(Pastry_title2)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(Pastry_panelLayout.createSequentialGroup()
+                .addGap(14, 14, 14)
+                .addGroup(Pastry_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(PastryDonuts_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(PastryTarts_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 38, Short.MAX_VALUE)
+                .addGroup(Pastry_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(PastryMuffin_Panel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(PastrySpecial_Panel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(21, 21, 21))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Pastry_panelLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(Pastry_add_btn2, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(54, 54, 54))
+        );
+        Pastry_panelLayout.setVerticalGroup(
+            Pastry_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Pastry_panelLayout.createSequentialGroup()
+                .addGap(14, 14, 14)
+                .addGroup(Pastry_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(PastrySpecial_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(Pastry_panelLayout.createSequentialGroup()
+                        .addComponent(Pastry_title2)
+                        .addGap(18, 18, 18)
+                        .addGroup(Pastry_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(PastryDonuts_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(PastryMuffin_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addComponent(PastryTarts_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(Pastry_add_btn2, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(13, Short.MAX_VALUE))
+        );
+
         javax.swing.GroupLayout PastryLayout = new javax.swing.GroupLayout(Pastry.getContentPane());
         Pastry.getContentPane().setLayout(PastryLayout);
         PastryLayout.setHorizontalGroup(
             PastryLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(PastryLayout.createSequentialGroup()
-                .addGap(17, 17, 17)
-                .addGroup(PastryLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(PastryLayout.createSequentialGroup()
-                        .addComponent(Pastry_title2)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PastryLayout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(Pastry_add_btn2, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(17, 17, 17))
-                    .addGroup(PastryLayout.createSequentialGroup()
-                        .addComponent(PastryDonuts_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(80, 80, 80)
-                        .addGroup(PastryLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(PastrySpecial_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(PastryMuffin_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(0, 145, Short.MAX_VALUE))))
-            .addGroup(PastryLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(PastryLayout.createSequentialGroup()
-                    .addGap(27, 27, 27)
-                    .addComponent(PastryTarts_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addContainerGap(629, Short.MAX_VALUE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(Pastry_panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         PastryLayout.setVerticalGroup(
             PastryLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(PastryLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(Pastry_title2)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(PastryLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(PastryLayout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(PastryDonuts_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(282, 282, 282)
-                        .addComponent(Pastry_add_btn2, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(17, 17, 17))
-                    .addGroup(PastryLayout.createSequentialGroup()
-                        .addComponent(PastryMuffin_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(34, 34, 34)
-                        .addComponent(PastrySpecial_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-            .addGroup(PastryLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PastryLayout.createSequentialGroup()
-                    .addContainerGap(265, Short.MAX_VALUE)
-                    .addComponent(PastryTarts_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGap(153, 153, 153)))
+                .addComponent(Pastry_panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         Smoothie.setResizable(false);
-        Smoothie.setSize(new java.awt.Dimension(1099, 450));
-
-        TSugar_lvl1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-
-        Tsugar_lbl1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        Tsugar_lbl1.setText("Sugar Level");
-
-        Sugarlevelgroup.add(TZero_btn1);
-        TZero_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        TZero_btn1.setText("0%");
-        TZero_btn1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TZero_btn1ActionPerformed(evt);
-            }
-        });
-
-        Sugarlevelgroup.add(TLow_btn1);
-        TLow_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        TLow_btn1.setText("25%");
-        TLow_btn1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TLow_btn1ActionPerformed(evt);
-            }
-        });
-
-        Sugarlevelgroup.add(TMed_btn1);
-        TMed_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        TMed_btn1.setText("50%");
-        TMed_btn1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TMed_btn1ActionPerformed(evt);
-            }
-        });
-
-        Sugarlevelgroup.add(THIgh_btn1);
-        THIgh_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        THIgh_btn1.setText("75%");
-        THIgh_btn1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                THIgh_btn1ActionPerformed(evt);
-            }
-        });
-
-        Sugarlevelgroup.add(TFull_btn1);
-        TFull_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        TFull_btn1.setText("100%");
-        TFull_btn1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TFull_btn1ActionPerformed(evt);
-            }
-        });
-
-        TsugarR_lbl1.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
-        TsugarR_lbl1.setForeground(new java.awt.Color(102, 102, 102));
-        TsugarR_lbl1.setText("(required)");
-
-        javax.swing.GroupLayout TSugar_lvl1Layout = new javax.swing.GroupLayout(TSugar_lvl1);
-        TSugar_lvl1.setLayout(TSugar_lvl1Layout);
-        TSugar_lvl1Layout.setHorizontalGroup(
-            TSugar_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(TSugar_lvl1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(TSugar_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(TSugar_lvl1Layout.createSequentialGroup()
-                        .addComponent(Tsugar_lbl1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(TsugarR_lbl1))
-                    .addGroup(TSugar_lvl1Layout.createSequentialGroup()
-                        .addGap(54, 54, 54)
-                        .addGroup(TSugar_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(TLow_btn1)
-                            .addComponent(TZero_btn1)
-                            .addComponent(TMed_btn1)
-                            .addComponent(THIgh_btn1)
-                            .addComponent(TFull_btn1))))
-                .addContainerGap(37, Short.MAX_VALUE))
-        );
-        TSugar_lvl1Layout.setVerticalGroup(
-            TSugar_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(TSugar_lvl1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(TSugar_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(Tsugar_lbl1)
-                    .addComponent(TsugarR_lbl1))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(TZero_btn1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(TLow_btn1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(TMed_btn1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(THIgh_btn1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(TFull_btn1)
-                .addContainerGap(43, Short.MAX_VALUE))
-        );
-
-        TSize_Panel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        TSize_Panel1.setPreferredSize(new java.awt.Dimension(272, 242));
-
-        TSize_lbl1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        TSize_lbl1.setText("Size");
-
-        Sizegroup.add(TSmall_size1);
-        TSmall_size1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        TSmall_size1.setText("Small");
-        TSmall_size1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TSmall_size1ActionPerformed(evt);
-            }
-        });
-
-        Sizegroup.add(Tmed_size1);
-        Tmed_size1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        Tmed_size1.setText("Medium");
-        Tmed_size1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Tmed_size1ActionPerformed(evt);
-            }
-        });
-
-        Sizegroup.add(TBig_size1);
-        TBig_size1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        TBig_size1.setText("Big");
-        TBig_size1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TBig_size1ActionPerformed(evt);
-            }
-        });
-
-        TMedSize_price1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        TMedSize_price1.setForeground(new java.awt.Color(102, 102, 102));
-        TMedSize_price1.setText("+RM1.00");
-
-        TBigSoze_price1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        TBigSoze_price1.setForeground(new java.awt.Color(102, 102, 102));
-        TBigSoze_price1.setText("+RM2.00");
-
-        TSmallSize_but1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        TSmallSize_but1.setForeground(new java.awt.Color(102, 102, 102));
-        TSmallSize_but1.setText("+RM0.00");
-
-        TSizeR_lbl1.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
-        TSizeR_lbl1.setForeground(new java.awt.Color(102, 102, 102));
-        TSizeR_lbl1.setText("(required)");
-
-        javax.swing.GroupLayout TSize_Panel1Layout = new javax.swing.GroupLayout(TSize_Panel1);
-        TSize_Panel1.setLayout(TSize_Panel1Layout);
-        TSize_Panel1Layout.setHorizontalGroup(
-            TSize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(TSize_Panel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(TSize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(TSize_Panel1Layout.createSequentialGroup()
-                        .addComponent(TSize_lbl1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(TSizeR_lbl1)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(TSize_Panel1Layout.createSequentialGroup()
-                        .addGap(54, 54, 54)
-                        .addGroup(TSize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(TSize_Panel1Layout.createSequentialGroup()
-                                .addComponent(Tmed_size1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
-                                .addComponent(TMedSize_price1))
-                            .addGroup(TSize_Panel1Layout.createSequentialGroup()
-                                .addComponent(TSmall_size1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(TSmallSize_but1))
-                            .addGroup(TSize_Panel1Layout.createSequentialGroup()
-                                .addComponent(TBig_size1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(TBigSoze_price1)))))
-                .addContainerGap())
-        );
-        TSize_Panel1Layout.setVerticalGroup(
-            TSize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(TSize_Panel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(TSize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(TSize_lbl1)
-                    .addComponent(TSizeR_lbl1))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(TSize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(TSmall_size1)
-                    .addComponent(TSmallSize_but1))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(TSize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(Tmed_size1)
-                    .addComponent(TMedSize_price1))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(TSize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(TBig_size1)
-                    .addComponent(TBigSoze_price1))
-                .addContainerGap(107, Short.MAX_VALUE))
-        );
+        Smoothie.setSize(new java.awt.Dimension(865, 690));
 
         Tea_title1.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
         Tea_title1.setText("Smoothie");
@@ -3239,7 +3092,7 @@ public class Homepage extends javax.swing.JFrame {
                                 .addComponent(ctl_price1))
                             .addGroup(Ttype_Panel1Layout.createSequentialGroup()
                                 .addComponent(pl_but5)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 522, Short.MAX_VALUE)
                                 .addComponent(bs_price5))
                             .addGroup(Ttype_Panel1Layout.createSequentialGroup()
                                 .addComponent(mp_but2)
@@ -3291,6 +3144,201 @@ public class Homepage extends javax.swing.JFrame {
                     .addComponent(pl_but5)
                     .addComponent(bs_price5))
                 .addContainerGap(29, Short.MAX_VALUE))
+        );
+
+        TSize_Panel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        TSize_Panel1.setPreferredSize(new java.awt.Dimension(272, 242));
+
+        TSize_lbl1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        TSize_lbl1.setText("Size");
+
+        Sizegroup.add(TSmall_size1);
+        TSmall_size1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        TSmall_size1.setText("Small");
+        TSmall_size1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                TSmall_size1ActionPerformed(evt);
+            }
+        });
+
+        Sizegroup.add(Tmed_size1);
+        Tmed_size1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Tmed_size1.setText("Medium");
+        Tmed_size1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Tmed_size1ActionPerformed(evt);
+            }
+        });
+
+        Sizegroup.add(TBig_size1);
+        TBig_size1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        TBig_size1.setText("Big");
+        TBig_size1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                TBig_size1ActionPerformed(evt);
+            }
+        });
+
+        TMedSize_price1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        TMedSize_price1.setForeground(new java.awt.Color(102, 102, 102));
+        TMedSize_price1.setText("+RM1.00");
+
+        TBigSoze_price1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        TBigSoze_price1.setForeground(new java.awt.Color(102, 102, 102));
+        TBigSoze_price1.setText("+RM2.00");
+
+        TSmallSize_but1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        TSmallSize_but1.setForeground(new java.awt.Color(102, 102, 102));
+        TSmallSize_but1.setText("+RM0.00");
+
+        TSizeR_lbl1.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
+        TSizeR_lbl1.setForeground(new java.awt.Color(102, 102, 102));
+        TSizeR_lbl1.setText("(required)");
+
+        javax.swing.GroupLayout TSize_Panel1Layout = new javax.swing.GroupLayout(TSize_Panel1);
+        TSize_Panel1.setLayout(TSize_Panel1Layout);
+        TSize_Panel1Layout.setHorizontalGroup(
+            TSize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(TSize_Panel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(TSize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(TSize_Panel1Layout.createSequentialGroup()
+                        .addComponent(TSize_lbl1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(TSizeR_lbl1)
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(TSize_Panel1Layout.createSequentialGroup()
+                        .addGap(54, 54, 54)
+                        .addGroup(TSize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(TSize_Panel1Layout.createSequentialGroup()
+                                .addComponent(Tmed_size1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
+                                .addComponent(TMedSize_price1))
+                            .addGroup(TSize_Panel1Layout.createSequentialGroup()
+                                .addComponent(TSmall_size1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(TSmallSize_but1))
+                            .addGroup(TSize_Panel1Layout.createSequentialGroup()
+                                .addComponent(TBig_size1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(TBigSoze_price1)))))
+                .addContainerGap())
+        );
+        TSize_Panel1Layout.setVerticalGroup(
+            TSize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(TSize_Panel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(TSize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(TSize_lbl1)
+                    .addComponent(TSizeR_lbl1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(TSize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(TSmall_size1)
+                    .addComponent(TSmallSize_but1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(TSize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Tmed_size1)
+                    .addComponent(TMedSize_price1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(TSize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(TBig_size1)
+                    .addComponent(TBigSoze_price1))
+                .addContainerGap(107, Short.MAX_VALUE))
+        );
+
+        TSugar_lvl1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        Tsugar_lbl1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        Tsugar_lbl1.setText("Sugar Level");
+
+        Sugarlevelgroup.add(TZero_btn1);
+        TZero_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        TZero_btn1.setText("0%");
+        TZero_btn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                TZero_btn1ActionPerformed(evt);
+            }
+        });
+
+        Sugarlevelgroup.add(TLow_btn1);
+        TLow_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        TLow_btn1.setText("25%");
+        TLow_btn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                TLow_btn1ActionPerformed(evt);
+            }
+        });
+
+        Sugarlevelgroup.add(TMed_btn1);
+        TMed_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        TMed_btn1.setText("50%");
+        TMed_btn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                TMed_btn1ActionPerformed(evt);
+            }
+        });
+
+        Sugarlevelgroup.add(THIgh_btn1);
+        THIgh_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        THIgh_btn1.setText("75%");
+        THIgh_btn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                THIgh_btn1ActionPerformed(evt);
+            }
+        });
+
+        Sugarlevelgroup.add(TFull_btn1);
+        TFull_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        TFull_btn1.setText("100%");
+        TFull_btn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                TFull_btn1ActionPerformed(evt);
+            }
+        });
+
+        TsugarR_lbl1.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
+        TsugarR_lbl1.setForeground(new java.awt.Color(102, 102, 102));
+        TsugarR_lbl1.setText("(required)");
+
+        javax.swing.GroupLayout TSugar_lvl1Layout = new javax.swing.GroupLayout(TSugar_lvl1);
+        TSugar_lvl1.setLayout(TSugar_lvl1Layout);
+        TSugar_lvl1Layout.setHorizontalGroup(
+            TSugar_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(TSugar_lvl1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(TSugar_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(TSugar_lvl1Layout.createSequentialGroup()
+                        .addComponent(Tsugar_lbl1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(TsugarR_lbl1))
+                    .addGroup(TSugar_lvl1Layout.createSequentialGroup()
+                        .addGap(54, 54, 54)
+                        .addGroup(TSugar_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(TLow_btn1)
+                            .addComponent(TZero_btn1)
+                            .addComponent(TMed_btn1)
+                            .addComponent(THIgh_btn1)
+                            .addComponent(TFull_btn1))))
+                .addContainerGap(37, Short.MAX_VALUE))
+        );
+        TSugar_lvl1Layout.setVerticalGroup(
+            TSugar_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(TSugar_lvl1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(TSugar_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Tsugar_lbl1)
+                    .addComponent(TsugarR_lbl1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(TZero_btn1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(TLow_btn1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(TMed_btn1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(THIgh_btn1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(TFull_btn1)
+                .addContainerGap(43, Short.MAX_VALUE))
         );
 
         Tmilk_lvl1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -3444,50 +3492,63 @@ public class Homepage extends javax.swing.JFrame {
             }
         });
 
+        javax.swing.GroupLayout Smoothie_panelLayout = new javax.swing.GroupLayout(Smoothie_panel);
+        Smoothie_panel.setLayout(Smoothie_panelLayout);
+        Smoothie_panelLayout.setHorizontalGroup(
+            Smoothie_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Smoothie_panelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(Smoothie_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(Tea_title1)
+                    .addGroup(Smoothie_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, Smoothie_panelLayout.createSequentialGroup()
+                            .addComponent(TSize_Panel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(TSugar_lvl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGap(18, 18, 18)
+                            .addComponent(Tmilk_lvl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(Ttype_Panel1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Smoothie_panelLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(Cadd_btn2, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(33, 33, 33))
+        );
+        Smoothie_panelLayout.setVerticalGroup(
+            Smoothie_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Smoothie_panelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(Tea_title1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(Ttype_Panel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(Smoothie_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(TSize_Panel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(TSugar_lvl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Tmilk_lvl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(Cadd_btn2, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(12, Short.MAX_VALUE))
+        );
+
         javax.swing.GroupLayout SmoothieLayout = new javax.swing.GroupLayout(Smoothie.getContentPane());
         Smoothie.getContentPane().setLayout(SmoothieLayout);
         SmoothieLayout.setHorizontalGroup(
             SmoothieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(SmoothieLayout.createSequentialGroup()
-                .addGap(17, 17, 17)
-                .addGroup(SmoothieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(SmoothieLayout.createSequentialGroup()
-                        .addComponent(Tea_title1)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(SmoothieLayout.createSequentialGroup()
-                        .addGroup(SmoothieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(Ttype_Panel1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addGroup(SmoothieLayout.createSequentialGroup()
-                                .addGap(0, 0, Short.MAX_VALUE)
-                                .addComponent(Cadd_btn2, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(SmoothieLayout.createSequentialGroup()
-                                .addComponent(TSize_Panel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(TSugar_lvl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(Tmilk_lvl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(0, 403, Short.MAX_VALUE)))
-                        .addGap(17, 17, 17))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(Smoothie_panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         SmoothieLayout.setVerticalGroup(
             SmoothieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(SmoothieLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(Tea_title1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(Ttype_Panel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, Short.MAX_VALUE)
-                .addGroup(SmoothieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(TSize_Panel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(TSugar_lvl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Tmilk_lvl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addComponent(Cadd_btn2, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(17, 17, 17))
+                .addComponent(Smoothie_panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         Specialties.setResizable(false);
-        Specialties.setSize(new java.awt.Dimension(1099, 450));
+        Specialties.setSize(new java.awt.Dimension(604, 372));
 
         Specialties_title1.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
         Specialties_title1.setText("Specialties");
@@ -3591,7 +3652,7 @@ public class Homepage extends javax.swing.JFrame {
                                 .addComponent(margarita_price1))
                             .addGroup(Stype_Panel1Layout.createSequentialGroup()
                                 .addComponent(pinacolada_btn1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 921, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(pinacolada_price1))
                             .addGroup(Stype_Panel1Layout.createSequentialGroup()
                                 .addComponent(longisland_btn3)
@@ -3599,7 +3660,7 @@ public class Homepage extends javax.swing.JFrame {
                                 .addComponent(longisland_price3))
                             .addGroup(Stype_Panel1Layout.createSequentialGroup()
                                 .addComponent(vodkasoda_btn2)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 328, Short.MAX_VALUE)
                                 .addComponent(vodkasoda_price2)))))
                 .addContainerGap())
         );
@@ -3643,34 +3704,49 @@ public class Homepage extends javax.swing.JFrame {
             }
         });
 
+        javax.swing.GroupLayout Specialties_panelLayout = new javax.swing.GroupLayout(Specialties_panel);
+        Specialties_panel.setLayout(Specialties_panelLayout);
+        Specialties_panelLayout.setHorizontalGroup(
+            Specialties_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Specialties_panelLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(Stype_Panel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(597, 597, 597))
+            .addGroup(Specialties_panelLayout.createSequentialGroup()
+                .addGroup(Specialties_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(Specialties_panelLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(Specialties_title1))
+                    .addGroup(Specialties_panelLayout.createSequentialGroup()
+                        .addGap(414, 414, 414)
+                        .addComponent(Cadd_btn3, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        Specialties_panelLayout.setVerticalGroup(
+            Specialties_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Specialties_panelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(Specialties_title1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(Stype_Panel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(Cadd_btn3, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
         javax.swing.GroupLayout SpecialtiesLayout = new javax.swing.GroupLayout(Specialties.getContentPane());
         Specialties.getContentPane().setLayout(SpecialtiesLayout);
         SpecialtiesLayout.setHorizontalGroup(
             SpecialtiesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(SpecialtiesLayout.createSequentialGroup()
-                .addGap(17, 17, 17)
-                .addGroup(SpecialtiesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(SpecialtiesLayout.createSequentialGroup()
-                        .addComponent(Specialties_title1)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(SpecialtiesLayout.createSequentialGroup()
-                        .addGroup(SpecialtiesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(Stype_Panel1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addGroup(SpecialtiesLayout.createSequentialGroup()
-                                .addGap(0, 0, Short.MAX_VALUE)
-                                .addComponent(Cadd_btn3, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(17, 17, 17))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(Specialties_panel, javax.swing.GroupLayout.PREFERRED_SIZE, 598, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         SpecialtiesLayout.setVerticalGroup(
             SpecialtiesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(SpecialtiesLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(Specialties_title1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(Stype_Panel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 214, Short.MAX_VALUE)
-                .addComponent(Cadd_btn3, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(17, 17, 17))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(Specialties_panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -3996,57 +4072,33 @@ public class Homepage extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void Cof_ButActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Cof_ButActionPerformed
-        String Name ="Coffee";
-        Double Price = 3.5;
-        
         Coffee.setVisible(true);
-        
-        addTable(Name, Price);
+        Coffee.setLocationRelativeTo(null);;
     }//GEN-LAST:event_Cof_ButActionPerformed
 
     private void Bagel_ButActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Bagel_ButActionPerformed
-         String Name ="Bagel";
-         Double Price = 3.0;
-          
          Bagel.setVisible(true);
-         
-         addTable(Name, Price);
+         Bagel.setLocationRelativeTo(null);
     }//GEN-LAST:event_Bagel_ButActionPerformed
 
     private void Tea_ButActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tea_ButActionPerformed
-          String Name ="Tea";
-          Double Price = 1.5;
-         
           Tea.setVisible(true);
-          
-         addTable(Name, Price);
+          Tea.setLocationRelativeTo(null);
     }//GEN-LAST:event_Tea_ButActionPerformed
 
     private void Other_ButActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Other_ButActionPerformed
-         String Name ="Others";
-          Double Price = 4.0;
-          
           Specialties.setVisible(true);
-          
-         addTable(Name, Price);
+          Specialties.setLocationRelativeTo(null);
     }//GEN-LAST:event_Other_ButActionPerformed
 
     private void Smoothie_ButActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Smoothie_ButActionPerformed
-         String Name ="Smoothie";
-         Double Price = 5.5;
-          
          Smoothie.setVisible(true);
-         
-         addTable(Name, Price);
+         Smoothie.setLocationRelativeTo(null);
     }//GEN-LAST:event_Smoothie_ButActionPerformed
 
     private void Pastry_ButActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Pastry_ButActionPerformed
-        String Name ="Pastry";
-         Double Price = 2.0;
-          
          Pastry.setVisible(true);
-         
-         addTable(Name, Price);
+         Pastry.setLocationRelativeTo(null);
     }//GEN-LAST:event_Pastry_ButActionPerformed
 
     private void Pay_ButActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Pay_ButActionPerformed
@@ -4749,6 +4801,7 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JLabel BagelToppingSauce_PeanutButterPrice;
     private javax.swing.JButton Bagel_But;
     private javax.swing.JButton Bagel_add_btn1;
+    private javax.swing.JPanel Bagel_panel;
     private javax.swing.JLabel Bagel_title1;
     private javax.swing.JRadioButton Big_size_btn;
     private javax.swing.JRadioButton CCold_btn;
@@ -4779,6 +4832,7 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JLabel Cmed_price;
     private javax.swing.JButton Cof_But;
     private javax.swing.JFrame Coffee;
+    private javax.swing.JPanel Coffee_panel;
     private javax.swing.JLabel Coffee_title;
     private javax.swing.ButtonGroup Creamgroup;
     private javax.swing.JPanel Csize_Panel;
@@ -4867,6 +4921,7 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JPanel PastryTarts_Panel;
     private javax.swing.JButton Pastry_But;
     private javax.swing.JButton Pastry_add_btn2;
+    private javax.swing.JPanel Pastry_panel;
     private javax.swing.JLabel Pastry_title2;
     private javax.swing.JButton Pay_But;
     private javax.swing.JFrame Payment;
@@ -4878,7 +4933,9 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JRadioButton Small_size_btn;
     private javax.swing.JFrame Smoothie;
     private javax.swing.JButton Smoothie_But;
+    private javax.swing.JPanel Smoothie_panel;
     private javax.swing.JFrame Specialties;
+    private javax.swing.JPanel Specialties_panel;
     private javax.swing.JLabel Specialties_title1;
     private javax.swing.JPanel Stype_Panel1;
     private javax.swing.ButtonGroup Sugarlevelgroup;
@@ -4926,6 +4983,7 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JLabel Tax_value;
     private javax.swing.JFrame Tea;
     private javax.swing.JButton Tea_But;
+    private javax.swing.JPanel Tea_panel;
     private javax.swing.JLabel Tea_title;
     private javax.swing.JLabel Tea_title1;
     private javax.swing.JLabel TiceR_lbl;
