@@ -19,20 +19,17 @@ public class Homepage extends javax.swing.JFrame {
         reset_Val();
     }
 
-    public void addTable(String n, Double p ){
+    public void addTable(String n, Double p, String c, String s ){
         
-        Double Total_qty = Double.valueOf(Qty);
-        Double Total_prc = p * Total_qty;
-        
-        System.out.println(Total_prc);
         
         // Add product to cart
         DefaultTableModel dt = (DefaultTableModel)Order_Table.getModel();
         
                     Vector v = new Vector();
                     v.add(n);
-                    v.add(Qty);
-                    v.add(Total_prc);
+                    v.add(c);
+                    v.add(s);
+                    v.add(p);
                     dt.addRow(v);
                     
          cart_cal();
@@ -55,19 +52,31 @@ public class Homepage extends javax.swing.JFrame {
  
           int Row_num = Order_Table.getRowCount();
           double subtotal = 0;
+          double discount = 0;
           
           for(int i = 0; i<Row_num; i++)
           {
-              double value =  Double.parseDouble(Order_Table.getValueAt(i,2).toString());
+              double value =  Double.parseDouble(Order_Table.getValueAt(i,3).toString());
               subtotal += value;
           }
           
           DecimalFormat df = new DecimalFormat("0.00");
+          DecimalFormat tax_df = new DecimalFormat("0.0");
           String displaySubtotal = df.format(subtotal);
           subTotal_value.setText(displaySubtotal);
           
-          double tax = subtotal * 0.1;
-          String displayTax = df.format(tax);
+          if(member)
+          {
+              discount = 0.1  * subtotal;
+              String displayDis = df.format(discount);
+              Discount_lbl.setText(displayDis);
+          }
+              
+              
+          subtotal -= discount;
+          double tax = 0.15 * subtotal ;
+          String displayTax = tax_df.format(tax);
+          displayTax = df.format(tax);
           Tax_value.setText(displayTax);
           
           double total = subtotal + tax;
@@ -85,16 +94,17 @@ public class Homepage extends javax.swing.JFrame {
      Receipt_Text.setText(Receipt_Text.getText() + "\tColombo, Srilanka, \n");
      Receipt_Text.setText(Receipt_Text.getText() + "\t+9411 123456789, \n");
      Receipt_Text.setText(Receipt_Text.getText() + "----------------------------------------------------------------\n");
-     Receipt_Text.setText(Receipt_Text.getText() + " Iteam \tQty \tPrice \n");
+     Receipt_Text.setText(Receipt_Text.getText() + " Item\tSize\tHot/Cold \tPrice \n");
      Receipt_Text.setText(Receipt_Text.getText() + "----------------------------------------------------------------\n");
      DefaultTableModel df = (DefaultTableModel) Order_Table.getModel();
      for (int i = 0; i < Order_Table.getRowCount(); i++) {
          
          String name = df.getValueAt(i, 0).toString();
-         String qt = df.getValueAt(i, 1).toString();
-         String prc = df.getValueAt(i, 2).toString();
+         String condition = df.getValueAt(i, 1).toString();
+         String size = df.getValueAt(i, 2).toString();
+         double prc = Double.parseDouble(df.getValueAt(i, 3).toString());
          
-         Receipt_Text.setText(Receipt_Text.getText() + name+"\t"+qt+"\t"+prc+" \n");
+         Receipt_Text.setText(Receipt_Text.getText() + name+"\t"+size+"\t"+condition+"\tRM"+String.format("%.2f",prc)+" \n");
          
      }
      Receipt_Text.setText(Receipt_Text.getText() + "----------------------------------------------------------------\n");
@@ -119,16 +129,17 @@ public class Homepage extends javax.swing.JFrame {
      Receipt_Text.setText(Receipt_Text.getText() + "\tColombo, Srilanka, \n");
      Receipt_Text.setText(Receipt_Text.getText() + "\t+9411 123456789, \n");
      Receipt_Text.setText(Receipt_Text.getText() + "----------------------------------------------------------------\n");
-     Receipt_Text.setText(Receipt_Text.getText() + " Iteam \tQty \tPrice \n");
+     Receipt_Text.setText(Receipt_Text.getText() + " Item\tSize\tHot/Cold \tPrice \n");
      Receipt_Text.setText(Receipt_Text.getText() + "----------------------------------------------------------------\n");
      DefaultTableModel df = (DefaultTableModel) Order_Table.getModel();
      for (int i = 0; i < Order_Table.getRowCount(); i++) {
          
          String name = df.getValueAt(i, 0).toString();
-         String qt = df.getValueAt(i, 1).toString();
-         String prc = df.getValueAt(i, 2).toString();
+         String condition = df.getValueAt(i, 1).toString();
+         String size = df.getValueAt(i, 2).toString();
+         double prc = Double.parseDouble(df.getValueAt(i, 3).toString());
          
-         Receipt_Text.setText(Receipt_Text.getText() + name+"\t"+qt+"\t"+prc+" \n");
+         Receipt_Text.setText(Receipt_Text.getText() + name+"\t"+size+"\t"+condition+"\tRM"+String.format("%.2f",prc)+" \n");
          
      }
      Receipt_Text.setText(Receipt_Text.getText() + "----------------------------------------------------------------\n");
@@ -153,6 +164,7 @@ public class Homepage extends javax.swing.JFrame {
         else    data = data +set;
         return data;
  }
+ 
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -734,7 +746,7 @@ public class Homepage extends javax.swing.JFrame {
         );
 
         Coffee.setResizable(false);
-        Coffee.setSize(new java.awt.Dimension(879, 593));
+        Coffee.setSize(new java.awt.Dimension(890, 620));
 
         Coffee_title.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
         Coffee_title.setText("Coffee");
@@ -746,6 +758,7 @@ public class Homepage extends javax.swing.JFrame {
 
         Typegroup.add(Latte_btn);
         Latte_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Latte_btn.setSelected(true);
         Latte_btn.setText("Latte");
         Latte_btn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -850,6 +863,7 @@ public class Homepage extends javax.swing.JFrame {
 
         Sizegroup.add(Small_size_btn);
         Small_size_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Small_size_btn.setSelected(true);
         Small_size_btn.setText("Small");
         Small_size_btn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -981,6 +995,7 @@ public class Homepage extends javax.swing.JFrame {
 
         Sugarlevelgroup.add(Full_lvl_btn);
         Full_lvl_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Full_lvl_btn.setSelected(true);
         Full_lvl_btn.setText("100%");
         Full_lvl_btn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1045,6 +1060,7 @@ public class Homepage extends javax.swing.JFrame {
 
         Icegroup.add(CHot_btn);
         CHot_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        CHot_btn.setSelected(true);
         CHot_btn.setText("Hot");
         CHot_btn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1233,7 +1249,7 @@ public class Homepage extends javax.swing.JFrame {
                     .addComponent(Cice_lvl, javax.swing.GroupLayout.DEFAULT_SIZE, 250, Short.MAX_VALUE))
                 .addGap(18, 18, 18)
                 .addComponent(Cadd_btn, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(11, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout CoffeeLayout = new javax.swing.GroupLayout(Coffee.getContentPane());
@@ -1243,13 +1259,13 @@ public class Homepage extends javax.swing.JFrame {
             .addGroup(CoffeeLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(Coffee_panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(17, Short.MAX_VALUE))
         );
         CoffeeLayout.setVerticalGroup(
             CoffeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(CoffeeLayout.createSequentialGroup()
                 .addComponent(Coffee_panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(0, 27, Short.MAX_VALUE))
         );
 
         Tea.setResizable(false);
@@ -3896,17 +3912,17 @@ public class Homepage extends javax.swing.JFrame {
         Order_Table.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         Order_Table.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null}
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null}
             },
             new String [] {
-                "Item", "Qty", "Price"
+                "Item", "Condition", "Size", "Price"
             }
         ) {
             Class[] types = new Class [] {
-                java.lang.String.class, java.lang.Integer.class, java.lang.Double.class
+                java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Double.class
             };
 
             public Class getColumnClass(int columnIndex) {
@@ -4296,6 +4312,73 @@ public class Homepage extends javax.swing.JFrame {
 
     private void Cadd_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Cadd_btnActionPerformed
         // TODO add your handling code here:
+        String coffee_name = null;
+        double coffee_price = 0;
+        String size = "small";
+        String cond = "Hot";
+        Boolean accept = true;
+     
+                if(Latte_btn.isSelected())
+                {
+                    coffee_name = "Latte";
+                    coffee_price = 9;
+                }
+                else if( Espresso_btn.isSelected())
+                {
+                    coffee_name = "Espresso";
+                    coffee_price = 8;
+                }
+                else if(Cappuccino_btn.isSelected())
+                {
+                    coffee_name = "Cappuccino";
+                    coffee_price = 8;
+                }
+                else
+                {
+                    JOptionPane.showMessageDialog(null, "Please Select coffee type","Coffee type error", JOptionPane.ERROR_MESSAGE);
+                    accept = false;
+                }
+
+               if(Small_size_btn.isSelected())
+               {
+                    size = "Small";
+               }
+               else if(Med_size_btn.isSelected())
+                {
+                    coffee_price += 1;
+                    size = "Medium";
+
+                }
+                else if(Big_size_btn.isSelected())
+                {
+                    coffee_price += 2;
+                    size = "Big";
+                }
+                else
+                {
+                    JOptionPane.showMessageDialog(null, "Please Select coffee size","Coffee type error", JOptionPane.ERROR_MESSAGE);
+                    accept = false;
+                }
+
+
+                if(!Zero_lvl_btn.isSelected() && !Low_lvl_btn.isSelected() && !Med_lvl_btn.isSelected() && !High_lvl_btn.isSelected() && !Full_lvl_btn.isSelected())
+                {
+                    JOptionPane.showMessageDialog(null, "Please Select Sugar Level","Sugar level error", JOptionPane.ERROR_MESSAGE);
+                    accept = false;
+                }
+                
+                if(CCold_btn.isSelected() || CNo_ice_btn.isSelected())
+                {
+                    cond = "Cold";
+                    coffee_price += 1;
+                }
+                
+                if(accept)
+                {
+                    addTable(coffee_name, coffee_price, cond, size);
+                    Coffee.setVisible(false);
+                }
+            
     }//GEN-LAST:event_Cadd_btnActionPerformed
 
     private void BagelFlavour_PlainActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BagelFlavour_PlainActionPerformed
@@ -4442,24 +4525,26 @@ public class Homepage extends javax.swing.JFrame {
     private void Member_butActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Member_butActionPerformed
         // TODO add your handling code here:
        int member_code = Integer.parseInt(Member_txt.getText());
-
+       member = false;
         try {
             cons = DriverManager.getConnection(  "jdbc:mysql://localhost:3306/coffeshop_cashier","root","Leeterqin1126"); 
             PreparedStatement pst;
             ResultSet rs;
             
-            pst = cons.prepareStatement("Select member_ID, member_FNAME, member_LNAME from member_table");
+            pst = cons.prepareStatement("Select member_ID, member_LNAME, member_FNAME from member_table;");
             rs = pst.executeQuery();
             
             while(rs.next())
             {
-                int id = rs.getInt("member_ID");
+               
+               int id = rs.getInt("member_ID");
                 
-                if(id == member_code)
+                if(id ==member_code )
                 {
                     member = true;
-                    String mss = "Member founded( " + rs.getString("member_LNAME") + rs.getString("member_FNAME" + " )");
+                    String mss = "Member founded (" +rs.getString("member_LNAME")+ " " + rs.getString("member_FNAME") + ")";
                     JOptionPane.showMessageDialog(this,mss);
+                    cart_cal();
                     break;
                 }
             }
@@ -4485,13 +4570,14 @@ public class Homepage extends javax.swing.JFrame {
         // TODO add your handling code here:
         if(evt.getKeyCode() == KeyEvent.VK_ENTER)
         {
+            member = false;
             int member_code = Integer.parseInt(Member_txt.getText());
             try {
                 cons = DriverManager.getConnection(  "jdbc:mysql://localhost:3306/coffeshop_cashier","root","Leeterqin1126"); 
                 PreparedStatement pst;
                 ResultSet rs;
 
-                pst = cons.prepareStatement("Select member_ID, member_FNAME, member_LNAME from member_table");
+                pst = cons.prepareStatement("Select member_ID, member_LNAME, member_FNAME from member_table;");
                 rs = pst.executeQuery();
 
                 while(rs.next())
@@ -4501,8 +4587,9 @@ public class Homepage extends javax.swing.JFrame {
                     if(id == member_code)
                     {
                         member = true;
-                        String mss = "Member founded( " + rs.getString("member_LNAME") + rs.getString("member_FNAME"+" )");
+                        String mss = "Member founded (" +rs.getString("member_LNAME")+ " " + rs.getString("member_FNAME") + ")";
                         JOptionPane.showMessageDialog(this,mss);
+                        cart_cal();
                         break;
                     }
                 }
