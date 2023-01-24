@@ -3825,7 +3825,7 @@ public class Homepage extends javax.swing.JFrame {
     private void Bagel_add_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Bagel_add_btn1ActionPerformed
         // TODO add your handling code here:
         
-         String bagel_name = null;
+         String bagel_name = "";
         double bagel_price = 0;
         String size = "small";
         String flavour = "Plain";
@@ -4000,7 +4000,7 @@ public class Homepage extends javax.swing.JFrame {
 
     private void Tadd_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tadd_btn1ActionPerformed
         // TODO add your handling code here
-         String tea_name = null;
+         String tea_name = "";
         double tea_price = 0;
         String size = "small";
         String cond = "Hot";
@@ -4060,7 +4060,7 @@ public class Homepage extends javax.swing.JFrame {
          String Smoothie_name = null;
         double Smoothie_price = 0;
         String size = "small";
-        String topping = null;
+        String topping = "";
      
                 if(apple_btn.isSelected())
                 {
@@ -4121,35 +4121,11 @@ public class Homepage extends javax.swing.JFrame {
                 }
                 
                 
-                if(granola_btn.isSelected())
-                {
-                    topping = topping + "\nAdd Granola";
-                    Smoothie_price+= 1;
-                }
-                    
-                if(gojiberries_btn.isSelected())
-                {
-                    topping =topping + "\nAdd gojiberries";
-                    Smoothie_price+= 1;
-                 }
-                    
-                if(almonds_btn.isSelected())
-                {
-                       topping = topping + "\nAdd Almonds";
-                       Smoothie_price+= 2;
-                }
-                    
-                if(raspberries_btn.isSelected())
-                {
-                    topping =topping + "\nAdd Raspberries";
-                    Smoothie_price+= 2;
-                }
-                    
-                if(kiwi_btn.isSelected())
-                {
-                     topping = topping + "\nAdd Kiwi";
-                     Smoothie_price+= 2;
-                }
+                if(granola_btn.isSelected())Smoothie_price+= 1;   
+                if(gojiberries_btn.isSelected())Smoothie_price+= 1;
+                if(almonds_btn.isSelected())Smoothie_price+= 2; 
+                if(raspberries_btn.isSelected())Smoothie_price+= 2;  
+                if(kiwi_btn.isSelected())Smoothie_price+= 2;
                    
                  addTable(Smoothie_name,Smoothie_price,topping , size);
                  Smoothie.setVisible(false);
