@@ -447,7 +447,7 @@ public class Homepage extends javax.swing.JFrame {
         longisland_btn3 = new javax.swing.JRadioButton();
         vodkasoda_price2 = new javax.swing.JLabel();
         longisland_price3 = new javax.swing.JLabel();
-        Cadd_btn3 = new javax.swing.JButton();
+        Specialities_addbut = new javax.swing.JButton();
         Sizegroup = new javax.swing.ButtonGroup();
         Typegroup = new javax.swing.ButtonGroup();
         Sugarlevelgroup = new javax.swing.ButtonGroup();
@@ -456,7 +456,7 @@ public class Homepage extends javax.swing.JFrame {
         Home_Panel = new javax.swing.JPanel();
         Order_Panel = new javax.swing.JPanel();
         Cof_But = new javax.swing.JButton();
-        Other_But = new javax.swing.JButton();
+        Specialities_But = new javax.swing.JButton();
         Smoothie_But = new javax.swing.JButton();
         Tea_But = new javax.swing.JButton();
         lbl_Drink = new javax.swing.JLabel();
@@ -2233,6 +2233,11 @@ public class Homepage extends javax.swing.JFrame {
 
         PastryDonut_PSugar.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         PastryDonut_PSugar.setText("Powdered Sugar");
+        PastryDonut_PSugar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                PastryDonut_PSugarActionPerformed(evt);
+            }
+        });
 
         PastryDonut_Glazed.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         PastryDonut_Glazed.setText("Glazed");
@@ -3227,13 +3232,13 @@ public class Homepage extends javax.swing.JFrame {
                 .addContainerGap(29, Short.MAX_VALUE))
         );
 
-        Cadd_btn3.setBackground(new java.awt.Color(255, 153, 51));
-        Cadd_btn3.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        Cadd_btn3.setText("Add");
-        Cadd_btn3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        Cadd_btn3.addActionListener(new java.awt.event.ActionListener() {
+        Specialities_addbut.setBackground(new java.awt.Color(255, 153, 51));
+        Specialities_addbut.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        Specialities_addbut.setText("Add");
+        Specialities_addbut.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Specialities_addbut.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Cadd_btn3ActionPerformed(evt);
+                Specialities_addbutActionPerformed(evt);
             }
         });
 
@@ -3252,7 +3257,7 @@ public class Homepage extends javax.swing.JFrame {
                         .addComponent(Specialties_title1))
                     .addGroup(Specialties_panelLayout.createSequentialGroup()
                         .addGap(414, 414, 414)
-                        .addComponent(Cadd_btn3, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(Specialities_addbut, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         Specialties_panelLayout.setVerticalGroup(
@@ -3263,7 +3268,7 @@ public class Homepage extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(Stype_Panel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(Cadd_btn3, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(Specialities_addbut, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -3299,11 +3304,11 @@ public class Homepage extends javax.swing.JFrame {
             }
         });
 
-        Other_But.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
-        Other_But.setText("Others");
-        Other_But.addActionListener(new java.awt.event.ActionListener() {
+        Specialities_But.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
+        Specialities_But.setText("Specialties");
+        Specialities_But.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Other_ButActionPerformed(evt);
+                Specialities_ButActionPerformed(evt);
             }
         });
 
@@ -3378,7 +3383,7 @@ public class Homepage extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGroup(Order_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(Pastry_But, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Other_But, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Specialities_But, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(Tea_But, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(21, 21, 21))
                     .addGroup(Order_PanelLayout.createSequentialGroup()
@@ -3407,7 +3412,7 @@ public class Homepage extends javax.swing.JFrame {
                     .addComponent(Tea_But, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(30, 30, 30)
                 .addGroup(Order_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(Other_But, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Specialities_But, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(Smoothie_But, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addComponent(lbl_food)
@@ -3611,10 +3616,10 @@ public class Homepage extends javax.swing.JFrame {
           Tea.setLocationRelativeTo(null);
     }//GEN-LAST:event_Tea_ButActionPerformed
 
-    private void Other_ButActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Other_ButActionPerformed
+    private void Specialities_ButActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Specialities_ButActionPerformed
           Specialties.setVisible(true);
           Specialties.setLocationRelativeTo(null);
-    }//GEN-LAST:event_Other_ButActionPerformed
+    }//GEN-LAST:event_Specialities_ButActionPerformed
 
     private void Smoothie_ButActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Smoothie_ButActionPerformed
          Smoothie.setVisible(true);
@@ -3905,7 +3910,65 @@ public class Homepage extends javax.swing.JFrame {
     }//GEN-LAST:event_Bagel_add_btn1ActionPerformed
 
     private void Pastry_add_btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Pastry_add_btn2ActionPerformed
-        // TODO add your handling code here:
+         // TODO add your handling code here:
+         String pastry_name = null;
+            double pastry_price = 0;
+            String size = "-";
+            String flavour = "-";
+     
+                if(PastryDonut_PSugar.isSelected())
+                {
+                    addTable("Donut-powdered sugar",3.00,"","");          
+                }
+                if(PastryDonut_Glazed.isSelected())
+                {
+                    addTable("Donut-glazed",3.00,"","");
+                }
+                if(PastryDonut_JellyFilled.isSelected())
+                {
+                    addTable("Donut-jelly-filled",3.00,"","");
+                }
+                
+                if(PastryMuffin_Blueberry.isSelected())
+                {
+                    addTable("Muffin-blueberry",3.00,"","");
+                }
+                if(PastryMuffin_ChocolateChip.isSelected())
+                {
+                    addTable("Muffin-choc chip",3.00,"","");
+                }
+                if(PastryMuffin_BananaNut.isSelected())
+                {
+                    addTable("Muffin-banana nut",4.00,"","");
+                }
+                
+                if(PastryTart_LemonTart.isSelected())
+                {
+                    addTable("Lemon tart",3.00,"","");
+                }
+                if(PastryTarts_FruitTart.isSelected())
+                {
+                    addTable("Fruit tart",3.00,"","");
+                }
+                if(PastryTart_ChocolateTart.isSelected())
+                {
+                    addTable("Chocolate tart",4.00,"","");
+                }
+                
+                if(PastrySpecial_macarons.isSelected())
+                {
+                    addTable("Macarons",6.00,"","");
+                }
+                if(PastrySpecial_Cannoli.isSelected())
+                {
+                    addTable("Cannoli",6.00,"","");
+                }
+                if(PastrySpecial_Baklava.isSelected())
+                {
+                    addTable("Baklava",4.00,"","");
+                }
+               
+                Pastry.setVisible(false);   
     }//GEN-LAST:event_Pastry_add_btn2ActionPerformed
 
 
@@ -4133,9 +4196,34 @@ public class Homepage extends javax.swing.JFrame {
         
     }//GEN-LAST:event_Cadd_btn2ActionPerformed
 
-    private void Cadd_btn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Cadd_btn3ActionPerformed
+    private void Specialities_addbutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Specialities_addbutActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_Cadd_btn3ActionPerformed
+        if(margarita_btn1.isSelected())
+                {
+                    addTable("Margarita",12.00,"","");
+                }
+        else if(mojito_btn1.isSelected())
+                {
+                    addTable("Mojito",12.00,"","");
+                }
+        else if(pinacolada_btn1.isSelected())
+                {
+                    addTable("Pina Colada",13.00,"","");
+                }
+        else if(vodkasoda_btn2.isSelected())
+                {
+                    addTable("Vodka Soda",15.00,"","");
+                }
+        else if(longisland_btn3.isSelected())
+                {
+                    addTable("Long Island",13.00,"","");
+                }
+        Specialties.setVisible(false);
+    }//GEN-LAST:event_Specialities_addbutActionPerformed
+
+    private void PastryDonut_PSugarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PastryDonut_PSugarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_PastryDonut_PSugarActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
@@ -4215,7 +4303,6 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JRadioButton CWithout_cream_btn;
     private javax.swing.JButton Cadd_btn;
     private javax.swing.JButton Cadd_btn2;
-    private javax.swing.JButton Cadd_btn3;
     private javax.swing.JRadioButton Cappuccino_btn;
     private javax.swing.JLabel Cappuccino_price;
     private javax.swing.JLabel Cbig_price;
@@ -4277,7 +4364,6 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JLabel Optional_label17;
     private javax.swing.JPanel Order_Panel;
     private javax.swing.JTable Order_Table;
-    private javax.swing.JButton Other_But;
     private javax.swing.JFrame Pastry;
     private javax.swing.JLabel PastryDonutSection4;
     private javax.swing.JRadioButton PastryDonut_Glazed;
@@ -4327,6 +4413,8 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JButton Smoothie_But;
     private javax.swing.JPanel Smoothie_panel;
     private javax.swing.JLabel Smoothie_title1;
+    private javax.swing.JButton Specialities_But;
+    private javax.swing.JButton Specialities_addbut;
     private javax.swing.JFrame Specialties;
     private javax.swing.JPanel Specialties_panel;
     private javax.swing.JLabel Specialties_title1;
