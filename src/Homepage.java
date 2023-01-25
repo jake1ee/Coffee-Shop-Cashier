@@ -3837,17 +3837,17 @@ public class Homepage extends javax.swing.JFrame {
     
                 if(BagelDough_plain.isSelected())
                 {
-                    bagel_name = "Plain";
+                    bagel_name = "Bagel-Pln";
                     bagel_price = 9;
                 }
                 else if( BagelDough_Mixed.isSelected())
                 {
-                    bagel_name = "Mixed";
+                    bagel_name = "Bagel-Mxd";
                     bagel_price = 8;
                 }
                 else if(BagelDough_WholeWheat.isSelected())
                 {
-                    bagel_name = "Whole Wheat";
+                    bagel_name = "Bagel-WW";
                     bagel_price = 8;
                 }
 
@@ -3869,26 +3869,26 @@ public class Homepage extends javax.swing.JFrame {
                
                 if(BagelFlavour_Plain.isSelected())
                 {
-                    flavour = "plain";
+                    flavour = "Pln";
                 }
                 else if (BagelFlavour_MixedNuts.isSelected())
                 {
-                    flavour = "Mixed Nuts";
+                    flavour = "Mxd Nut";
                     bagel_price +=3;
                 }
                 else if(BagelFlavour_CinnamonRaisin.isSelected())
                 {
-                    flavour = "Cinnamon Raisin";
+                    flavour = "Cin Rais";
                     bagel_price +=2;
                 }
                 else if(BagelFlavour_BlueBerry.isSelected())
                 {
-                    flavour = "Blue Berry";
+                    flavour = "Bbry";
                     bagel_price +=2;
                 }
-                else if (BagelFlavour_BlueBerry.isSelected())
+                else if (BagelFlavour_Asiago.isSelected())
                 {
-                    flavour = "Blue Berry";
+                    flavour = "Asiago";
                     bagel_price +=2;
                 }
                 
@@ -3918,41 +3918,41 @@ public class Homepage extends javax.swing.JFrame {
      
                 if(PastryDonut_PSugar.isSelected())
                 {
-                    addTable("Donut-powdered sugar",3.00,"","");          
+                    addTable("Donut-Psgr",3.00,"","");          
                 }
                 if(PastryDonut_Glazed.isSelected())
                 {
-                    addTable("Donut-glazed",3.00,"","");
+                    addTable("Donut-Glz",3.00,"","");
                 }
                 if(PastryDonut_JellyFilled.isSelected())
                 {
-                    addTable("Donut-jelly-filled",3.00,"","");
+                    addTable("Donut-Jfilled",3.00,"","");
                 }
                 
                 if(PastryMuffin_Blueberry.isSelected())
                 {
-                    addTable("Muffin-blueberry",3.00,"","");
+                    addTable("Muffin-Blue",3.00,"","");
                 }
                 if(PastryMuffin_ChocolateChip.isSelected())
                 {
-                    addTable("Muffin-choc chip",3.00,"","");
+                    addTable("Muffin-Cchip",3.00,"","");
                 }
                 if(PastryMuffin_BananaNut.isSelected())
                 {
-                    addTable("Muffin-banana nut",4.00,"","");
+                    addTable("Muffin-Bnut",4.00,"","");
                 }
                 
                 if(PastryTart_LemonTart.isSelected())
                 {
-                    addTable("Lemon tart",3.00,"","");
+                    addTable("Lemontart",3.00,"","");
                 }
                 if(PastryTarts_FruitTart.isSelected())
                 {
-                    addTable("Fruit tart",3.00,"","");
+                    addTable("Fruittart",3.00,"","");
                 }
                 if(PastryTart_ChocolateTart.isSelected())
                 {
-                    addTable("Chocolate tart",4.00,"","");
+                    addTable("Choctart",4.00,"","");
                 }
                 
                 if(PastrySpecial_macarons.isSelected())
@@ -4127,37 +4127,37 @@ public class Homepage extends javax.swing.JFrame {
      
                 if(apple_btn.isSelected())
                 {
-                    Smoothie_name = "Apple Smoothie";
+                    Smoothie_name = "Smthie-Apl";
                     Smoothie_price = 9;
                 }
                 else if( orange_but.isSelected())
                 {
-                    Smoothie_name = "Orange Smoothie";
+                    Smoothie_name = "Smthie-org";
                     Smoothie_price = 9;
                 }
                 else if(ctl_but.isSelected())
                 {
-                    Smoothie_name = "Cantaloupe Smoothie";
+                    Smoothie_name = "Smthie-ctl";
                     Smoothie_price = 10;
                 }
                 else if(mp_but.isSelected())
                 {
-                    Smoothie_name = "Mango Passionfruit Smoothie";
+                    Smoothie_name = "Smthie-Mpf";
                     Smoothie_price = 11;
                 }
                 else if(ob_but.isSelected())
                 {
-                    Smoothie_name = "Oaty Banana Smoothie";
+                    Smoothie_name = "Smthie-Oban";
                     Smoothie_price = 11;
                 }
                 else if(pl_but.isSelected())
                 {
-                    Smoothie_name = "Pineaplle Lychee Smoothie";
+                    Smoothie_name = "Smthie-Plyc";
                     Smoothie_price = 11;
                 }
                 else if(bs_but.isSelected())
                 {
-                    Smoothie_name = "Blueberry Strawberry Smoothie";
+                    Smoothie_name = "Smthie-Bstr";
                     Smoothie_price = 12;
                 }
                 
