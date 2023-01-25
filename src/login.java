@@ -118,7 +118,7 @@ public class login extends javax.swing.JFrame {
             Connection cons = null;
         try
         {
-             cons=DriverManager.getConnection(  "jdbc:mysql://localhost:3306/coffeshop_cashier","root","Leeterqin1126"); 
+             cons=DriverManager.getConnection(  "jdbc:mysql://127.0.0.1:3306/coffeshop_cashier","root","goodmorning"); 
              PreparedStatement pst;
              ResultSet rs;
              Login_status log = Login_status.FAIL;
@@ -177,7 +177,7 @@ public class login extends javax.swing.JFrame {
             Connection cons = null;
         try
         {
-             cons=DriverManager.getConnection(  "jdbc:mysql://localhost:3306/coffeshop_cashier","root","Leeterqin1126"); 
+             cons=DriverManager.getConnection(  "jdbc:mysql://127.0.0.1:3306/coffeshop_cashier","root","goodmorning"); 
              PreparedStatement pst;
              ResultSet rs;
              Login_status log = Login_status.FAIL;

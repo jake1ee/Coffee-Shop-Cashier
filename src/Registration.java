@@ -219,7 +219,7 @@ public class Registration extends javax.swing.JFrame {
         
         try
         {
-             Connection cons = DriverManager.getConnection(  "jdbc:mysql://127.0.0.1:3306/coffeshop_cashier","root","Leeterqin1126"); 
+             Connection cons = DriverManager.getConnection(  "jdbc:mysql://127.0.0.1:3306/coffeshop_cashier","root","goodmorning"); 
             PreparedStatement pst;
             
             pst = cons.prepareStatement("insert into member_table (member_FNAME, member_LNAME, member_EMAIL, member_PHONE) value (?, ?, ?, ?)");
