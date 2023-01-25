@@ -684,7 +684,7 @@
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Group type="102" attributes="0">
                                           <Component id="Med_size_btn" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace pref="48" max="32767" attributes="0"/>
+                                          <EmptySpace pref="49" max="32767" attributes="0"/>
                                           <Component id="Cmed_price" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                       <Group type="102" attributes="0">
@@ -996,7 +996,7 @@
                                   </Group>
                               </Group>
                           </Group>
-                          <EmptySpace max="32767" attributes="0"/>
+                          <EmptySpace pref="11" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -1133,7 +1133,7 @@
                                   </Group>
                               </Group>
                           </Group>
-                          <EmptySpace pref="75" max="32767" attributes="0"/>
+                          <EmptySpace pref="78" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -1183,6 +1183,9 @@
                     </Property>
                     <Property name="text" type="java.lang.String" value="Without cream"/>
                   </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CWithout_cream_btnActionPerformed"/>
+                  </Events>
                 </Component>
                 <Component class="javax.swing.JLabel" name="CCreamR_lbl">
                   <Properties>
@@ -1503,7 +1506,7 @@
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Group type="102" alignment="0" attributes="0">
                                           <Component id="Tmed_size" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace pref="48" max="32767" attributes="0"/>
+                                          <EmptySpace pref="49" max="32767" attributes="0"/>
                                           <Component id="TMedSize_price" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                       <Group type="102" alignment="0" attributes="0">
@@ -1811,7 +1814,7 @@
                                       </Group>
                                       <Group type="102" alignment="0" attributes="0">
                                           <Component id="TNo_ice_btn" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace pref="65" max="32767" attributes="0"/>
+                                          <EmptySpace pref="70" max="32767" attributes="0"/>
                                           <Component id="TWice_price" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
@@ -1952,7 +1955,7 @@
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Group type="102" alignment="0" attributes="0">
                                           <Component id="Without_milk_btn" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace pref="12" max="32767" attributes="0"/>
+                                          <EmptySpace pref="15" max="32767" attributes="0"/>
                                           <Component id="Twithout_milk_price" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                       <Group type="102" alignment="0" attributes="0">
@@ -3813,6 +3816,9 @@
                     </Property>
                     <Property name="text" type="java.lang.String" value="Macarons"/>
                   </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PastrySpecial_macaronsActionPerformed"/>
+                  </Events>
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="PastrySpecial_Cannoli">
                   <Properties>
