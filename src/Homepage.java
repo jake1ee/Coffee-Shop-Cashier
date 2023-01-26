@@ -3661,7 +3661,7 @@ public class Homepage extends javax.swing.JFrame {
         DefaultTableModel dt = (DefaultTableModel)Order_Table.getModel();
         
         int Remove_item = Order_Table.getSelectedRowCount();
-        if(Remove_item >0)
+        if(Remove_item >=0)
         {
             dt.removeRow(Remove_item);
         }
@@ -3776,19 +3776,6 @@ public class Homepage extends javax.swing.JFrame {
         String size = "small";
         String cond = "hot";
         Boolean accept = true;
-        Latte_btn.setSelected(false);
-        Espresso_btn.setSelected(false);
-       Cappuccino_btn.setSelected(false);
-         Small_size_btn.setSelected(false);
-        Med_size_btn.setSelected(false);
-        Big_size_btn.setSelected(false);
-                    Zero_lvl_btn.setSelected(false);
-                    Low_lvl_btn.setSelected(false);
-                    Med_lvl_btn.setSelected(false);
-                    High_lvl_btn.setSelected(false);
-                    Full_lvl_btn.setSelected(false);
-                    CCold_btn.setSelected(false);
-                    CNo_ice_btn.setSelected(false);
                 
      
                 if(Latte_btn.isSelected())
@@ -3863,22 +3850,8 @@ public class Homepage extends javax.swing.JFrame {
                 
                 if(accept)
                 {
-                    Latte_btn.setSelected(false);
-                    Espresso_btn.setSelected(false);
-                    Cappuccino_btn.setSelected(false);
-                    Small_size_btn.setSelected(false);
-                    Med_size_btn.setSelected(false);
-                    Big_size_btn.setSelected(false);
-                    Zero_lvl_btn.setSelected(false);
-                    Low_lvl_btn.setSelected(false);
-                    Med_lvl_btn.setSelected(false);
-                    High_lvl_btn.setSelected(false);
-                    Full_lvl_btn.setSelected(false);
-                    CCold_btn.setSelected(false);
-                    CNo_ice_btn.setSelected(false);
                     addTable(coffee_name, coffee_price, cond, size);
-                    Coffee.setVisible(false);
-                    
+                    Coffee.setVisible(false);        
                 }
             
     }//GEN-LAST:event_Cadd_btnActionPerformed
