@@ -752,6 +752,7 @@ public class Homepage extends javax.swing.JFrame {
 
         Typegroup.add(Latte_btn);
         Latte_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Latte_btn.setSelected(true);
         Latte_btn.setText("Latte");
 
         Typegroup.add(Espresso_btn);
@@ -841,6 +842,7 @@ public class Homepage extends javax.swing.JFrame {
 
         Sizegroup.add(Small_size_btn);
         Small_size_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Small_size_btn.setSelected(true);
         Small_size_btn.setText("Small");
 
         Sizegroup.add(Med_size_btn);
@@ -880,7 +882,7 @@ public class Homepage extends javax.swing.JFrame {
                         .addGroup(Csize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(Csize_PanelLayout.createSequentialGroup()
                                 .addComponent(Med_size_btn)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 49, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
                                 .addComponent(Cmed_price))
                             .addGroup(Csize_PanelLayout.createSequentialGroup()
                                 .addComponent(Small_size_btn)
@@ -921,6 +923,7 @@ public class Homepage extends javax.swing.JFrame {
 
         Sugarlevelgroup.add(Zero_lvl_btn);
         Zero_lvl_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Zero_lvl_btn.setSelected(true);
         Zero_lvl_btn.setText("0%");
 
         Sugarlevelgroup.add(Low_lvl_btn);
@@ -996,6 +999,7 @@ public class Homepage extends javax.swing.JFrame {
 
         Icegroup.add(CHot_btn);
         CHot_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        CHot_btn.setSelected(true);
         CHot_btn.setText("Hot");
 
         Icegroup.add(CCold_btn);
@@ -1037,7 +1041,7 @@ public class Homepage extends javax.swing.JFrame {
                                 .addGroup(Cice_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(Cice_price)
                                     .addComponent(Ccold_price))))))
-                .addContainerGap(11, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         Cice_lvlLayout.setVerticalGroup(
             Cice_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1098,7 +1102,7 @@ public class Homepage extends javax.swing.JFrame {
                         .addGroup(Ccream_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(CWithout_cream_btn)
                             .addComponent(CCream_btn))))
-                .addContainerGap(78, Short.MAX_VALUE))
+                .addContainerGap(75, Short.MAX_VALUE))
         );
         Ccream_lvlLayout.setVerticalGroup(
             Ccream_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1183,7 +1187,6 @@ public class Homepage extends javax.swing.JFrame {
                 .addGap(0, 27, Short.MAX_VALUE))
         );
 
-        Tea.setPreferredSize(new java.awt.Dimension(980, 571));
         Tea.setResizable(false);
         Tea.setSize(new java.awt.Dimension(1000, 625));
 
@@ -1436,7 +1439,6 @@ public class Homepage extends javax.swing.JFrame {
 
         Icegroup.add(THot_btn);
         THot_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        THot_btn.setSelected(true);
         THot_btn.setText("Hot");
 
         Icegroup.add(TCold_btn);
@@ -2653,7 +2655,6 @@ public class Homepage extends javax.swing.JFrame {
 
         Typegroup.add(apple_btn);
         apple_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        apple_btn.setSelected(true);
         apple_btn.setText("Apple");
 
         apple_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
@@ -2799,7 +2800,6 @@ public class Homepage extends javax.swing.JFrame {
 
         Sizegroup.add(TSmall_size1);
         TSmall_size1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        TSmall_size1.setSelected(true);
         TSmall_size1.setText("Small");
 
         Sizegroup.add(Tmed_size1);
@@ -2884,7 +2884,6 @@ public class Homepage extends javax.swing.JFrame {
 
         Sugarlevelgroup.add(TZero_btn1);
         TZero_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        TZero_btn1.setSelected(true);
         TZero_btn1.setText("0%");
 
         Sugarlevelgroup.add(TLow_btn1);
@@ -3777,6 +3776,20 @@ public class Homepage extends javax.swing.JFrame {
         String size = "small";
         String cond = "hot";
         Boolean accept = true;
+        Latte_btn.setSelected(false);
+        Espresso_btn.setSelected(false);
+       Cappuccino_btn.setSelected(false);
+         Small_size_btn.setSelected(false);
+        Med_size_btn.setSelected(false);
+        Big_size_btn.setSelected(false);
+                    Zero_lvl_btn.setSelected(false);
+                    Low_lvl_btn.setSelected(false);
+                    Med_lvl_btn.setSelected(false);
+                    High_lvl_btn.setSelected(false);
+                    Full_lvl_btn.setSelected(false);
+                    CCold_btn.setSelected(false);
+                    CNo_ice_btn.setSelected(false);
+                
      
                 if(Latte_btn.isSelected())
                 {
@@ -3850,8 +3863,22 @@ public class Homepage extends javax.swing.JFrame {
                 
                 if(accept)
                 {
+                    Latte_btn.setSelected(false);
+                    Espresso_btn.setSelected(false);
+                    Cappuccino_btn.setSelected(false);
+                    Small_size_btn.setSelected(false);
+                    Med_size_btn.setSelected(false);
+                    Big_size_btn.setSelected(false);
+                    Zero_lvl_btn.setSelected(false);
+                    Low_lvl_btn.setSelected(false);
+                    Med_lvl_btn.setSelected(false);
+                    High_lvl_btn.setSelected(false);
+                    Full_lvl_btn.setSelected(false);
+                    CCold_btn.setSelected(false);
+                    CNo_ice_btn.setSelected(false);
                     addTable(coffee_name, coffee_price, cond, size);
                     Coffee.setVisible(false);
+                    
                 }
             
     }//GEN-LAST:event_Cadd_btnActionPerformed
