@@ -94,7 +94,7 @@ public class Homepage extends javax.swing.JFrame {
      Receipt_Text.setText(Receipt_Text.getText() + "\tColombo, Srilanka, \n");
      Receipt_Text.setText(Receipt_Text.getText() + "\t+9411 123456789, \n");
      Receipt_Text.setText(Receipt_Text.getText() + "----------------------------------------------------------------\n");
-     Receipt_Text.setText(Receipt_Text.getText() + " Item\tSize\tHot/Cold \tPrice \n");
+     Receipt_Text.setText(Receipt_Text.getText() + " Item\tSize\t Description \tPrice \n");
      Receipt_Text.setText(Receipt_Text.getText() + "----------------------------------------------------------------\n");
      DefaultTableModel df = (DefaultTableModel) Order_Table.getModel();
      for (int i = 0; i < Order_Table.getRowCount(); i++) {
@@ -129,7 +129,7 @@ public class Homepage extends javax.swing.JFrame {
      Receipt_Text.setText(Receipt_Text.getText() + "\tColombo, Srilanka, \n");
      Receipt_Text.setText(Receipt_Text.getText() + "\t+9411 123456789, \n");
      Receipt_Text.setText(Receipt_Text.getText() + "----------------------------------------------------------------\n");
-     Receipt_Text.setText(Receipt_Text.getText() + " Item\tSize\tHot/Cold \tPrice \n");
+     Receipt_Text.setText(Receipt_Text.getText() + " Item\tSize\t Description \tPrice \n");
      Receipt_Text.setText(Receipt_Text.getText() + "----------------------------------------------------------------\n");
      DefaultTableModel df = (DefaultTableModel) Order_Table.getModel();
      for (int i = 0; i < Order_Table.getRowCount(); i++) {
@@ -152,7 +152,7 @@ public class Homepage extends javax.swing.JFrame {
      Receipt_Text.setText(Receipt_Text.getText() + "====================================\n");
      Receipt_Text.setText(Receipt_Text.getText() +"                     Thanks For Your Business...!"+"\n");
      Receipt_Text.setText(Receipt_Text.getText() + "----------------------------------------------------------------\n");
-     Receipt_Text.setText(Receipt_Text.getText() +"                     Software by Techinbox"+"\n");
+     Receipt_Text.setText(Receipt_Text.getText() +"                     Software by Coffee Story"+"\n");
  
      Receipt_Text.print();
  }
@@ -278,7 +278,7 @@ public class Homepage extends javax.swing.JFrame {
         TMilkR_lbl = new javax.swing.JLabel();
         Tmilk_price = new javax.swing.JLabel();
         Twithout_milk_price = new javax.swing.JLabel();
-        Cadd_btn1 = new javax.swing.JButton();
+        Tadd_btn1 = new javax.swing.JButton();
         Bagel = new javax.swing.JFrame();
         Bagel_panel = new javax.swing.JPanel();
         Bagel_title1 = new javax.swing.JLabel();
@@ -382,24 +382,24 @@ public class Homepage extends javax.swing.JFrame {
         Pastry_add_btn2 = new javax.swing.JButton();
         Smoothie = new javax.swing.JFrame();
         Smoothie_panel = new javax.swing.JPanel();
-        Tea_title1 = new javax.swing.JLabel();
+        Smoothie_title1 = new javax.swing.JLabel();
         Ttype_Panel1 = new javax.swing.JPanel();
         TType1 = new javax.swing.JLabel();
         TTypeR_lbl1 = new javax.swing.JLabel();
-        apple_btn1 = new javax.swing.JRadioButton();
-        apple_price1 = new javax.swing.JLabel();
-        orange_but1 = new javax.swing.JRadioButton();
-        orange_price1 = new javax.swing.JLabel();
-        ctl_but1 = new javax.swing.JRadioButton();
-        ctl_price1 = new javax.swing.JLabel();
-        mp_but2 = new javax.swing.JRadioButton();
-        mp_but3 = new javax.swing.JRadioButton();
-        pl_but4 = new javax.swing.JRadioButton();
-        pl_but5 = new javax.swing.JRadioButton();
-        mp_price2 = new javax.swing.JLabel();
-        Ob_price3 = new javax.swing.JLabel();
-        pl_price4 = new javax.swing.JLabel();
-        bs_price5 = new javax.swing.JLabel();
+        apple_btn = new javax.swing.JRadioButton();
+        apple_price = new javax.swing.JLabel();
+        orange_but = new javax.swing.JRadioButton();
+        orange_price = new javax.swing.JLabel();
+        ctl_but = new javax.swing.JRadioButton();
+        ctl_price = new javax.swing.JLabel();
+        mp_but = new javax.swing.JRadioButton();
+        mp_price = new javax.swing.JLabel();
+        ob_but = new javax.swing.JRadioButton();
+        ob_price = new javax.swing.JLabel();
+        pl_but = new javax.swing.JRadioButton();
+        pl_price = new javax.swing.JLabel();
+        bs_but = new javax.swing.JRadioButton();
+        bs_price = new javax.swing.JLabel();
         TSize_Panel1 = new javax.swing.JPanel();
         TSize_lbl1 = new javax.swing.JLabel();
         TSmall_size1 = new javax.swing.JRadioButton();
@@ -419,14 +419,14 @@ public class Homepage extends javax.swing.JFrame {
         TsugarR_lbl1 = new javax.swing.JLabel();
         Tmilk_lvl1 = new javax.swing.JPanel();
         topping = new javax.swing.JLabel();
-        granola_btn1 = new javax.swing.JRadioButton();
-        gojiberries_btn1 = new javax.swing.JRadioButton();
+        granola_btn = new javax.swing.JRadioButton();
+        gojiberries_btn = new javax.swing.JRadioButton();
         optional_lbl1 = new javax.swing.JLabel();
         granola_price1 = new javax.swing.JLabel();
         almonds_price1 = new javax.swing.JLabel();
-        almonds_btn2 = new javax.swing.JRadioButton();
-        raspberries_btn3 = new javax.swing.JRadioButton();
-        kiwi_btn4 = new javax.swing.JRadioButton();
+        almonds_btn = new javax.swing.JRadioButton();
+        raspberries_btn = new javax.swing.JRadioButton();
+        kiwi_btn = new javax.swing.JRadioButton();
         raspberries_price2 = new javax.swing.JLabel();
         kiwi_price3 = new javax.swing.JLabel();
         gojiberries_price2 = new javax.swing.JLabel();
@@ -447,7 +447,7 @@ public class Homepage extends javax.swing.JFrame {
         longisland_btn3 = new javax.swing.JRadioButton();
         vodkasoda_price2 = new javax.swing.JLabel();
         longisland_price3 = new javax.swing.JLabel();
-        Cadd_btn3 = new javax.swing.JButton();
+        Specialities_addbut = new javax.swing.JButton();
         Sizegroup = new javax.swing.ButtonGroup();
         Typegroup = new javax.swing.ButtonGroup();
         Sugarlevelgroup = new javax.swing.ButtonGroup();
@@ -456,7 +456,7 @@ public class Homepage extends javax.swing.JFrame {
         Home_Panel = new javax.swing.JPanel();
         Order_Panel = new javax.swing.JPanel();
         Cof_But = new javax.swing.JButton();
-        Other_But = new javax.swing.JButton();
+        Specialities_But = new javax.swing.JButton();
         Smoothie_But = new javax.swing.JButton();
         Tea_But = new javax.swing.JButton();
         lbl_Drink = new javax.swing.JLabel();
@@ -485,7 +485,6 @@ public class Homepage extends javax.swing.JFrame {
         System_menu = new javax.swing.JMenu();
         Sys_item = new javax.swing.JMenuItem();
         Regis_item = new javax.swing.JMenuItem();
-        List_item = new javax.swing.JMenuItem();
 
         Payment.setTitle("Payment");
         Payment.setResizable(false);
@@ -758,31 +757,15 @@ public class Homepage extends javax.swing.JFrame {
 
         Typegroup.add(Latte_btn);
         Latte_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        Latte_btn.setSelected(true);
         Latte_btn.setText("Latte");
-        Latte_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Latte_btnActionPerformed(evt);
-            }
-        });
 
         Typegroup.add(Espresso_btn);
         Espresso_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         Espresso_btn.setText("Espresso");
-        Espresso_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Espresso_btnActionPerformed(evt);
-            }
-        });
 
         Typegroup.add(Cappuccino_btn);
         Cappuccino_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         Cappuccino_btn.setText("Cappucinno");
-        Cappuccino_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Cappuccino_btnActionPerformed(evt);
-            }
-        });
 
         Latte_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         Latte_price.setForeground(new java.awt.Color(102, 102, 102));
@@ -863,31 +846,15 @@ public class Homepage extends javax.swing.JFrame {
 
         Sizegroup.add(Small_size_btn);
         Small_size_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        Small_size_btn.setSelected(true);
         Small_size_btn.setText("Small");
-        Small_size_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Small_size_btnActionPerformed(evt);
-            }
-        });
 
         Sizegroup.add(Med_size_btn);
         Med_size_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         Med_size_btn.setText("Medium");
-        Med_size_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Med_size_btnActionPerformed(evt);
-            }
-        });
 
         Sizegroup.add(Big_size_btn);
         Big_size_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         Big_size_btn.setText("Big");
-        Big_size_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Big_size_btnActionPerformed(evt);
-            }
-        });
 
         Cmed_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         Cmed_price.setForeground(new java.awt.Color(102, 102, 102));
@@ -918,7 +885,7 @@ public class Homepage extends javax.swing.JFrame {
                         .addGroup(Csize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(Csize_PanelLayout.createSequentialGroup()
                                 .addComponent(Med_size_btn)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 49, Short.MAX_VALUE)
                                 .addComponent(Cmed_price))
                             .addGroup(Csize_PanelLayout.createSequentialGroup()
                                 .addComponent(Small_size_btn)
@@ -960,48 +927,22 @@ public class Homepage extends javax.swing.JFrame {
         Sugarlevelgroup.add(Zero_lvl_btn);
         Zero_lvl_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         Zero_lvl_btn.setText("0%");
-        Zero_lvl_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Zero_lvl_btnActionPerformed(evt);
-            }
-        });
 
         Sugarlevelgroup.add(Low_lvl_btn);
         Low_lvl_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         Low_lvl_btn.setText("25%");
-        Low_lvl_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Low_lvl_btnActionPerformed(evt);
-            }
-        });
 
         Sugarlevelgroup.add(Med_lvl_btn);
         Med_lvl_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         Med_lvl_btn.setText("50%");
-        Med_lvl_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Med_lvl_btnActionPerformed(evt);
-            }
-        });
 
         Sugarlevelgroup.add(High_lvl_btn);
         High_lvl_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         High_lvl_btn.setText("75%");
-        High_lvl_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                High_lvl_btnActionPerformed(evt);
-            }
-        });
 
         Sugarlevelgroup.add(Full_lvl_btn);
         Full_lvl_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        Full_lvl_btn.setSelected(true);
         Full_lvl_btn.setText("100%");
-        Full_lvl_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Full_lvl_btnActionPerformed(evt);
-            }
-        });
 
         CSugarR_lbl.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
         CSugarR_lbl.setForeground(new java.awt.Color(102, 102, 102));
@@ -1060,31 +1001,15 @@ public class Homepage extends javax.swing.JFrame {
 
         Icegroup.add(CHot_btn);
         CHot_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        CHot_btn.setSelected(true);
         CHot_btn.setText("Hot");
-        CHot_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                CHot_btnActionPerformed(evt);
-            }
-        });
 
         Icegroup.add(CCold_btn);
         CCold_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         CCold_btn.setText("Cold (with ice)");
-        CCold_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                CCold_btnActionPerformed(evt);
-            }
-        });
 
         Icegroup.add(CNo_ice_btn);
         CNo_ice_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         CNo_ice_btn.setText("Cold (without ice)");
-        CNo_ice_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                CNo_ice_btnActionPerformed(evt);
-            }
-        });
 
         Cice_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         Cice_price.setForeground(new java.awt.Color(102, 102, 102));
@@ -1117,7 +1042,7 @@ public class Homepage extends javax.swing.JFrame {
                                 .addGroup(Cice_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(Cice_price)
                                     .addComponent(Ccold_price))))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(11, Short.MAX_VALUE))
         );
         Cice_lvlLayout.setVerticalGroup(
             Cice_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1148,11 +1073,6 @@ public class Homepage extends javax.swing.JFrame {
         Creamgroup.add(CCream_btn);
         CCream_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         CCream_btn.setText("With cream");
-        CCream_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                CCream_btnActionPerformed(evt);
-            }
-        });
 
         Creamgroup.add(CWithout_cream_btn);
         CWithout_cream_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
@@ -1183,7 +1103,7 @@ public class Homepage extends javax.swing.JFrame {
                         .addGroup(Ccream_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(CWithout_cream_btn)
                             .addComponent(CCream_btn))))
-                .addContainerGap(75, Short.MAX_VALUE))
+                .addContainerGap(78, Short.MAX_VALUE))
         );
         Ccream_lvlLayout.setVerticalGroup(
             Ccream_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1286,11 +1206,6 @@ public class Homepage extends javax.swing.JFrame {
         Typegroup.add(Egtea_btn);
         Egtea_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         Egtea_btn.setText("Earl grey");
-        Egtea_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Egtea_btnActionPerformed(evt);
-            }
-        });
 
         Egtea_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         Egtea_price.setForeground(new java.awt.Color(102, 102, 102));
@@ -1299,11 +1214,6 @@ public class Homepage extends javax.swing.JFrame {
         Typegroup.add(Jasmine_but);
         Jasmine_but.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         Jasmine_but.setText("Jasmine");
-        Jasmine_but.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Jasmine_butActionPerformed(evt);
-            }
-        });
 
         Jasmine_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         Jasmine_price.setForeground(new java.awt.Color(102, 102, 102));
@@ -1312,11 +1222,6 @@ public class Homepage extends javax.swing.JFrame {
         Typegroup.add(Oolong_but);
         Oolong_but.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         Oolong_but.setText("Oolong peach");
-        Oolong_but.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Oolong_butActionPerformed(evt);
-            }
-        });
 
         Oolong_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         Oolong_price.setForeground(new java.awt.Color(102, 102, 102));
@@ -1382,29 +1287,14 @@ public class Homepage extends javax.swing.JFrame {
         Sizegroup.add(TSmall_size);
         TSmall_size.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         TSmall_size.setText("Small");
-        TSmall_size.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TSmall_sizeActionPerformed(evt);
-            }
-        });
 
         Sizegroup.add(Tmed_size);
         Tmed_size.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         Tmed_size.setText("Medium");
-        Tmed_size.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Tmed_sizeActionPerformed(evt);
-            }
-        });
 
         Sizegroup.add(TBig_size);
         TBig_size.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         TBig_size.setText("Big");
-        TBig_size.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TBig_sizeActionPerformed(evt);
-            }
-        });
 
         TMedSize_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         TMedSize_price.setForeground(new java.awt.Color(102, 102, 102));
@@ -1439,7 +1329,7 @@ public class Homepage extends javax.swing.JFrame {
                         .addGroup(TSize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(TSize_PanelLayout.createSequentialGroup()
                                 .addComponent(Tmed_size)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 49, Short.MAX_VALUE)
                                 .addComponent(TMedSize_price))
                             .addGroup(TSize_PanelLayout.createSequentialGroup()
                                 .addComponent(TSmall_size)
@@ -1480,47 +1370,22 @@ public class Homepage extends javax.swing.JFrame {
         Sugarlevelgroup.add(TZero_btn);
         TZero_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         TZero_btn.setText("0%");
-        TZero_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TZero_btnActionPerformed(evt);
-            }
-        });
 
         Sugarlevelgroup.add(TLow_btn);
         TLow_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         TLow_btn.setText("25%");
-        TLow_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TLow_btnActionPerformed(evt);
-            }
-        });
 
         Sugarlevelgroup.add(TMed_btn);
         TMed_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         TMed_btn.setText("50%");
-        TMed_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TMed_btnActionPerformed(evt);
-            }
-        });
 
         Sugarlevelgroup.add(THIgh_btn);
         THIgh_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         THIgh_btn.setText("75%");
-        THIgh_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                THIgh_btnActionPerformed(evt);
-            }
-        });
 
         Sugarlevelgroup.add(TFull_btn);
         TFull_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         TFull_btn.setText("100%");
-        TFull_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TFull_btnActionPerformed(evt);
-            }
-        });
 
         TsugarR_lbl.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
         TsugarR_lbl.setForeground(new java.awt.Color(102, 102, 102));
@@ -1575,30 +1440,16 @@ public class Homepage extends javax.swing.JFrame {
 
         Icegroup.add(THot_btn);
         THot_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        THot_btn.setSelected(true);
         THot_btn.setText("Hot");
-        THot_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                THot_btnActionPerformed(evt);
-            }
-        });
 
         Icegroup.add(TCold_btn);
         TCold_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         TCold_btn.setText("Cold (with ice)");
-        TCold_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TCold_btnActionPerformed(evt);
-            }
-        });
 
         Icegroup.add(TNo_ice_btn);
         TNo_ice_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         TNo_ice_btn.setText("Cold (without ice)");
-        TNo_ice_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TNo_ice_btnActionPerformed(evt);
-            }
-        });
 
         Tice_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         Tice_price.setForeground(new java.awt.Color(102, 102, 102));
@@ -1636,7 +1487,7 @@ public class Homepage extends javax.swing.JFrame {
                                 .addGap(0, 0, Short.MAX_VALUE))
                             .addGroup(Tice_lvl1Layout.createSequentialGroup()
                                 .addComponent(TNo_ice_btn)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 65, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 70, Short.MAX_VALUE)
                                 .addComponent(TWice_price)))))
                 .addContainerGap())
         );
@@ -1669,20 +1520,10 @@ public class Homepage extends javax.swing.JFrame {
         Creamgroup.add(Milk_btn);
         Milk_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         Milk_btn.setText("With milk");
-        Milk_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Milk_btnActionPerformed(evt);
-            }
-        });
 
         Creamgroup.add(Without_milk_btn);
         Without_milk_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         Without_milk_btn.setText("Without milk");
-        Without_milk_btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Without_milk_btnActionPerformed(evt);
-            }
-        });
 
         TMilkR_lbl.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
         TMilkR_lbl.setForeground(new java.awt.Color(102, 102, 102));
@@ -1712,7 +1553,7 @@ public class Homepage extends javax.swing.JFrame {
                         .addGroup(Tmilk_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(Tmilk_lvlLayout.createSequentialGroup()
                                 .addComponent(Without_milk_btn)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 12, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 15, Short.MAX_VALUE)
                                 .addComponent(Twithout_milk_price))
                             .addGroup(Tmilk_lvlLayout.createSequentialGroup()
                                 .addComponent(Milk_btn)
@@ -1738,13 +1579,13 @@ public class Homepage extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        Cadd_btn1.setBackground(new java.awt.Color(255, 153, 51));
-        Cadd_btn1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        Cadd_btn1.setText("Add");
-        Cadd_btn1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        Cadd_btn1.addActionListener(new java.awt.event.ActionListener() {
+        Tadd_btn1.setBackground(new java.awt.Color(255, 153, 51));
+        Tadd_btn1.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        Tadd_btn1.setText("Add");
+        Tadd_btn1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Tadd_btn1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Cadd_btn1ActionPerformed(evt);
+                Tadd_btn1ActionPerformed(evt);
             }
         });
 
@@ -1768,7 +1609,7 @@ public class Homepage extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Tea_panelLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(Cadd_btn1, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(Tadd_btn1, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(47, 47, 47))
         );
         Tea_panelLayout.setVerticalGroup(
@@ -1787,7 +1628,7 @@ public class Homepage extends javax.swing.JFrame {
                     .addComponent(TSugar_lvl, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(Tice_lvl1, javax.swing.GroupLayout.DEFAULT_SIZE, 250, Short.MAX_VALUE))
                 .addGap(18, 18, 18)
-                .addComponent(Cadd_btn1, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(Tadd_btn1, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -1826,29 +1667,14 @@ public class Homepage extends javax.swing.JFrame {
         Typegroup.add(BagelDough_plain);
         BagelDough_plain.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         BagelDough_plain.setText("Plain");
-        BagelDough_plain.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BagelDough_plainActionPerformed(evt);
-            }
-        });
 
         Typegroup.add(BagelDough_Mixed);
         BagelDough_Mixed.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         BagelDough_Mixed.setText("Mixed");
-        BagelDough_Mixed.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BagelDough_MixedActionPerformed(evt);
-            }
-        });
 
         Typegroup.add(BagelDough_WholeWheat);
         BagelDough_WholeWheat.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         BagelDough_WholeWheat.setText("Whole Wheat");
-        BagelDough_WholeWheat.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BagelDough_WholeWheatActionPerformed(evt);
-            }
-        });
 
         BagelDough_PlainPrice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         BagelDough_PlainPrice.setForeground(new java.awt.Color(102, 102, 102));
@@ -1926,29 +1752,14 @@ public class Homepage extends javax.swing.JFrame {
         Sizegroup.add(BagelSize_Small);
         BagelSize_Small.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         BagelSize_Small.setText("Small");
-        BagelSize_Small.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BagelSize_SmallActionPerformed(evt);
-            }
-        });
 
         Sizegroup.add(BagelSize_Medium);
         BagelSize_Medium.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         BagelSize_Medium.setText("Medium");
-        BagelSize_Medium.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BagelSize_MediumActionPerformed(evt);
-            }
-        });
 
         Sizegroup.add(BagelSize_Big);
         BagelSize_Big.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         BagelSize_Big.setText("Big");
-        BagelSize_Big.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BagelSize_BigActionPerformed(evt);
-            }
-        });
 
         BagelSize_Mediumprice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         BagelSize_Mediumprice.setForeground(new java.awt.Color(102, 102, 102));
@@ -1983,7 +1794,7 @@ public class Homepage extends javax.swing.JFrame {
                         .addGroup(BagelSizePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(BagelSizePanelLayout.createSequentialGroup()
                                 .addComponent(BagelSize_Medium)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 32, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 33, Short.MAX_VALUE)
                                 .addComponent(BagelSize_Mediumprice))
                             .addGroup(BagelSizePanelLayout.createSequentialGroup()
                                 .addComponent(BagelSize_Small)
@@ -2025,47 +1836,22 @@ public class Homepage extends javax.swing.JFrame {
         Sugarlevelgroup.add(BagelFlavour_Plain);
         BagelFlavour_Plain.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         BagelFlavour_Plain.setText("Plain");
-        BagelFlavour_Plain.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BagelFlavour_PlainActionPerformed(evt);
-            }
-        });
 
         Sugarlevelgroup.add(BagelFlavour_MixedNuts);
         BagelFlavour_MixedNuts.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         BagelFlavour_MixedNuts.setText("Mixed nuts");
-        BagelFlavour_MixedNuts.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BagelFlavour_MixedNutsActionPerformed(evt);
-            }
-        });
 
         Sugarlevelgroup.add(BagelFlavour_CinnamonRaisin);
         BagelFlavour_CinnamonRaisin.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         BagelFlavour_CinnamonRaisin.setText("Cinnamonon Raisin");
-        BagelFlavour_CinnamonRaisin.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BagelFlavour_CinnamonRaisinActionPerformed(evt);
-            }
-        });
 
         Sugarlevelgroup.add(BagelFlavour_BlueBerry);
         BagelFlavour_BlueBerry.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         BagelFlavour_BlueBerry.setText("Blue Berry");
-        BagelFlavour_BlueBerry.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BagelFlavour_BlueBerryActionPerformed(evt);
-            }
-        });
 
         Sugarlevelgroup.add(BagelFlavour_Asiago);
         BagelFlavour_Asiago.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         BagelFlavour_Asiago.setText("Asiago");
-        BagelFlavour_Asiago.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BagelFlavour_AsiagoActionPerformed(evt);
-            }
-        });
 
         required_label5.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
         required_label5.setForeground(new java.awt.Color(102, 102, 102));
@@ -2162,32 +1948,14 @@ public class Homepage extends javax.swing.JFrame {
         BagelToppingSauceSection.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         BagelToppingSauceSection.setText("Toppings Sauce");
 
-        Sizegroup.add(BagelToppingSauce_CreamCheese);
         BagelToppingSauce_CreamCheese.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         BagelToppingSauce_CreamCheese.setText("Cream Chesee");
-        BagelToppingSauce_CreamCheese.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BagelToppingSauce_CreamCheeseActionPerformed(evt);
-            }
-        });
 
-        Sizegroup.add(BagelToppingSauce_PeanutButter);
         BagelToppingSauce_PeanutButter.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         BagelToppingSauce_PeanutButter.setText("Peanut Butter");
-        BagelToppingSauce_PeanutButter.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BagelToppingSauce_PeanutButterActionPerformed(evt);
-            }
-        });
 
-        Sizegroup.add(BagelToppingSauce_Butter);
         BagelToppingSauce_Butter.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         BagelToppingSauce_Butter.setText("Butter");
-        BagelToppingSauce_Butter.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BagelToppingSauce_ButterActionPerformed(evt);
-            }
-        });
 
         BagelToppingSauce_PeanutButterPrice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         BagelToppingSauce_PeanutButterPrice.setForeground(new java.awt.Color(102, 102, 102));
@@ -2205,27 +1973,15 @@ public class Homepage extends javax.swing.JFrame {
         required_label6.setForeground(new java.awt.Color(102, 102, 102));
         required_label6.setText("( optional )");
 
-        Sizegroup.add(BagelToppingSauce_Jam);
         BagelToppingSauce_Jam.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         BagelToppingSauce_Jam.setText("Jam");
-        BagelToppingSauce_Jam.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BagelToppingSauce_JamActionPerformed(evt);
-            }
-        });
 
         BagelToppingSauce_JamPrice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         BagelToppingSauce_JamPrice.setForeground(new java.awt.Color(102, 102, 102));
         BagelToppingSauce_JamPrice.setText("+RM1.00");
 
-        Sizegroup.add(BagelToppingSauce_Honey);
         BagelToppingSauce_Honey.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         BagelToppingSauce_Honey.setText("Honey");
-        BagelToppingSauce_Honey.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BagelToppingSauce_HoneyActionPerformed(evt);
-            }
-        });
 
         BagelToppingSauce_HoneyPrice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         BagelToppingSauce_HoneyPrice.setForeground(new java.awt.Color(102, 102, 102));
@@ -2304,32 +2060,14 @@ public class Homepage extends javax.swing.JFrame {
         BagelToppingIngredientSection.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         BagelToppingIngredientSection.setText("Toppings Ingredients");
 
-        Sizegroup.add(BagelToppingIngredient_Lox);
         BagelToppingIngredient_Lox.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         BagelToppingIngredient_Lox.setText("Lox ( smoked salmon )");
-        BagelToppingIngredient_Lox.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BagelToppingIngredient_LoxActionPerformed(evt);
-            }
-        });
 
-        Sizegroup.add(BagelToppingIngredient_Bacon);
         BagelToppingIngredient_Bacon.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         BagelToppingIngredient_Bacon.setText("Bacon");
-        BagelToppingIngredient_Bacon.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BagelToppingIngredient_BaconActionPerformed(evt);
-            }
-        });
 
-        Sizegroup.add(BagelToppingIngredient_Egg);
         BagelToppingIngredient_Egg.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         BagelToppingIngredient_Egg.setText("Egg ");
-        BagelToppingIngredient_Egg.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BagelToppingIngredient_EggActionPerformed(evt);
-            }
-        });
 
         BagelToppingIngredient_BaconPrice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         BagelToppingIngredient_BaconPrice.setForeground(new java.awt.Color(102, 102, 102));
@@ -2347,27 +2085,15 @@ public class Homepage extends javax.swing.JFrame {
         required_label11.setForeground(new java.awt.Color(102, 102, 102));
         required_label11.setText("( optional )");
 
-        Sizegroup.add(BagelToppingIngredient_Tomato);
         BagelToppingIngredient_Tomato.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         BagelToppingIngredient_Tomato.setText("Tomato");
-        BagelToppingIngredient_Tomato.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BagelToppingIngredient_TomatoActionPerformed(evt);
-            }
-        });
 
         BagelToppingIngredient_TomatoPrice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         BagelToppingIngredient_TomatoPrice.setForeground(new java.awt.Color(102, 102, 102));
         BagelToppingIngredient_TomatoPrice.setText("+RM0.50");
 
-        Sizegroup.add(BagelToppingIngredient_Lettuce);
         BagelToppingIngredient_Lettuce.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         BagelToppingIngredient_Lettuce.setText("Lettuce");
-        BagelToppingIngredient_Lettuce.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                BagelToppingIngredient_LettuceActionPerformed(evt);
-            }
-        });
 
         BagelToppingIngredient_LettucePrice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         BagelToppingIngredient_LettucePrice.setForeground(new java.awt.Color(102, 102, 102));
@@ -2519,7 +2245,6 @@ public class Homepage extends javax.swing.JFrame {
         PastryDonutSection4.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         PastryDonutSection4.setText("Donuts");
 
-        Typegroup.add(PastryDonut_PSugar);
         PastryDonut_PSugar.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         PastryDonut_PSugar.setText("Powdered Sugar");
         PastryDonut_PSugar.addActionListener(new java.awt.event.ActionListener() {
@@ -2528,23 +2253,11 @@ public class Homepage extends javax.swing.JFrame {
             }
         });
 
-        Typegroup.add(PastryDonut_Glazed);
         PastryDonut_Glazed.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         PastryDonut_Glazed.setText("Glazed");
-        PastryDonut_Glazed.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                PastryDonut_GlazedActionPerformed(evt);
-            }
-        });
 
-        Typegroup.add(PastryDonut_JellyFilled);
         PastryDonut_JellyFilled.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         PastryDonut_JellyFilled.setText("Jelly Filled");
-        PastryDonut_JellyFilled.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                PastryDonut_JellyFilledActionPerformed(evt);
-            }
-        });
 
         PastryDonut_PSugarPrice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         PastryDonut_PSugarPrice.setForeground(new java.awt.Color(102, 102, 102));
@@ -2618,32 +2331,14 @@ public class Homepage extends javax.swing.JFrame {
         PastryTartSection6.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         PastryTartSection6.setText("Tarts");
 
-        Typegroup.add(PastryTart_LemonTart);
         PastryTart_LemonTart.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         PastryTart_LemonTart.setText("Lemon Tart");
-        PastryTart_LemonTart.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                PastryTart_LemonTartActionPerformed(evt);
-            }
-        });
 
-        Typegroup.add(PastryTarts_FruitTart);
         PastryTarts_FruitTart.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         PastryTarts_FruitTart.setText("FruitTart");
-        PastryTarts_FruitTart.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                PastryTarts_FruitTartActionPerformed(evt);
-            }
-        });
 
-        Typegroup.add(PastryTart_ChocolateTart);
         PastryTart_ChocolateTart.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         PastryTart_ChocolateTart.setText("Chocolate Tart");
-        PastryTart_ChocolateTart.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                PastryTart_ChocolateTartActionPerformed(evt);
-            }
-        });
 
         PastryTart_LemonTartPrice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         PastryTart_LemonTartPrice.setForeground(new java.awt.Color(102, 102, 102));
@@ -2717,32 +2412,14 @@ public class Homepage extends javax.swing.JFrame {
         PastryMuffinSection3.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         PastryMuffinSection3.setText("Muffins");
 
-        Typegroup.add(PastryMuffin_Blueberry);
         PastryMuffin_Blueberry.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         PastryMuffin_Blueberry.setText("BlueBerry");
-        PastryMuffin_Blueberry.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                PastryMuffin_BlueberryActionPerformed(evt);
-            }
-        });
 
-        Typegroup.add(PastryMuffin_ChocolateChip);
         PastryMuffin_ChocolateChip.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         PastryMuffin_ChocolateChip.setText("Chocolate Chip");
-        PastryMuffin_ChocolateChip.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                PastryMuffin_ChocolateChipActionPerformed(evt);
-            }
-        });
 
-        Typegroup.add(PastryMuffin_BananaNut);
         PastryMuffin_BananaNut.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         PastryMuffin_BananaNut.setText("Jelly Filled");
-        PastryMuffin_BananaNut.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                PastryMuffin_BananaNutActionPerformed(evt);
-            }
-        });
 
         PastryMuffin_blueberryPrice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         PastryMuffin_blueberryPrice.setForeground(new java.awt.Color(102, 102, 102));
@@ -2816,7 +2493,6 @@ public class Homepage extends javax.swing.JFrame {
         PastrySpecialSection5.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         PastrySpecialSection5.setText("Specials");
 
-        Typegroup.add(PastrySpecial_macarons);
         PastrySpecial_macarons.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         PastrySpecial_macarons.setText("Macarons");
         PastrySpecial_macarons.addActionListener(new java.awt.event.ActionListener() {
@@ -2825,23 +2501,11 @@ public class Homepage extends javax.swing.JFrame {
             }
         });
 
-        Typegroup.add(PastrySpecial_Cannoli);
         PastrySpecial_Cannoli.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         PastrySpecial_Cannoli.setText("Cannoli");
-        PastrySpecial_Cannoli.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                PastrySpecial_CannoliActionPerformed(evt);
-            }
-        });
 
-        Typegroup.add(PastrySpecial_Baklava);
         PastrySpecial_Baklava.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         PastrySpecial_Baklava.setText("Baklava");
-        PastrySpecial_Baklava.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                PastrySpecial_BaklavaActionPerformed(evt);
-            }
-        });
 
         PastrySpecial_macaronsPrice.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         PastrySpecial_macaronsPrice.setForeground(new java.awt.Color(102, 102, 102));
@@ -2980,8 +2644,8 @@ public class Homepage extends javax.swing.JFrame {
         Smoothie.setResizable(false);
         Smoothie.setSize(new java.awt.Dimension(865, 690));
 
-        Tea_title1.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
-        Tea_title1.setText("Smoothie");
+        Smoothie_title1.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
+        Smoothie_title1.setText("Smoothie");
 
         Ttype_Panel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
@@ -2992,96 +2656,62 @@ public class Homepage extends javax.swing.JFrame {
         TTypeR_lbl1.setForeground(new java.awt.Color(102, 102, 102));
         TTypeR_lbl1.setText("(required)");
 
-        Typegroup.add(apple_btn1);
-        apple_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        apple_btn1.setText("Apple");
-        apple_btn1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                apple_btn1ActionPerformed(evt);
-            }
-        });
+        Typegroup.add(apple_btn);
+        apple_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        apple_btn.setSelected(true);
+        apple_btn.setText("Apple");
 
-        apple_price1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        apple_price1.setForeground(new java.awt.Color(102, 102, 102));
-        apple_price1.setText("RM9.00");
+        apple_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        apple_price.setForeground(new java.awt.Color(102, 102, 102));
+        apple_price.setText("RM9.00");
 
-        Typegroup.add(orange_but1);
-        orange_but1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        orange_but1.setText("Orange");
-        orange_but1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                orange_but1ActionPerformed(evt);
-            }
-        });
+        Typegroup.add(orange_but);
+        orange_but.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        orange_but.setText("Orange");
 
-        orange_price1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        orange_price1.setForeground(new java.awt.Color(102, 102, 102));
-        orange_price1.setText("RM9.00");
+        orange_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        orange_price.setForeground(new java.awt.Color(102, 102, 102));
+        orange_price.setText("RM9.00");
 
-        Typegroup.add(ctl_but1);
-        ctl_but1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        ctl_but1.setText("Cantaloupe");
-        ctl_but1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ctl_but1ActionPerformed(evt);
-            }
-        });
+        Typegroup.add(ctl_but);
+        ctl_but.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        ctl_but.setText("Cantaloupe");
 
-        ctl_price1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        ctl_price1.setForeground(new java.awt.Color(102, 102, 102));
-        ctl_price1.setText("RM10.00");
+        ctl_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        ctl_price.setForeground(new java.awt.Color(102, 102, 102));
+        ctl_price.setText("RM10.00");
 
-        Typegroup.add(mp_but2);
-        mp_but2.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        mp_but2.setText("Mango Passionfruit");
-        mp_but2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                mp_but2ActionPerformed(evt);
-            }
-        });
+        Typegroup.add(mp_but);
+        mp_but.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        mp_but.setText("Mango Passionfruit");
 
-        Typegroup.add(mp_but3);
-        mp_but3.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        mp_but3.setText("Oaty banana");
-        mp_but3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                mp_but3ActionPerformed(evt);
-            }
-        });
+        mp_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        mp_price.setForeground(new java.awt.Color(102, 102, 102));
+        mp_price.setText("RM11.00");
 
-        Typegroup.add(pl_but4);
-        pl_but4.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        pl_but4.setText("Pineapple lychee");
-        pl_but4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                pl_but4ActionPerformed(evt);
-            }
-        });
+        Typegroup.add(ob_but);
+        ob_but.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        ob_but.setText("Oaty banana");
 
-        Typegroup.add(pl_but5);
-        pl_but5.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        pl_but5.setText("Blueberry Strawberry ");
-        pl_but5.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                pl_but5ActionPerformed(evt);
-            }
-        });
+        ob_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        ob_price.setForeground(new java.awt.Color(102, 102, 102));
+        ob_price.setText("RM11.00");
 
-        mp_price2.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        mp_price2.setForeground(new java.awt.Color(102, 102, 102));
-        mp_price2.setText("RM11.00");
+        Typegroup.add(pl_but);
+        pl_but.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        pl_but.setText("Pineapple lychee");
 
-        Ob_price3.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        Ob_price3.setForeground(new java.awt.Color(102, 102, 102));
-        Ob_price3.setText("RM11.00");
+        pl_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        pl_price.setForeground(new java.awt.Color(102, 102, 102));
+        pl_price.setText("RM11.00");
 
-        pl_price4.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        pl_price4.setForeground(new java.awt.Color(102, 102, 102));
-        pl_price4.setText("RM11.00");
+        Typegroup.add(bs_but);
+        bs_but.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        bs_but.setText("Blueberry Strawberry ");
 
-        bs_price5.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        bs_price5.setForeground(new java.awt.Color(102, 102, 102));
-        bs_price5.setText("RM12.00");
+        bs_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        bs_price.setForeground(new java.awt.Color(102, 102, 102));
+        bs_price.setText("RM12.00");
 
         javax.swing.GroupLayout Ttype_Panel1Layout = new javax.swing.GroupLayout(Ttype_Panel1);
         Ttype_Panel1.setLayout(Ttype_Panel1Layout);
@@ -3099,33 +2729,33 @@ public class Homepage extends javax.swing.JFrame {
                         .addGap(54, 54, 54)
                         .addGroup(Ttype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(Ttype_Panel1Layout.createSequentialGroup()
-                                .addComponent(orange_but1)
+                                .addComponent(orange_but)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(orange_price1))
+                                .addComponent(orange_price))
                             .addGroup(Ttype_Panel1Layout.createSequentialGroup()
-                                .addComponent(apple_btn1)
+                                .addComponent(apple_btn)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(apple_price1))
+                                .addComponent(apple_price))
                             .addGroup(Ttype_Panel1Layout.createSequentialGroup()
-                                .addComponent(ctl_but1)
+                                .addComponent(ctl_but)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(ctl_price1))
+                                .addComponent(ctl_price))
                             .addGroup(Ttype_Panel1Layout.createSequentialGroup()
-                                .addComponent(pl_but5)
+                                .addComponent(bs_but)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 522, Short.MAX_VALUE)
-                                .addComponent(bs_price5))
+                                .addComponent(bs_price))
                             .addGroup(Ttype_Panel1Layout.createSequentialGroup()
-                                .addComponent(mp_but2)
+                                .addComponent(mp_but)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(mp_price2))
+                                .addComponent(mp_price))
                             .addGroup(Ttype_Panel1Layout.createSequentialGroup()
-                                .addComponent(mp_but3)
+                                .addComponent(ob_but)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(Ob_price3))
+                                .addComponent(ob_price))
                             .addGroup(Ttype_Panel1Layout.createSequentialGroup()
-                                .addComponent(pl_but4)
+                                .addComponent(pl_but)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(pl_price4)))))
+                                .addComponent(pl_price)))))
                 .addContainerGap())
         );
         Ttype_Panel1Layout.setVerticalGroup(
@@ -3137,32 +2767,32 @@ public class Homepage extends javax.swing.JFrame {
                     .addComponent(TTypeR_lbl1))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(Ttype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(apple_btn1)
-                    .addComponent(apple_price1))
+                    .addComponent(apple_btn)
+                    .addComponent(apple_price))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(Ttype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(orange_but1)
-                    .addComponent(orange_price1))
+                    .addComponent(orange_but)
+                    .addComponent(orange_price))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(Ttype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(ctl_but1)
-                    .addComponent(ctl_price1))
+                    .addComponent(ctl_but)
+                    .addComponent(ctl_price))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(Ttype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(mp_but2)
-                    .addComponent(mp_price2))
+                    .addComponent(mp_but)
+                    .addComponent(mp_price))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(Ttype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(mp_but3)
-                    .addComponent(Ob_price3))
+                    .addComponent(ob_but)
+                    .addComponent(ob_price))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(Ttype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(pl_but4)
-                    .addComponent(pl_price4))
+                    .addComponent(pl_but)
+                    .addComponent(pl_price))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(Ttype_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(pl_but5)
-                    .addComponent(bs_price5))
+                    .addComponent(bs_but)
+                    .addComponent(bs_price))
                 .addContainerGap(29, Short.MAX_VALUE))
         );
 
@@ -3174,30 +2804,16 @@ public class Homepage extends javax.swing.JFrame {
 
         Sizegroup.add(TSmall_size1);
         TSmall_size1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        TSmall_size1.setSelected(true);
         TSmall_size1.setText("Small");
-        TSmall_size1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TSmall_size1ActionPerformed(evt);
-            }
-        });
 
         Sizegroup.add(Tmed_size1);
         Tmed_size1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         Tmed_size1.setText("Medium");
-        Tmed_size1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Tmed_size1ActionPerformed(evt);
-            }
-        });
 
         Sizegroup.add(TBig_size1);
         TBig_size1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         TBig_size1.setText("Big");
-        TBig_size1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TBig_size1ActionPerformed(evt);
-            }
-        });
 
         TMedSize_price1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         TMedSize_price1.setForeground(new java.awt.Color(102, 102, 102));
@@ -3232,7 +2848,7 @@ public class Homepage extends javax.swing.JFrame {
                         .addGroup(TSize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(TSize_Panel1Layout.createSequentialGroup()
                                 .addComponent(Tmed_size1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 49, Short.MAX_VALUE)
                                 .addComponent(TMedSize_price1))
                             .addGroup(TSize_Panel1Layout.createSequentialGroup()
                                 .addComponent(TSmall_size1)
@@ -3273,48 +2889,24 @@ public class Homepage extends javax.swing.JFrame {
 
         Sugarlevelgroup.add(TZero_btn1);
         TZero_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        TZero_btn1.setSelected(true);
         TZero_btn1.setText("0%");
-        TZero_btn1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TZero_btn1ActionPerformed(evt);
-            }
-        });
 
         Sugarlevelgroup.add(TLow_btn1);
         TLow_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         TLow_btn1.setText("25%");
-        TLow_btn1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TLow_btn1ActionPerformed(evt);
-            }
-        });
 
         Sugarlevelgroup.add(TMed_btn1);
         TMed_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         TMed_btn1.setText("50%");
-        TMed_btn1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TMed_btn1ActionPerformed(evt);
-            }
-        });
 
         Sugarlevelgroup.add(THIgh_btn1);
         THIgh_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         THIgh_btn1.setText("75%");
-        THIgh_btn1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                THIgh_btn1ActionPerformed(evt);
-            }
-        });
 
         Sugarlevelgroup.add(TFull_btn1);
         TFull_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         TFull_btn1.setText("100%");
-        TFull_btn1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TFull_btn1ActionPerformed(evt);
-            }
-        });
 
         TsugarR_lbl1.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
         TsugarR_lbl1.setForeground(new java.awt.Color(102, 102, 102));
@@ -3367,23 +2959,11 @@ public class Homepage extends javax.swing.JFrame {
         topping.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         topping.setText("Toppings");
 
-        Creamgroup.add(granola_btn1);
-        granola_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        granola_btn1.setText("Granola");
-        granola_btn1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                granola_btn1ActionPerformed(evt);
-            }
-        });
+        granola_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        granola_btn.setText("Granola");
 
-        Creamgroup.add(gojiberries_btn1);
-        gojiberries_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        gojiberries_btn1.setText("Goji berries");
-        gojiberries_btn1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                gojiberries_btn1ActionPerformed(evt);
-            }
-        });
+        gojiberries_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        gojiberries_btn.setText("Goji berries");
 
         optional_lbl1.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
         optional_lbl1.setForeground(new java.awt.Color(102, 102, 102));
@@ -3397,32 +2977,14 @@ public class Homepage extends javax.swing.JFrame {
         almonds_price1.setForeground(new java.awt.Color(102, 102, 102));
         almonds_price1.setText("+RM2.00");
 
-        Creamgroup.add(almonds_btn2);
-        almonds_btn2.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        almonds_btn2.setText("Almonds");
-        almonds_btn2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                almonds_btn2ActionPerformed(evt);
-            }
-        });
+        almonds_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        almonds_btn.setText("Almonds");
 
-        Creamgroup.add(raspberries_btn3);
-        raspberries_btn3.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        raspberries_btn3.setText("Raspberries");
-        raspberries_btn3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                raspberries_btn3ActionPerformed(evt);
-            }
-        });
+        raspberries_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        raspberries_btn.setText("Raspberries");
 
-        Creamgroup.add(kiwi_btn4);
-        kiwi_btn4.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        kiwi_btn4.setText("Kiwi");
-        kiwi_btn4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                kiwi_btn4ActionPerformed(evt);
-            }
-        });
+        kiwi_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        kiwi_btn.setText("Kiwi");
 
         raspberries_price2.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         raspberries_price2.setForeground(new java.awt.Color(102, 102, 102));
@@ -3451,23 +3013,23 @@ public class Homepage extends javax.swing.JFrame {
                         .addGap(54, 54, 54)
                         .addGroup(Tmilk_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(Tmilk_lvl1Layout.createSequentialGroup()
-                                .addComponent(gojiberries_btn1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 23, Short.MAX_VALUE)
+                                .addComponent(gojiberries_btn)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 25, Short.MAX_VALUE)
                                 .addComponent(gojiberries_price2))
                             .addGroup(Tmilk_lvl1Layout.createSequentialGroup()
-                                .addComponent(granola_btn1)
+                                .addComponent(granola_btn)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(granola_price1))
                             .addGroup(Tmilk_lvl1Layout.createSequentialGroup()
-                                .addComponent(kiwi_btn4)
+                                .addComponent(kiwi_btn)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(kiwi_price3))
                             .addGroup(Tmilk_lvl1Layout.createSequentialGroup()
-                                .addComponent(almonds_btn2)
+                                .addComponent(almonds_btn)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(almonds_price1))
                             .addGroup(Tmilk_lvl1Layout.createSequentialGroup()
-                                .addComponent(raspberries_btn3)
+                                .addComponent(raspberries_btn)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(raspberries_price2)))))
                 .addContainerGap())
@@ -3481,23 +3043,23 @@ public class Homepage extends javax.swing.JFrame {
                     .addComponent(optional_lbl1))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(Tmilk_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(granola_btn1)
+                    .addComponent(granola_btn)
                     .addComponent(granola_price1))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(Tmilk_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(gojiberries_btn1)
+                    .addComponent(gojiberries_btn)
                     .addComponent(gojiberries_price2))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(Tmilk_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(almonds_btn2)
+                    .addComponent(almonds_btn)
                     .addComponent(almonds_price1))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(Tmilk_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(raspberries_btn3)
+                    .addComponent(raspberries_btn)
                     .addComponent(raspberries_price2))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(Tmilk_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(kiwi_btn4)
+                    .addComponent(kiwi_btn)
                     .addComponent(kiwi_price3))
                 .addContainerGap(43, Short.MAX_VALUE))
         );
@@ -3519,7 +3081,7 @@ public class Homepage extends javax.swing.JFrame {
             .addGroup(Smoothie_panelLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(Smoothie_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(Tea_title1)
+                    .addComponent(Smoothie_title1)
                     .addGroup(Smoothie_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                         .addGroup(javax.swing.GroupLayout.Alignment.LEADING, Smoothie_panelLayout.createSequentialGroup()
                             .addComponent(TSize_Panel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -3538,7 +3100,7 @@ public class Homepage extends javax.swing.JFrame {
             Smoothie_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(Smoothie_panelLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(Tea_title1)
+                .addComponent(Smoothie_title1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(Ttype_Panel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -3581,29 +3143,14 @@ public class Homepage extends javax.swing.JFrame {
         Typegroup.add(margarita_btn1);
         margarita_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         margarita_btn1.setText("Margarita");
-        margarita_btn1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                margarita_btn1ActionPerformed(evt);
-            }
-        });
 
         Typegroup.add(mojito_btn1);
         mojito_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         mojito_btn1.setText("Mojito");
-        mojito_btn1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                mojito_btn1ActionPerformed(evt);
-            }
-        });
 
         Typegroup.add(pinacolada_btn1);
         pinacolada_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         pinacolada_btn1.setText("Pina Colada");
-        pinacolada_btn1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                pinacolada_btn1ActionPerformed(evt);
-            }
-        });
 
         margarita_price1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         margarita_price1.setForeground(new java.awt.Color(102, 102, 102));
@@ -3624,20 +3171,10 @@ public class Homepage extends javax.swing.JFrame {
         Typegroup.add(vodkasoda_btn2);
         vodkasoda_btn2.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         vodkasoda_btn2.setText("Vodka Soda");
-        vodkasoda_btn2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                vodkasoda_btn2ActionPerformed(evt);
-            }
-        });
 
         Typegroup.add(longisland_btn3);
         longisland_btn3.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         longisland_btn3.setText("Long island");
-        longisland_btn3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                longisland_btn3ActionPerformed(evt);
-            }
-        });
 
         vodkasoda_price2.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         vodkasoda_price2.setForeground(new java.awt.Color(102, 102, 102));
@@ -3714,13 +3251,13 @@ public class Homepage extends javax.swing.JFrame {
                 .addContainerGap(29, Short.MAX_VALUE))
         );
 
-        Cadd_btn3.setBackground(new java.awt.Color(255, 153, 51));
-        Cadd_btn3.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
-        Cadd_btn3.setText("Add");
-        Cadd_btn3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        Cadd_btn3.addActionListener(new java.awt.event.ActionListener() {
+        Specialities_addbut.setBackground(new java.awt.Color(255, 153, 51));
+        Specialities_addbut.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        Specialities_addbut.setText("Add");
+        Specialities_addbut.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        Specialities_addbut.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Cadd_btn3ActionPerformed(evt);
+                Specialities_addbutActionPerformed(evt);
             }
         });
 
@@ -3739,7 +3276,7 @@ public class Homepage extends javax.swing.JFrame {
                         .addComponent(Specialties_title1))
                     .addGroup(Specialties_panelLayout.createSequentialGroup()
                         .addGap(414, 414, 414)
-                        .addComponent(Cadd_btn3, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(Specialities_addbut, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         Specialties_panelLayout.setVerticalGroup(
@@ -3750,7 +3287,7 @@ public class Homepage extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(Stype_Panel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(Cadd_btn3, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(Specialities_addbut, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -3786,11 +3323,11 @@ public class Homepage extends javax.swing.JFrame {
             }
         });
 
-        Other_But.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
-        Other_But.setText("Others");
-        Other_But.addActionListener(new java.awt.event.ActionListener() {
+        Specialities_But.setFont(new java.awt.Font("Trebuchet MS", 0, 18)); // NOI18N
+        Specialities_But.setText("Specialties");
+        Specialities_But.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Other_ButActionPerformed(evt);
+                Specialities_ButActionPerformed(evt);
             }
         });
 
@@ -3865,7 +3402,7 @@ public class Homepage extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGroup(Order_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(Pastry_But, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Other_But, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Specialities_But, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(Tea_But, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(21, 21, 21))
                     .addGroup(Order_PanelLayout.createSequentialGroup()
@@ -3894,7 +3431,7 @@ public class Homepage extends javax.swing.JFrame {
                     .addComponent(Tea_But, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(30, 30, 30)
                 .addGroup(Order_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(Other_But, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Specialities_But, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(Smoothie_But, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addComponent(lbl_food)
@@ -4059,14 +3596,6 @@ public class Homepage extends javax.swing.JFrame {
         });
         System_menu.add(Regis_item);
 
-        List_item.setText("Member List");
-        List_item.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                List_itemActionPerformed(evt);
-            }
-        });
-        System_menu.add(List_item);
-
         jMenuBar1.add(System_menu);
 
         setJMenuBar(jMenuBar1);
@@ -4106,10 +3635,10 @@ public class Homepage extends javax.swing.JFrame {
           Tea.setLocationRelativeTo(null);
     }//GEN-LAST:event_Tea_ButActionPerformed
 
-    private void Other_ButActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Other_ButActionPerformed
+    private void Specialities_ButActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Specialities_ButActionPerformed
           Specialties.setVisible(true);
           Specialties.setLocationRelativeTo(null);
-    }//GEN-LAST:event_Other_ButActionPerformed
+    }//GEN-LAST:event_Specialities_ButActionPerformed
 
     private void Smoothie_ButActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Smoothie_ButActionPerformed
          Smoothie.setVisible(true);
@@ -4246,80 +3775,12 @@ public class Homepage extends javax.swing.JFrame {
         
     }//GEN-LAST:event_KeyEnter_butActionPerformed
 
-    private void PaymentWindowActivated(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_PaymentWindowActivated
-        // TODO add your handling code here:
-    }//GEN-LAST:event_PaymentWindowActivated
-
-    private void Small_size_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Small_size_btnActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Small_size_btnActionPerformed
-
-    private void Med_size_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Med_size_btnActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Med_size_btnActionPerformed
-
-    private void Big_size_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Big_size_btnActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Big_size_btnActionPerformed
-
-    private void Latte_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Latte_btnActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Latte_btnActionPerformed
-
-    private void Espresso_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Espresso_btnActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Espresso_btnActionPerformed
-
-    private void Cappuccino_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Cappuccino_btnActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Cappuccino_btnActionPerformed
-
-    private void Zero_lvl_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Zero_lvl_btnActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Zero_lvl_btnActionPerformed
-
-    private void Low_lvl_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Low_lvl_btnActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Low_lvl_btnActionPerformed
-
-    private void Med_lvl_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Med_lvl_btnActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Med_lvl_btnActionPerformed
-
-    private void High_lvl_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_High_lvl_btnActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_High_lvl_btnActionPerformed
-
-    private void Full_lvl_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Full_lvl_btnActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Full_lvl_btnActionPerformed
-
-    private void CHot_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CHot_btnActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_CHot_btnActionPerformed
-
-    private void CCold_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CCold_btnActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_CCold_btnActionPerformed
-
-    private void CNo_ice_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CNo_ice_btnActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_CNo_ice_btnActionPerformed
-
-    private void CCream_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CCream_btnActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_CCream_btnActionPerformed
-
-    private void CWithout_cream_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CWithout_cream_btnActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_CWithout_cream_btnActionPerformed
-
     private void Cadd_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Cadd_btnActionPerformed
         // TODO add your handling code here:
         String coffee_name = null;
         double coffee_price = 0;
         String size = "small";
-        String cond = "Hot";
+        String cond = "hot";
         Boolean accept = true;
      
                 if(Latte_btn.isSelected())
@@ -4371,10 +3832,25 @@ public class Homepage extends javax.swing.JFrame {
                     accept = false;
                 }
                 
-                if(CCold_btn.isSelected() || CNo_ice_btn.isSelected())
+                if(!CCream_btn.isSelected() && !CWithout_cream_btn.isSelected())
+                {
+                    JOptionPane.showMessageDialog(null, "Please Select Cream Level","Cream level error", JOptionPane.ERROR_MESSAGE);
+                    accept = false;
+                }
+                
+                if(CHot_btn.isSelected())
+                {
+                    cond = "Hot";
+                }
+                else if(CCold_btn.isSelected() || CNo_ice_btn.isSelected())
                 {
                     cond = "Cold";
                     coffee_price += 1;
+                }
+                else
+                {
+                    JOptionPane.showMessageDialog(null, "Please Select Ice Level","Ice level error", JOptionPane.ERROR_MESSAGE);
+                    accept = false;
                 }
                 
                 if(accept)
@@ -4385,145 +3861,229 @@ public class Homepage extends javax.swing.JFrame {
             
     }//GEN-LAST:event_Cadd_btnActionPerformed
 
-    private void BagelFlavour_PlainActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BagelFlavour_PlainActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_BagelFlavour_PlainActionPerformed
-
-    private void BagelFlavour_MixedNutsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BagelFlavour_MixedNutsActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_BagelFlavour_MixedNutsActionPerformed
-
-    private void BagelFlavour_CinnamonRaisinActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BagelFlavour_CinnamonRaisinActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_BagelFlavour_CinnamonRaisinActionPerformed
-
-    private void BagelFlavour_BlueBerryActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BagelFlavour_BlueBerryActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_BagelFlavour_BlueBerryActionPerformed
-
-    private void BagelFlavour_AsiagoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BagelFlavour_AsiagoActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_BagelFlavour_AsiagoActionPerformed
-
-    private void BagelToppingSauce_CreamCheeseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BagelToppingSauce_CreamCheeseActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_BagelToppingSauce_CreamCheeseActionPerformed
-
-    private void BagelToppingSauce_PeanutButterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BagelToppingSauce_PeanutButterActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_BagelToppingSauce_PeanutButterActionPerformed
-
-    private void BagelToppingSauce_ButterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BagelToppingSauce_ButterActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_BagelToppingSauce_ButterActionPerformed
-
-    private void BagelDough_plainActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BagelDough_plainActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_BagelDough_plainActionPerformed
-
-    private void BagelDough_MixedActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BagelDough_MixedActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_BagelDough_MixedActionPerformed
-
-    private void BagelDough_WholeWheatActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BagelDough_WholeWheatActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_BagelDough_WholeWheatActionPerformed
-
     private void Bagel_add_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Bagel_add_btn1ActionPerformed
         // TODO add your handling code here:
+        
+        String bagel_name = "";
+        double bagel_price = 0;
+        String size = "small";
+        String flavour = "Plain";
+        Boolean accept = true;
+    
+                if(BagelDough_plain.isSelected())
+                {
+                    bagel_name = "Bagel-Pln";
+                    bagel_price = 9;
+                }
+                else if( BagelDough_Mixed.isSelected())
+                {
+                    bagel_name = "Bagel-Mxd";
+                    bagel_price = 8;
+                }
+                else if(BagelDough_WholeWheat.isSelected())
+                {
+                    bagel_name = "Bagel-WW";
+                    bagel_price = 8;
+                }
+                else
+                {
+                    JOptionPane.showMessageDialog(null, "Please Select Bagel Type","Bagel type error", JOptionPane.ERROR_MESSAGE);
+                    accept = false;
+                }
+
+               if(BagelSize_Small.isSelected())
+               {
+                    size = "Small";
+               }
+               else if(BagelSize_Medium.isSelected())
+                {
+                    bagel_price += 1;
+                    size = "Medium";
+                }
+                else if(BagelSize_Big.isSelected())
+                {
+                    bagel_price += 2;
+                    size = "Big";
+                }
+                else
+                {
+                    JOptionPane.showMessageDialog(null, "Please Select Bagel Size","Bagel size error", JOptionPane.ERROR_MESSAGE);
+                    accept = false; 
+                }
+               
+                if(BagelFlavour_Plain.isSelected())
+                {
+                    flavour = "Pln";
+                }
+                else if (BagelFlavour_MixedNuts.isSelected())
+                {
+                    flavour = "Mxd Nut";
+                    bagel_price +=3;
+                }
+                else if(BagelFlavour_CinnamonRaisin.isSelected())
+                {
+                    flavour = "Cin Rais";
+                    bagel_price +=2;
+                }
+                else if(BagelFlavour_BlueBerry.isSelected())
+                {
+                    flavour = "Bbry";
+                    bagel_price +=2;
+                }
+                else if (BagelFlavour_Asiago.isSelected())
+                {
+                    flavour = "Asiago";
+                    bagel_price +=2;
+                }
+                else
+                {
+                    JOptionPane.showMessageDialog(null, "Please Select Bagel Flavour","Bagel flavour error", JOptionPane.ERROR_MESSAGE);
+                    accept = false; 
+                }
+                
+                if(BagelToppingSauce_CreamCheese.isSelected()) bagel_price +=2;
+                if(BagelToppingSauce_PeanutButter.isSelected()) bagel_price +=1;
+                if(BagelToppingSauce_Butter.isSelected()) bagel_price +=1;
+                if(BagelToppingSauce_Jam.isSelected()) bagel_price +=1;
+                if(BagelToppingSauce_Honey.isSelected()) bagel_price +=2;
+                
+                if(BagelToppingIngredient_Lox.isSelected()) bagel_price +=3;
+                if(BagelToppingIngredient_Lox.isSelected()) bagel_price +=2;
+                if(BagelToppingIngredient_Lox.isSelected()) bagel_price +=1;
+                if(BagelToppingIngredient_Tomato.isSelected()) bagel_price +=0.5;
+                if(BagelToppingIngredient_Lettuce.isSelected()) bagel_price +=0.5;
+                
+                if(accept)
+                {
+                    addTable(bagel_name,bagel_price,flavour,size);
+                    Bagel.setVisible(false);    
+                }             
     }//GEN-LAST:event_Bagel_add_btn1ActionPerformed
 
-    private void BagelSize_SmallActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BagelSize_SmallActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_BagelSize_SmallActionPerformed
-
-    private void BagelSize_MediumActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BagelSize_MediumActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_BagelSize_MediumActionPerformed
-
-    private void BagelSize_BigActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BagelSize_BigActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_BagelSize_BigActionPerformed
-
-    private void BagelToppingSauce_JamActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BagelToppingSauce_JamActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_BagelToppingSauce_JamActionPerformed
-
-    private void BagelToppingSauce_HoneyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BagelToppingSauce_HoneyActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_BagelToppingSauce_HoneyActionPerformed
-
-    private void BagelToppingIngredient_LoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BagelToppingIngredient_LoxActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_BagelToppingIngredient_LoxActionPerformed
-
-    private void BagelToppingIngredient_BaconActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BagelToppingIngredient_BaconActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_BagelToppingIngredient_BaconActionPerformed
-
-    private void BagelToppingIngredient_EggActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BagelToppingIngredient_EggActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_BagelToppingIngredient_EggActionPerformed
-
-    private void BagelToppingIngredient_TomatoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BagelToppingIngredient_TomatoActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_BagelToppingIngredient_TomatoActionPerformed
-
-    private void BagelToppingIngredient_LettuceActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BagelToppingIngredient_LettuceActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_BagelToppingIngredient_LettuceActionPerformed
-
     private void Pastry_add_btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Pastry_add_btn2ActionPerformed
-        // TODO add your handling code here:
+         // TODO add your handling code here:
+         String pastry_name = null;
+            double pastry_price = 0;
+            String size = "-";
+            String flavour = "-";
+            Boolean accept = true;
+     
+                if(PastryDonut_PSugar.isSelected())
+                {
+                    if(accept)
+                    {
+                        addTable("Donut-Psgr",3.00,"","");   
+                        Pastry.setVisible(false);                      
+                    }       
+                }
+                if(PastryDonut_Glazed.isSelected())
+                {
+                    if(accept)
+                    {
+                        addTable("Donut-Glz",3.00,"","");  
+                        Pastry.setVisible(false);                      
+                    }
+                }
+                if(PastryDonut_JellyFilled.isSelected())
+                {
+                    if(accept)
+                    {
+                        addTable("Donut-Jfilled",3.00,"","");
+                        Pastry.setVisible(false);                      
+                    }
+                }
+                
+                if(PastryMuffin_Blueberry.isSelected())
+                {
+                    if(accept)
+                    {
+                        addTable("Muffin-Blue",3.00,"",""); 
+                        Pastry.setVisible(false);                      
+                    }
+                }
+                if(PastryMuffin_ChocolateChip.isSelected())
+                {
+                    if(accept)
+                    {
+                        addTable("Muffin-Cchip",3.00,"","");
+                        Pastry.setVisible(false);                      
+                    }
+                }
+                if(PastryMuffin_BananaNut.isSelected())
+                {
+                    if(accept)
+                    {
+                        addTable("Muffin-Bnut",4.00,"",""); 
+                        Pastry.setVisible(false);                      
+                    }
+                }
+                
+                if(PastryTart_LemonTart.isSelected())
+                {
+                    if(accept)
+                    {
+                        addTable("Lemontart",3.00,"","");
+                        Pastry.setVisible(false);                      
+                    }
+                }
+                if(PastryTarts_FruitTart.isSelected())
+                {
+                    if(accept)
+                    {
+                        addTable("Fruittart",3.00,"","");
+                        Pastry.setVisible(false);                      
+                    }
+                }
+                if(PastryTart_ChocolateTart.isSelected())
+                {
+                    if(accept)
+                    {
+                        addTable("Choctart",4.00,"","");
+                        Pastry.setVisible(false);                      
+                    }
+                }
+                
+                if(PastrySpecial_macarons.isSelected())
+                {
+                    if(accept)
+                    {
+                        addTable("Macarons",6.00,"","");
+                        Pastry.setVisible(false);                      
+                    }
+                }
+                if(PastrySpecial_Cannoli.isSelected())
+                {
+                    if(accept)
+                    {
+                        addTable("Cannoli",6.00,"",""); 
+                        Pastry.setVisible(false);                      
+                    }
+                }
+                if(PastrySpecial_Baklava.isSelected())
+                {
+                    if(accept)
+                    {
+                        addTable("Baklava",4.00,"","");
+                        Pastry.setVisible(false);                      
+                    }
+                }
+                if(!PastryDonut_PSugar.isSelected() && 
+                   !PastryDonut_Glazed.isSelected() && 
+                   !PastryDonut_JellyFilled.isSelected() && 
+                   !PastryMuffin_Blueberry.isSelected() && 
+                   !PastryMuffin_ChocolateChip.isSelected() &&
+                   !PastryMuffin_BananaNut.isSelected() &&
+                   !PastryTart_LemonTart.isSelected() &&
+                   !PastryTarts_FruitTart.isSelected() &&
+                   !PastryTart_ChocolateTart.isSelected() &&
+                   !PastrySpecial_macarons.isSelected() &&
+                   !PastrySpecial_Cannoli.isSelected() &&
+                   !PastrySpecial_Baklava.isSelected())
+                {
+                    JOptionPane.showMessageDialog(null, "Please Select Pastry Type","Pastry type error", JOptionPane.ERROR_MESSAGE);
+                    accept = false;
+                }
     }//GEN-LAST:event_Pastry_add_btn2ActionPerformed
-
-    private void PastryMuffin_BlueberryActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PastryMuffin_BlueberryActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_PastryMuffin_BlueberryActionPerformed
-
-    private void PastryMuffin_ChocolateChipActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PastryMuffin_ChocolateChipActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_PastryMuffin_ChocolateChipActionPerformed
-
-    private void PastryMuffin_BananaNutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PastryMuffin_BananaNutActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_PastryMuffin_BananaNutActionPerformed
-
-    private void PastryDonut_PSugarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PastryDonut_PSugarActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_PastryDonut_PSugarActionPerformed
-
-    private void PastryDonut_GlazedActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PastryDonut_GlazedActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_PastryDonut_GlazedActionPerformed
-
-    private void PastryDonut_JellyFilledActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PastryDonut_JellyFilledActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_PastryDonut_JellyFilledActionPerformed
-
-    private void PastrySpecial_macaronsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PastrySpecial_macaronsActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_PastrySpecial_macaronsActionPerformed
-
-    private void PastrySpecial_CannoliActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PastrySpecial_CannoliActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_PastrySpecial_CannoliActionPerformed
-
-    private void PastrySpecial_BaklavaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PastrySpecial_BaklavaActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_PastrySpecial_BaklavaActionPerformed
-
-    private void PastryTart_LemonTartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PastryTart_LemonTartActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_PastryTart_LemonTartActionPerformed
-
-    private void PastryTarts_FruitTartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PastryTarts_FruitTartActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_PastryTarts_FruitTartActionPerformed
-
-    private void PastryTart_ChocolateTartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PastryTart_ChocolateTartActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_PastryTart_ChocolateTartActionPerformed
 
 
     private void Member_butActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Member_butActionPerformed
@@ -4612,227 +4172,266 @@ public class Homepage extends javax.swing.JFrame {
 
     private void Sys_itemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Sys_itemActionPerformed
         // TODO add your handling code her
-        setVisible(true);
+        
     }//GEN-LAST:event_Sys_itemActionPerformed
 
-    private void List_itemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_List_itemActionPerformed
-        // TODO add your handling code here:
-//        new Display_Member().setVisible(true);
-    }//GEN-LAST:event_List_itemActionPerformed
+    private void Tadd_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tadd_btn1ActionPerformed
+        // TODO add your handling code here
+         String tea_name = "";
+        double tea_price = 0;
+        String size = "small";
+        String cond = "hot";
+        Boolean accept = true;
+        
+     
+                if(Egtea_btn.isSelected())
+                {
+                    tea_name = "Earl Grey";
+                    tea_price = 7;
+                }
+                else if( Jasmine_but.isSelected())
+                {
+                    tea_name = "Jasmine";
+                    tea_price = 8;
+                }
+                else if(Oolong_but.isSelected())
+                {
+                    tea_name = "Oolong Peach";
+                    tea_price = 8;
+                }
+                else
+                {
+                    JOptionPane.showMessageDialog(null, "Please Select Tea Type","Tea type error", JOptionPane.ERROR_MESSAGE);
+                    accept = false;
+                }
 
-    private void TZero_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TZero_btnActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_TZero_btnActionPerformed
+               if(TSmall_size.isSelected())
+               {
+                    size = "Small";
+               }
+               else if(Tmed_size.isSelected())
+                {
+                    tea_price += 1;
+                    size = "Medium";
 
-    private void TLow_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TLow_btnActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_TLow_btnActionPerformed
+                }
+                else if(TBig_size.isSelected())
+                {
+                    tea_price += 2;
+                    size = "Big";
+                }
+                else
+                {
+                    JOptionPane.showMessageDialog(null, "Please Select Tea Size","Tea type error", JOptionPane.ERROR_MESSAGE);
+                    accept = false;
+                }
 
-    private void TMed_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TMed_btnActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_TMed_btnActionPerformed
 
-    private void THIgh_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_THIgh_btnActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_THIgh_btnActionPerformed
-
-    private void TFull_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TFull_btnActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_TFull_btnActionPerformed
-
-    private void TSmall_sizeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TSmall_sizeActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_TSmall_sizeActionPerformed
-
-    private void Tmed_sizeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tmed_sizeActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Tmed_sizeActionPerformed
-
-    private void TBig_sizeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TBig_sizeActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_TBig_sizeActionPerformed
-
-    private void Egtea_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Egtea_btnActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Egtea_btnActionPerformed
-
-    private void Jasmine_butActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Jasmine_butActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Jasmine_butActionPerformed
-
-    private void Oolong_butActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Oolong_butActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Oolong_butActionPerformed
-
-    private void THot_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_THot_btnActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_THot_btnActionPerformed
-
-    private void TCold_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TCold_btnActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_TCold_btnActionPerformed
-
-    private void TNo_ice_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TNo_ice_btnActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_TNo_ice_btnActionPerformed
-
-    private void Milk_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Milk_btnActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Milk_btnActionPerformed
-
-    private void Without_milk_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Without_milk_btnActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Without_milk_btnActionPerformed
-
-    private void Cadd_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Cadd_btn1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Cadd_btn1ActionPerformed
-
-    private void TZero_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TZero_btn1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_TZero_btn1ActionPerformed
-
-    private void TLow_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TLow_btn1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_TLow_btn1ActionPerformed
-
-    private void TMed_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TMed_btn1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_TMed_btn1ActionPerformed
-
-    private void THIgh_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_THIgh_btn1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_THIgh_btn1ActionPerformed
-
-    private void TFull_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TFull_btn1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_TFull_btn1ActionPerformed
-
-    private void TSmall_size1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TSmall_size1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_TSmall_size1ActionPerformed
-
-    private void Tmed_size1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Tmed_size1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Tmed_size1ActionPerformed
-
-    private void TBig_size1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TBig_size1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_TBig_size1ActionPerformed
-
-    private void apple_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_apple_btn1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_apple_btn1ActionPerformed
-
-    private void orange_but1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_orange_but1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_orange_but1ActionPerformed
-
-    private void ctl_but1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ctl_but1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_ctl_but1ActionPerformed
-
-    private void granola_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_granola_btn1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_granola_btn1ActionPerformed
-
-    private void gojiberries_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gojiberries_btn1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_gojiberries_btn1ActionPerformed
+                if(!TBig_size.isSelected() && !TLow_btn.isSelected() && !TMed_btn.isSelected() && !THIgh_btn.isSelected() && !TFull_btn.isSelected())
+                {
+                    JOptionPane.showMessageDialog(null, "Please Select Sugar Level","Sugar level error", JOptionPane.ERROR_MESSAGE);
+                }
+                
+                if(!Milk_btn.isSelected() && !Without_milk_btn.isSelected())
+                {
+                    JOptionPane.showMessageDialog(null, "Please Select Milk Level","Milk level error", JOptionPane.ERROR_MESSAGE);
+                    accept = false;
+                }
+                
+                if(THot_btn.isSelected())
+                {
+                    cond = "Hot";
+                }
+                else if(TCold_btn.isSelected() || TNo_ice_btn.isSelected())
+                {
+                    cond = "Cold";
+                    tea_price += 1;
+                }
+                else
+                {
+                    JOptionPane.showMessageDialog(null, "Please Select Ice Level","Ice level error", JOptionPane.ERROR_MESSAGE);
+                    accept = false;
+                }
+                
+                if(accept)
+                {
+                    addTable(tea_name, tea_price, cond, size);
+                    Tea.setVisible(false);
+                }
+    }//GEN-LAST:event_Tadd_btn1ActionPerformed
 
     private void Cadd_btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Cadd_btn2ActionPerformed
         // TODO add your handling code here:
+            String Smoothie_name = null;
+            double Smoothie_price = 0;
+            String size = "small";
+            String topping = "No Top";
+            Boolean accept = true;
+     
+                if(apple_btn.isSelected())
+                {
+                    Smoothie_name = "Smthie-Apl";
+                    Smoothie_price = 9;
+                }
+                else if( orange_but.isSelected())
+                {
+                    Smoothie_name = "Smthie-org";
+                    Smoothie_price = 9;
+                }
+                else if(ctl_but.isSelected())
+                {
+                    Smoothie_name = "Smthie-ctl";
+                    Smoothie_price = 10;
+                }
+                else if(mp_but.isSelected())
+                {
+                    Smoothie_name = "Smthie-Mpf";
+                    Smoothie_price = 11;
+                }
+                else if(ob_but.isSelected())
+                {
+                    Smoothie_name = "Smthie-Oban";
+                    Smoothie_price = 11;
+                }
+                else if(pl_but.isSelected())
+                {
+                    Smoothie_name = "Smthie-Plyc";
+                    Smoothie_price = 11;
+                }
+                else if(bs_but.isSelected())
+                {
+                    Smoothie_name = "Smthie-Bstr";
+                    Smoothie_price = 12;
+                }
+                else
+                {
+                    JOptionPane.showMessageDialog(null, "Please Select Smoothie Type","Smoothie type error", JOptionPane.ERROR_MESSAGE);
+                    accept = false;
+                }
+                
+
+               if(TSmall_size1.isSelected())
+               {
+                    size = "Small";
+               }
+               else if(Tmed_size1.isSelected())
+                {
+                    Smoothie_price+= 1;
+                    size = "Medium";
+
+                }
+                else if(TBig_size1.isSelected())
+                {
+                    Smoothie_price+= 2;
+                    size = "Big";
+                }
+                else
+                {
+                    JOptionPane.showMessageDialog(null, "Please Select Smoothie Size","Smoothie size error", JOptionPane.ERROR_MESSAGE);
+                    accept = false;
+                }
+                
+                if(!TBig_size1.isSelected() && !TLow_btn1.isSelected() && !TMed_btn1.isSelected() && !THIgh_btn1.isSelected() && !TFull_btn1.isSelected())
+                {
+                    JOptionPane.showMessageDialog(null, "Please Select Sugar Level","Sugar level error", JOptionPane.ERROR_MESSAGE);
+                }
+                
+                
+                if(granola_btn.isSelected())
+                {
+                    topping = "Gran";
+                    Smoothie_price+= 1;
+                }   
+                if(gojiberries_btn.isSelected())
+                {
+                    topping = "Goji";
+                    Smoothie_price+= 1;
+                }
+                if(almonds_btn.isSelected())
+                {
+                    topping = "Alm";
+                    Smoothie_price+= 2;
+                } 
+                if(raspberries_btn.isSelected())
+                {
+                    topping = "Rasp";
+                    Smoothie_price+= 2;
+                }  
+                if(kiwi_btn.isSelected())
+                {
+                    topping = "Kiwi";
+                    Smoothie_price+= 2;
+                }
+                  
+                if(accept)
+                {
+                    addTable(Smoothie_name,Smoothie_price,topping , size);
+                    Smoothie.setVisible(false);
+                }      
     }//GEN-LAST:event_Cadd_btn2ActionPerformed
 
-    private void mp_but2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mp_but2ActionPerformed
+    private void Specialities_addbutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Specialities_addbutActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_mp_but2ActionPerformed
+        Boolean accept = true;
+        if(margarita_btn1.isSelected())
+                {
+                    if(accept)
+                    {
+                        addTable("Margarita",12.00,"","");
+                        Specialties.setVisible(false);                    
+                    }
+                }
+        else if(mojito_btn1.isSelected())
+                {
+                    if(accept)
+                    {
+                        addTable("Mojito",12.00,"","");
+                        Specialties.setVisible(false);                    
+                    }
+                }
+        else if(pinacolada_btn1.isSelected())
+                {
+                    if(accept)
+                    {
+                        addTable("Pina Colada",13.00,"","");
+                        Specialties.setVisible(false);                 
+                    }
+                }
+        else if(vodkasoda_btn2.isSelected())
+                {
+                    if(accept)
+                    {
+                        addTable("Vodka Soda",15.00,"","");
+                        Specialties.setVisible(false);                    
+                    }
+                }
+        else if(longisland_btn3.isSelected())
+                {
+                    if(accept)
+                    {
+                        addTable("Long Island",13.00,"","");      
+                        Specialties.setVisible(false);
+                    }
+                }
+        else
+                {
+                    JOptionPane.showMessageDialog(null, "Please Select Specialty Type","Specialty type error", JOptionPane.ERROR_MESSAGE);
+                    accept = false;
+                }
+    }//GEN-LAST:event_Specialities_addbutActionPerformed
 
-    private void mp_but3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mp_but3ActionPerformed
+    private void PastryDonut_PSugarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PastryDonut_PSugarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_mp_but3ActionPerformed
+    }//GEN-LAST:event_PastryDonut_PSugarActionPerformed
 
-    private void pl_but4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pl_but4ActionPerformed
+    private void CWithout_cream_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CWithout_cream_btnActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_pl_but4ActionPerformed
+    }//GEN-LAST:event_CWithout_cream_btnActionPerformed
 
-    private void pl_but5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pl_but5ActionPerformed
+    private void PastrySpecial_macaronsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PastrySpecial_macaronsActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_pl_but5ActionPerformed
+    }//GEN-LAST:event_PastrySpecial_macaronsActionPerformed
 
-    private void almonds_btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_almonds_btn2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_almonds_btn2ActionPerformed
-
-    private void raspberries_btn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_raspberries_btn3ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_raspberries_btn3ActionPerformed
-
-    private void kiwi_btn4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_kiwi_btn4ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_kiwi_btn4ActionPerformed
-
-    private void margarita_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_margarita_btn1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_margarita_btn1ActionPerformed
-
-    private void mojito_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mojito_btn1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_mojito_btn1ActionPerformed
-
-    private void pinacolada_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pinacolada_btn1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_pinacolada_btn1ActionPerformed
-
-    private void Cadd_btn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Cadd_btn3ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Cadd_btn3ActionPerformed
-
-    private void vodkasoda_btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_vodkasoda_btn2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_vodkasoda_btn2ActionPerformed
-
-    private void longisland_btn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_longisland_btn3ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_longisland_btn3ActionPerformed
-
-    
-//    public static void main(String args[]) {
-//        /* Set the Nimbus look and feel */
-//        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-//        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-//         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-//         */
-//        try {
-//            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-//                if ("Nimbus".equals(info.getName())) {
-//                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-//                    break;
-//                }
-//            }
-//        } catch (ClassNotFoundException ex) {
-//            java.util.logging.Logger.getLogger(Homepage.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-//        } catch (InstantiationException ex) {
-//            java.util.logging.Logger.getLogger(Homepage.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-//        } catch (IllegalAccessException ex) {
-//            java.util.logging.Logger.getLogger(Homepage.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-//        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-//            java.util.logging.Logger.getLogger(Homepage.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-//        }
-//        //</editor-fold>
-//
-//        /* Create and display the form */
-//        java.awt.EventQueue.invokeLater(new Runnable() {
-//            @Override
-//            public void run() {
-//                try {
-//                    new Homepage().setVisible(true);
-//                } catch (SQLException ex) {
-//                    Logger.getLogger(Homepage.class.getName()).log(Level.SEVERE, null, ex);
-//                }
-//            }
-//        });
-//    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel Amount_lbl;
@@ -4910,9 +4509,7 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JLabel CTypeR_lbl;
     private javax.swing.JRadioButton CWithout_cream_btn;
     private javax.swing.JButton Cadd_btn;
-    private javax.swing.JButton Cadd_btn1;
     private javax.swing.JButton Cadd_btn2;
-    private javax.swing.JButton Cadd_btn3;
     private javax.swing.JRadioButton Cappuccino_btn;
     private javax.swing.JLabel Cappuccino_price;
     private javax.swing.JLabel Cbig_price;
@@ -4958,7 +4555,6 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JButton KeyEnter_but;
     private javax.swing.JRadioButton Latte_btn;
     private javax.swing.JLabel Latte_price;
-    private javax.swing.JMenuItem List_item;
     private javax.swing.JRadioButton Low_lvl_btn;
     private javax.swing.JRadioButton Med_lvl_btn;
     private javax.swing.JRadioButton Med_size_btn;
@@ -4967,7 +4563,6 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JTextField Member_txt;
     private javax.swing.JRadioButton Milk_btn;
     private javax.swing.JLabel Milklevel;
-    private javax.swing.JLabel Ob_price3;
     private javax.swing.JRadioButton Oolong_but;
     private javax.swing.JLabel Oolong_price;
     private javax.swing.JLabel Optional_label14;
@@ -4976,7 +4571,6 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JLabel Optional_label17;
     private javax.swing.JPanel Order_Panel;
     private javax.swing.JTable Order_Table;
-    private javax.swing.JButton Other_But;
     private javax.swing.JFrame Pastry;
     private javax.swing.JLabel PastryDonutSection4;
     private javax.swing.JRadioButton PastryDonut_Glazed;
@@ -5025,6 +4619,9 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JFrame Smoothie;
     private javax.swing.JButton Smoothie_But;
     private javax.swing.JPanel Smoothie_panel;
+    private javax.swing.JLabel Smoothie_title1;
+    private javax.swing.JButton Specialities_But;
+    private javax.swing.JButton Specialities_addbut;
     private javax.swing.JFrame Specialties;
     private javax.swing.JPanel Specialties_panel;
     private javax.swing.JLabel Specialties_title1;
@@ -5071,12 +4668,12 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JRadioButton TZero_btn;
     private javax.swing.JRadioButton TZero_btn1;
     private javax.swing.JScrollPane Table_Pane;
+    private javax.swing.JButton Tadd_btn1;
     private javax.swing.JLabel Tax_value;
     private javax.swing.JFrame Tea;
     private javax.swing.JButton Tea_But;
     private javax.swing.JPanel Tea_panel;
     private javax.swing.JLabel Tea_title;
-    private javax.swing.JLabel Tea_title1;
     private javax.swing.JLabel TiceR_lbl;
     private javax.swing.JPanel Tice_lvl1;
     private javax.swing.JLabel Tice_price;
@@ -5099,16 +4696,17 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.ButtonGroup Typegroup;
     private javax.swing.JRadioButton Without_milk_btn;
     private javax.swing.JRadioButton Zero_lvl_btn;
-    private javax.swing.JRadioButton almonds_btn2;
+    private javax.swing.JRadioButton almonds_btn;
     private javax.swing.JLabel almonds_price1;
-    private javax.swing.JRadioButton apple_btn1;
-    private javax.swing.JLabel apple_price1;
-    private javax.swing.JLabel bs_price5;
-    private javax.swing.JRadioButton ctl_but1;
-    private javax.swing.JLabel ctl_price1;
-    private javax.swing.JRadioButton gojiberries_btn1;
+    private javax.swing.JRadioButton apple_btn;
+    private javax.swing.JLabel apple_price;
+    private javax.swing.JRadioButton bs_but;
+    private javax.swing.JLabel bs_price;
+    private javax.swing.JRadioButton ctl_but;
+    private javax.swing.JLabel ctl_price;
+    private javax.swing.JRadioButton gojiberries_btn;
     private javax.swing.JLabel gojiberries_price2;
-    private javax.swing.JRadioButton granola_btn1;
+    private javax.swing.JRadioButton granola_btn;
     private javax.swing.JLabel granola_price1;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JPanel jPanel1;
@@ -5117,7 +4715,7 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
-    private javax.swing.JRadioButton kiwi_btn4;
+    private javax.swing.JRadioButton kiwi_btn;
     private javax.swing.JLabel kiwi_price3;
     private javax.swing.JLabel lbl_Drink;
     private javax.swing.JLabel lbl_Subtotal;
@@ -5130,18 +4728,18 @@ public class Homepage extends javax.swing.JFrame {
     private javax.swing.JLabel margarita_price1;
     private javax.swing.JRadioButton mojito_btn1;
     private javax.swing.JLabel mojito_price1;
-    private javax.swing.JRadioButton mp_but2;
-    private javax.swing.JRadioButton mp_but3;
-    private javax.swing.JLabel mp_price2;
+    private javax.swing.JRadioButton mp_but;
+    private javax.swing.JLabel mp_price;
+    private javax.swing.JRadioButton ob_but;
+    private javax.swing.JLabel ob_price;
     private javax.swing.JLabel optional_lbl1;
-    private javax.swing.JRadioButton orange_but1;
-    private javax.swing.JLabel orange_price1;
+    private javax.swing.JRadioButton orange_but;
+    private javax.swing.JLabel orange_price;
     private javax.swing.JRadioButton pinacolada_btn1;
     private javax.swing.JLabel pinacolada_price1;
-    private javax.swing.JRadioButton pl_but4;
-    private javax.swing.JRadioButton pl_but5;
-    private javax.swing.JLabel pl_price4;
-    private javax.swing.JRadioButton raspberries_btn3;
+    private javax.swing.JRadioButton pl_but;
+    private javax.swing.JLabel pl_price;
+    private javax.swing.JRadioButton raspberries_btn;
     private javax.swing.JLabel raspberries_price2;
     private javax.swing.JLabel required_label10;
     private javax.swing.JLabel required_label11;
