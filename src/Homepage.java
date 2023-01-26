@@ -489,7 +489,7 @@ public class Homepage extends javax.swing.JFrame {
 
         Payment.setTitle("Payment");
         Payment.setResizable(false);
-        Payment.setSize(new java.awt.Dimension(277, 450));
+        Payment.setSize(new java.awt.Dimension(350, 450));
         Payment.addWindowListener(new java.awt.event.WindowAdapter() {
             public void windowActivated(java.awt.event.WindowEvent evt) {
                 PaymentWindowActivated(evt);
@@ -738,7 +738,7 @@ public class Homepage extends javax.swing.JFrame {
         PaymentLayout.setVerticalGroup(
             PaymentLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PaymentLayout.createSequentialGroup()
-                .addContainerGap(10, Short.MAX_VALUE)
+                .addContainerGap(42, Short.MAX_VALUE)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 310, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1808,13 +1808,17 @@ public class Homepage extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
+        Bagel.setPreferredSize(new java.awt.Dimension(1340, 537));
         Bagel.setResizable(false);
-        Bagel.setSize(new java.awt.Dimension(1315, 577));
+        Bagel.setSize(new java.awt.Dimension(1400, 629));
+
+        Bagel_panel.setPreferredSize(new java.awt.Dimension(1334, 571));
 
         Bagel_title1.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
         Bagel_title1.setText("Bagel");
 
         BagelDough_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        BagelDough_Panel.setPreferredSize(new java.awt.Dimension(258, 154));
 
         BagelDoughSection.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         BagelDoughSection.setText("Dough");
@@ -1910,7 +1914,7 @@ public class Homepage extends javax.swing.JFrame {
                 .addGroup(BagelDough_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(BagelDough_WholeWheat)
                     .addComponent(BagelDough_WholeWheatPrice))
-                .addContainerGap(29, Short.MAX_VALUE))
+                .addContainerGap(19, Short.MAX_VALUE))
         );
 
         BagelSizePanel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -2010,7 +2014,7 @@ public class Homepage extends javax.swing.JFrame {
                 .addGroup(BagelSizePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(BagelSize_Big)
                     .addComponent(BagelSize_BigPrice))
-                .addContainerGap(107, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         BagelFlavour_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -2149,7 +2153,7 @@ public class Homepage extends javax.swing.JFrame {
                 .addGroup(BagelFlavour_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(BagelFlavour_Asiago)
                     .addComponent(BagelFlavour_AsiagoPrice))
-                .addContainerGap(43, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         BagelToppingSauce_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -2291,11 +2295,11 @@ public class Homepage extends javax.swing.JFrame {
                 .addGroup(BagelToppingSauce_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(BagelToppingSauce_Honey)
                     .addComponent(BagelToppingSauce_HoneyPrice))
-                .addContainerGap(43, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         BagelToppingIngredient_Panel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        BagelToppingIngredient_Panel.setPreferredSize(new java.awt.Dimension(272, 242));
+        BagelToppingIngredient_Panel.setPreferredSize(new java.awt.Dimension(272, 272));
 
         BagelToppingIngredientSection.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
         BagelToppingIngredientSection.setText("Toppings Ingredients");
@@ -2380,7 +2384,7 @@ public class Homepage extends javax.swing.JFrame {
                         .addComponent(BagelToppingIngredientSection)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(required_label11)
-                        .addGap(0, 0, Short.MAX_VALUE))
+                        .addGap(0, 30, Short.MAX_VALUE))
                     .addGroup(BagelToppingIngredient_PanelLayout.createSequentialGroup()
                         .addGap(54, 54, 54)
                         .addGroup(BagelToppingIngredient_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -2450,25 +2454,26 @@ public class Homepage extends javax.swing.JFrame {
         Bagel_panel.setLayout(Bagel_panelLayout);
         Bagel_panelLayout.setHorizontalGroup(
             Bagel_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Bagel_panelLayout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Bagel_panelLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(Bagel_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(BagelDough_Panel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(Bagel_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(BagelDough_Panel, javax.swing.GroupLayout.DEFAULT_SIZE, 1310, Short.MAX_VALUE)
                     .addGroup(Bagel_panelLayout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(Bagel_add_btn1, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, Bagel_panelLayout.createSequentialGroup()
                         .addComponent(Bagel_title1)
                         .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(Bagel_panelLayout.createSequentialGroup()
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, Bagel_panelLayout.createSequentialGroup()
+                        .addGap(6, 6, 6)
                         .addComponent(BagelSizePanel, javax.swing.GroupLayout.PREFERRED_SIZE, 256, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(BagelFlavour_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(BagelToppingSauce_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, 310, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(BagelToppingIngredient_Panel, javax.swing.GroupLayout.DEFAULT_SIZE, 345, Short.MAX_VALUE))))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Bagel_panelLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(Bagel_add_btn1, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(94, 94, 94))
+                        .addGap(12, 12, 12)
+                        .addComponent(BagelToppingIngredient_Panel, javax.swing.GroupLayout.DEFAULT_SIZE, 375, Short.MAX_VALUE)))
+                .addGap(18, 18, 18))
         );
         Bagel_panelLayout.setVerticalGroup(
             Bagel_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -2477,31 +2482,30 @@ public class Homepage extends javax.swing.JFrame {
                 .addComponent(Bagel_title1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(BagelDough_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 18, Short.MAX_VALUE)
-                .addGroup(Bagel_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(BagelFlavour_Panel, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(BagelSizePanel, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(BagelToppingSauce_Panel, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(BagelToppingIngredient_Panel, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(18, 18, 18)
+                .addGroup(Bagel_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(BagelSizePanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(BagelToppingSauce_Panel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(BagelFlavour_Panel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(BagelToppingIngredient_Panel, javax.swing.GroupLayout.DEFAULT_SIZE, 242, Short.MAX_VALUE))
+                .addGap(37, 37, 37)
                 .addComponent(Bagel_add_btn1, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(18, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout BagelLayout = new javax.swing.GroupLayout(Bagel.getContentPane());
         Bagel.getContentPane().setLayout(BagelLayout);
         BagelLayout.setHorizontalGroup(
             BagelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, BagelLayout.createSequentialGroup()
-                .addGap(17, 17, 17)
-                .addComponent(Bagel_panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(BagelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(Bagel_panel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         BagelLayout.setVerticalGroup(
             BagelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(BagelLayout.createSequentialGroup()
-                .addComponent(Bagel_panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 15, Short.MAX_VALUE))
+                .addComponent(Bagel_panel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
         Pastry.setResizable(false);
@@ -3564,7 +3568,7 @@ public class Homepage extends javax.swing.JFrame {
         );
 
         Specialties.setResizable(false);
-        Specialties.setSize(new java.awt.Dimension(604, 372));
+        Specialties.setSize(new java.awt.Dimension(614, 392));
 
         Specialties_title1.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
         Specialties_title1.setText("Specialties");
@@ -4527,7 +4531,7 @@ public class Homepage extends javax.swing.JFrame {
        int member_code = Integer.parseInt(Member_txt.getText());
        member = false;
         try {
-            cons = DriverManager.getConnection(  "jdbc:mysql://localhost:3306/coffeshop_cashier","root","Leeterqin1126"); 
+             cons=DriverManager.getConnection(  "jdbc:mysql://localhost:3306/coffeshop_cashier","root","Password"); 
             PreparedStatement pst;
             ResultSet rs;
             
@@ -4573,7 +4577,7 @@ public class Homepage extends javax.swing.JFrame {
             member = false;
             int member_code = Integer.parseInt(Member_txt.getText());
             try {
-                cons = DriverManager.getConnection(  "jdbc:mysql://localhost:3306/coffeshop_cashier","root","Leeterqin1126"); 
+               cons=DriverManager.getConnection(  "jdbc:mysql://localhost:3306/coffeshop_cashier","root","Password");
                 PreparedStatement pst;
                 ResultSet rs;
 
