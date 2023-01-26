@@ -880,7 +880,7 @@ public class Homepage extends javax.swing.JFrame {
                         .addGroup(Csize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(Csize_PanelLayout.createSequentialGroup()
                                 .addComponent(Med_size_btn)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 49, Short.MAX_VALUE)
                                 .addComponent(Cmed_price))
                             .addGroup(Csize_PanelLayout.createSequentialGroup()
                                 .addComponent(Small_size_btn)
@@ -1037,7 +1037,7 @@ public class Homepage extends javax.swing.JFrame {
                                 .addGroup(Cice_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(Cice_price)
                                     .addComponent(Ccold_price))))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(11, Short.MAX_VALUE))
         );
         Cice_lvlLayout.setVerticalGroup(
             Cice_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1072,6 +1072,11 @@ public class Homepage extends javax.swing.JFrame {
         Creamgroup.add(CWithout_cream_btn);
         CWithout_cream_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         CWithout_cream_btn.setText("Without cream");
+        CWithout_cream_btn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CWithout_cream_btnActionPerformed(evt);
+            }
+        });
 
         CCreamR_lbl.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
         CCreamR_lbl.setForeground(new java.awt.Color(102, 102, 102));
@@ -1093,7 +1098,7 @@ public class Homepage extends javax.swing.JFrame {
                         .addGroup(Ccream_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(CWithout_cream_btn)
                             .addComponent(CCream_btn))))
-                .addContainerGap(75, Short.MAX_VALUE))
+                .addContainerGap(78, Short.MAX_VALUE))
         );
         Ccream_lvlLayout.setVerticalGroup(
             Ccream_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1319,7 +1324,7 @@ public class Homepage extends javax.swing.JFrame {
                         .addGroup(TSize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(TSize_PanelLayout.createSequentialGroup()
                                 .addComponent(Tmed_size)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 49, Short.MAX_VALUE)
                                 .addComponent(TMedSize_price))
                             .addGroup(TSize_PanelLayout.createSequentialGroup()
                                 .addComponent(TSmall_size)
@@ -1477,7 +1482,7 @@ public class Homepage extends javax.swing.JFrame {
                                 .addGap(0, 0, Short.MAX_VALUE))
                             .addGroup(Tice_lvl1Layout.createSequentialGroup()
                                 .addComponent(TNo_ice_btn)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 65, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 70, Short.MAX_VALUE)
                                 .addComponent(TWice_price)))))
                 .addContainerGap())
         );
@@ -1543,7 +1548,7 @@ public class Homepage extends javax.swing.JFrame {
                         .addGroup(Tmilk_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(Tmilk_lvlLayout.createSequentialGroup()
                                 .addComponent(Without_milk_btn)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 12, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 15, Short.MAX_VALUE)
                                 .addComponent(Twithout_milk_price))
                             .addGroup(Tmilk_lvlLayout.createSequentialGroup()
                                 .addComponent(Milk_btn)
@@ -1780,7 +1785,7 @@ public class Homepage extends javax.swing.JFrame {
                         .addGroup(BagelSizePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(BagelSizePanelLayout.createSequentialGroup()
                                 .addComponent(BagelSize_Medium)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 32, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 33, Short.MAX_VALUE)
                                 .addComponent(BagelSize_Mediumprice))
                             .addGroup(BagelSizePanelLayout.createSequentialGroup()
                                 .addComponent(BagelSize_Small)
@@ -2481,6 +2486,11 @@ public class Homepage extends javax.swing.JFrame {
 
         PastrySpecial_macarons.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         PastrySpecial_macarons.setText("Macarons");
+        PastrySpecial_macarons.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                PastrySpecial_macaronsActionPerformed(evt);
+            }
+        });
 
         PastrySpecial_Cannoli.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         PastrySpecial_Cannoli.setText("Cannoli");
@@ -2829,7 +2839,7 @@ public class Homepage extends javax.swing.JFrame {
                         .addGroup(TSize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(TSize_Panel1Layout.createSequentialGroup()
                                 .addComponent(Tmed_size1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 49, Short.MAX_VALUE)
                                 .addComponent(TMedSize_price1))
                             .addGroup(TSize_Panel1Layout.createSequentialGroup()
                                 .addComponent(TSmall_size1)
@@ -2995,7 +3005,7 @@ public class Homepage extends javax.swing.JFrame {
                         .addGroup(Tmilk_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(Tmilk_lvl1Layout.createSequentialGroup()
                                 .addComponent(gojiberries_btn)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 23, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 25, Short.MAX_VALUE)
                                 .addComponent(gojiberries_price2))
                             .addGroup(Tmilk_lvl1Layout.createSequentialGroup()
                                 .addComponent(granola_btn)
@@ -3761,7 +3771,7 @@ public class Homepage extends javax.swing.JFrame {
         String coffee_name = null;
         double coffee_price = 0;
         String size = "small";
-        String cond = "Hot";
+        String cond = "hot";
         Boolean accept = true;
      
                 if(Latte_btn.isSelected())
@@ -3813,10 +3823,25 @@ public class Homepage extends javax.swing.JFrame {
                     accept = false;
                 }
                 
-                if(CCold_btn.isSelected() || CNo_ice_btn.isSelected())
+                if(!CCream_btn.isSelected() && !CWithout_cream_btn.isSelected())
+                {
+                    JOptionPane.showMessageDialog(null, "Please Select Cream Level","Cream level error", JOptionPane.ERROR_MESSAGE);
+                    accept = false;
+                }
+                
+                if(CHot_btn.isSelected())
+                {
+                    cond = "Hot";
+                }
+                else if(CCold_btn.isSelected() || CNo_ice_btn.isSelected())
                 {
                     cond = "Cold";
                     coffee_price += 1;
+                }
+                else
+                {
+                    JOptionPane.showMessageDialog(null, "Please Select Ice Level","Ice level error", JOptionPane.ERROR_MESSAGE);
+                    accept = false;
                 }
                 
                 if(accept)
@@ -3830,25 +3855,31 @@ public class Homepage extends javax.swing.JFrame {
     private void Bagel_add_btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Bagel_add_btn1ActionPerformed
         // TODO add your handling code here:
         
-         String bagel_name = "";
+        String bagel_name = "";
         double bagel_price = 0;
         String size = "small";
         String flavour = "Plain";
+        Boolean accept = true;
     
                 if(BagelDough_plain.isSelected())
                 {
-                    bagel_name = "Plain";
+                    bagel_name = "Bagel-Pln";
                     bagel_price = 9;
                 }
                 else if( BagelDough_Mixed.isSelected())
                 {
-                    bagel_name = "Mixed";
+                    bagel_name = "Bagel-Mxd";
                     bagel_price = 8;
                 }
                 else if(BagelDough_WholeWheat.isSelected())
                 {
-                    bagel_name = "Whole Wheat";
+                    bagel_name = "Bagel-WW";
                     bagel_price = 8;
+                }
+                else
+                {
+                    JOptionPane.showMessageDialog(null, "Please Select Bagel Type","Bagel type error", JOptionPane.ERROR_MESSAGE);
+                    accept = false;
                 }
 
                if(BagelSize_Small.isSelected())
@@ -3859,37 +3890,46 @@ public class Homepage extends javax.swing.JFrame {
                 {
                     bagel_price += 1;
                     size = "Medium";
-
                 }
                 else if(BagelSize_Big.isSelected())
                 {
                     bagel_price += 2;
                     size = "Big";
                 }
+                else
+                {
+                    JOptionPane.showMessageDialog(null, "Please Select Bagel Size","Bagel size error", JOptionPane.ERROR_MESSAGE);
+                    accept = false; 
+                }
                
                 if(BagelFlavour_Plain.isSelected())
                 {
-                    flavour = "plain";
+                    flavour = "Pln";
                 }
                 else if (BagelFlavour_MixedNuts.isSelected())
                 {
-                    flavour = "Mixed Nuts";
+                    flavour = "Mxd Nut";
                     bagel_price +=3;
                 }
                 else if(BagelFlavour_CinnamonRaisin.isSelected())
                 {
-                    flavour = "Cinnamon Raisin";
+                    flavour = "Cin Rais";
                     bagel_price +=2;
                 }
                 else if(BagelFlavour_BlueBerry.isSelected())
                 {
-                    flavour = "Blue Berry";
+                    flavour = "Bbry";
                     bagel_price +=2;
                 }
-                else if (BagelFlavour_BlueBerry.isSelected())
+                else if (BagelFlavour_Asiago.isSelected())
                 {
-                    flavour = "Blue Berry";
+                    flavour = "Asiago";
                     bagel_price +=2;
+                }
+                else
+                {
+                    JOptionPane.showMessageDialog(null, "Please Select Bagel Flavour","Bagel flavour error", JOptionPane.ERROR_MESSAGE);
+                    accept = false; 
                 }
                 
                 if(BagelToppingSauce_CreamCheese.isSelected()) bagel_price +=2;
@@ -3904,9 +3944,11 @@ public class Homepage extends javax.swing.JFrame {
                 if(BagelToppingIngredient_Tomato.isSelected()) bagel_price +=0.5;
                 if(BagelToppingIngredient_Lettuce.isSelected()) bagel_price +=0.5;
                 
-                addTable(bagel_name,bagel_price,flavour,size);
-                Bagel.setVisible(false);    
-                
+                if(accept)
+                {
+                    addTable(bagel_name,bagel_price,flavour,size);
+                    Bagel.setVisible(false);    
+                }             
     }//GEN-LAST:event_Bagel_add_btn1ActionPerformed
 
     private void Pastry_add_btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Pastry_add_btn2ActionPerformed
@@ -3915,60 +3957,123 @@ public class Homepage extends javax.swing.JFrame {
             double pastry_price = 0;
             String size = "-";
             String flavour = "-";
+            Boolean accept = true;
      
                 if(PastryDonut_PSugar.isSelected())
                 {
-                    addTable("Donut-powdered sugar",3.00,"","");          
+                    if(accept)
+                    {
+                        addTable("Donut-Psgr",3.00,"","");   
+                        Pastry.setVisible(false);                      
+                    }       
                 }
                 if(PastryDonut_Glazed.isSelected())
                 {
-                    addTable("Donut-glazed",3.00,"","");
+                    if(accept)
+                    {
+                        addTable("Donut-Glz",3.00,"","");  
+                        Pastry.setVisible(false);                      
+                    }
                 }
                 if(PastryDonut_JellyFilled.isSelected())
                 {
-                    addTable("Donut-jelly-filled",3.00,"","");
+                    if(accept)
+                    {
+                        addTable("Donut-Jfilled",3.00,"","");
+                        Pastry.setVisible(false);                      
+                    }
                 }
                 
                 if(PastryMuffin_Blueberry.isSelected())
                 {
-                    addTable("Muffin-blueberry",3.00,"","");
+                    if(accept)
+                    {
+                        addTable("Muffin-Blue",3.00,"",""); 
+                        Pastry.setVisible(false);                      
+                    }
                 }
                 if(PastryMuffin_ChocolateChip.isSelected())
                 {
-                    addTable("Muffin-choc chip",3.00,"","");
+                    if(accept)
+                    {
+                        addTable("Muffin-Cchip",3.00,"","");
+                        Pastry.setVisible(false);                      
+                    }
                 }
                 if(PastryMuffin_BananaNut.isSelected())
                 {
-                    addTable("Muffin-banana nut",4.00,"","");
+                    if(accept)
+                    {
+                        addTable("Muffin-Bnut",4.00,"",""); 
+                        Pastry.setVisible(false);                      
+                    }
                 }
                 
                 if(PastryTart_LemonTart.isSelected())
                 {
-                    addTable("Lemon tart",3.00,"","");
+                    if(accept)
+                    {
+                        addTable("Lemontart",3.00,"","");
+                        Pastry.setVisible(false);                      
+                    }
                 }
                 if(PastryTarts_FruitTart.isSelected())
                 {
-                    addTable("Fruit tart",3.00,"","");
+                    if(accept)
+                    {
+                        addTable("Fruittart",3.00,"","");
+                        Pastry.setVisible(false);                      
+                    }
                 }
                 if(PastryTart_ChocolateTart.isSelected())
                 {
-                    addTable("Chocolate tart",4.00,"","");
+                    if(accept)
+                    {
+                        addTable("Choctart",4.00,"","");
+                        Pastry.setVisible(false);                      
+                    }
                 }
                 
                 if(PastrySpecial_macarons.isSelected())
                 {
-                    addTable("Macarons",6.00,"","");
+                    if(accept)
+                    {
+                        addTable("Macarons",6.00,"","");
+                        Pastry.setVisible(false);                      
+                    }
                 }
                 if(PastrySpecial_Cannoli.isSelected())
                 {
-                    addTable("Cannoli",6.00,"","");
+                    if(accept)
+                    {
+                        addTable("Cannoli",6.00,"",""); 
+                        Pastry.setVisible(false);                      
+                    }
                 }
                 if(PastrySpecial_Baklava.isSelected())
                 {
-                    addTable("Baklava",4.00,"","");
+                    if(accept)
+                    {
+                        addTable("Baklava",4.00,"","");
+                        Pastry.setVisible(false);                      
+                    }
                 }
-               
-                Pastry.setVisible(false);   
+                if(!PastryDonut_PSugar.isSelected() && 
+                   !PastryDonut_Glazed.isSelected() && 
+                   !PastryDonut_JellyFilled.isSelected() && 
+                   !PastryMuffin_Blueberry.isSelected() && 
+                   !PastryMuffin_ChocolateChip.isSelected() &&
+                   !PastryMuffin_BananaNut.isSelected() &&
+                   !PastryTart_LemonTart.isSelected() &&
+                   !PastryTarts_FruitTart.isSelected() &&
+                   !PastryTart_ChocolateTart.isSelected() &&
+                   !PastrySpecial_macarons.isSelected() &&
+                   !PastrySpecial_Cannoli.isSelected() &&
+                   !PastrySpecial_Baklava.isSelected())
+                {
+                    JOptionPane.showMessageDialog(null, "Please Select Pastry Type","Pastry type error", JOptionPane.ERROR_MESSAGE);
+                    accept = false;
+                }
     }//GEN-LAST:event_Pastry_add_btn2ActionPerformed
 
 
@@ -4066,7 +4171,8 @@ public class Homepage extends javax.swing.JFrame {
          String tea_name = "";
         double tea_price = 0;
         String size = "small";
-        String cond = "Hot";
+        String cond = "hot";
+        Boolean accept = true;
         
      
                 if(Egtea_btn.isSelected())
@@ -4084,6 +4190,11 @@ public class Homepage extends javax.swing.JFrame {
                     tea_name = "Oolong Peach";
                     tea_price = 8;
                 }
+                else
+                {
+                    JOptionPane.showMessageDialog(null, "Please Select Tea Type","Tea type error", JOptionPane.ERROR_MESSAGE);
+                    accept = false;
+                }
 
                if(TSmall_size.isSelected())
                {
@@ -4100,6 +4211,11 @@ public class Homepage extends javax.swing.JFrame {
                     tea_price += 2;
                     size = "Big";
                 }
+                else
+                {
+                    JOptionPane.showMessageDialog(null, "Please Select Tea Size","Tea type error", JOptionPane.ERROR_MESSAGE);
+                    accept = false;
+                }
 
 
                 if(!TBig_size.isSelected() && !TLow_btn.isSelected() && !TMed_btn.isSelected() && !THIgh_btn.isSelected() && !TFull_btn.isSelected())
@@ -4107,58 +4223,81 @@ public class Homepage extends javax.swing.JFrame {
                     JOptionPane.showMessageDialog(null, "Please Select Sugar Level","Sugar level error", JOptionPane.ERROR_MESSAGE);
                 }
                 
-                if(TCold_btn.isSelected() || TNo_ice_btn.isSelected())
+                if(!Milk_btn.isSelected() && !Without_milk_btn.isSelected())
+                {
+                    JOptionPane.showMessageDialog(null, "Please Select Milk Level","Milk level error", JOptionPane.ERROR_MESSAGE);
+                    accept = false;
+                }
+                
+                if(THot_btn.isSelected())
+                {
+                    cond = "Hot";
+                }
+                else if(TCold_btn.isSelected() || TNo_ice_btn.isSelected())
                 {
                     cond = "Cold";
                     tea_price += 1;
                 }
+                else
+                {
+                    JOptionPane.showMessageDialog(null, "Please Select Ice Level","Ice level error", JOptionPane.ERROR_MESSAGE);
+                    accept = false;
+                }
                 
+                if(accept)
+                {
                     addTable(tea_name, tea_price, cond, size);
                     Tea.setVisible(false);
-
+                }
     }//GEN-LAST:event_Tadd_btn1ActionPerformed
 
     private void Cadd_btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Cadd_btn2ActionPerformed
         // TODO add your handling code here:
-         String Smoothie_name = null;
-        double Smoothie_price = 0;
-        String size = "small";
-        String topping = "";
+            String Smoothie_name = null;
+            double Smoothie_price = 0;
+            String size = "small";
+            String topping = "No Top";
+            Boolean accept = true;
      
                 if(apple_btn.isSelected())
                 {
-                    Smoothie_name = "Apple Smoothie";
+                    Smoothie_name = "Smthie-Apl";
                     Smoothie_price = 9;
                 }
                 else if( orange_but.isSelected())
                 {
-                    Smoothie_name = "Orange Smoothie";
+                    Smoothie_name = "Smthie-org";
                     Smoothie_price = 9;
                 }
                 else if(ctl_but.isSelected())
                 {
-                    Smoothie_name = "Cantaloupe Smoothie";
+                    Smoothie_name = "Smthie-ctl";
                     Smoothie_price = 10;
                 }
                 else if(mp_but.isSelected())
                 {
-                    Smoothie_name = "Mango Passionfruit Smoothie";
+                    Smoothie_name = "Smthie-Mpf";
                     Smoothie_price = 11;
                 }
                 else if(ob_but.isSelected())
                 {
-                    Smoothie_name = "Oaty Banana Smoothie";
+                    Smoothie_name = "Smthie-Oban";
                     Smoothie_price = 11;
                 }
                 else if(pl_but.isSelected())
                 {
-                    Smoothie_name = "Pineaplle Lychee Smoothie";
+                    Smoothie_name = "Smthie-Plyc";
                     Smoothie_price = 11;
                 }
                 else if(bs_but.isSelected())
                 {
-                    Smoothie_name = "Blueberry Strawberry Smoothie";
+                    Smoothie_name = "Smthie-Bstr";
                     Smoothie_price = 12;
+                }
+                else
+                {
+                    JOptionPane.showMessageDialog(null, "Please Select Smoothie Type","Smoothie type error", JOptionPane.ERROR_MESSAGE);
+                    accept = false;
                 }
                 
 
@@ -4177,6 +4316,11 @@ public class Homepage extends javax.swing.JFrame {
                     Smoothie_price+= 2;
                     size = "Big";
                 }
+                else
+                {
+                    JOptionPane.showMessageDialog(null, "Please Select Smoothie Size","Smoothie size error", JOptionPane.ERROR_MESSAGE);
+                    accept = false;
+                }
                 
                 if(!TBig_size1.isSelected() && !TLow_btn1.isSelected() && !TMed_btn1.isSelected() && !THIgh_btn1.isSelected() && !TFull_btn1.isSelected())
                 {
@@ -4184,46 +4328,100 @@ public class Homepage extends javax.swing.JFrame {
                 }
                 
                 
-                if(granola_btn.isSelected())Smoothie_price+= 1;   
-                if(gojiberries_btn.isSelected())Smoothie_price+= 1;
-                if(almonds_btn.isSelected())Smoothie_price+= 2; 
-                if(raspberries_btn.isSelected())Smoothie_price+= 2;  
-                if(kiwi_btn.isSelected())Smoothie_price+= 2;
-                   
-                 addTable(Smoothie_name,Smoothie_price,topping , size);
-                 Smoothie.setVisible(false);
-                
-        
+                if(granola_btn.isSelected())
+                {
+                    topping = "Gran";
+                    Smoothie_price+= 1;
+                }   
+                if(gojiberries_btn.isSelected())
+                {
+                    topping = "Goji";
+                    Smoothie_price+= 1;
+                }
+                if(almonds_btn.isSelected())
+                {
+                    topping = "Alm";
+                    Smoothie_price+= 2;
+                } 
+                if(raspberries_btn.isSelected())
+                {
+                    topping = "Rasp";
+                    Smoothie_price+= 2;
+                }  
+                if(kiwi_btn.isSelected())
+                {
+                    topping = "Kiwi";
+                    Smoothie_price+= 2;
+                }
+                  
+                if(accept)
+                {
+                    addTable(Smoothie_name,Smoothie_price,topping , size);
+                    Smoothie.setVisible(false);
+                }      
     }//GEN-LAST:event_Cadd_btn2ActionPerformed
 
     private void Specialities_addbutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Specialities_addbutActionPerformed
         // TODO add your handling code here:
+        Boolean accept = true;
         if(margarita_btn1.isSelected())
                 {
-                    addTable("Margarita",12.00,"","");
+                    if(accept)
+                    {
+                        addTable("Margarita",12.00,"","");
+                        Specialties.setVisible(false);                    
+                    }
                 }
         else if(mojito_btn1.isSelected())
                 {
-                    addTable("Mojito",12.00,"","");
+                    if(accept)
+                    {
+                        addTable("Mojito",12.00,"","");
+                        Specialties.setVisible(false);                    
+                    }
                 }
         else if(pinacolada_btn1.isSelected())
                 {
-                    addTable("Pina Colada",13.00,"","");
+                    if(accept)
+                    {
+                        addTable("Pina Colada",13.00,"","");
+                        Specialties.setVisible(false);                 
+                    }
                 }
         else if(vodkasoda_btn2.isSelected())
                 {
-                    addTable("Vodka Soda",15.00,"","");
+                    if(accept)
+                    {
+                        addTable("Vodka Soda",15.00,"","");
+                        Specialties.setVisible(false);                    
+                    }
                 }
         else if(longisland_btn3.isSelected())
                 {
-                    addTable("Long Island",13.00,"","");
+                    if(accept)
+                    {
+                        addTable("Long Island",13.00,"","");      
+                        Specialties.setVisible(false);
+                    }
                 }
-        Specialties.setVisible(false);
+        else
+                {
+                    JOptionPane.showMessageDialog(null, "Please Select Specialty Type","Specialty type error", JOptionPane.ERROR_MESSAGE);
+                    accept = false;
+                }
     }//GEN-LAST:event_Specialities_addbutActionPerformed
 
     private void PastryDonut_PSugarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PastryDonut_PSugarActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_PastryDonut_PSugarActionPerformed
+
+    private void CWithout_cream_btnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CWithout_cream_btnActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_CWithout_cream_btnActionPerformed
+
+    private void PastrySpecial_macaronsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PastrySpecial_macaronsActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_PastrySpecial_macaronsActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
