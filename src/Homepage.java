@@ -94,7 +94,7 @@ public class Homepage extends javax.swing.JFrame {
      Receipt_Text.setText(Receipt_Text.getText() + "\tColombo, Srilanka, \n");
      Receipt_Text.setText(Receipt_Text.getText() + "\t+9411 123456789, \n");
      Receipt_Text.setText(Receipt_Text.getText() + "----------------------------------------------------------------\n");
-     Receipt_Text.setText(Receipt_Text.getText() + " Item\tSize\tHot/Cold \tPrice \n");
+     Receipt_Text.setText(Receipt_Text.getText() + " Item\tSize\t Description \tPrice \n");
      Receipt_Text.setText(Receipt_Text.getText() + "----------------------------------------------------------------\n");
      DefaultTableModel df = (DefaultTableModel) Order_Table.getModel();
      for (int i = 0; i < Order_Table.getRowCount(); i++) {
@@ -129,7 +129,7 @@ public class Homepage extends javax.swing.JFrame {
      Receipt_Text.setText(Receipt_Text.getText() + "\tColombo, Srilanka, \n");
      Receipt_Text.setText(Receipt_Text.getText() + "\t+9411 123456789, \n");
      Receipt_Text.setText(Receipt_Text.getText() + "----------------------------------------------------------------\n");
-     Receipt_Text.setText(Receipt_Text.getText() + " Item\tSize\tHot/Cold \tPrice \n");
+     Receipt_Text.setText(Receipt_Text.getText() + " Item\tSize\t Description \tPrice \n");
      Receipt_Text.setText(Receipt_Text.getText() + "----------------------------------------------------------------\n");
      DefaultTableModel df = (DefaultTableModel) Order_Table.getModel();
      for (int i = 0; i < Order_Table.getRowCount(); i++) {
@@ -152,7 +152,7 @@ public class Homepage extends javax.swing.JFrame {
      Receipt_Text.setText(Receipt_Text.getText() + "====================================\n");
      Receipt_Text.setText(Receipt_Text.getText() +"                     Thanks For Your Business...!"+"\n");
      Receipt_Text.setText(Receipt_Text.getText() + "----------------------------------------------------------------\n");
-     Receipt_Text.setText(Receipt_Text.getText() +"                     Software by Techinbox"+"\n");
+     Receipt_Text.setText(Receipt_Text.getText() +"                     Software by Coffee Story"+"\n");
  
      Receipt_Text.print();
  }
