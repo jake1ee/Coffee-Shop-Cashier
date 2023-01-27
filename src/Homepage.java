@@ -489,11 +489,6 @@ public class Homepage extends javax.swing.JFrame {
         Payment.setTitle("Payment");
         Payment.setResizable(false);
         Payment.setSize(new java.awt.Dimension(350, 450));
-        Payment.addWindowListener(new java.awt.event.WindowAdapter() {
-            public void windowActivated(java.awt.event.WindowEvent evt) {
-                PaymentWindowActivated(evt);
-            }
-        });
 
         jPanel1.setPreferredSize(new java.awt.Dimension(430, 386));
 
@@ -757,6 +752,7 @@ public class Homepage extends javax.swing.JFrame {
 
         Typegroup.add(Latte_btn);
         Latte_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Latte_btn.setSelected(true);
         Latte_btn.setText("Latte");
 
         Typegroup.add(Espresso_btn);
@@ -846,6 +842,7 @@ public class Homepage extends javax.swing.JFrame {
 
         Sizegroup.add(Small_size_btn);
         Small_size_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Small_size_btn.setSelected(true);
         Small_size_btn.setText("Small");
 
         Sizegroup.add(Med_size_btn);
@@ -885,7 +882,7 @@ public class Homepage extends javax.swing.JFrame {
                         .addGroup(Csize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(Csize_PanelLayout.createSequentialGroup()
                                 .addComponent(Med_size_btn)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 49, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
                                 .addComponent(Cmed_price))
                             .addGroup(Csize_PanelLayout.createSequentialGroup()
                                 .addComponent(Small_size_btn)
@@ -926,6 +923,7 @@ public class Homepage extends javax.swing.JFrame {
 
         Sugarlevelgroup.add(Zero_lvl_btn);
         Zero_lvl_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        Zero_lvl_btn.setSelected(true);
         Zero_lvl_btn.setText("0%");
 
         Sugarlevelgroup.add(Low_lvl_btn);
@@ -1001,6 +999,7 @@ public class Homepage extends javax.swing.JFrame {
 
         Icegroup.add(CHot_btn);
         CHot_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        CHot_btn.setSelected(true);
         CHot_btn.setText("Hot");
 
         Icegroup.add(CCold_btn);
@@ -1042,7 +1041,7 @@ public class Homepage extends javax.swing.JFrame {
                                 .addGroup(Cice_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(Cice_price)
                                     .addComponent(Ccold_price))))))
-                .addContainerGap(11, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         Cice_lvlLayout.setVerticalGroup(
             Cice_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1103,7 +1102,7 @@ public class Homepage extends javax.swing.JFrame {
                         .addGroup(Ccream_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(CWithout_cream_btn)
                             .addComponent(CCream_btn))))
-                .addContainerGap(78, Short.MAX_VALUE))
+                .addContainerGap(75, Short.MAX_VALUE))
         );
         Ccream_lvlLayout.setVerticalGroup(
             Ccream_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1189,7 +1188,7 @@ public class Homepage extends javax.swing.JFrame {
         );
 
         Tea.setResizable(false);
-        Tea.setSize(new java.awt.Dimension(1213, 573));
+        Tea.setSize(new java.awt.Dimension(1000, 625));
 
         Tea_title.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
         Tea_title.setText("Tea");
@@ -1329,7 +1328,7 @@ public class Homepage extends javax.swing.JFrame {
                         .addGroup(TSize_PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(TSize_PanelLayout.createSequentialGroup()
                                 .addComponent(Tmed_size)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 49, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
                                 .addComponent(TMedSize_price))
                             .addGroup(TSize_PanelLayout.createSequentialGroup()
                                 .addComponent(TSmall_size)
@@ -1440,7 +1439,6 @@ public class Homepage extends javax.swing.JFrame {
 
         Icegroup.add(THot_btn);
         THot_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        THot_btn.setSelected(true);
         THot_btn.setText("Hot");
 
         Icegroup.add(TCold_btn);
@@ -1487,7 +1485,7 @@ public class Homepage extends javax.swing.JFrame {
                                 .addGap(0, 0, Short.MAX_VALUE))
                             .addGroup(Tice_lvl1Layout.createSequentialGroup()
                                 .addComponent(TNo_ice_btn)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 70, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 65, Short.MAX_VALUE)
                                 .addComponent(TWice_price)))))
                 .addContainerGap())
         );
@@ -1553,7 +1551,7 @@ public class Homepage extends javax.swing.JFrame {
                         .addGroup(Tmilk_lvlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(Tmilk_lvlLayout.createSequentialGroup()
                                 .addComponent(Without_milk_btn)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 15, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 12, Short.MAX_VALUE)
                                 .addComponent(Twithout_milk_price))
                             .addGroup(Tmilk_lvlLayout.createSequentialGroup()
                                 .addComponent(Milk_btn)
@@ -1606,16 +1604,16 @@ public class Homepage extends javax.swing.JFrame {
                         .addComponent(Tice_lvl1, javax.swing.GroupLayout.PREFERRED_SIZE, 363, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(Tea_title)
                     .addComponent(Ttype_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(9, 9, 9))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Tea_panelLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(Tadd_btn1, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(47, 47, 47))
+                .addGap(45, 45, 45))
         );
         Tea_panelLayout.setVerticalGroup(
             Tea_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(Tea_panelLayout.createSequentialGroup()
-                .addGap(29, 29, 29)
+                .addContainerGap()
                 .addComponent(Tea_title)
                 .addGap(18, 18, 18)
                 .addComponent(Ttype_Panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1627,7 +1625,7 @@ public class Homepage extends javax.swing.JFrame {
                         .addComponent(Tmilk_lvl, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(TSugar_lvl, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(Tice_lvl1, javax.swing.GroupLayout.DEFAULT_SIZE, 250, Short.MAX_VALUE))
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(Tadd_btn1, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -1636,20 +1634,19 @@ public class Homepage extends javax.swing.JFrame {
         Tea.getContentPane().setLayout(TeaLayout);
         TeaLayout.setHorizontalGroup(
             TeaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(TeaLayout.createSequentialGroup()
-                .addContainerGap()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, TeaLayout.createSequentialGroup()
+                .addContainerGap(40, Short.MAX_VALUE)
                 .addComponent(Tea_panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(40, Short.MAX_VALUE))
         );
         TeaLayout.setVerticalGroup(
             TeaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(TeaLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(Tea_panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
         );
 
-        Bagel.setPreferredSize(new java.awt.Dimension(1340, 537));
         Bagel.setResizable(false);
         Bagel.setSize(new java.awt.Dimension(1400, 629));
 
@@ -2642,7 +2639,7 @@ public class Homepage extends javax.swing.JFrame {
         );
 
         Smoothie.setResizable(false);
-        Smoothie.setSize(new java.awt.Dimension(865, 690));
+        Smoothie.setSize(new java.awt.Dimension(930, 735));
 
         Smoothie_title1.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
         Smoothie_title1.setText("Smoothie");
@@ -2658,7 +2655,6 @@ public class Homepage extends javax.swing.JFrame {
 
         Typegroup.add(apple_btn);
         apple_btn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        apple_btn.setSelected(true);
         apple_btn.setText("Apple");
 
         apple_price.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
@@ -2804,7 +2800,6 @@ public class Homepage extends javax.swing.JFrame {
 
         Sizegroup.add(TSmall_size1);
         TSmall_size1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        TSmall_size1.setSelected(true);
         TSmall_size1.setText("Small");
 
         Sizegroup.add(Tmed_size1);
@@ -2848,7 +2843,7 @@ public class Homepage extends javax.swing.JFrame {
                         .addGroup(TSize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(TSize_Panel1Layout.createSequentialGroup()
                                 .addComponent(Tmed_size1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 49, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
                                 .addComponent(TMedSize_price1))
                             .addGroup(TSize_Panel1Layout.createSequentialGroup()
                                 .addComponent(TSmall_size1)
@@ -2879,7 +2874,7 @@ public class Homepage extends javax.swing.JFrame {
                 .addGroup(TSize_Panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(TBig_size1)
                     .addComponent(TBigSoze_price1))
-                .addContainerGap(107, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         TSugar_lvl1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -2889,7 +2884,6 @@ public class Homepage extends javax.swing.JFrame {
 
         Sugarlevelgroup.add(TZero_btn1);
         TZero_btn1.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        TZero_btn1.setSelected(true);
         TZero_btn1.setText("0%");
 
         Sugarlevelgroup.add(TLow_btn1);
@@ -2950,7 +2944,7 @@ public class Homepage extends javax.swing.JFrame {
                 .addComponent(THIgh_btn1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(TFull_btn1)
-                .addContainerGap(43, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         Tmilk_lvl1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -3014,7 +3008,7 @@ public class Homepage extends javax.swing.JFrame {
                         .addGroup(Tmilk_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(Tmilk_lvl1Layout.createSequentialGroup()
                                 .addComponent(gojiberries_btn)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 25, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 23, Short.MAX_VALUE)
                                 .addComponent(gojiberries_price2))
                             .addGroup(Tmilk_lvl1Layout.createSequentialGroup()
                                 .addComponent(granola_btn)
@@ -3061,7 +3055,7 @@ public class Homepage extends javax.swing.JFrame {
                 .addGroup(Tmilk_lvl1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(kiwi_btn)
                     .addComponent(kiwi_price3))
-                .addContainerGap(43, Short.MAX_VALUE))
+                .addContainerGap(52, Short.MAX_VALUE))
         );
 
         Cadd_btn2.setBackground(new java.awt.Color(255, 153, 51));
@@ -3079,22 +3073,22 @@ public class Homepage extends javax.swing.JFrame {
         Smoothie_panelLayout.setHorizontalGroup(
             Smoothie_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(Smoothie_panelLayout.createSequentialGroup()
-                .addContainerGap()
+                .addGap(15, 15, 15)
                 .addGroup(Smoothie_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(Smoothie_title1)
                     .addGroup(Smoothie_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, Smoothie_panelLayout.createSequentialGroup()
-                            .addComponent(TSize_Panel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(TSugar_lvl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGap(18, 18, 18)
-                            .addComponent(Tmilk_lvl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addComponent(Ttype_Panel1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Smoothie_panelLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(Cadd_btn2, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(33, 33, 33))
+                        .addComponent(Ttype_Panel1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(Smoothie_panelLayout.createSequentialGroup()
+                            .addGroup(Smoothie_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addComponent(Cadd_btn2, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGroup(Smoothie_panelLayout.createSequentialGroup()
+                                    .addComponent(TSize_Panel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(TSugar_lvl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(Tmilk_lvl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGap(6, 6, 6))))
+                .addGap(15, 15, 15))
         );
         Smoothie_panelLayout.setVerticalGroup(
             Smoothie_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -3103,22 +3097,22 @@ public class Homepage extends javax.swing.JFrame {
                 .addComponent(Smoothie_title1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(Ttype_Panel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Smoothie_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(TSize_Panel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(TSugar_lvl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Tmilk_lvl1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(12, 12, 12)
+                .addGroup(Smoothie_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(TSize_Panel1, javax.swing.GroupLayout.DEFAULT_SIZE, 251, Short.MAX_VALUE)
+                    .addComponent(Tmilk_lvl1, javax.swing.GroupLayout.DEFAULT_SIZE, 251, Short.MAX_VALUE)
+                    .addComponent(TSugar_lvl1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(18, 18, 18)
                 .addComponent(Cadd_btn2, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(12, Short.MAX_VALUE))
+                .addContainerGap())
         );
 
         javax.swing.GroupLayout SmoothieLayout = new javax.swing.GroupLayout(Smoothie.getContentPane());
         Smoothie.getContentPane().setLayout(SmoothieLayout);
         SmoothieLayout.setHorizontalGroup(
             SmoothieLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(SmoothieLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, SmoothieLayout.createSequentialGroup()
+                .addGap(9, 9, 9)
                 .addComponent(Smoothie_panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         SmoothieLayout.setVerticalGroup(
@@ -3126,7 +3120,7 @@ public class Homepage extends javax.swing.JFrame {
             .addGroup(SmoothieLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(Smoothie_panel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(26, Short.MAX_VALUE))
         );
 
         Specialties.setResizable(false);
@@ -3667,7 +3661,7 @@ public class Homepage extends javax.swing.JFrame {
         DefaultTableModel dt = (DefaultTableModel)Order_Table.getModel();
         
         int Remove_item = Order_Table.getSelectedRowCount();
-        if(Remove_item >0)
+        if(Remove_item >=0)
         {
             dt.removeRow(Remove_item);
         }
@@ -3782,6 +3776,7 @@ public class Homepage extends javax.swing.JFrame {
         String size = "small";
         String cond = "hot";
         Boolean accept = true;
+                
      
                 if(Latte_btn.isSelected())
                 {
@@ -3856,7 +3851,7 @@ public class Homepage extends javax.swing.JFrame {
                 if(accept)
                 {
                     addTable(coffee_name, coffee_price, cond, size);
-                    Coffee.setVisible(false);
+                    Coffee.setVisible(false);        
                 }
             
     }//GEN-LAST:event_Cadd_btnActionPerformed
@@ -4091,7 +4086,10 @@ public class Homepage extends javax.swing.JFrame {
        int member_code = Integer.parseInt(Member_txt.getText());
        member = false;
         try {
-             cons=DriverManager.getConnection(  "jdbc:mysql://localhost:3306/coffeshop_cashier","root","Password"); 
+             cons=DriverManager.getConnection(  "jdbc:mysql://localhost:3306/coffeshop_cashier","root","Leeterqin1126"); 
+            // cons=DriverManager.getConnection(  "jdbc:mysql://localhost:3306/coffeshop_cashier","root","Password"); 
+            // cons=DriverManager.getConnection(  "jdbc:mysql://localhost:3306/coffeshop_cashier","root","huixin64"); 
+            // cons=DriverManager.getConnection(  "jdbc:mysql://127.0.0.1:3306/coffeshop_cashier","root","goodmorning");
             PreparedStatement pst;
             ResultSet rs;
             
@@ -4137,7 +4135,10 @@ public class Homepage extends javax.swing.JFrame {
             member = false;
             int member_code = Integer.parseInt(Member_txt.getText());
             try {
-               cons=DriverManager.getConnection(  "jdbc:mysql://localhost:3306/coffeshop_cashier","root","Password");
+               cons=DriverManager.getConnection(  "jdbc:mysql://localhost:3306/coffeshop_cashier","root","Leeterqin1126"); 
+            // cons=DriverManager.getConnection(  "jdbc:mysql://localhost:3306/coffeshop_cashier","root","Password"); 
+            // cons=DriverManager.getConnection(  "jdbc:mysql://localhost:3306/coffeshop_cashier","root","huixin64"); 
+            // cons=DriverManager.getConnection(  "jdbc:mysql://127.0.0.1:3306/coffeshop_cashier","root","goodmorning");
                 PreparedStatement pst;
                 ResultSet rs;
 
