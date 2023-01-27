@@ -4086,7 +4086,10 @@ public class Homepage extends javax.swing.JFrame {
        int member_code = Integer.parseInt(Member_txt.getText());
        member = false;
         try {
-             cons=DriverManager.getConnection(  "jdbc:mysql://localhost:3306/coffeshop_cashier","root","Password"); 
+             cons=DriverManager.getConnection(  "jdbc:mysql://localhost:3306/coffeshop_cashier","root","Leeterqin1126"); 
+            // cons=DriverManager.getConnection(  "jdbc:mysql://localhost:3306/coffeshop_cashier","root","Password"); 
+            // cons=DriverManager.getConnection(  "jdbc:mysql://localhost:3306/coffeshop_cashier","root","huixin64"); 
+            // cons=DriverManager.getConnection(  "jdbc:mysql://127.0.0.1:3306/coffeshop_cashier","root","goodmorning");
             PreparedStatement pst;
             ResultSet rs;
             
@@ -4132,7 +4135,10 @@ public class Homepage extends javax.swing.JFrame {
             member = false;
             int member_code = Integer.parseInt(Member_txt.getText());
             try {
-               cons=DriverManager.getConnection(  "jdbc:mysql://localhost:3306/coffeshop_cashier","root","Password");
+               cons=DriverManager.getConnection(  "jdbc:mysql://localhost:3306/coffeshop_cashier","root","Leeterqin1126"); 
+            // cons=DriverManager.getConnection(  "jdbc:mysql://localhost:3306/coffeshop_cashier","root","Password"); 
+            // cons=DriverManager.getConnection(  "jdbc:mysql://localhost:3306/coffeshop_cashier","root","huixin64"); 
+            // cons=DriverManager.getConnection(  "jdbc:mysql://127.0.0.1:3306/coffeshop_cashier","root","goodmorning");
                 PreparedStatement pst;
                 ResultSet rs;
 

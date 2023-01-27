@@ -85,32 +85,12 @@ public class Registration extends javax.swing.JFrame {
         Email.setText("Email:");
 
         Email_txt.setFont(new java.awt.Font("Segoe UI", 0, 28)); // NOI18N
-        Email_txt.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Email_txtActionPerformed(evt);
-            }
-        });
 
         Phone_txt.setFont(new java.awt.Font("Segoe UI", 0, 28)); // NOI18N
-        Phone_txt.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Phone_txtActionPerformed(evt);
-            }
-        });
 
         Lname_txt.setFont(new java.awt.Font("Segoe UI", 0, 28)); // NOI18N
-        Lname_txt.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Lname_txtActionPerformed(evt);
-            }
-        });
 
         Fname_txt.setFont(new java.awt.Font("Segoe UI", 0, 28)); // NOI18N
-        Fname_txt.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Fname_txtActionPerformed(evt);
-            }
-        });
 
         reg_but.setBackground(new java.awt.Color(255, 204, 102));
         reg_but.setFont(new java.awt.Font("Trebuchet MS", 0, 24)); // NOI18N
@@ -183,23 +163,8 @@ public class Registration extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
-
-    private void Email_txtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Email_txtActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Email_txtActionPerformed
-
-    private void Lname_txtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Lname_txtActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Lname_txtActionPerformed
-
-    private void Fname_txtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Fname_txtActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Fname_txtActionPerformed
-
-    private void Phone_txtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Phone_txtActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Phone_txtActionPerformed
 
     private void reg_butActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_reg_butActionPerformed
 
@@ -219,7 +184,10 @@ public class Registration extends javax.swing.JFrame {
         
         try
         {
-             Connection cons = DriverManager.getConnection(  "jdbc:mysql://127.0.0.1:3306/coffeshop_cashier","root","goodmorning"); 
+               Connection cons=DriverManager.getConnection(  "jdbc:mysql://localhost:3306/coffeshop_cashier","root","Leeterqin1126"); 
+            // cons=DriverManager.getConnection(  "jdbc:mysql://localhost:3306/coffeshop_cashier","root","Password"); 
+            // cons=DriverManager.getConnection(  "jdbc:mysql://localhost:3306/coffeshop_cashier","root","huixin64"); 
+            // cons=DriverManager.getConnection(  "jdbc:mysql://127.0.0.1:3306/coffeshop_cashier","root","goodmorning");
             PreparedStatement pst;
             
             pst = cons.prepareStatement("insert into member_table (member_FNAME, member_LNAME, member_EMAIL, member_PHONE) value (?, ?, ?, ?)");
@@ -302,22 +270,13 @@ public class Registration extends javax.swing.JFrame {
                     break;
                 }
             }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Registration.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Registration.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Registration.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+        } catch (ClassNotFoundException | InstantiationException | IllegalAccessException | javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(Registration.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-        //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new Registration().setVisible(true);
-            }
+        java.awt.EventQueue.invokeLater(() -> {
+            new Registration().setVisible(true);
         });
     }
 
